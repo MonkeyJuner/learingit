@@ -1,0 +1,45 @@
+#
+# author: Wang Xiaodong
+# date: September 14, 2018
+#
+
+camera_topic: /pylon_camera_4/pylon_camera_node/image_raw
+
+# set it to true if the image is encoded in the bayer format
+bayerBG2BGR: true
+
+# tag mounted on left or right side of gantry. 1: left; -1: right
+direction: 1
+
+# image roi region 
+roi_height: 1200
+
+standalone_tags:
+  [
+    {id: 101, size: 0.8},
+    {id: 102, size: 0.8},
+    {id: 103, size: 0.8},
+    {id: 104, size: 0.8},
+    {id: 105, size: 0.8},
+    {id: 106, size: 0.8},
+    {id: 107, size: 0.8},
+    {id: 108, size: 0.8},
+    {id: 109, size: 0.8},
+    {id: 151, size: 0.8},
+    {id: 153, size: 0.8},
+    {id: 158, size: 0.8},
+    {id: 166, size: 0.8},
+    {id: 11, size: 0.8},
+    {id: 21, size: 0.8},
+    {id: 13, size: 0.52},
+    {id: 3, size: 0.32},
+    {id: 4, size: 0.32},
+    {id: 5, size: 0.32},
+    {id: 6, size: 0.32},
+    {id: 7, size: 0.32},
+    {id: 8, size: 0.32},
+    {id: 9, size: 0.32}
+  ]
+
+
+

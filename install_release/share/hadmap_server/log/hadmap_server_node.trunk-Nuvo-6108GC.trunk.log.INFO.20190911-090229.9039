@@ -1,0 +1,389 @@
+Log file created at: 2019/09/11 09:02:29
+Running on machine: trunk-Nuvo-6108GC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0911 09:02:29.586344  9039 main.cpp:64] current version is: 2.0.3.0a73361
+I0911 09:02:29.826557  9039 hadmap_server.cpp:47] map path: /opt/trunk/hmi/resources/app/dist/electron/static/maps/wz_0910xo_2.json
+I0911 09:02:31.333503  9039 proto_organizer.cpp:358] hadmap statistics: roads-387,lanes-657,crosswalks-0,signals-0,junctions-0,overlaps-0
+I0911 09:02:31.704330  9039 routing.cpp:363] there is not forbidden_lanes!
+I0911 09:02:31.882215  9039 hadmap_server.cpp:3560] there isn't vehicle state
+E0911 09:02:31.882236  9039 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I0911 09:02:32.482322  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:32.682312  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:32.882324  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:33.082320  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:33.282321  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:33.482306  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:33.682317  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:33.888062  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:34.082324  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:34.282333  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:34.482345  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:34.682346  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:34.882359  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:35.082341  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:35.282315  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:35.482336  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:35.682319  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:35.888599  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:36.082320  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:36.282317  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:36.482316  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:36.682312  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:36.882334  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:37.082311  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:37.282302  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:37.482314  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:37.682318  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:37.891043  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:38.082314  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:38.282310  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:38.482295  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:38.682327  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:38.882289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:39.082291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:39.282352  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:39.482321  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:39.682297  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:39.887992  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:40.082298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:40.282290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:40.482302  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:40.682296  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:40.882302  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:41.082293  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:41.282282  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:41.482316  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:41.682364  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:41.888406  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:42.082289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:42.282331  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:42.482291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:42.682297  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:42.882300  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:43.082298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:43.282339  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:43.482362  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:43.682298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:43.888767  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:44.082299  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:44.282296  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:44.482292  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:44.682293  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:44.882289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:45.082293  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:45.282291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:45.482283  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:45.682294  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:45.887923  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:46.082290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:46.282305  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:46.482304  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:46.682291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:46.882292  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:47.082295  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:47.282291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:47.482291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:47.682291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:47.888873  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:48.082306  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:48.282307  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:48.482306  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:48.682291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:48.882297  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:49.082290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:49.282296  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:49.482295  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:49.682291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:49.888134  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:50.082294  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:50.282299  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:50.482290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:50.682299  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:50.882294  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:51.082295  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:51.282289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:51.482300  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:51.682296  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:51.888530  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:52.082289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:52.282290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:52.482298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:52.682299  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:52.882297  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:53.082296  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:53.282305  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:53.482298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:53.682299  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:53.888525  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:54.082294  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:54.282295  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:54.482297  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:54.682291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:54.882290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:55.082304  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:55.282297  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:55.482300  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:55.682298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:55.888198  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:56.082299  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:56.282291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:56.482306  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:56.682298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:56.882308  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:57.082319  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:57.282320  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:57.482290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:57.682305  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:57.888631  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:58.082324  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:58.282318  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:58.482306  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:58.682297  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:58.882303  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:59.082299  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:59.282300  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:59.482291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:59.682297  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:02:59.888178  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:00.082312  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:00.282307  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:00.482308  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:00.682319  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:00.882329  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:01.082298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:01.282296  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:01.482292  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:01.682298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:01.888790  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:02.082289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:02.282299  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:02.482309  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:02.682320  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:02.882306  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:03.082314  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:03.282290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:03.482331  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:03.682292  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:03.888240  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:04.082298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:04.282297  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:04.482302  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:04.682301  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:04.882295  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:05.082312  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:05.282297  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:05.482291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:05.682292  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:05.888094  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:06.082299  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:06.282286  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:06.482313  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:06.682302  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:06.882323  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:07.082284  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:07.282289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:07.482291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:07.682296  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:07.888132  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:08.082290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:08.282290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:08.482300  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:08.682305  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:08.882290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:09.082319  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:09.282318  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:09.482291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:09.682291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:09.888159  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:10.082319  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:10.282348  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:10.482295  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:10.682291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:10.882305  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:11.082298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:11.282299  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:11.482300  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:11.682296  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:11.888485  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:12.082291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:12.282289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:12.482291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:12.682292  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:12.882289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:13.082293  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:13.282287  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:13.482298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:13.682299  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:13.888454  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:14.082291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:14.282289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:14.482319  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:14.682304  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:14.882311  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:15.082334  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:15.282294  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:15.482319  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:15.682298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:15.888686  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:16.082289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:16.282303  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:16.482312  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:16.682313  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:16.882298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:17.082304  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:17.282291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:17.482291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:17.682291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:17.888729  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:18.082290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:18.282388  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:18.482291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:18.682296  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:18.882298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:19.082322  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:19.282305  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:19.482290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:19.682294  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:19.888142  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:20.082305  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:20.282289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:20.482300  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:20.682296  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:20.882302  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:21.082305  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:21.282302  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:21.482290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:21.682293  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:21.888401  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:22.082314  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:22.282313  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:22.482301  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:22.682325  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:22.882375  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:23.082290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:23.282303  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:23.482298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:23.682299  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:23.888213  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:24.082295  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:24.282300  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:24.482300  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:24.682301  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:24.882297  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:25.082294  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:25.282300  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:25.482311  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:25.682412  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:25.888828  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:26.082361  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:26.282310  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:26.482331  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:26.682304  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:26.882294  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:27.082304  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:27.282316  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:27.482287  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:27.682292  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:27.889744  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:28.082298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:28.282302  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:28.482292  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:28.682291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:28.882313  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:29.082350  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:29.282296  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:29.482287  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:29.682291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:29.888208  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:30.082324  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:30.282289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:30.482290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:30.682304  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:30.882308  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:31.082293  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:31.282295  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:31.482290  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:31.682299  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:31.888052  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:32.082295  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:32.282297  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:32.482295  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:32.682305  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:32.882297  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:33.082294  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:33.282289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:33.482288  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:33.682288  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:33.888067  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:34.082289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:34.282300  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:34.482301  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:34.682289  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:34.882306  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:35.082294  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:35.282299  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:35.482256  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:35.682293  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:35.888087  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:36.082304  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:36.282291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:36.482295  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:36.682291  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:36.882306  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:37.082288  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:37.282300  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:37.482328  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:37.682257  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:37.888314  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:38.082293  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:38.282286  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:38.482293  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:38.682292  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:38.882298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:39.082286  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:39.282274  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:39.482298  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:39.682313  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:39.888408  9039 hadmap_server.cpp:3594] loc_cur is out of map!
+I0911 09:03:40.082293  9039 hadmap_server.cpp:523] current pose: x:567434.0681; y:4315347.713; yaw: 4.067827964
+I0911 09:03:40.084259  9039 hadmap_server.cpp:525] multi dst:
+I0911 09:03:40.084276  9039 hadmap_server.cpp:528] x: 567602.0991; y: 4315043.634
+I0911 09:03:40.169999  9039 routing.cpp:363] there is not forbidden_lanes!
+I0911 09:03:40.182122  9039 routing.cpp:226] start lane id: 7026_0 ; end lane id: 1040_2.
+I0911 09:03:40.182531  9039 hadmap_server.cpp:633] planning path:
+I0911 09:03:40.182744  9039 hadmap_server.cpp:636] lane id: 7026_0
+I0911 09:03:40.182838  9039 hadmap_server.cpp:636] lane id: 7024_0
+I0911 09:03:40.182852  9039 hadmap_server.cpp:636] lane id: 296_0
+I0911 09:03:40.182859  9039 hadmap_server.cpp:636] lane id: 208_0
+I0911 09:03:40.182866  9039 hadmap_server.cpp:636] lane id: 207_0
+I0911 09:03:40.182873  9039 hadmap_server.cpp:636] lane id: 1077_0
+I0911 09:03:40.182879  9039 hadmap_server.cpp:636] lane id: 1858_1
+I0911 09:03:40.182886  9039 hadmap_server.cpp:636] lane id: 1859_1
+I0911 09:03:40.182894  9039 hadmap_server.cpp:636] lane id: 1860_1
+I0911 09:03:40.182901  9039 hadmap_server.cpp:636] lane id: 1597_0
+I0911 09:03:40.182909  9039 hadmap_server.cpp:636] lane id: 1040_2
+I0911 09:03:40.184509  9039 hadmap_server.cpp:645] find sub global map success!
+I0911 09:04:04.685909  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567428.6689, y: 4315330.857 ; yaw: 4.980989198
+I0911 09:04:04.886193  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567428.8473, y: 4315330.226 ; yaw: 5.009808947
+I0911 09:04:05.086840  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567429.0212, y: 4315329.66 ; yaw: 5.031141704
+I0911 09:04:05.285647  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567429.2406, y: 4315329.01 ; yaw: 5.054451034
+I0911 09:04:05.486157  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567429.4958, y: 4315328.303 ; yaw: 5.077259772
+I0911 09:04:05.685878  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567429.7646, y: 4315327.597 ; yaw: 5.097057039
+I0911 09:04:05.893390  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567430.0542, y: 4315326.887 ; yaw: 5.119936267
+I0911 09:04:06.085808  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567430.395, y: 4315326.103 ; yaw: 5.144804457
+I0911 09:04:06.286953  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567430.7609, y: 4315325.264 ; yaw: 5.167397937
+I0911 09:04:06.485801  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567431.1339, y: 4315324.482 ; yaw: 5.192140315
+I0911 09:04:06.685732  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567431.5829, y: 4315323.606 ; yaw: 5.218036526
+I0911 09:04:06.887370  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567432.0016, y: 4315322.853 ; yaw: 5.242136523
+I0911 09:04:07.087980  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567432.5193, y: 4315321.976 ; yaw: 5.266231942
+I0911 09:04:07.285527  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567433.0295, y: 4315321.138 ; yaw: 5.284805329
+I0911 09:04:07.487288  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567433.5379, y: 4315320.339 ; yaw: 5.301332346
+I0911 09:04:07.687551  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567434.1245, y: 4315319.456 ; yaw: 5.319313955
+I0911 09:04:07.894503  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567434.7352, y: 4315318.569 ; yaw: 5.336639008
+I0911 09:04:08.085575  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567435.3614, y: 4315317.684 ; yaw: 5.3539222
+I0911 09:04:08.287595  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567435.8829, y: 4315316.97 ; yaw: 5.36668702
+I0911 09:04:08.485793  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567436.5359, y: 4315316.102 ; yaw: 5.382323094
+I0911 09:04:08.685971  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567437.2356, y: 4315315.21 ; yaw: 5.399599572
+I0911 09:04:08.886160  9039 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567437.8495, y: 4315314.444 ; yaw: 5.411938621
+I0911 09:08:33.682332  9039 hadmap_server.cpp:3588] same destination with last time!
+E0911 09:09:53.282742  9039 main.cpp:75] do hadmap server exit!

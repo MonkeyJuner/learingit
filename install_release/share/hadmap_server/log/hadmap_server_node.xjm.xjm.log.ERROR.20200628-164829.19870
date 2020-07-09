@@ -1,0 +1,12 @@
+Log file created at: 2020/06/28 16:48:29
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0628 16:48:29.525215 19870 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0628 17:14:08.962164 19870 hadmap_server.cpp:600] path planning fail!
+E0628 17:14:08.962180 19870 hadmap_server.cpp:195] do global planning fail!
+E0628 17:39:28.765202 19870 hadmap_server.cpp:600] path planning fail!
+E0628 17:39:28.765221 19870 hadmap_server.cpp:195] do global planning fail!
+E0628 18:02:30.717623 19870 hadmap_server.h:125] disconnect with localization for 5s
+E0628 18:02:30.717707 19870 hadmap_server.cpp:3350] loc cur is invalid! loc_cur_.id = 22169; loc_cur_.old_id = 22169.
+E0628 18:02:30.917558 19870 hadmap_server.cpp:3566] there isn't valid vehicle state! loc_cur_.old_id = 22169; loc_cur_.old_id = 22169.
+E0628 18:02:34.317595 19870 main.cpp:75] do hadmap server exit!

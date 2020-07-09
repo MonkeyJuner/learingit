@@ -1,0 +1,5 @@
+Log file created at: 2020/06/17 15:27:06
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0617 15:27:06.063431 18278 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0617 15:41:53.663549 18278 main.cpp:75] do hadmap server exit!

@@ -1,0 +1,18 @@
+Log file created at: 2020/06/23 11:47:03
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0623 11:47:03.505926  4418 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0623 13:03:59.778957  4418 main.cpp:18] *** Aborted at 1592888639 (unix time) try "date -d @1592888639" if you are using GNU date ***
+E0623 13:03:59.781847  4418 main.cpp:18] PC: @     0x7f0c6db528fe cvConvertImage
+E0623 13:03:59.783970  4418 main.cpp:18] *** SIGTERM (@0x3e800001115) received by PID 4418 (TID 0x7f0c766c47c0) from PID 4373; stack trace: ***
+E0623 13:03:59.787098  4418 main.cpp:18]     @     0x7f0c75262390 (unknown)
+E0623 13:03:59.790125  4418 main.cpp:18]     @     0x7f0c6db528fe cvConvertImage
+E0623 13:03:59.793411  4418 main.cpp:18]     @     0x7f0c74b5e52d (unknown)
+E0623 13:03:59.797086  4418 main.cpp:18]     @     0x7f0c74b5dd32 (unknown)
+E0623 13:03:59.800415  4418 main.cpp:18]     @     0x7f0c74b5e1cc cvShowImage
+E0623 13:03:59.802772  4418 main.cpp:18]     @     0x7f0c74b4a669 cv::imshow()
+E0623 13:03:59.803578  4418 main.cpp:18]     @           0x4c3610 trunk::hadmap::visualizer::Visualizer::showMapCv()
+E0623 13:03:59.803784  4418 main.cpp:18]     @           0x4a3d88 trunk::hadmap::server::HadmapServer::doHadmapServer()
+E0623 13:03:59.803874  4418 main.cpp:18]     @           0x45272a main
+E0623 13:03:59.807086  4418 main.cpp:18]     @     0x7f0c7016f830 __libc_start_main
+E0623 13:03:59.807225  4418 main.cpp:18]     @           0x452fd9 _start

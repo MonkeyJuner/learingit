@@ -1,0 +1,68 @@
+<launch>
+  <arg name="map_name" value="wz_v13.8.json" />
+  <arg name="config_name" value="hadmap_server_for_topo_test.yaml" />
+
+  <node pkg="hadmap_server" name="hadmap_server_node0" type="hadmap_server_node">
+    <param name="alsologtostderr" type="bool" value="false" />
+    <param name="topo_test" type="bool" value="true" />
+    <param name="log_path" type="string" value="$(find hadmap_server)/log" />
+    <param name="map_path" type="string" value="$(find hadmap_server)/data/$(arg map_name)" />
+    <rosparam command="load" file="$(find hadmap_server)/params/$(arg config_name)"></rosparam>
+  </node>
+
+  <node pkg="hadmap_server" name="hadmap_server_node1" type="hadmap_server_node">
+    <param name="alsologtostderr" type="bool" value="false" />
+    <param name="topo_test" type="bool" value="true" />
+    <param name="log_path" type="string" value="$(find hadmap_server)/log" />
+    <param name="map_path" type="string" value="$(find hadmap_server)/data/$(arg map_name)" />
+    <rosparam command="load" file="$(find hadmap_server)/params/$(arg config_name)"></rosparam>
+  </node>
+
+  <node pkg="hadmap_server" name="hadmap_server_node2" type="hadmap_server_node">
+    <param name="alsologtostderr" type="bool" value="false" />
+    <param name="topo_test" type="bool" value="true" />
+    <param name="log_path" type="string" value="$(find hadmap_server)/log" />
+    <param name="map_path" type="string" value="$(find hadmap_server)/data/$(arg map_name)" />
+    <rosparam command="load" file="$(find hadmap_server)/params/$(arg config_name)"></rosparam>
+  </node>
+
+  <node pkg="hadmap_server" name="hadmap_server_node3" type="hadmap_server_node">
+    <param name="alsologtostderr" type="bool" value="false" />
+    <param name="topo_test" type="bool" value="true" />
+    <param name="log_path" type="string" value="$(find hadmap_server)/log" />
+    <param name="map_path" type="string" value="$(find hadmap_server)/data/$(arg map_name)" />
+    <rosparam command="load" file="$(find hadmap_server)/params/$(arg config_name)"></rosparam>
+  </node>
+
+  <node pkg="hadmap_server" name="hadmap_server_node4" type="hadmap_server_node">
+    <param name="log_path" type="string" value="$(find hadmap_server)/log" />
+    <param name="topo_test" type="bool" value="true" />
+    <param name="map_path" type="string" value="$(find hadmap_server)/data/$(arg map_name)" />
+    <rosparam command="load" file="$(find hadmap_server)/params/$(arg config_name)"></rosparam>
+  </node>
+
+  <node pkg="hadmap_server" name="hadmap_server_node5" type="hadmap_server_node">
+    <param name="alsologtostderr" type="bool" value="false" />
+    <param name="topo_test" type="bool" value="true" />
+    <param name="log_path" type="string" value="$(find hadmap_server)/log" />
+    <param name="map_path" type="string" value="$(find hadmap_server)/data/$(arg map_name)" />
+    <rosparam command="load" file="$(find hadmap_server)/params/$(arg config_name)"></rosparam>
+  </node>
+
+  <node pkg="hadmap_server" name="hadmap_server_node6" type="hadmap_server_node">
+    <param name="alsologtostderr" type="bool" value="false" />
+    <param name="topo_test" type="bool" value="true" />
+    <param name="log_path" type="string" value="$(find hadmap_server)/log" />
+    <param name="map_path" type="string" value="$(find hadmap_server)/data/$(arg map_name)" />
+    <rosparam command="load" file="$(find hadmap_server)/params/$(arg config_name)"></rosparam>
+  </node>
+
+  <node pkg="hadmap_server" name="hadmap_server_node7" type="hadmap_server_node">
+    <param name="alsologtostderr" type="bool" value="false" />
+    <param name="topo_test" type="bool" value="true" />
+    <param name="log_path" type="string" value="$(find hadmap_server)/log" />
+    <param name="map_path" type="string" value="$(find hadmap_server)/data/$(arg map_name)" />
+    <rosparam command="load" file="$(find hadmap_server)/params/$(arg config_name)"></rosparam>
+  </node>
+
+</launch>

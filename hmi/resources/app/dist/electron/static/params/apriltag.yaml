@@ -1,0 +1,58 @@
+# AprilTags 2 code parameters
+# Find descriptions in apriltags2/include/apriltag.h:struct apriltag_detector
+#                      apriltags2/include/apriltag.h:struct apriltag_family
+tag_family:        'tag36h11' # options: tag36h11, tag36h10, tag25h9, tag25h7, tag16h5
+tag_border:        1          # default: 1
+tag_blur:          0.0        # default: 0.0
+tag_refine_edges:  1          # default: 1
+tag_refine_decode: 0          # default: 0
+tag_refine_pose:   0          # default: 0
+tag_debug:         0          # default: 0
+# Other parameters
+publish_tf:        false       # default: false
+involved_frame_num: 20
+rvec_invalid_num_threshold: 15
+stop_state_delay: 40
+angular_threshold:  0.05
+accept_frame_num:   16
+# parameters for orb feature matching 
+number_of_features: 800
+scale_factor: 1.2
+level_pyramid: 4
+match_ratio: 2.0
+reprojection_err: 0.0001
+
+
+#camera_fx:         1040.9     #55137
+#camera_fy:         1038.4     #65995
+#camera_cx:         944.9      #31110
+#camera_cy:         586.9      #76261
+
+# which:             left          # default: 1 --> left, 2 --> right
+tag_rotation:      1          # 0: anticlockwise  0; 1: anticlockwise  90; 2: anticlockwise 180; 3: anticlockwise 270
+tag_threads:       4          # default: 2
+tag_decimate:      2.0        # default: 1.0
+opt_method:        0
+#camera_fx:         1040.9     #55137
+#camera_fy:         1038.4     #65995
+#camera_cx:         944.9      #31110
+#camera_cy:         586.9      #76261
+standalone_tags:
+  - id: 0
+    size: 0.228
+  - id: 1
+    size: 0.8
+  - id: 2
+    size: 0.8
+  - id: 3
+    size: 0.8
+  - id: 4
+    size: 0.8
+  - id: 5
+    size: 0.8
+  - id: 11
+    size: 0.8
+  - id: 19
+    size: 0.52
+  - id: 31
+    size: 0.8

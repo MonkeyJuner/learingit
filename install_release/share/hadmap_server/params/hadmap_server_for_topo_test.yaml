@@ -1,0 +1,14 @@
+k: 1
+k_sub: 40
+len_ahead: 130
+len_rear: 20
+len_ahead_for_loc: 30
+len_rear_for_loc: 30
+max_yaw_diff: 45.0
+m_per_pt: 0.5
+stop_line_shift_forward: -30.0
+frequency: 20
+is_simulation: true
+### for perception
+map_erode_size: 5
+exclude_sections_topo_test: ['101']

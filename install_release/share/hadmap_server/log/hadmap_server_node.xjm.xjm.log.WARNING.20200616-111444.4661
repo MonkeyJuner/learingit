@@ -1,0 +1,76 @@
+Log file created at: 2020/06/16 11:14:44
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0616 11:14:44.556433  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.556646  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.556738  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.556843  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.557036  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.557947  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.559870  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.559942  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.560060  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.561028  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.563000  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.563120  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.563345  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.564244  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.566104  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.566176  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.566293  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.567229  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.569186  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.569314  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.569531  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.569572  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.569644  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.570331  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.571758  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.571844  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.571964  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.572675  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.574254  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.574378  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.574607  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.574641  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.574697  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.575345  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.576727  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.576803  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.576930  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.577670  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.579218  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.579280  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.579381  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.580083  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.581519  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.581604  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.581765  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.582435  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.583987  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.584125  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.584348  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:44.584450  4661 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 11:14:45.421818  4661 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0616 11:15:24.426390  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:24.426501  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:24.632148  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:24.834801  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:25.031121  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:25.231770  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:25.433933  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:25.434149  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:25.630141  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:25.827021  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:26.031625  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:26.234012  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:26.434839  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:26.435257  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:26.630537  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:26.830180  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:27.029510  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:15:27.235780  4661 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0616 11:33:30.183604  4661 hadmap_server.h:125] disconnect with localization for 5s
+E0616 11:33:30.183789  4661 hadmap_server.cpp:3350] loc cur is invalid! loc_cur_.id = 5577; loc_cur_.old_id = 5577.
+E0616 11:33:30.383499  4661 hadmap_server.cpp:3566] there isn't valid vehicle state! loc_cur_.old_id = 5577; loc_cur_.old_id = 5577.
+E0616 11:33:33.783582  4661 main.cpp:75] do hadmap server exit!

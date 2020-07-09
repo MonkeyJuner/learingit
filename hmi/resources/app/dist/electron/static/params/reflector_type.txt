@@ -1,0 +1,49 @@
+id: 312    dist: 2.99    type: 0    # anqiao-12
+id: 311    dist: 3.295   type: 0    # anqiao-11
+id: 310    dist: 4.20    type: 0    # anqiao-10
+id: 301    dist: 3.455   type: 0    # anqiao-01, left 3.47, right 3.45
+id: 309    dist: 3.59    type: 0    # anqiao-09, left 3.6, right 3.55
+id: 302    dist: 3.14    type: 0    # anqiao-02
+id: 308    dist: 3.914   type: 0    # anqiao-08
+id: 307    dist: 4.34    type: 0    # anqiao-07
+id: 306    dist: 3.755   type: 0    # anqiao-06
+id: 305    dist: 4.05    type: 0    # anqiao-05
+id: 304    dist: 3.306   type: 0    # anqiao-04
+id: 303    dist: 3.445    type: 0    # anqiao-03, left  , right 3.43
+
+id: 1201    dist: 2.38     type: 0    # 01A-311
+id: 120    dist: 2.2      type: 0    # 01A-312
+id: 130    dist: 2.69     type: 0    # 01B-313
+id: 110    dist: 2.20     type: 0    # 01C-314
+id: 100    dist: 2.41     type: 0    # 01D-315
+id: 157    dist: 2.2      type: 0    # 01E-316
+
+id: 121    dist: 2.36     type: 0    # 02A-321
+id: 131    dist: 2.2      type: 0    # 02B-322
+id: 1311    dist: 2.4      type: 0    # 02B-323
+id: 111    dist: 2.17      type: 0   # 02C-324
+id: 101    dist: 2.4      type: 0    # 02D-325
+id: 1011    dist: 2.18     type: 0    # 02D-326
+id: 1531    dist: 2.43     type: 0    # 02E-327
+
+
+id: 1221    dist: 2.42     type: 0    # 03A-331
+id: 122    dist: 2.19     type: 0    # 03A-332
+id: 132    dist: 2.60     type: 0    # 03B-333
+id: 112    dist: 2.21     type: 0    # 03C-334
+id: 102    dist: 2.42     type: 0    # 03D-335
+id: 152    dist: 2.2      type: 0    # 03E-336
+
+id: 123    dist: 2.20     type: 0    # 04A-341
+id: 1231    dist: 2.38     type: 0    # 04A-342
+id: 133    dist: 2.19     type: 0    # 04B-343
+id: 113    dist: 2.37     type: 0    # 04C-344
+id: 103    dist: 2.6      type: 0    # 04D-345
+id: 151    dist: 2.2      type: 0    # 04E-346
+
+id: 124    dist: 2.37     type: 0    # 05A-351
+id: 134    dist: 2.2      type: 0    # 05B-352 
+id: 114    dist: 2.60     type: 0    # 05C-353
+id: 104    dist: 2.21 	  type: 0    # 05D-354
+id: 1041    dist: 2.39 	   type: 0    # 05D-355
+id: 150    dist: 2.2      type: 0    # 05E-356

@@ -1,0 +1,25 @@
+Log file created at: 2020/04/03 11:51:59
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0403 11:51:59.956508 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:51:59.957487 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:51:59.959465 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:51:59.960403 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:51:59.962621 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:51:59.963827 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:51:59.966233 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:51:59.967380 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:51:59.969884 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:51:59.971240 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:51:59.973466 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:51:59.974465 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:51:59.983067 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:51:59.983880 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:51:59.987148 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:51:59.987953 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:52:00.146024 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:52:00.146853 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:52:00.148579 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:52:00.149430 16666 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0403 11:52:01.090495 16666 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0403 18:18:11.605767 16666 main.cpp:75] do hadmap server exit!

@@ -1,0 +1,6 @@
+launch
+  node(pkg='bus_function' name='bus_function' type='bus_function_node')
+    rosparam(command='load' file=param_file)
+    param(name='place' type='string' value=place)
+    param(name='clockwise' type='bool' value=clockwise)
+    param(name='init_stop_point' type='int' value=stop)

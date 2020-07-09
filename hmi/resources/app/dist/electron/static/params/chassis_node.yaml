@@ -1,0 +1,14 @@
+utp_params:
+    serverIp: "127.0.0.1"
+    serverPort: 8001
+    clientIp: "127.0.0.1"
+    clientPort: 4001
+frequency_params: #hz
+    send_info_freq: 100
+    recv_info_freq: 1000
+    send_cmd_freq: 100
+    check_cmd_freq: 10
+timeout_params:
+    max_missing_cmd_times: 10
+vehicleInfo_params:
+    speed_weight: 1.0

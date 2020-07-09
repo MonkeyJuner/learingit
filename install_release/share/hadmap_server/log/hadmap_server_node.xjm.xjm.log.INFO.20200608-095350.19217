@@ -1,0 +1,485 @@
+Log file created at: 2020/06/08 09:53:50
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0608 09:53:50.000049 19217 main.cpp:64] current version is: 2.0.3.0a73361
+I0608 09:53:50.090591 19217 hadmap_server.cpp:47] map path: /home/xjm/port_ws/hmi/resources/app/dist/electron/static/maps/C_test_0523_1.json
+I0608 09:53:50.340319 19217 proto_organizer.cpp:358] hadmap statistics: roads-1,lanes-6,crosswalks-0,signals-0,junctions-0,overlaps-0
+I0608 09:53:50.387364 19217 routing.cpp:363] there is not forbidden_lanes!
+I0608 09:53:51.125228 19217 hadmap_server.cpp:3560] there isn't vehicle state
+E0608 09:53:51.125254 19217 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I0608 09:53:51.525363 19217 hadmap_server.cpp:3594] loc_cur is out of map!
+I0608 09:53:51.725363 19217 hadmap_server.cpp:3594] loc_cur is out of map!
+I0608 09:53:51.925379 19217 hadmap_server.cpp:3594] loc_cur is out of map!
+I0608 09:53:52.125360 19217 hadmap_server.cpp:3594] loc_cur is out of map!
+I0608 09:53:52.128211 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:53:52.325367 19217 hadmap_server.cpp:3594] loc_cur is out of map!
+I0608 09:53:52.525490 19217 hadmap_server.cpp:3594] loc_cur is out of map!
+I0608 09:53:52.725373 19217 hadmap_server.cpp:3594] loc_cur is out of map!
+I0608 09:53:52.925360 19217 hadmap_server.cpp:3594] loc_cur is out of map!
+I0608 09:53:53.126283 19217 hadmap_server.cpp:3594] loc_cur is out of map!
+I0608 09:53:53.129493 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:53:53.325325 19217 hadmap_server.cpp:3594] loc_cur is out of map!
+I0608 09:53:53.525374 19217 hadmap_server.cpp:3594] loc_cur is out of map!
+I0608 09:53:53.725370 19217 hadmap_server.cpp:3594] loc_cur is out of map!
+I0608 09:53:53.925326 19217 hadmap_server.cpp:3594] loc_cur is out of map!
+I0608 09:53:54.125324 19217 hadmap_server.cpp:3594] loc_cur is out of map!
+I0608 09:53:54.128412 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:53:55.129813 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:53:55.525339 19217 hadmap_server.cpp:523] current pose: x:568361.2771; y:4314586.577; yaw: 2.444863342
+I0608 09:53:55.525380 19217 hadmap_server.cpp:525] multi dst:
+I0608 09:53:55.525386 19217 hadmap_server.cpp:528] x: 567710; y: 4315137
+I0608 09:53:55.535881 19217 routing.cpp:363] there is not forbidden_lanes!
+I0608 09:53:55.538699 19217 routing.cpp:226] start lane id: 100_1 ; end lane id: 100_2.
+I0608 09:53:55.538743 19217 hadmap_server.cpp:633] planning path:
+I0608 09:53:55.538750 19217 hadmap_server.cpp:636] lane id: 100_1
+I0608 09:53:55.538754 19217 hadmap_server.cpp:636] lane id: 100_2
+I0608 09:53:55.544059 19217 hadmap_server.cpp:645] find sub global map success!
+I0608 09:53:56.142923 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:53:57.144263 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:53:58.142172 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:53:59.141888 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:00.143667 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:01.145332 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:02.152230 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:03.146175 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:04.186836 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:05.158315 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:06.143425 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:07.146379 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:08.145471 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:09.149785 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:10.145506 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:11.148214 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:12.158460 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:13.151583 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:14.163306 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:15.150058 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:16.202311 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:17.150754 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:18.150678 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:19.154783 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:20.147282 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:21.153498 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:22.148310 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:23.156345 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:24.150301 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:25.157681 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:26.155086 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:27.150336 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:28.150660 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:29.149873 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:30.149039 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:31.160738 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:32.152204 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:33.156445 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:34.152650 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:35.154914 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:36.149484 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:37.162173 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:38.152210 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:39.148346 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:40.151458 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:41.157667 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:42.152935 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:43.157546 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:44.203048 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:45.154577 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:46.159327 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:47.159301 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:48.152295 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:49.155860 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:50.164188 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:51.154129 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:52.157234 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:53.154139 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:54.164391 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:55.157832 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:56.152094 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:57.156450 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:58.152994 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:54:59.157219 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:00.163175 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:01.154289 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:02.154304 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:03.166405 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:04.158529 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:05.155136 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:06.155964 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:07.157367 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:08.152202 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:09.158677 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:10.159631 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:11.158875 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:12.159373 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:13.158131 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:14.154615 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:15.176292 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:16.154561 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:17.155686 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:18.163096 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:19.156479 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:20.154938 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:21.158987 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:22.155061 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:23.158536 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:24.153097 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:25.160862 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:26.157402 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:27.160079 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:28.153362 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:29.156791 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:30.163864 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:31.159296 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:32.159902 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:33.161197 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:34.153928 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:35.155706 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:36.165418 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:37.155215 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:38.155035 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:39.158807 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:40.153560 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:41.155069 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:42.162686 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:43.150908 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:44.151165 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:45.153719 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:46.153508 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:47.157199 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:48.150997 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:49.158103 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:50.154227 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:51.150313 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:52.155097 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:53.151319 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:54.149390 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:55.151831 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:56.152480 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:57.151867 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:58.148804 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:55:59.150336 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:00.148546 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:01.151739 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:02.149206 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:03.149675 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:04.156363 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:05.149888 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:06.151022 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:07.152310 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:08.152768 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:09.164188 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:10.149149 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:11.154686 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:12.151994 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:13.157244 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:14.147747 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:15.148600 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:16.149446 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:17.163424 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:18.151717 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:19.152362 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:20.149093 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:21.151463 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:22.149140 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:23.154821 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:24.149969 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:25.151011 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:26.148828 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:27.151486 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:28.149639 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:29.154691 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:30.157367 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:31.157066 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:32.147117 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:33.152356 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:34.148389 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:35.163550 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:36.157022 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:37.165093 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:38.149309 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:39.151629 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:40.149618 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:41.155249 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:42.149381 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:43.150471 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:44.155997 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:45.150677 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:46.158905 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:47.155066 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:48.148826 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:49.150475 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:50.149034 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:51.149091 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:52.148615 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:53.164043 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:54.150195 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:55.151543 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:56.147693 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:57.149397 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:58.150449 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:56:59.150529 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:00.149951 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:01.148600 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:02.149531 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:03.157075 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:04.148912 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:05.151306 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:06.154618 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:07.150876 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:08.151677 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:09.160393 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:10.154248 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:11.151739 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:12.148445 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:13.149302 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:14.153337 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:15.153396 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:16.152966 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:17.161720 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:18.163566 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:19.150202 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:20.154495 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:21.151376 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:22.154378 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:23.160465 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:24.165840 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:25.157971 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:26.168715 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:27.150177 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:28.158309 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:29.164085 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:30.149277 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:31.139202 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567682.803, y: 4315159.611 ; yaw: 2.444863249
+I0608 09:57:31.139367 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:31.336156 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567682.2223, y: 4315160.097 ; yaw: 2.444863249
+I0608 09:57:31.538404 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567681.6417, y: 4315160.583 ; yaw: 2.444863249
+I0608 09:57:31.738405 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567680.9319, y: 4315161.176 ; yaw: 2.444863249
+I0608 09:57:31.935755 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567680.2867, y: 4315161.716 ; yaw: 2.444863248
+I0608 09:57:32.135372 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567679.706, y: 4315162.202 ; yaw: 2.444863248
+I0608 09:57:32.135515 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:32.335937 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567679.0608, y: 4315162.742 ; yaw: 2.444863248
+I0608 09:57:32.535773 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567678.3511, y: 4315163.336 ; yaw: 2.444863248
+I0608 09:57:32.735872 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567677.7058, y: 4315163.876 ; yaw: 2.444863248
+I0608 09:57:32.936923 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567677.0606, y: 4315164.416 ; yaw: 2.444863248
+I0608 09:57:33.139230 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567676.4154, y: 4315164.955 ; yaw: 2.444863247
+I0608 09:57:33.139379 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:33.336624 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567675.7702, y: 4315165.495 ; yaw: 2.444863247
+I0608 09:57:33.535462 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567675.125, y: 4315166.035 ; yaw: 2.444863247
+I0608 09:57:33.730054 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567674.5443, y: 4315166.521 ; yaw: 2.444863247
+I0608 09:57:33.930148 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567673.8991, y: 4315167.061 ; yaw: 2.444863247
+I0608 09:57:34.129716 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567673.2539, y: 4315167.601 ; yaw: 2.444863247
+I0608 09:57:34.129817 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:34.337253 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567672.6086, y: 4315168.141 ; yaw: 2.444863246
+I0608 09:57:34.531955 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567671.8989, y: 4315168.734 ; yaw: 2.444863246
+I0608 09:57:34.729818 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567671.3182, y: 4315169.22 ; yaw: 2.444863246
+I0608 09:57:34.931659 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567670.673, y: 4315169.76 ; yaw: 2.444863246
+I0608 09:57:35.134192 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567670.0278, y: 4315170.3 ; yaw: 2.444863246
+I0608 09:57:35.134320 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:35.342276 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567669.3826, y: 4315170.84 ; yaw: 2.444863245
+I0608 09:57:35.538830 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567668.6728, y: 4315171.434 ; yaw: 2.444863245
+I0608 09:57:35.730473 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567668.0921, y: 4315171.92 ; yaw: 2.444863245
+I0608 09:57:35.931763 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567667.4469, y: 4315172.459 ; yaw: 2.444863245
+I0608 09:57:36.129982 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.8017, y: 4315172.999 ; yaw: 2.444863245
+I0608 09:57:36.130067 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:36.341184 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.1565, y: 4315173.539 ; yaw: 2.444863245
+I0608 09:57:36.536339 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567665.4468, y: 4315174.133 ; yaw: 2.444863244
+I0608 09:57:36.729530 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567664.8661, y: 4315174.619 ; yaw: 2.444863244
+I0608 09:57:36.934389 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567664.2208, y: 4315175.159 ; yaw: 2.444863244
+I0608 09:57:37.137295 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567663.5756, y: 4315175.699 ; yaw: 2.444863244
+I0608 09:57:37.137492 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:37.332502 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567662.8659, y: 4315176.292 ; yaw: 2.444863244
+I0608 09:57:37.534122 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567662.2852, y: 4315176.778 ; yaw: 2.444863243
+I0608 09:57:37.730608 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567661.64, y: 4315177.318 ; yaw: 2.444863243
+I0608 09:57:37.931985 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567660.9948, y: 4315177.858 ; yaw: 2.444863243
+I0608 09:57:38.136974 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567660.3496, y: 4315178.398 ; yaw: 2.444863243
+I0608 09:57:38.137174 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:38.335723 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567659.6398, y: 4315178.992 ; yaw: 2.444863243
+I0608 09:57:38.530076 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567659.0591, y: 4315179.478 ; yaw: 2.444863243
+I0608 09:57:38.730425 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567658.4139, y: 4315180.017 ; yaw: 2.444863242
+I0608 09:57:38.936471 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567657.7687, y: 4315180.557 ; yaw: 2.444863242
+I0608 09:57:39.139320 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567657.1235, y: 4315181.097 ; yaw: 2.444863242
+I0608 09:57:39.139535 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:39.332453 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567656.4137, y: 4315181.691 ; yaw: 2.444863242
+I0608 09:57:39.536362 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567655.833, y: 4315182.177 ; yaw: 2.444863242
+I0608 09:57:39.732863 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567655.1878, y: 4315182.717 ; yaw: 2.444863242
+I0608 09:57:39.933074 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567654.5426, y: 4315183.257 ; yaw: 2.444863241
+I0608 09:57:40.129680 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567653.8974, y: 4315183.796 ; yaw: 2.444863241
+I0608 09:57:40.129774 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:40.339392 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567653.2522, y: 4315184.336 ; yaw: 2.444863241
+I0608 09:57:40.535640 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567652.5424, y: 4315184.93 ; yaw: 2.444863241
+I0608 09:57:40.735656 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567651.8972, y: 4315185.47 ; yaw: 2.444863241
+I0608 09:57:40.934465 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567651.252, y: 4315186.01 ; yaw: 2.44486324
+I0608 09:57:41.131654 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567650.6713, y: 4315186.496 ; yaw: 2.44486324
+I0608 09:57:41.131749 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:41.333194 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567650.0261, y: 4315187.036 ; yaw: 2.44486324
+I0608 09:57:41.530870 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567649.3809, y: 4315187.576 ; yaw: 2.44486324
+I0608 09:57:41.731652 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567648.7357, y: 4315188.115 ; yaw: 2.44486324
+I0608 09:57:41.930732 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567648.0905, y: 4315188.655 ; yaw: 2.44486324
+I0608 09:57:42.135704 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567647.4453, y: 4315189.195 ; yaw: 2.444863239
+I0608 09:57:42.135838 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:42.337380 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567646.7355, y: 4315189.789 ; yaw: 2.444863239
+I0608 09:57:42.531565 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567646.0903, y: 4315190.329 ; yaw: 2.444863239
+I0608 09:57:42.733212 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567645.5096, y: 4315190.815 ; yaw: 2.444863239
+I0608 09:57:42.935570 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567644.8644, y: 4315191.355 ; yaw: 2.444863239
+I0608 09:57:43.133229 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567644.1547, y: 4315191.948 ; yaw: 2.444863238
+I0608 09:57:43.133345 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:43.331859 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567643.574, y: 4315192.434 ; yaw: 2.444863238
+I0608 09:57:43.530213 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567642.9287, y: 4315192.974 ; yaw: 2.444863238
+I0608 09:57:43.736397 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567642.2835, y: 4315193.514 ; yaw: 2.444863238
+I0608 09:57:43.930243 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567641.6383, y: 4315194.054 ; yaw: 2.444863238
+I0608 09:57:44.132069 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567640.9931, y: 4315194.594 ; yaw: 2.444863238
+I0608 09:57:44.132257 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:44.337047 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567640.3479, y: 4315195.134 ; yaw: 2.444863237
+I0608 09:57:44.530486 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567639.7027, y: 4315195.673 ; yaw: 2.444863237
+I0608 09:57:44.732097 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567639.0575, y: 4315196.213 ; yaw: 2.444863237
+I0608 09:57:44.931896 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567638.4122, y: 4315196.753 ; yaw: 2.444863237
+I0608 09:57:45.133544 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567637.767, y: 4315197.293 ; yaw: 2.444863237
+I0608 09:57:45.133674 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:45.331982 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567636.9928, y: 4315197.941 ; yaw: 2.444863236
+I0608 09:57:45.531858 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567636.4766, y: 4315198.373 ; yaw: 2.444863236
+I0608 09:57:45.736943 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567635.8314, y: 4315198.913 ; yaw: 2.444863236
+I0608 09:57:45.934190 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567635.1216, y: 4315199.506 ; yaw: 2.444863236
+I0608 09:57:46.138273 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567634.5409, y: 4315199.992 ; yaw: 2.444863236
+I0608 09:57:46.138470 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:46.339406 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567633.8312, y: 4315200.586 ; yaw: 2.444863236
+I0608 09:57:46.530537 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567633.186, y: 4315201.126 ; yaw: 2.444863235
+I0608 09:57:46.731031 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567632.6053, y: 4315201.612 ; yaw: 2.444863235
+I0608 09:57:46.941491 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567631.9601, y: 4315202.152 ; yaw: 2.444863235
+I0608 09:57:47.139605 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567631.2504, y: 4315202.746 ; yaw: 2.444863235
+I0608 09:57:47.139762 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:47.335455 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567630.6051, y: 4315203.285 ; yaw: 2.444863235
+I0608 09:57:47.529857 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567630.0244, y: 4315203.771 ; yaw: 2.444863235
+I0608 09:57:47.739821 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567629.3792, y: 4315204.311 ; yaw: 2.444863234
+I0608 09:57:47.930575 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567628.6695, y: 4315204.905 ; yaw: 2.444863234
+I0608 09:57:48.129572 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567628.0888, y: 4315205.391 ; yaw: 2.444863234
+I0608 09:57:48.129673 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:48.344002 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567627.4436, y: 4315205.931 ; yaw: 2.444863234
+I0608 09:57:48.530364 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567626.7338, y: 4315206.525 ; yaw: 2.444863234
+I0608 09:57:48.729645 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567626.1532, y: 4315207.01 ; yaw: 2.444863233
+I0608 09:57:48.931648 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567625.5079, y: 4315207.55 ; yaw: 2.444863233
+I0608 09:57:49.132964 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567624.8627, y: 4315208.09 ; yaw: 2.444863233
+I0608 09:57:49.133116 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:49.333256 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567624.2175, y: 4315208.63 ; yaw: 2.444863233
+I0608 09:57:49.529662 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567623.5723, y: 4315209.17 ; yaw: 2.444863233
+I0608 09:57:49.730707 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567622.9271, y: 4315209.71 ; yaw: 2.444863233
+I0608 09:57:49.932448 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567622.2819, y: 4315210.25 ; yaw: 2.444863232
+I0608 09:57:50.129925 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567621.6366, y: 4315210.789 ; yaw: 2.444863232
+I0608 09:57:50.130023 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:50.336982 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567620.9914, y: 4315211.329 ; yaw: 2.444863232
+I0608 09:57:50.532145 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567620.2817, y: 4315211.923 ; yaw: 2.444863232
+I0608 09:57:50.733310 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567619.701, y: 4315212.409 ; yaw: 2.444863232
+I0608 09:57:50.929641 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567619.0558, y: 4315212.949 ; yaw: 2.444863232
+I0608 09:57:51.135617 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567618.4106, y: 4315213.489 ; yaw: 2.444863231
+I0608 09:57:51.135771 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:51.331923 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567617.7654, y: 4315214.029 ; yaw: 2.444863231
+I0608 09:57:51.538036 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567617.1201, y: 4315214.569 ; yaw: 2.444863231
+I0608 09:57:51.738736 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567616.4104, y: 4315215.162 ; yaw: 2.444863231
+I0608 09:57:51.930084 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567615.7652, y: 4315215.702 ; yaw: 2.444863231
+I0608 09:57:52.129259 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567615.12, y: 4315216.242 ; yaw: 2.44486323
+I0608 09:57:52.129402 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:52.337232 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567614.4748, y: 4315216.782 ; yaw: 2.44486323
+I0608 09:57:52.537637 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567613.8295, y: 4315217.322 ; yaw: 2.44486323
+I0608 09:57:52.730206 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567613.2488, y: 4315217.808 ; yaw: 2.44486323
+I0608 09:57:52.930219 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567612.6036, y: 4315218.348 ; yaw: 2.44486323
+I0608 09:57:53.131983 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567611.9584, y: 4315218.887 ; yaw: 2.44486323
+I0608 09:57:53.132071 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:53.329620 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567611.3132, y: 4315219.427 ; yaw: 2.444863229
+I0608 09:57:53.533279 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567610.668, y: 4315219.967 ; yaw: 2.444863229
+I0608 09:57:53.736939 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567610.0228, y: 4315220.507 ; yaw: 2.444863229
+I0608 09:57:53.942418 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567609.313, y: 4315221.101 ; yaw: 2.444863229
+I0608 09:57:54.131803 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567608.6678, y: 4315221.641 ; yaw: 2.444863229
+I0608 09:57:54.131923 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:54.336969 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567608.0871, y: 4315222.127 ; yaw: 2.444863229
+I0608 09:57:54.533342 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567607.3774, y: 4315222.72 ; yaw: 2.444863228
+I0608 09:57:54.736917 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567606.7967, y: 4315223.206 ; yaw: 2.444863228
+I0608 09:57:54.930714 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567606.087, y: 4315223.8 ; yaw: 2.444863228
+I0608 09:57:55.135527 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567605.5063, y: 4315224.286 ; yaw: 2.444863228
+I0608 09:57:55.135645 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:55.335677 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567604.8611, y: 4315224.826 ; yaw: 2.444863228
+I0608 09:57:55.537048 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567604.2158, y: 4315225.366 ; yaw: 2.444863227
+I0608 09:57:55.737116 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567603.5061, y: 4315225.96 ; yaw: 2.444863227
+I0608 09:57:55.935705 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567602.8609, y: 4315226.499 ; yaw: 2.444863227
+I0608 09:57:56.134804 19217 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567602.2157, y: 4315227.039 ; yaw: 2.444863227
+I0608 09:57:56.134940 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:56.325372 19217 hadmap_server.cpp:523] current pose: x:567601.635; y:4315227.525; yaw: 2.444863227
+I0608 09:57:56.325420 19217 hadmap_server.cpp:525] multi dst:
+I0608 09:57:56.325429 19217 hadmap_server.cpp:528] x: 567447; y: 4315353
+I0608 09:57:56.340871 19217 routing.cpp:363] there is not forbidden_lanes!
+I0608 09:57:56.345369 19217 routing.cpp:226] start lane id: 100_2 ; end lane id: 100_1.
+I0608 09:57:56.345423 19217 hadmap_server.cpp:633] planning path:
+I0608 09:57:56.345430 19217 hadmap_server.cpp:636] lane id: 100_2
+I0608 09:57:56.345435 19217 hadmap_server.cpp:636] lane id: 100_1
+I0608 09:57:56.352190 19217 hadmap_server.cpp:645] find sub global map success!
+I0608 09:57:57.136389 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:58.133126 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:57:59.136759 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:00.138183 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:01.135767 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:02.135501 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:03.138564 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:04.136656 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:05.136343 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:06.136086 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:07.142992 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:08.135083 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:09.140264 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:10.136185 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:11.136438 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:12.135653 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:13.143327 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:14.135740 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:15.143020 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:16.134812 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:17.143244 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:18.136516 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:19.136307 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:20.134660 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:21.138043 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:22.141964 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:23.143735 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:24.143107 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:25.143482 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:26.139479 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:27.143855 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:28.142438 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:29.142607 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:30.141119 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:31.136682 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:32.138849 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:33.138482 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:34.136567 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:35.140128 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:36.137291 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:37.136904 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:38.141646 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:39.139482 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:40.138396 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:41.141446 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:42.140866 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:43.139870 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:44.136534 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:45.137059 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:46.141160 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:47.138788 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:48.140578 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:49.140422 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:50.136499 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:51.142609 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:52.137344 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:53.138850 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:54.136555 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:55.140419 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:56.135911 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:57.138187 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:58.137751 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:58:59.146765 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:59:00.134729 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:59:01.137924 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:59:02.138445 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:59:03.136449 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:59:04.136248 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:59:05.137778 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:59:06.135002 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:59:07.140652 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0608 09:59:08.135152 19217 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+E0608 09:59:08.725304 19217 main.cpp:75] do hadmap server exit!

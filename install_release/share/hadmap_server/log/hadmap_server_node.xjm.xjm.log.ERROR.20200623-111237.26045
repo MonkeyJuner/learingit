@@ -1,0 +1,8 @@
+Log file created at: 2020/06/23 11:12:37
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0623 11:12:37.113299 26045 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0623 11:19:54.787294 26045 hadmap_server.h:125] disconnect with localization for 5s
+E0623 11:19:54.787366 26045 hadmap_server.cpp:3350] loc cur is invalid! loc_cur_.id = 2152; loc_cur_.old_id = 2152.
+E0623 11:19:54.987308 26045 hadmap_server.cpp:3566] there isn't valid vehicle state! loc_cur_.old_id = 2152; loc_cur_.old_id = 2152.
+E0623 11:19:57.387351 26045 main.cpp:75] do hadmap server exit!

@@ -1,0 +1,63 @@
+crane:
+  topic_name: '/barrier_detection/barrier'
+  crane_debug: true
+  shift_left: 0.6 #2.2
+  shift_right: -0.6 #-2.2
+  road_width: 28.8
+  crane_length: 21.0
+  using_map: true
+  enable: true
+
+  z_barrier: 4.5
+  z_beam: 7.0
+  z_leg: 12.5
+  cluster_max_dist: 2.0
+  cluster_min_num: 25
+  cluster_max_num: 100000
+  max_prob: 0.9999
+  max_outlier_prob: 0.8
+  max_dist: 0.13
+  enter: 15.0
+  leave: 5.0
+
+field:
+  topic_name: '/barrier_detection/barrier'
+  barrier_debug: false
+  using_map: true
+  enable: true
+
+  max_prob: 0.9999
+  max_outlier_prob: 0.8
+  max_dist: 0.2
+  road_width: 7.8
+  shift_left: 0.0 #0.8
+  shift_right: 0.0 #0.8
+
+lockBox:
+  topic_name: '/harbor_detection/lockBox'
+  using_map: true
+  enable: true
+  lockBox_debug: false
+  front_range: 14
+  z_box: 0.9
+  shift_front: 12.5
+
+
+tracking:
+  state:
+    y: 5e-4
+    v: 1e-3
+    theta: 5e-4
+    a: 1e-3
+    omega: 1e-3
+  measure:
+    barrier:
+      y: 5e-3
+      theta: 5e-3
+    imu:
+      a: 1e-0
+      omega: 1e-0
+    wheelspeed:
+      v: 1e-0
+      omega: 1e-0
+

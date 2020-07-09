@@ -1,0 +1,841 @@
+Log file created at: 2020/06/23 11:12:36
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0623 11:12:36.029047 26045 main.cpp:64] current version is: 2.0.3.0a73361
+I0623 11:12:36.095896 26045 hadmap_server.cpp:47] map path: /home/xjm/port_ws/hmi/resources/app/dist/electron/static/maps/C_test_0523_1.json
+I0623 11:12:36.382470 26045 proto_organizer.cpp:358] hadmap statistics: roads-1,lanes-6,crosswalks-0,signals-0,junctions-0,overlaps-0
+I0623 11:12:36.430516 26045 routing.cpp:363] there is not forbidden_lanes!
+I0623 11:12:37.113278 26045 hadmap_server.cpp:3560] there isn't vehicle state
+E0623 11:12:37.113299 26045 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I0623 11:12:37.513370 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:37.713412 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:37.913385 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:38.113376 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:38.116442 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:38.313381 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:38.513382 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:38.713383 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:38.913419 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:39.114439 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:39.117935 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:39.313652 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:39.513422 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:39.713430 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:39.913421 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:40.113389 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:40.116508 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:40.313419 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:40.513379 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:40.713418 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:40.913416 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:41.114364 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:41.117622 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:41.313426 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:41.513425 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:41.713409 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:41.913391 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:42.113413 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:42.116626 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:42.313418 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:42.513428 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:42.713426 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:42.913380 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:43.114346 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:43.117765 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:43.313380 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:43.513382 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:43.713428 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:43.913414 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:44.113420 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:44.116514 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:44.313385 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:44.513417 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:44.713418 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:44.913372 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:45.114351 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:45.117677 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:45.313376 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:45.513381 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:45.713402 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:45.913420 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:46.113379 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:46.116613 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:46.313388 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:46.513391 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:46.713412 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:46.913412 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:47.114325 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:47.117719 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:47.313418 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:47.513433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:47.713407 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:47.913419 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:48.113421 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:48.116606 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:48.313418 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:48.513417 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:48.713429 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:48.913388 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:49.114347 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:49.117568 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:49.313417 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:49.513422 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:49.713423 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:49.913379 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:50.113385 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:50.116480 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:50.313418 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:50.513425 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:50.713420 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:50.913384 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:51.114362 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:51.117630 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:51.313436 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:51.513422 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:51.713419 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:51.913426 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:52.113425 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:52.116602 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:52.313421 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:52.513427 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:52.713423 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:52.913384 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:53.114347 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:53.117601 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:53.313380 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:53.513419 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:53.713433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:53.913421 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:54.113417 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:54.116539 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:54.313382 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:54.513418 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:54.713433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:54.913380 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:55.114320 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:55.117787 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:55.313390 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:55.513422 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:55.713423 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:55.913417 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:56.113423 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:56.116539 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:56.313434 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:56.513386 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:56.713420 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:56.913426 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:57.114346 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:57.117709 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:57.313383 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:57.513422 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:57.713429 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:57.913424 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:58.113437 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:58.116531 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:58.313422 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:58.513408 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:58.713428 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:58.913422 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:59.114840 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:59.119314 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:12:59.313383 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:59.513428 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:59.713505 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:12:59.913452 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:00.113474 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:00.117573 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:00.313417 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:00.513422 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:00.713428 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:00.913431 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:01.114845 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:01.119910 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:01.313448 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:01.513429 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:01.713436 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:01.913425 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:02.113404 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:02.119431 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:02.313413 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:02.513442 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:02.713421 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:02.913455 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:03.114881 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:03.120131 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:03.313555 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:03.513443 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:03.713395 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:03.913439 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:04.113430 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:04.117244 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:04.313419 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:04.513433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:04.713433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:04.913463 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:05.114451 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:05.118185 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:05.313390 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:05.513455 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:05.713392 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:05.913520 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:06.113417 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:06.117094 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:06.313434 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:06.513432 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:06.713408 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:06.913434 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:07.114490 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:07.118253 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:07.313431 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:07.513386 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:07.713433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:07.913408 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:08.113440 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:08.118192 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:08.313453 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:08.513406 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:08.713392 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:08.913524 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:09.116119 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:09.126132 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:09.313446 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:09.513460 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:09.713503 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:09.913525 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:10.113519 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:10.124897 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:10.313482 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:10.513473 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:10.713486 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:10.913441 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:11.115840 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:11.123283 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:11.313532 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:11.513506 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:11.713464 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:11.913507 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:12.113498 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:12.121258 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:12.313401 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:12.513445 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:12.713521 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:12.913409 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:13.115725 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:13.123020 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:13.313560 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:13.513432 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:13.713505 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:13.913421 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:14.113509 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:14.121556 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:14.313500 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:14.513494 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:14.713431 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:14.913434 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:15.114446 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:15.118264 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:15.313416 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:15.513387 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:15.713445 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:15.913417 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:16.113473 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:16.117149 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:16.313436 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:16.513433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:16.713433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:16.913429 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:17.114519 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:17.118355 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:17.313382 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:17.513439 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:17.713393 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:17.913453 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:18.113451 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:18.118716 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:18.313439 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:18.513428 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:18.713469 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:18.913440 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:19.114678 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:19.119238 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:19.313410 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:19.513423 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:19.713435 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:19.913545 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:20.113481 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:20.119963 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:20.313436 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:20.513382 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:20.713385 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:20.913512 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:21.114470 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:21.118520 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:21.313383 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:21.513401 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:21.713431 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:21.913426 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:22.113473 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:22.118065 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:22.313433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:22.513386 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:22.713393 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:22.913432 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:23.114575 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:23.118573 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:23.313427 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:23.513433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:23.713382 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:23.913394 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:24.113399 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:24.117938 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:24.313385 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:24.513432 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:24.713433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:24.913426 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:25.114486 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:25.118221 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:25.313431 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:25.513381 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:25.713424 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:25.913440 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:26.113399 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:26.117095 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:26.313431 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:26.513381 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:26.713443 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:26.913403 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:27.114673 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:27.119858 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:27.313383 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:27.513401 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:27.713390 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:27.913424 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:28.113422 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:28.116999 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:28.313387 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:28.513448 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:28.713433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:28.913434 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:29.114485 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:29.118201 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:29.313436 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:29.513442 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:29.713421 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:29.913395 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:30.113446 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:30.118146 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:30.313400 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:30.513481 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:30.713431 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:30.913432 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:31.114506 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:31.118216 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:31.313431 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:31.513402 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:31.713439 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:31.913513 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:32.113508 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:32.124648 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:32.313513 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:32.513435 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:32.713428 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:32.913432 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:33.114567 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:33.118954 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:33.313421 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:33.513434 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:33.713392 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:33.913486 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:34.113490 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:34.120649 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:34.313416 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:34.513460 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:34.713418 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:34.913431 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:35.114590 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:35.119292 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:35.313542 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:35.513450 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:35.713451 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:35.913436 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:36.113446 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:36.117238 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:36.313385 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:36.513388 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:36.713447 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:36.913431 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:37.116317 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:37.124495 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:37.313431 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:37.513437 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:37.713446 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:37.913436 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:38.113432 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:38.117075 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:38.313387 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:38.513430 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:38.713429 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:38.913429 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:39.114609 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:39.120661 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:39.313406 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:39.513428 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:39.713393 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:39.913477 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:40.113478 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:40.117828 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:40.313437 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:40.513398 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:40.713390 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:40.913434 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:41.114490 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:41.120126 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:41.313567 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:41.513433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:41.713536 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:41.913393 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:42.113440 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:42.118165 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:42.313387 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:42.513433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:42.713443 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:42.913437 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:43.114740 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:43.120847 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:43.313388 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:43.513430 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:43.713436 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:43.913424 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:44.113396 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:44.118140 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:44.313441 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:44.513419 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:44.713434 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:44.913437 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:45.114490 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:45.118228 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:45.313433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:45.513440 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:45.713431 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:45.913429 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:46.113436 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:46.117518 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:46.313470 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:46.513480 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:46.713387 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:46.913425 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:47.114490 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:47.118530 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:47.313406 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:47.513437 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:47.713433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:47.913452 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:48.113445 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:48.117578 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:48.313433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:48.513432 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:48.713435 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:48.913440 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:49.114478 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:49.118181 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:49.313442 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:49.513433 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:49.713413 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:49.913435 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:50.113387 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:50.117224 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:50.313421 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:50.513383 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:50.713565 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:50.913437 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:51.114495 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:51.118374 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:51.313436 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:51.513387 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:51.713479 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:51.913395 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:52.113431 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:52.117570 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:52.313431 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:52.513438 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:52.713510 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:52.913430 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:53.114502 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:53.118783 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:53.313386 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:53.513422 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:53.713414 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:53.913527 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:54.113456 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:54.118687 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:54.313397 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:54.513391 26045 hadmap_server.cpp:3594] loc_cur is out of map!
+I0623 11:13:55.120152 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:56.119524 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:56.513391 26045 hadmap_server.cpp:523] current pose: x:568370.5379; y:4314573.483; yaw: 2.444863342
+I0623 11:13:56.513447 26045 hadmap_server.cpp:525] multi dst:
+I0623 11:13:56.513454 26045 hadmap_server.cpp:528] x: 567490; y: 4315328
+I0623 11:13:56.525820 26045 routing.cpp:363] there is not forbidden_lanes!
+I0623 11:13:56.531121 26045 routing.cpp:226] start lane id: 100_0 ; end lane id: 100_3.
+I0623 11:13:56.531186 26045 hadmap_server.cpp:633] planning path:
+I0623 11:13:56.531196 26045 hadmap_server.cpp:636] lane id: 100_0
+I0623 11:13:56.531201 26045 hadmap_server.cpp:636] lane id: 100_1
+I0623 11:13:56.531206 26045 hadmap_server.cpp:636] lane id: 100_2
+I0623 11:13:56.531211 26045 hadmap_server.cpp:636] lane id: 100_3
+I0623 11:13:56.537762 26045 hadmap_server.cpp:645] find sub global map success!
+I0623 11:13:57.154937 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:58.138468 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:13:59.139278 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:00.138727 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:01.139446 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:02.138885 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:03.139180 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:04.137809 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:05.137778 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:06.137434 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:07.138883 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:08.137784 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:09.140204 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:10.139575 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:11.138567 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:12.138870 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:13.139827 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:14.138001 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:15.140795 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:16.145784 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:17.140703 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:18.138650 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:19.141132 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:20.139250 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:21.152768 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:22.145298 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:23.139729 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:24.139123 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:25.140703 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:26.159235 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:27.140039 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:28.141917 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:29.140781 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:30.140709 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:31.155807 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:32.137881 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:33.141513 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:34.138566 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:35.140727 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:36.140938 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:37.142369 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:38.165469 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:39.141314 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:40.140241 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:41.141067 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:42.142428 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:43.140318 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:44.142138 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:45.142331 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:46.148797 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:47.141156 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:48.143196 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:49.142122 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:50.141544 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:51.142046 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:52.140462 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:53.141229 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:54.141049 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:55.152297 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:56.140131 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:57.142750 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:58.140127 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:14:59.140316 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:00.142799 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:01.140719 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:02.146998 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:03.146486 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:04.146169 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:05.156951 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:06.138290 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:07.146884 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:08.141300 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:09.144942 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:10.138465 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:11.145828 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:12.142657 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:13.140676 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:14.142832 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:15.143276 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:16.142618 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:17.148154 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:18.150974 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:19.154405 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:20.144481 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:21.146323 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:22.143900 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:23.150068 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:24.144640 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:25.145764 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:26.144924 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:27.156823 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:28.144968 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:29.146287 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:30.144870 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:31.145821 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:32.143560 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:33.146435 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:34.144343 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:35.143533 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:36.142272 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:37.143924 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:38.145382 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:39.145951 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:40.144668 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:41.141731 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:42.150475 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:43.143348 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:44.143405 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:45.141546 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:46.144624 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:47.142668 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:48.141737 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:49.142791 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:50.143277 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:51.142635 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:52.145236 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:53.141961 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:54.144311 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:55.142583 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:56.144426 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:57.145721 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:58.142421 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:15:59.147923 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:00.145895 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:01.143594 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:02.143539 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:03.142328 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:04.142966 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:05.142990 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:06.141160 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:07.143924 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:08.140583 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:09.142143 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:10.140269 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:11.144112 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:12.143569 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:13.144883 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:14.151437 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:15.150382 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:16.141575 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:17.144476 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:18.142761 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:19.145309 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:20.143249 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:21.143798 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:22.145231 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:23.151651 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:24.146564 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:25.146131 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:26.143165 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:27.143816 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:28.143438 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:29.145289 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:30.143518 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:31.145135 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:32.145200 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:33.142379 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:34.143971 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:35.157244 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:36.142664 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:37.145022 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:38.141835 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:39.144419 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:40.145138 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:41.161201 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:42.145211 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:43.157987 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:44.161382 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:45.149137 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:46.143774 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:47.150802 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:48.153247 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:49.146518 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:50.143420 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:51.166898 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:52.169998 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:53.144098 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:54.144129 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:55.149562 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:56.155751 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:57.150951 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:58.149875 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:16:59.150168 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:00.144879 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:01.142473 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:02.145722 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:03.142313 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:04.143896 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:05.156756 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:06.143282 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:07.147087 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:08.143142 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:09.142467 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:10.150378 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:11.144965 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:12.144613 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:13.143651 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:14.173720 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:15.145203 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:16.148581 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:17.144276 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:18.151475 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:19.144768 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:20.142959 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:21.142331 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:22.146175 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:23.154894 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:24.143827 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:25.160961 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:26.143682 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:27.147629 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:28.142896 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:29.144773 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:30.156509 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:31.145583 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:32.149696 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:33.144937 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:34.143872 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:35.153491 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:36.141065 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:37.146334 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:38.142397 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:39.143311 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:40.149554 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:41.142902 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:42.141948 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:43.145254 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:44.144785 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:45.144547 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:46.143033 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:47.143098 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:48.143596 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:49.141445 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:50.144842 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:51.141180 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:52.149056 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:53.138224 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:54.141793 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:55.140976 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:56.141448 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:57.140314 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:58.138151 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:17:59.143373 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:00.144973 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:01.145777 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:02.145131 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:03.145387 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:04.148548 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:05.138841 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:06.141093 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:07.143083 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:08.144286 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:09.146096 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:10.140619 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:11.161373 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:12.141130 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:13.141881 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:14.145164 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:15.138473 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:16.141655 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:17.141131 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:18.137948 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:19.147598 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:20.144162 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:21.142204 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:22.140560 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:23.144273 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:24.138886 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:25.142010 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:26.137665 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:27.139683 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:28.138221 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:29.147476 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:30.139122 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:31.145579 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:32.138540 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:33.139111 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:34.140592 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:35.139667 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:36.136585 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:37.141780 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:38.139400 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:39.139842 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:40.144044 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:41.139365 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:42.138128 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:43.139683 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:44.143896 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:45.138279 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:46.139379 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:47.141669 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:48.141249 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:49.141959 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:50.139854 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:51.171725 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:52.145375 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:53.145114 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:54.155804 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:55.140141 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:56.150053 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:57.139751 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:58.145212 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:18:59.158483 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:00.154491 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:01.142964 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:02.147063 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:03.143770 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:04.141788 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:05.139590 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:06.149346 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:07.142099 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:08.144577 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:09.159950 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:10.143767 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:11.139302 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:12.143155 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:13.141574 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:14.140506 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:15.143226 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:16.140128 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:17.157713 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:18.139564 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:19.149818 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:20.143254 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:21.159744 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:22.143544 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:23.151572 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:24.148030 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:25.146785 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:26.146663 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:27.142912 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:28.140681 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:29.141708 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:30.139386 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:31.162353 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:32.138329 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:33.141451 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:34.140791 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:35.141630 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:36.139451 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:37.142033 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:38.141144 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:39.140156 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:40.138689 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:41.143525 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:42.163954 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:43.141407 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:44.140511 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:45.143056 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:46.142333 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:47.142721 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0623 11:19:54.174784 26045 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+E0623 11:19:54.787294 26045 hadmap_server.h:125] disconnect with localization for 5s
+E0623 11:19:54.787366 26045 hadmap_server.cpp:3350] loc cur is invalid! loc_cur_.id = 2152; loc_cur_.old_id = 2152.
+E0623 11:19:54.987308 26045 hadmap_server.cpp:3566] there isn't valid vehicle state! loc_cur_.old_id = 2152; loc_cur_.old_id = 2152.
+E0623 11:19:57.387351 26045 main.cpp:75] do hadmap server exit!

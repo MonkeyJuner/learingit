@@ -1,0 +1,36 @@
+k: 1
+k_sub: 40
+len_ahead: 120
+len_rear: 50
+len_ahead_for_loc: 50
+len_rear_for_loc: 50
+max_yaw_diff: 45.0
+m_per_pt: 0.5
+stop_line_shift_forward: -30.0
+map_erode_size: 6
+forbidden_lanes: ["1067_0", "1356_0", "1076_0", "1352_0", "1084_0"]
+perception_size_for_curve: 30.0  ## /2=15m,除去前方到惯导中心的5m,还剩下7-10m的预测
+distance_for_curve: 20.0
+distance_ahead_speed_limit_sign: 30
+default_speed_limit: 70.0
+# speed_limit_signs: 
+#     -
+#      x: 682898.862424
+#      y: 3110849.08589
+#      speed_limit: 40.0
+#     -
+#      x: 682310.369928
+#      y: 3111355.52616
+#      speed_limit: 40.0
+#     -
+#      x: 681643.786421
+#      y: 3112377.2729
+#      speed_limit: 70.0
+#     -
+#      x: 681773.843013
+#      y: 3112047.03586 
+#      speed_limit: 70.0
+#     -
+#      x: 681984.415971
+#      y: 3111709.69233 
+#      speed_limit: 70.0

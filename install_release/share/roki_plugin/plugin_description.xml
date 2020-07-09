@@ -1,0 +1,9 @@
+<library path="lib/libroki_plugin">
+  <class name="roki_plugin/RokiPad"
+         type="roki_plugin::RokiPad"
+         base_class_type="rviz::Panel">
+    <description>
+      RokiCar control.
+    </description>
+  </class>
+</library>

@@ -1,0 +1,16 @@
+<library path="lib/libhadmap_pick_point">
+    <class name="hadmap_pick_point/StartingPoint"
+           type="hadmap_pick_point::StartingPointTool"
+           base_class_type="rviz::Tool">
+        <description>
+            Tool for pick starting point in rviz.
+        </description>
+    </class>
+    <class name="hadmap_pick_point/FinishingPoint"
+           type="hadmap_pick_point::FinishingPointTool"
+           base_class_type="rviz::Tool">
+        <description>
+            Tool for pick finishing point in rviz.
+        </description>
+    </class>
+</library>

@@ -1,0 +1,58 @@
+#extrinsic:
+#  -
+#    child_id: "lidar_left"
+#    frame_id: "smartcar"
+#    heading: 51.8
+#    pitch: 0.6
+#    roll: -3.1
+#    delta_x: 0.0 # 5.0
+#    delta_y: 1.2
+#    delta_z: 1.52
+#  -
+#    child_id: "lidar_right"
+#    frame_id: "smartcar"
+#    heading: -53.0
+#    pitch: -2.4
+#    roll: 1.8
+#    delta_x: 0.0 # 5.0
+#    delta_y: -1.2
+#    delta_z: 1.52
+#  -
+#    child_id: "lidar_top"
+#    frame_id: "smartcar"
+#    heading: 0.2
+#    pitch: -0.8
+#    roll: 0.4
+#    delta_x: -1.5 # 3.5
+#    delta_y: 0.0
+#    delta_z: 3.4
+
+
+extrinsic:
+  -
+    child_id: "lidar_left"
+    frame_id: "smartcar"
+    heading: 63.7
+    pitch: 2.20
+    roll: 0.1
+    delta_x: 5.0
+    delta_y: 1.2
+    delta_z: 1.52
+  -
+    child_id: "lidar_right"
+    frame_id: "smartcar"
+    heading: -46.60
+    pitch: -0.2
+    roll: -0.3
+    delta_x: 5.0
+    delta_y: -1.2
+    delta_z: 1.52
+  -
+    child_id: "lidar_top"
+    frame_id: "smartcar"
+    heading: -0.2
+    pitch: 0.7
+    roll: -0.2
+    delta_x: 3.5
+    delta_y: 0.0
+    delta_z: 3.4

@@ -1,0 +1,8 @@
+Log file created at: 2020/06/17 15:46:27
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0617 15:46:27.574955  5807 main.cpp:64] current version is: 2.0.3.0a73361
+I0617 15:46:27.642956  5807 hadmap_server.cpp:47] map path: /home/xjm/port_ws/hmi/resources/app/dist/electron/static/maps/test_0523_1.json
+I0617 15:46:27.899894  5807 proto_organizer.cpp:358] hadmap statistics: roads-1,lanes-7,crosswalks-0,signals-0,junctions-0,overlaps-0
+I0617 15:46:27.972796  5807 routing.cpp:363] there is not forbidden_lanes!
+E0617 15:46:28.287951  5807 main.cpp:75] do hadmap server exit!

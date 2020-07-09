@@ -1,0 +1,335 @@
+mixin apriltag(args)
+  each n in args.nodes
+    group(ns=n.side)
+      node(
+        pkg='apriltags_trunktech'
+        type='ros_tag_node'
+        name='ros_tag_node'
+        clear_params='true'
+      )
+        param(name='camera_topic' type='string' value='/' + n.camera_name + '/pylon_camera_node/image_raw')
+        param(name='proto_txt_config' type='string' value=n.proto_file)
+        rosparam(command='load' file=n.config_file)
+        remap(from='/' + n.side + '/ros_tag_node/tag_localization' to='/' + n.side + '/tag_localization')
+        remap(from='/' + n.side + '/ros_tag_node/tag_ack' to='/' + n.side + '/tag_ack')
+
+mixin lane_line_gantry(args)
+  node(
+    pkg='lane_line'
+    name='lane_line_gantry'
+    type='lane_line_gantry'
+  )
+    rosparam(command='load' file=args.config_file)
+    param(name='ipm_proto_txt_config' type='string' value=args.ipm_file)
+    param(name='preprocessing_proto_txt_config' type='string' value='$(find lane_line)/config/preprocessing.txt')
+    param(name='lane_line_proto_txt_config' type='string' value='$(find lane_line)/config/proto.txt-anqiao')
+    param(name='lane_proto_txt_config' type='string' value='$(find lane_line)/config/proto.txt-new')
+    param(name='caffe_proto_file' type='string' value='$(find lane_line)/models/deploy.prototxt')
+    param(name='caffe_trained_file' type='string' value='$(find lane_line)/models/after_bn_calc2.caffemodel')
+
+
+mixin ibeo_lux(args)
+  node(
+    pkg='ibeo_lux'
+    name='ibeo_lux_pointcloud'
+    type='ibeo_lux_pointcloud'
+  )
+    rosparam(command='load' file=args.rosparam)
+
+
+mixin pandar40p(name, args)
+  node(
+    pkg='pandar40p'
+    name=name
+    type='pandar40p_node'
+  )
+    rosparam(command='load' file=args.rosparam)
+
+mixin ins550(args)
+  node(
+    pkg='ins550_driver'
+    type='ins550_driver_node'
+    name='ins550_driver_node'
+  )
+    rosparam(command='load' file=args.rosparam)
+
+
+mixin pylon_camera(args)
+  each n in args.nodes
+    group(ns=n.name)
+      node(
+        name='pylon_camera_node'
+        pkg='pylon_camera'
+        type='pylon_camera_node'
+      )
+        param(name='camera_frame' type='str' value='pylon_camera')
+        param(name='device_user_id' type='str' value=n.device_id)
+        param(name='camera_info_url' type='str' value=n.info_uri)
+        rosparam(command='load' file=n.config_file) 
+
+mixin rviz(args)
+  param(
+    name='robot_description'
+    command='xacro ' + args.xacro_file + ' meshdir:=' + args.mesh_dir
+  )
+  node(
+    name='joint_state_publisher'
+    pkg='joint_state_publisher'
+    type='joint_state_publisher'
+  )
+  node(
+    name='rviz_trunk'
+    pkg='rviz'
+    type='rviz'
+    args='-d $(find trunk_visualizer)/params/rviz_launch.rviz'
+  )
+  node(
+    pkg='sound_play'
+    name='sound_play'
+    type='soundplay_node.py'
+  )
+  node(
+    pkg='trunk_visualizer'
+    name='trunk_visualizer_node'
+    type='trunk_visualizer_node'
+  )
+    param(name="bg_path" type="string" value="$(find trunk_visualizer)/params/bg.jpg")
+    param(name="logo_path" type="string" value="$(find trunk_visualizer)/params/logo.png")
+    param(name="enter_ad_path" type="string" value="$(find trunk_visualizer)/params/sounds/enterAD.wav")
+    param(name="exit_ad_path" type="string" value="$(find trunk_visualizer)/params/sounds/exitAD.wav")
+    param(name="align_ok_path" type="string" value="$(find trunk_visualizer)/params/sounds/alignOk.wav")
+    param(name="align_wait_path" type="string" value="$(find trunk_visualizer)/params/sounds/alignWait.wav")
+    param(name="obstacle30_path" type="string" value="$(find trunk_visualizer)/params/sounds/obstacle30.wav")
+    param(name="obstacle10_path" type="string" value="$(find trunk_visualizer)/params/sounds/obstacle10.wav")
+    rosparam(command='load' file='$(find trunk_visualizer)/params/trunk_visualizer.yaml')
+
+
+mixin simulator(args)
+  node(name='simulator_node' pkg='simulator' type='simulator_node')
+
+
+mixin vlp16(args)
+  each n in args.nodes
+    node(
+      pkg='nodelet'
+      type='nodelet'
+      name=n.name + '_driver_nodelet'
+      args='load velodyne_driver/DriverNodelet '+ args.manager
+    )
+      rosparam(command='load' file=n.rosparam.driver)
+      remap(from='velodyne_packets' to=n.name + '/velodyne_packets')
+    node(
+      pkg='nodelet'
+      type='nodelet'
+      name=n.name + '_cloud_nodelet'
+      args='load velodyne_pointcloud/CloudNodelet '+ args.manager
+    )
+      rosparam(command='load' file=n.rosparam.cloud)
+      param(name='calibration' value=args.calibration)
+      remap(from='velodyne_packets' to=n.name + '/velodyne_packets')
+      remap(from='velodyne_points' to=n.name + '/velodyne_points')
+
+mixin vlp32(args)
+  each n in args.nodes
+    node(
+      pkg='nodelet'
+      type='nodelet'
+      name=n.name + '_driver_nodelet'
+      args='load velodyne_driver/DriverNodelet '+ args.manager
+    )
+      rosparam(command='load' file=n.rosparam.driver)
+      remap(from='velodyne_packets' to=n.name + '/velodyne_packets')
+    node(
+      pkg='nodelet'
+      type='nodelet'
+      name=n.name + '_cloud_nodelet'
+      args='load velodyne_pointcloud/CloudNodelet '+ args.manager
+    )
+      rosparam(command='load' file=n.rosparam.cloud)
+      param(name='calibration' value=args.calibration)
+      remap(from='velodyne_packets' to=n.name + '/velodyne_packets')
+      remap(from='velodyne_points' to=n.name + '/velodyne_points')
+
+mixin obstacle(args)
+  node(
+    pkg='nodelet'
+    type='nodelet'
+    name=args.name
+    args='load trunktech/ObstacleNodelet '+ args.manager
+  )
+    rosparam(command='load' file="$(find fusion_detection_nodelet)/params/obstacle.yaml")
+
+mixin harbor_detection(args)
+  node(
+    pkg='nodelet'
+    type='nodelet'
+    name=args.name
+    args='load trunktech/HarborNodelet '+ args.manager
+  )
+    rosparam(command='load' file="$(find fusion_detection_nodelet)/params/harbor_detection.yaml")
+
+mixin seg_and_ext(args)
+  each n in args.nodes
+    node(
+      pkg='nodelet'
+      type='nodelet'
+      name=n.name
+      args='load trunktech/SegmentationNodelet '+ args.manager
+    )
+      rosparam(command='load' file=n.rosparam)
+  node(
+    pkg='fusion_detection_nodelet'
+    type='extrinsic_node'
+    name='extrinsic_node'
+  )
+    rosparam(command='load' file=args.rosparam)
+
+mixin lidar_calibration(args)
+  node(
+    pkg=args.pkg
+    name=args.name
+    type=args.type
+  )
+    rosparam(command='load' file=args.rosparam)
+  node(
+    name='rviz_lidar'
+    pkg='rviz'
+    type='rviz'
+    args='-d $(find fusion_detection_nodelet)/params/fusion_detection.rviz'
+  )
+
+mixin function_node(args)
+  node(
+    pkg=args.pkg
+    name=args.name
+    type=args.type
+  )
+    if args.param
+      each np in args.param
+        param(name=np.name type=np.type value=np.value)
+    if args.rosparam
+      rosparam(command='load' file=args.rosparam)
+
+mixin localization_node(args)
+  node(
+    pkg=args.pkg
+    name=args.name
+    type=args.type
+    clear_params='true'
+  )
+    rosparam(command='load' file=args.rosparam)
+
+mixin lidar_loc(args)
+  node(
+    pkg=args.pkg
+    name=args.name
+    type=args.type
+  )
+    rosparam(command='load' file=args.rosparam)
+    param(name='path_prefix' type='string' value='$(find lidar_localization)')
+
+mixin slam_loc(args)
+  node(
+    pkg='tf'
+    type="static_transform_publisher"
+    name="camera_init_to_map"
+    args="0 0 0 1.570795 0 1.570795 /map /camera_init 100"
+  )
+  node(
+    pkg='tf'
+    type="static_transform_publisher"
+    name="base_link_to_camera"
+    args="0 0 0 -1.570795 -1.570795 0 /camera /base_link 100"
+  )
+  node(
+    pkg="lego_loam"
+    type="imageProjection"
+    name="imageProjection"
+  )
+    rosparam(command='load' file=args.rosparam)
+  node(
+    pkg="lego_loam"
+    type="featureAssociation"
+    name="featureAssociation"
+  )
+    rosparam(command='load' file=args.rosparam)
+  node(
+    pkg="lego_loam"
+    type="mapOptmization"
+    name="mapOptmization"
+  )
+    rosparam(command='load' file=args.rosparam)
+  node(
+    pkg="lego_loam"
+    type="transformFusion"
+    name="transformFusion"
+  )
+    rosparam(command='load' file=args.rosparam)
+
+
+mixin monitor(args)
+  node(
+    pkg='moniter'
+    name='moniter_node'
+    type='moniter_node'
+  )
+    param(name='nums' type='int' value=args.nums)
+    param(name='duration' type='int' value=args.duration)
+    rosparam(param='topicList')
+      each t in args.topicList
+        |  #{''}
+        |  #{t.node}: #{t.topic}
+
+mixin nodelet(args)
+  node(
+    pkg='nodelet'
+    type='nodelet'
+    name=args
+    args='manager'
+  )
+
+launch
+  +nodelet('perception_nodelet_manager')
+  each n in cameras
+    if n.name == 'apriltag'
+      +apriltag(n.args)
+    else if n.name == 'pylon_camera'
+      +pylon_camera(n.args)
+  each n in lidars
+    if n.name == 'vlp16'
+      +vlp16(n.args)
+    else if n.name == 'ibeo_lux'
+      +ibeo_lux(n.args)
+    else if n.name == 'vlp32'
+      +vlp32(n.args)
+    else if n.name == 'pandar40p_0'
+      +pandar40p(n.name, n.args)
+    else if n.name == 'pandar40p_2'
+      +pandar40p(n.name, n.args)
+  each n in inertial_navigators
+    if n.name == 'ins550'
+      +ins550(n.args)
+  each n in function_nodes
+    if n.name == 'simulator_node'
+      +simulator(n.args)
+    else if n.name == 'rviz_trunk'
+      +rviz(n.args)
+    else if n.name == 'ekf_localization_node'
+      +localization_node(n)
+    else if n.name == 'lidar_localization'
+      +lidar_loc(n)
+    else if n.name == 'lane_line_gantry'
+      +lane_line_gantry(n)
+    else if n.name == 'slam_loc'
+      +slam_loc(n)
+    else if n.name == 'seg_and_ext'
+      +seg_and_ext(n)
+    else if n.name == 'harbor_detection_nodelet'
+      +harbor_detection(n)
+    else if n.name == 'obstacle_nodelet'
+      +obstacle(n)
+    else if n.name == 'calibration_node'
+      +lidar_calibration(n)
+    else
+      +function_node(n)
+  +monitor(monitor)

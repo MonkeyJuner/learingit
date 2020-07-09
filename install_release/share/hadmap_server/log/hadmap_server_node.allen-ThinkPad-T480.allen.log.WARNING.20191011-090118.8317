@@ -1,0 +1,25 @@
+Log file created at: 2019/10/11 09:01:18
+Running on machine: allen-ThinkPad-T480
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E1011 09:01:18.896767  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:18.897727  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:18.899667  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:18.900444  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:18.902029  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:18.902932  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:18.904814  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:18.905738  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:18.907645  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:18.908563  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:18.910459  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:18.911382  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:18.919832  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:18.920580  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:18.923681  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:18.924415  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:19.069380  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:19.070147  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:19.071741  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:19.072664  8317 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1011 09:01:20.054555  8317 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E1011 09:01:45.455374  8317 main.cpp:75] do hadmap server exit!

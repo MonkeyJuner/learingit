@@ -1,0 +1,53 @@
+Log file created at: 2019/09/11 16:10:25
+Running on machine: trunk-Nuvo-6108GC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0911 16:10:25.325172 29466 load_params.cpp:121] id: 201	dist: 3.45	type: 0
+I0911 16:10:25.325419 29466 load_params.cpp:121] id: 202	dist: 3.3	type: 0
+I0911 16:10:25.325428 29466 load_params.cpp:121] id: 203	dist: 4.05	type: 0
+I0911 16:10:25.325433 29466 load_params.cpp:121] id: 204	dist: 3.75	type: 0
+I0911 16:10:25.325436 29466 load_params.cpp:121] id: 205	dist: 4.35	type: 0
+I0911 16:10:25.325440 29466 load_params.cpp:121] id: 206	dist: 3.9	type: 0
+I0911 16:10:25.325444 29466 load_params.cpp:121] id: 207	dist: 3.15	type: 0
+I0911 16:10:25.325448 29466 load_params.cpp:121] id: 208	dist: 3.6	type: 0
+I0911 16:10:25.325451 29466 load_params.cpp:121] id: 209	dist: 3.455	type: 0
+I0911 16:10:25.325455 29466 load_params.cpp:121] id: 210	dist: 4.2	type: 0
+I0911 16:10:25.325459 29466 load_params.cpp:121] id: 211	dist: 3.3	type: 0
+I0911 16:10:25.325464 29466 load_params.cpp:121] id: 212	dist: 3	type: 0
+I0911 16:10:25.325467 29466 load_params.cpp:121] id: 311	dist: 2.38	type: 0
+I0911 16:10:25.325471 29466 load_params.cpp:121] id: 312	dist: 2.2	type: 0
+I0911 16:10:25.325475 29466 load_params.cpp:121] id: 313	dist: 2.69	type: 0
+I0911 16:10:25.325479 29466 load_params.cpp:121] id: 314	dist: 2.2	type: 0
+I0911 16:10:25.325482 29466 load_params.cpp:121] id: 315	dist: 2.41	type: 0
+I0911 16:10:25.325486 29466 load_params.cpp:121] id: 316	dist: 2.2	type: 0
+I0911 16:10:25.325490 29466 load_params.cpp:121] id: 321	dist: 2.36	type: 0
+I0911 16:10:25.325495 29466 load_params.cpp:121] id: 322	dist: 2.2	type: 0
+I0911 16:10:25.325498 29466 load_params.cpp:121] id: 323	dist: 2.4	type: 0
+I0911 16:10:25.325502 29466 load_params.cpp:121] id: 324	dist: 2.17	type: 0
+I0911 16:10:25.325506 29466 load_params.cpp:121] id: 325	dist: 2.4	type: 0
+I0911 16:10:25.325510 29466 load_params.cpp:121] id: 326	dist: 2.18	type: 0
+I0911 16:10:25.325513 29466 load_params.cpp:121] id: 327	dist: 2.43	type: 0
+I0911 16:10:25.325517 29466 load_params.cpp:121] id: 331	dist: 2.42	type: 0
+I0911 16:10:25.325521 29466 load_params.cpp:121] id: 332	dist: 2.19	type: 0
+I0911 16:10:25.325525 29466 load_params.cpp:121] id: 333	dist: 2.6	type: 0
+I0911 16:10:25.325528 29466 load_params.cpp:121] id: 334	dist: 2.21	type: 0
+I0911 16:10:25.325532 29466 load_params.cpp:121] id: 335	dist: 2.42	type: 0
+I0911 16:10:25.325536 29466 load_params.cpp:121] id: 336	dist: 2.2	type: 0
+I0911 16:10:25.325539 29466 load_params.cpp:121] id: 341	dist: 2.2	type: 0
+I0911 16:10:25.325543 29466 load_params.cpp:121] id: 342	dist: 2.38	type: 0
+I0911 16:10:25.325547 29466 load_params.cpp:121] id: 343	dist: 2.19	type: 0
+I0911 16:10:25.325577 29466 load_params.cpp:121] id: 344	dist: 2.37	type: 0
+I0911 16:10:25.325582 29466 load_params.cpp:121] id: 345	dist: 3.6	type: 0
+I0911 16:10:25.325584 29466 load_params.cpp:121] id: 346	dist: 2.2	type: 0
+I0911 16:10:25.325588 29466 load_params.cpp:121] id: 351	dist: 2.37	type: 0
+I0911 16:10:25.325592 29466 load_params.cpp:121] id: 352	dist: 2.2	type: 0
+I0911 16:10:25.325597 29466 load_params.cpp:121] id: 353	dist: 2.6	type: 0
+I0911 16:10:25.325599 29466 load_params.cpp:121] id: 354	dist: 2.21	type: 0
+I0911 16:10:25.325603 29466 load_params.cpp:121] id: 355	dist: 2.39	type: 0
+I0911 16:10:25.325608 29466 load_params.cpp:121] id: 356	dist: 2.2	type: 0
+I0911 16:10:40.746351 29466 lidar_alignment_node.cpp:88] TOS msg--> id=Q309, type=1, container=40, lane_id=2	MAP msg--> id=209, type=1, container=40, lane_id=2, shift=-1.23
+I0911 16:12:33.060371 29466 reflector_detector.cpp:212] two_ reflector dist: 6.12357
+I0911 16:12:35.057667 29466 reflector_detector.cpp:212] two_ reflector dist: 19.1273
+I0911 16:12:51.363667 29466 reflector_detector.cpp:212] two_ reflector dist: 2.01138
+I0911 16:12:51.455829 29466 reflector_detector.cpp:212] two_ reflector dist: 2.01136
+I0911 16:12:51.569221 29466 reflector_detector.cpp:212] two_ reflector dist: 2.03095
+I0911 16:12:54.060624 29466 reflector_detector.cpp:212] two_ reflector dist: 2.03277

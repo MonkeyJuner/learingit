@@ -1,0 +1,150 @@
+msg_timeout:
+
+  sub_global_map:     0.5
+  local_map:          0.5
+  perception_objects: 0.5
+  decision_cmd:       0.5
+  planning_cmd:       0.5
+  vehicle_cmd:        0.5
+  vehicle_state:      0.5
+  vehicle_info:       0.5
+  lux_object:         0.5
+  tag_localization:   0.5
+  occupancy_grid:     0.5
+  plc_stop_cmd:       0.5
+  vehicle_other_info: 0.5
+  traffic_sign:       2.0
+
+#planning parameters
+function_switch:
+    # perception_type = 0 do not use perception
+    # perception_type = 1 use objects list
+    # perception_type = 2 use occupancy grid map
+    # perception_type = 3 use occupancy grid map and objects list
+    perception_type:                3
+    does_use_stop_msg:              true
+    does_use_plc_stop_cmd:          true
+    # does_initiative_change_lane = true  change lane to overtake vehicle in front of self
+    # does_initiative_change_lane = false only change lane for target lane and para
+    does_initiative_change_lane:    true
+    does_term_change_lane:          false
+    does_force_vehicle_cmd:         true
+    does_draw_debug_image:          true
+    does_use_external_brake_dis:    false
+    # does_use_external_speed_limit = true  use external speed limit 
+    # does_use_external_speed_limit = false use hadmap speed limit 
+    does_use_external_speed_limit:  false
+    does_filter_obs_by_map:         false
+
+# if vehicle dis from the nearest lane > max_deviate_dis, do not planning, send estop
+max_deviate_dis:                    10
+# if remain waypoints < min_road_point_num_front, do not planning, send estop
+min_road_point_num_front:           0
+# base to head length
+zero_to_head_len:                   6.142
+# base to tail length
+zero_to_tail_len:                   2.142
+# vehicle width
+vehicle_width:                      3.138
+
+main_loop_frequence:                25.0
+# min distance to stop line for some process
+min_stop_line_dis:                  100.0
+# speed limit by pnd
+external_speed_limit:               10.0
+
+lateral_decision:
+    # max(stitch_update_coef * abs(speed), stitch_update_min_dis)
+    stitch_update_min_dis:          10.0
+    stitch_update_coef:             0.3
+    clear_percent:                  0.9
+    block_percent:                  0.1
+    slow_dis_second:                10.0
+    slow_ttc:                       10.0
+    more_check_times:               10
+    less_check_times:               3
+    check_interval:                 0.4
+
+speed_decision:
+    stop_slow_speed:                14.4
+    stop_wait_time:                 10.0
+    stop_wait_dis:                  50.0
+    pull_slow_speed:                21.6
+    pull_wait_time:                 10.0
+
+lateral_planning:
+    # can not change lane type
+    cannot_change_lane_type:        1,2,3,10
+    # max(longitu_sample_coef * abs(speed) * abs(lateral_dis), longitu_sample_min_dis)
+    longitu_sample_min_dis:         30.0
+    longitu_sample_coef:            0.7
+    longitu_pullover_coef:          0.35
+    # max(back_ref_coef * abs(speed), back_ref_min_dis)
+    back_ref_min_dis:               30.0
+    back_ref_coef:                  2.0
+    # replan distance dievate from path
+    replan_lat_dis:                 10.0
+
+    stop_time_for_replan:           2.0
+
+speed_planning:
+    target_slide_speed:             4.0   # killometer
+    target_slide_dis:               10.0
+    target_estop_dis:               1.0
+    min_stopline_change_dis:        1.4
+    stop_dcc:                       0.05
+    follow_dcc:                     0.05
+    safe_dis:                       10.0
+    safe_dis_coef:                  0.5
+    follow_dis:                     15.0
+    follow_speed_offset:            7.2
+    follow_dis_coef:                1.2
+    estop_brake:                    0.45, 0.50
+    slow_estop_coef:                0.5
+
+    pull_over_dcc:                  0.2
+    wait_change_dcc:                0.1
+
+    estop2park_second:              0.5
+
+    rt_speed_limit:
+        # std::min(std::max(min_curv_speed_limit, curv_speed_limit_param_a / curv), speed_limit)
+        min_curv_speed_limit:       8.0  
+        curv_speed_limit_param_a:   0.2
+        rt_speed_back_pts:          30
+
+    speed_thr:
+        acc_norm_const:             1.5
+        acc_const_norm:             2.0
+        acc_fast_norm:              6.0
+        acc_norm_fast:              8.0
+        dcc_norm_const:             1.5
+        dcc_const_norm:             3.0
+        dcc_fast_norm:              6.0
+        dcc_norm_fast:              8.0
+
+
+virtual_wall:
+    safe_second:                    5.0
+
+object_list:
+    min_obj_age:                    5
+    obj_min_speed_for_predict:      1.0
+    obj_min_dis_for_predict:        15.0
+    veh_min_dis_for_predict:        20.0
+    safe_dis_for_predict:           15.0
+    dis_for_speed_ctl:              0.5, 1.0
+
+occupancy_grid:
+    dilate_sz:                      2.9
+    blur_sz:                        2.5
+
+force_vehicle_cmd:
+    min_speed_for_handle:           0.1
+    min_offset_for_finish:          0.05
+    max_offset_for_handle:          1.5
+    max_times_for_finish:           10
+    inter_second_of_twice:          5.0
+    max_second_send_accurate:       50.0
+
+

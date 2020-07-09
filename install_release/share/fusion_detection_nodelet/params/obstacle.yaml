@@ -1,0 +1,79 @@
+noise_filter:
+  need_filter: true
+  dist_thres: 1.0
+  scale: 0.25          # 0.25米一个格子
+  min_pts_in_grid: 3   # 在cv格子内最少的点数, >=
+  nearest_k: 4
+
+bg_extraction:
+  bg_intervial: 10
+  frame_nums: 5
+  size_x: 8000
+  size_y: 8000
+  anchor_x: 568124.52403
+  anchor_y: 4314450.01356
+  shift_x: 6000
+  shift_y: 1200
+
+trailer_filter:
+  need_filter: true
+  trailer:
+      x1: -13.0
+      y1: -1.5
+      x2: 0.5
+      y2: 1.5
+  angle_min: -5.0
+  angle_max: 5.0
+  angle_precision: 1
+  rotate_center: -0.5
+  trailer_debug: false
+
+##################################3
+
+clustering:
+  radium_sz: 300
+  theta_sz: 900 # 0.4 degree
+  radium_scale: 2.0
+  truck_z_min: 1.95
+  car_z_min: 0.0
+  ped_z_min: 0.0
+  radium_search: 2
+  dist_search: 3
+  rot_resolution: 0.2
+  vert_resolution: 0.5
+  min_size_filter: 6
+  filter_size_scale: 2
+  delta_x: 5.0
+
+
+fitting_box:
+  rect:
+    min_pts: 10
+    min_w: 1.0
+    min_h: 1.0
+    external_z: 3.5
+  convex:
+    min_pts: 10
+    max_w: 15.0
+    max_h: 15.0
+    min_z: 0.5
+    max_z: 3.0
+    external_z: 3.5
+
+
+tracking:
+  display_debug: false
+  motion:
+    enter_max_v_diff: 4.0
+    continue_max_v_diff: 4.0
+  cost:
+    d_thres: 30.0
+    d_weight: 1.0
+    d_pred_thres: 10.0
+    d_pred_weight: 1.0
+    sz_thres: 8.0
+    sz_weight: 1.0
+  max_missing_times: 5
+  min_age: 5
+
+

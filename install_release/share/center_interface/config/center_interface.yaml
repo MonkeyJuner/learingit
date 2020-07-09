@@ -1,0 +1,6 @@
+tos_address: "10.160.101.2"
+tos_port: 13101
+udp_address: "192.168.8.100"
+udp_port: 10086
+heartbeat_interval: 15
+log_level: "debug"

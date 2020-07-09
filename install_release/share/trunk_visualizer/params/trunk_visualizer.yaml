@@ -1,0 +1,7 @@
+perception:
+  left_lidar: "/vlp32_0/velodyne_points"
+  right_lidar: "/vlp32_2/velodyne_points"
+  top_lidar: "/vlp16_1/velodyne_points"
+
+
+

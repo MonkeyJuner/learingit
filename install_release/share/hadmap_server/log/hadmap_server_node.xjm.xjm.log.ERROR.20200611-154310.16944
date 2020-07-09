@@ -1,0 +1,6 @@
+Log file created at: 2020/06/11 15:43:10
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0611 15:43:10.677603 16944 hadmap_server.cpp:51] map path if empty!
+E0611 15:43:10.678102 16944 hadmap_server.cpp:67] load param fail!
+E0611 15:43:10.678149 16944 main.cpp:69] hadmap server init fail!

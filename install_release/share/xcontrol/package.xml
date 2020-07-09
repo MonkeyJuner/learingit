@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>xcontrol</name>
+  <version>2.0.2</version>
+  <description>The control package</description>
+
+  <maintainer email="liuyi@trunk.tech">liuyi</maintainer>
+  <author email="xiejianming@trunk.tech">xiejianming</author>
+  <author email="wuyanjun@trunk.tech">wuyanjun</author>
+  <author email="mapengtao@trunk.tech">mapengt</author>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+
+  <depend>geometry_msgs</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>pnc_msgs</depend>
+  <depend>pncc_msgs</depend>
+  <depend>diagnose_msgs</depend>
+  <depend>localization_msgs</depend>
+  <depend>xe</depend>
+
+  <exec_depend>message_runtime</exec_depend>
+
+  <test_depend>rosunit</test_depend>
+  <test_depend>rostest</test_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

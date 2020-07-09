@@ -1,0 +1,46 @@
+Log file created at: 2020/05/14 10:44:25
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0514 10:44:25.256333 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.257972 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.260771 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.262004 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.264564 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.265925 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.269062 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.270529 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.273511 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.275259 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.278844 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.280789 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.294885 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.296346 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.301726 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.302799 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.548552 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.549959 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.552628 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:25.554432 27805 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0514 10:44:26.910384 27805 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0514 10:45:11.318156 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 10:45:11.518035 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 10:45:11.718264 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 10:45:11.914918 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 10:45:11.915060 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 10:45:12.115679 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 10:45:12.314903 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 10:45:12.515226 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 10:45:12.718138 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 10:45:12.924913 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 10:45:12.925040 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 13:47:07.514531 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 13:47:07.714799 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 13:47:07.915066 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 13:47:07.915194 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 13:47:08.114548 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 13:47:08.314524 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 13:47:08.514401 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 13:47:08.714485 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 13:47:08.922937 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 13:47:08.923063 27805 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0514 13:47:54.910585 27805 main.cpp:75] do hadmap server exit!

@@ -1,0 +1,8 @@
+prefix=/home/wuhaisheng/Workspace/catkin_integration/install
+
+Name: center_interface
+Description: Description of center_interface
+Version: 1.4.4
+Cflags: -I/home/wuhaisheng/Workspace/catkin_integration/install/include
+Libs: -L/home/wuhaisheng/Workspace/catkin_integration/install/lib 
+Requires: 

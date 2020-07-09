@@ -1,0 +1,1258 @@
+Log file created at: 2020/01/01 21:55:45
+Running on machine: allen-ThinkPad-T480
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0101 21:55:45.174981 27658 main.cpp:64] current version is: 2.0.3.0a73361
+I0101 21:55:45.211421 27658 hadmap_server.cpp:47] map path: /home/allen/workspace/port_ws/hmi/resources/app/dist/electron/static/maps/wz_0907_2.2.json
+I0101 21:55:46.680374 27658 proto_organizer.cpp:358] hadmap statistics: roads-389,lanes-659,crosswalks-0,signals-0,junctions-0,overlaps-0
+I0101 21:55:47.073504 27658 routing.cpp:363] there is not forbidden_lanes!
+I0101 21:55:47.382460 27658 hadmap_server.cpp:3560] there isn't vehicle state
+E0101 21:55:47.382481 27658 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I0101 21:55:47.782696 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:47.982710 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:48.182796 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:48.382781 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:48.582779 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:48.782796 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:48.982776 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:49.182814 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:49.382997 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:49.582770 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:49.782610 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:49.982573 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:50.182772 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:50.382704 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:50.582692 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:50.782666 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:50.982990 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:51.183007 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:51.383071 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:51.583078 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:51.782778 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:51.982803 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:52.182770 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:52.382709 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:52.582839 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:52.782714 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:52.983103 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:53.182667 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+I0101 21:55:54.982863 27658 hadmap_server.cpp:523] current pose: x:567442.0045; y:4315021.208; yaw: 5.586351061
+I0101 21:55:54.982960 27658 hadmap_server.cpp:525] multi dst:
+I0101 21:55:54.982972 27658 hadmap_server.cpp:528] x: 567689; y: 4314957
+I0101 21:55:55.071946 27658 routing.cpp:363] there is not forbidden_lanes!
+I0101 21:55:55.084082 27658 routing.cpp:226] start lane id: 1408_0 ; end lane id: 1040_2.
+I0101 21:55:55.084193 27658 hadmap_server.cpp:633] planning path:
+I0101 21:55:55.084200 27658 hadmap_server.cpp:636] lane id: 1408_0
+I0101 21:55:55.084203 27658 hadmap_server.cpp:636] lane id: 1829_0
+I0101 21:55:55.084206 27658 hadmap_server.cpp:636] lane id: 1768_0
+I0101 21:55:55.084209 27658 hadmap_server.cpp:636] lane id: 1367_0
+I0101 21:55:55.084213 27658 hadmap_server.cpp:636] lane id: 1150_0
+I0101 21:55:55.084215 27658 hadmap_server.cpp:636] lane id: 1854_0
+I0101 21:55:55.084219 27658 hadmap_server.cpp:636] lane id: 1373_0
+I0101 21:55:55.084223 27658 hadmap_server.cpp:636] lane id: 1041_0
+I0101 21:55:55.084225 27658 hadmap_server.cpp:636] lane id: 1040_2
+I0101 21:55:55.085151 27658 hadmap_server.cpp:645] find sub global map success!
+I0101 21:56:28.988991 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567512.2962, y: 4314975.869 ; yaw: 0.0115135502
+I0101 21:56:29.189296 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567512.6851, y: 4314975.875 ; yaw: 0.02060290273
+I0101 21:56:29.388418 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.0763, y: 4314975.885 ; yaw: 0.02974587848
+I0101 21:56:29.592613 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.4675, y: 4314975.899 ; yaw: 0.03889387317
+I0101 21:56:29.791877 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.747, y: 4314975.911 ; yaw: 0.04542966936
+I0101 21:56:29.991230 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:30.191205 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:30.389271 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:30.594821 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:30.790405 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:30.991727 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:31.189184 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:31.387701 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:31.595448 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:31.796658 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:31.990834 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:32.190506 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:32.391085 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:32.591135 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:32.790956 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:32.991006 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:33.190775 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:33.391152 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:33.591115 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:33.792223 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:33.995273 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:34.192296 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:34.392300 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:34.592370 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:34.788370 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:34.991853 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:35.195442 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:35.388798 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:35.588254 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:35.790681 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:35.988904 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:36.187500 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:36.387408 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:36.591845 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:36.791908 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:36.995335 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:37.189601 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:37.391647 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:37.595824 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:37.786202 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:37.995558 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:38.195824 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:38.390728 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:38.588951 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:38.790820 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:38.989130 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:39.195437 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:39.391499 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:39.591432 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:39.795194 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:39.988994 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:40.195631 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:40.391046 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:40.591840 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:40.795235 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:40.995498 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:41.192495 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:41.392608 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:41.595043 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:41.795895 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:41.990792 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:42.187328 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:42.394927 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:42.589651 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:42.792073 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:42.991955 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:43.186784 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:43.393932 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:43.592120 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:43.792389 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:43.992857 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:44.195175 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:44.388701 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:44.590862 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:44.795420 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:44.988773 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:45.190984 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:45.393944 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:45.596141 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:45.794345 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:45.988947 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:46.188907 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:46.392257 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:46.594832 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:46.790866 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:46.989507 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:47.192165 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:47.394438 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:47.587481 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:47.791635 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:47.991849 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:48.187683 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:48.388645 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:48.591480 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:48.791401 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:48.988819 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:49.188735 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:49.389065 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:49.590651 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:49.795006 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:49.989533 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:50.191053 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:50.390087 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:50.592398 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:50.787083 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:50.995092 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:51.187103 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:51.388968 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:51.587061 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:51.791131 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:51.992264 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:52.191566 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:52.388846 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:52.591178 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:52.795501 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:52.994648 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:53.193500 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:53.388571 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:53.590652 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:53.788621 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:53.989476 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:54.189143 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:54.392462 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:54.591856 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:54.790552 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:54.992377 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:55.189878 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:55.395555 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:55.587769 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:55.790834 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:55.995767 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:56.194875 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:56.388172 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:56.595125 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:56.791350 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:56.991448 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:57.188941 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:57.392446 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:57.590644 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:57.789135 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:57.992358 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:58.192296 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:58.391006 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:58.593951 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:58.789273 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:58.994704 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:59.188639 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:59.396389 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:59.588785 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:59.792835 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:56:59.994773 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:00.189590 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:00.389286 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:00.590695 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:00.791074 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:00.991688 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:01.191609 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:01.389288 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:01.595389 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:01.791651 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:01.990775 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:02.190881 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:02.395062 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:02.591764 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:02.792574 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:02.990836 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:03.190810 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:03.395272 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:03.589025 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:03.789783 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:03.989256 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:04.195196 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:04.391449 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:04.594980 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:04.786967 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:04.991643 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:05.188486 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:05.396494 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:05.588605 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:05.795246 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:05.988979 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:06.189111 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:06.391378 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:06.586426 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:06.791040 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:06.991053 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:07.190611 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:07.389698 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:07.588836 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:07.791528 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:07.995544 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:08.189123 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:08.395156 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:08.588891 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:08.791180 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:08.991062 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:09.190798 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:09.396800 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:09.588582 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:09.795248 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:09.989454 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:10.190858 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:10.390645 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:10.590855 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:10.795223 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:10.994873 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:11.191406 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:11.391580 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:11.597726 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:11.791209 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:11.992036 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:12.191386 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:12.395859 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:12.589395 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:12.788950 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:12.988823 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:13.195716 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:13.391602 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:13.587576 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:13.791563 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:13.995096 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:14.191287 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:14.391330 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:14.591586 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:14.792387 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:14.992465 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:15.191550 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:15.392155 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:15.590782 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:15.791164 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:15.990828 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:16.190636 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:16.387552 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:16.591796 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:16.791115 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:16.994451 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:17.192577 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:17.392480 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:17.591907 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:17.791529 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:17.988752 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:18.190928 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:18.393944 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:18.595096 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:18.795619 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:18.996208 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:19.190613 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:19.393764 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:19.595489 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:19.788787 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:19.988135 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:20.189958 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:20.388911 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:20.600198 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:20.787834 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:20.992151 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:21.193835 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:21.386857 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:21.590456 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:21.795004 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:21.988827 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:22.189190 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:22.389988 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:22.594125 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:22.796206 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:22.996062 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:23.192725 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:23.391067 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:23.588217 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:23.795783 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:23.987741 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:24.187314 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:24.397691 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:24.589041 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:24.791713 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:24.987448 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:25.189626 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:25.390648 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:25.595440 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:25.792835 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:25.992789 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:26.191335 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:26.388924 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:26.594216 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:26.788084 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:26.991457 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:27.188187 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:27.392436 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:27.591217 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:27.791402 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:27.990926 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:28.187903 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:28.392067 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:28.595773 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:28.788856 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:28.992965 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:29.195514 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:29.389787 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:29.588793 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:29.795274 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:29.995788 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:30.195679 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:30.388510 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:30.590687 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:30.790041 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:30.991863 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:31.186918 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:31.395313 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:31.588367 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:31.792870 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:31.990782 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:32.188871 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:32.391786 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:32.591543 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:32.790779 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:32.991591 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:33.193574 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:33.386900 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:33.596998 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:33.796284 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:33.997287 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:34.197912 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:34.391903 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:34.587404 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:34.788134 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:34.989142 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:35.190336 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:35.393860 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:35.589582 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:35.788255 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:35.990981 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:36.190171 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:36.389596 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:36.591452 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:36.791411 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:36.988911 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:37.194370 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:37.389654 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:37.591687 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:37.795122 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:37.989150 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:38.195336 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:38.391978 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:38.587321 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:38.791430 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:38.988958 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:39.195611 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:39.389047 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:39.595063 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:39.790298 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:39.989312 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:40.186332 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:40.389948 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:40.596644 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:40.788782 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:40.987418 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:41.192247 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:41.390424 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:41.588491 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:41.790882 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:41.994067 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:42.189620 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:42.395097 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:42.591778 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:42.787833 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:42.989331 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:43.196785 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:43.394336 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:43.588313 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:43.794845 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:43.994967 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:44.191376 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:44.394739 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:44.591198 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:44.795224 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:44.991622 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:45.189126 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:45.392664 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:45.590641 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:45.794219 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:45.988898 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:46.189471 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:46.388582 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:46.592507 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:46.787487 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:46.995080 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:47.195088 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:47.395112 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:47.590770 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:47.794718 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:47.995028 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:48.194957 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:48.386080 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:48.585875 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:48.785853 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:48.993692 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:49.190785 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:49.388700 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:49.589092 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:49.792430 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:49.991289 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:50.191066 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:50.390822 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:50.593466 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:50.788678 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:50.989313 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:51.189260 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:51.388267 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:51.594902 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:51.799547 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:51.992465 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:52.193480 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:52.395179 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:52.595158 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:52.792030 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:52.991464 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:53.195215 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:53.389115 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:53.596159 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:53.791339 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:53.995282 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:54.192286 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:54.392513 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:54.595360 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:54.792372 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:54.993165 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:55.191890 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:55.392606 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:55.590615 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:55.787250 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:55.994540 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:56.189085 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:56.389904 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:56.595665 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:56.791026 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:56.989657 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:57.191686 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:57.391069 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:57.595023 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:57.785984 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:57.995157 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:58.191931 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:58.389230 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:58.588397 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:58.796407 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:58.988961 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:59.192559 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:59.395172 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:59.590585 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:59.795437 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:57:59.995167 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:00.195399 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:00.392815 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:00.592742 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:00.795011 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:00.995075 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:01.193503 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:01.395169 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:01.594081 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:01.786991 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:01.994755 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:02.193770 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:02.390727 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:02.595130 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:02.795115 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:02.988193 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:03.188520 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:03.388727 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:03.595376 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:03.791512 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:03.992857 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:04.195659 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:04.394753 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:04.590664 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:04.788952 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:04.995992 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:05.189002 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:05.387681 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:05.587847 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:05.786571 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:05.986763 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:06.186530 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:06.386257 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:06.586781 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:06.790637 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:06.989655 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:07.187032 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:07.386158 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:07.593073 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:07.786530 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:07.986029 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:08.187038 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:08.387496 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:08.589284 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:08.789755 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:08.990442 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:09.186929 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:09.387384 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:09.587623 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:09.789301 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:09.987427 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:10.185767 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:10.389343 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:10.589704 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:10.788223 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:10.989363 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:11.187005 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:11.389508 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:11.586185 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:11.786082 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:11.988533 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:12.186244 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:12.386178 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:12.586692 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:12.786496 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:12.986095 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:13.186108 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:13.386127 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:13.586294 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:13.788830 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:13.986893 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:14.186601 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:14.386330 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:14.586081 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:14.786224 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:14.987243 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:15.186178 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:15.386080 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:15.585969 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:15.787211 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:15.985834 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:16.188091 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:16.385975 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:16.585891 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:16.786041 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:16.986200 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:17.186174 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:17.385828 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:17.585764 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:17.786363 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:17.985837 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:18.187570 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:18.386072 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:18.586082 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:18.785815 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:18.986248 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:19.186281 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:19.385763 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:19.586027 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:19.786033 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:19.985707 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:20.186041 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:20.386373 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:20.589712 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:20.785485 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:20.993224 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:21.188431 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:21.388674 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:21.585491 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:21.786242 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:21.986204 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:22.186143 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:22.386168 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:22.585727 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:22.785653 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:22.988447 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:23.185992 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:23.386186 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:23.587985 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:23.786424 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:23.985920 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:24.187402 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:24.386296 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:24.585875 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:24.785809 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:24.986147 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:25.186317 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:25.386049 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:25.586192 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:25.788543 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:25.989147 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:26.186751 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:26.386163 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:26.586786 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:26.786383 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:26.986109 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:27.186194 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:27.387009 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:27.586830 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:27.786051 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:27.986104 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:28.186332 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:28.386497 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:28.588553 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:28.786324 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:28.986080 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:29.186091 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:29.388129 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:29.586066 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:29.785934 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:29.986457 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:30.187306 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:30.388214 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:30.586472 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:30.786156 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:30.987579 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:31.188572 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:31.385898 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:31.587273 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:31.787593 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:31.985572 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:32.186143 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:32.386880 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:32.585724 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:32.785915 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:32.985927 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:33.186033 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:33.386768 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:33.585592 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:33.785856 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:33.987888 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:34.188048 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:34.387457 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:34.586148 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:34.786423 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:34.986011 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:35.186393 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:35.388480 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:35.586460 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:35.786329 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:35.987604 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:36.185890 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:36.386215 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:36.586030 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:36.786404 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:36.986832 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:37.185777 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:37.386442 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:37.586520 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:37.786339 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:37.986295 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:38.186286 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:38.386157 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:38.586417 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:38.786375 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:38.986304 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:39.187044 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:39.385910 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:39.593457 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:39.791676 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:39.987418 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:40.189139 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:40.388262 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:40.589187 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:40.795179 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:40.988942 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:41.187741 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:41.387970 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:41.591431 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:41.792572 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:41.990967 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:42.188132 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:42.395539 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:42.597249 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:42.789237 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:42.991438 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:43.188853 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:43.388650 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:43.595495 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:43.787473 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:43.992965 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:44.192461 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:44.387024 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:44.594329 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:44.792654 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:44.993670 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:45.195756 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:45.391909 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:45.594888 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:45.787842 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:45.994695 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:46.189370 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:46.394894 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:46.589083 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:46.786651 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:46.996465 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:47.187383 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:47.387657 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:47.592399 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:47.788422 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:47.986515 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:48.194276 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:48.389223 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:48.586752 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:48.787034 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:48.989060 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:49.191166 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:49.387322 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:49.596462 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:49.791674 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:49.990803 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:50.195149 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:50.389535 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:50.587182 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:50.794775 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:50.988050 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:51.191109 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:51.389309 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:51.586181 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:51.792232 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:51.991227 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:52.188694 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:52.393306 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:52.588999 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:52.790092 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:52.990187 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:53.188464 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:53.392143 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:53.590118 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:53.791028 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:53.985720 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:54.186053 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:54.386387 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:54.586081 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:54.795553 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:54.997052 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:55.197197 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:55.389565 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:55.586586 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:55.796627 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:55.991796 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:56.187256 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:56.393558 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:56.591997 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:56.786741 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:56.991472 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:57.189607 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:57.390065 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:57.587404 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:57.786741 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:57.987318 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:58.189613 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:58.395944 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:58.588143 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:58.789604 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:58.992228 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:59.196296 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:59.385496 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:59.586279 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:59.785841 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:58:59.986002 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:00.186461 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:00.387540 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:00.596415 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:00.795047 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:00.989606 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:01.186314 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:01.389158 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:01.588903 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:01.786741 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:01.987422 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:02.186750 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:02.391475 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:02.586244 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:02.791725 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:02.989697 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:03.187021 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:03.387571 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:03.590862 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:03.788707 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:03.988888 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:04.195349 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:04.390311 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:04.592196 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:04.786783 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:04.988785 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:05.189165 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:05.390283 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:05.592756 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:05.790712 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:05.992296 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:06.195868 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:06.389367 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:06.595072 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:06.790902 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:06.990244 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:07.192894 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:07.395496 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:07.595628 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:07.793787 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:07.990741 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:08.195457 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:08.389326 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:08.589146 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:08.795555 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:08.992874 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:09.186352 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:09.391132 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:09.592347 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:09.787853 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:09.992223 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:10.186821 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:10.392344 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:10.589663 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:10.786672 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:10.986320 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:11.190575 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:11.395036 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:11.588646 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:11.790644 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:11.990754 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:12.192615 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:12.389051 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:12.587739 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:12.795851 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:12.995133 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:13.191625 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:13.389528 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:13.596698 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:13.795506 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:13.994200 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:14.195297 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:14.396273 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:14.589464 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:14.792601 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:14.995575 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:15.188293 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:15.391942 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:15.589128 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:15.795615 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:15.989122 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:16.192255 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:16.388957 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:16.588713 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:16.795096 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:16.994864 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:17.196950 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:17.389320 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:17.595443 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:17.795163 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:17.989387 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:18.189220 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:18.395156 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:18.595057 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:18.787606 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:18.993923 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:19.196112 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:19.394910 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:19.595180 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:19.789110 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:19.990248 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:20.189023 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:20.395123 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:20.595212 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:20.791231 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:20.992910 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:21.190974 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:21.395045 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:21.592788 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:21.795034 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:21.995079 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:22.187835 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:22.390470 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:22.590704 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:22.790608 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:22.993271 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:23.196174 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:23.393368 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:23.592993 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:23.789412 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:23.993068 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:24.189169 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:24.392845 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:24.595417 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:24.795449 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:24.995290 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:25.189190 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:25.388980 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:25.595422 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:25.790956 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:25.990049 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:26.192381 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:26.390106 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:26.590584 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:26.795233 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:26.988725 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:27.189574 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:27.387156 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:27.586932 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:27.791966 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:27.995430 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:28.189684 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:28.387938 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:28.589246 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:28.795661 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:28.989706 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:29.195027 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:29.392066 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:29.592535 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:29.788619 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:29.989039 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:30.195255 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:30.390527 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:30.592572 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:30.788666 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:30.989262 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:31.189978 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:31.389250 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:31.589306 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:31.790213 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:31.989979 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:32.192654 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:32.391495 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:32.595196 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:32.787679 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:32.987901 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:33.192986 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:33.392987 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:33.590873 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:33.790772 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:33.990520 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:34.187662 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:34.389720 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:34.594926 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:34.787590 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:34.988658 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:35.189559 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:35.388607 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:35.595026 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:35.795034 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:35.986971 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:36.190765 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:36.393597 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:36.597911 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:36.793720 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:36.989734 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:37.191491 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:37.391660 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:37.595801 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:37.795311 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:37.989238 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:38.190337 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:38.389906 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:38.590952 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:38.787897 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:38.991942 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:39.187295 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:39.391018 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:39.589279 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:39.798665 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:39.990939 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:40.186272 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:40.392431 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:40.598155 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:40.790841 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:40.991176 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:41.195597 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:41.388869 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:41.590767 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:41.793640 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:41.995226 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:42.190907 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:42.391010 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:42.590490 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:42.787763 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:42.986052 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:43.194819 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:43.391077 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:43.589704 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:43.790112 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:43.997010 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:44.191352 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:44.386677 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:44.589709 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:44.786641 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:44.992707 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:45.188884 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:45.386605 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:45.588842 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:45.794975 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:45.990823 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:46.190639 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:46.392086 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:46.595485 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:46.792207 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:46.992450 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:47.189329 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:47.394790 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:47.592077 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:47.788229 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:47.985728 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:48.186039 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:48.388759 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:48.587093 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:48.786064 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:48.986577 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:49.185961 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:49.386149 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:49.586311 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:49.790561 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:49.985898 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:50.187923 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:50.386500 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:50.586184 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:50.786478 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:50.988294 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:51.189932 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:51.387146 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:51.587085 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:51.789978 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:51.989677 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:52.186100 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:52.387060 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:52.586223 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:52.785984 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:52.986644 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:53.186136 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:53.386303 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:53.586058 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:53.786103 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:53.986456 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:54.185966 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:54.386943 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:54.589470 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:54.792196 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:54.985894 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:55.186787 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:55.386296 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:55.586046 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:55.785919 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:55.985987 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:56.185851 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:56.385980 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:56.586243 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:56.785887 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:56.985936 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:57.186282 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:57.386283 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:57.586292 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:57.785693 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:57.985941 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:58.185977 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:58.386211 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:58.586596 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:58.786254 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:58.986207 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:59.186213 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:59.386299 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:59.586235 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:59.786231 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 21:59:59.994565 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:00.191545 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:00.395335 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:00.588830 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:00.789397 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:00.988739 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:01.188794 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:01.390009 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:01.587666 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:01.796958 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:01.989385 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:02.190788 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:02.388881 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:02.588269 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:02.790493 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:02.989261 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:03.190718 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:03.388739 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:03.592381 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:03.795277 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:03.988828 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:04.195117 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:04.395391 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:04.591320 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:04.794382 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:04.989301 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:05.195179 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:05.392503 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:05.589455 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:05.792302 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:05.992271 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:06.195528 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:06.389394 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:06.590844 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:06.789314 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:06.994937 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:07.192494 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567513.7989, y: 4314975.913 ; yaw: 0.04664467472
+I0101 22:00:07.382786 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:07.394660 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:07.394773 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+E0101 22:00:07.395190 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:07.582676 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:07.589021 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:07.589087 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:07.782742 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:07.792028 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:07.792135 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:07.982751 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:07.990451 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:07.990535 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:08.182714 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:08.188681 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:08.188737 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:08.382710 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:08.388456 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:08.388532 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+E0101 22:00:08.388749 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:08.582767 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:08.594375 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:08.594481 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:08.782702 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:08.788203 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:08.788293 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:08.982843 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:08.990573 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:08.990650 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:09.182771 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:09.193027 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:09.193130 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:09.382671 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:09.388572 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:09.388633 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+E0101 22:00:09.388824 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:09.582710 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:09.591241 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:09.591346 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:09.782685 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:09.788885 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:09.788952 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:09.983002 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:09.992313 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:09.992404 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:10.182709 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:10.190865 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:10.191061 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:10.382733 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:10.392072 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:10.392166 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+E0101 22:00:10.392470 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:10.582808 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:10.589130 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:10.589185 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:10.782771 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:10.791556 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:10.791705 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:10.982736 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:10.993877 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:10.993975 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:11.182763 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:11.197232 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:11.197423 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:11.382783 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:11.395011 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:11.395112 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+E0101 22:00:11.395517 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:11.582736 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:11.589401 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:11.589455 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:11.782755 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:11.787403 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:11.787451 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:11.982715 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:11.991616 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:11.991704 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:12.182744 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:12.194483 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:12.194599 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:12.382843 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:12.390887 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:12.390969 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+E0101 22:00:12.391224 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:12.582731 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:12.590608 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:12.590684 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:12.782747 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:12.791812 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:12.791905 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:12.982756 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:12.994225 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:12.994333 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:13.182727 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:13.190974 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:13.191064 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:13.382782 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:13.395717 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:13.395857 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+E0101 22:00:13.396371 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:13.582665 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:13.588347 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:13.588402 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:13.782689 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:13.788950 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:13.789016 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:13.982578 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:13.986055 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:13.986135 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+I0101 22:00:14.182826 27658 hadmap_server.cpp:3594] loc_cur is out of map!
+E0101 22:00:14.194257 27658 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0101 22:00:14.194461 27658 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 0, y: 0 ; yaw: 1.570796327
+E0101 22:00:14.382560 27658 main.cpp:75] do hadmap server exit!

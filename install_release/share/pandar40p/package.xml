@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pandar40p</name>
+  <version>0.0.0</version>
+  <description>
+    The pandar40p package includes the driver for the Heisai Pandar40p LiDAR sensor.
+  </description>
+  <maintainer email="wuxiaozhou@hesaitech.com">yy</maintainer>
+  <license>BSD-2</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>roslib</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>message_runtime</depend>
+  <depend>yaml-cpp</depend>
+  <depend>libpcl-all-dev</depend>
+  <depend>image_transport</depend>
+  <depend>pcl_conversions</depend>
+</package>

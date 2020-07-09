@@ -1,0 +1,8 @@
+prefix=/home/wuhaisheng/Workspace/catkin_integration/install
+
+Name: chassis
+Description: Description of chassis
+Version: 2.0.0
+Cflags: 
+Libs: -L/home/wuhaisheng/Workspace/catkin_integration/install/lib 
+Requires: 

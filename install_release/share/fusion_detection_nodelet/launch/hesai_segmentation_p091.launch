@@ -1,0 +1,23 @@
+<launch>
+    <param name="use_sim_time" value="true" />
+    
+    <arg name="manager" default="obstacle_detection_manager" />
+
+    <node pkg="nodelet" type="nodelet" name="$(arg manager)" args="manager" />
+
+    <node pkg="fusion_detection_nodelet" type="extrinsic_node" name="extrinsic_node">
+        <param name="log_path" type="string" value="$(find fusion_detection_nodelet)/log" />
+        <rosparam command="load" file="$(find fusion_detection_nodelet)/params/extrinsic_p091.yaml"/>
+    </node>
+
+    <param name="log_path" type="string" value="$(find fusion_detection_nodelet)/log" />
+
+    <node pkg="fusion_detection_nodelet" type="segmentation_node" name="segmentation_node">
+         <rosparam command="load" file="$(find fusion_detection_nodelet)/params/hesai_seg_left.yaml"/>
+    </node>
+    <!-- <node pkg="fusion_detection_nodelet" type="segmentation_node" name="segmentation_node">
+         <rosparam command="load" file="$(find fusion_detection_nodelet)/params/hesai_seg_right.yaml"/>
+    </node> -->
+
+    <node name="rviz_lidar" pkg="rviz" type="rviz" args="-d $(find fusion_detection_nodelet)/params/fusion_detection.rviz" />
+</launch>

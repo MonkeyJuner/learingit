@@ -1,0 +1,8 @@
+prefix=/home/wuhaisheng/Workspace/catkin_integration/install
+
+Name: velodyne_driver
+Description: Description of velodyne_driver
+Version: 1.5.2
+Cflags: -I/home/wuhaisheng/Workspace/catkin_integration/install/include
+Libs: -L/home/wuhaisheng/Workspace/catkin_integration/install/lib -lvelodyne_input
+Requires: diagnostic_updater dynamic_reconfigure nodelet roscpp tf velodyne_msgs

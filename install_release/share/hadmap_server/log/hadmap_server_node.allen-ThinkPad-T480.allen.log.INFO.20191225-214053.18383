@@ -1,0 +1,10 @@
+Log file created at: 2019/12/25 21:40:53
+Running on machine: allen-ThinkPad-T480
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1225 21:40:53.211380 18383 main.cpp:65] current version is: 2.0.3.22e8bb1
+I1225 21:40:53.228466 18383 hadmap_server.cpp:48] map path: /home/allen/workspace/port_ws/hmi/resources/app/dist/electron/static/maps/wz_v1012beta.json
+I1225 21:40:56.558406 18383 proto_organizer.cpp:358] hadmap statistics: roads-379,lanes-625,crosswalks-0,signals-0,junctions-0,overlaps-0
+I1225 21:40:57.115437 18383 routing.cpp:361] there is not forbidden_lanes!
+I1225 21:40:57.750054 18383 hadmap_server.cpp:3681] there isn't vehicle state
+E1225 21:40:57.750072 18383 hadmap_server.cpp:281] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E1225 21:41:08.750671 18383 main.cpp:76] do hadmap server exit!

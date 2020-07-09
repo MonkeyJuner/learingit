@@ -1,0 +1,7 @@
+<library path="lib/libharbor_detection_nodelet">
+    <class name="trunktech/HarborNodelet" type="trunktech::HarborNodelet" base_class_type="nodelet::Nodelet">
+        <description>
+            harbor nodelet
+        </description>
+    </class>
+</library>

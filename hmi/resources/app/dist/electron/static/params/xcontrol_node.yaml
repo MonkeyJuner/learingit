@@ -1,0 +1,262 @@
+################
+# 基础功能配置项 #
+################
+freq: 50                 # 频率
+use_accurate_parking: true
+use_fusion: false
+use_tos: true
+
+msg_timeout:
+  vehicle_info: 0.5
+  planning_cmd: 0.5
+  vehicle_state: 0.5
+  calibrate_cmd: 0.4
+  current_region: 10.0
+
+weight_regress:
+  parm_a_area: -55.28287007392568
+  parm_b_area: 138.53143364225693
+  parm_c_area: -6.563409955928234
+
+  parm_a_throttle: -426.9931088571673
+  parm_b_throttle: 582.9376777706528
+  parm_c_throttle: -60.55865179360959
+  
+  use_area_cale_weight: false
+
+
+################
+# 车辆相关配置项 #
+################
+vehicle:
+  max_steering_angle: 38.0  # 最大转向角
+  steering_ratio: 22.4      # 方向盘传动比
+  wheelbase: 4.5            # 轴距
+  steering_rate: 180.0      # 转向机速率(度/s)
+
+speed_thr:
+  acc_norm_const:             0.3
+  acc_const_norm:             0.5
+  acc_fast_norm:              1.0
+  acc_norm_fast:              1.5
+  dcc_norm_const:             0.0
+  dcc_const_norm:             1.1
+  dcc_fast_norm:              2.1
+  dcc_norm_fast:              2.3
+
+#################
+# 控制器相关配置项 #
+#################
+lateral: "mpc_qp"         # 横向控制器，可选项：mpc stanley lqr mpc_ipopt mpc_qp #
+longitudinal: "pid"    # 纵向控制器，可选项: pid nonlinear pid
+
+pid:
+  acc_pid:
+    - speed: 0.0
+      kp: 0.06
+      ki: 0.01
+      kd: 0.0
+    - speed: 15.0
+      kp: 0.06
+      ki: 0.01
+      kd: 0.0
+  dcc_pid:
+    - speed: 0.0
+      kp: 0.06
+      ki: 0.01
+      kd: 0.0
+    - speed: 15.0
+      kp: 0.06
+      ki: 0.01
+      kd: 0.0
+  const_pid:
+    kp: 0.06
+    ki: 0.06
+    kd: 0.0
+  output_absolute: 1.0
+  err_sum_max: 40
+
+  estop_brake_max: 0.6
+  norm_brake_max: 0.3
+  parking_brake_max: 1.0
+  follow_brake_max: 0.3
+  follow_zero_brake_max: 0.05
+  offset_rank_weight: 1.0
+
+mpc_ipopt:
+  sample_period: 0.20
+  predict: 8
+  weight_throttle: 0.0
+  weight_throttle_rate: 0.0
+  weight_v: 0.0
+  thresholds:
+    - speed: 0.0
+      actuator_latency: 0.3
+      weight_pos: 1.0
+      weight_angle: 10.0
+      weight_steer: 1.0
+      weight_steer_rate: 5000.0
+    - speed: 2.0
+      actuator_latency: 0.05
+      weight_pos: 1.0
+      weight_angle: 8.0
+      weight_steer: 1.0
+      weight_steer_rate: 5000.0
+    - speed: 4.0
+      actuator_latency: 0.05
+      weight_pos: 1.0
+      weight_angle: 5.0
+      weight_steer: 1.0
+      weight_steer_rate: 5000.0
+    - speed: 6.0
+      actuator_latency: 0.05
+      weight_pos: 0.8
+      weight_angle: 5.0
+      weight_steer: 1.0
+      weight_steer_rate: 5000.0
+    - speed: 8.0
+      actuator_latency: 0.05
+      weight_pos: 0.5
+      weight_angle: 5.0
+      weight_steer: 1.0
+      weight_steer_rate: 5000.0
+
+mpc_qp:
+  use_augmentedmode: false
+  sample_period: 0.20
+  thresholds:
+    - speed: 0.0
+      actuator_latency: 0.20
+      weight_cte: 2.0
+      weight_epsi: 10.0
+      weight_steer: 6.0
+      weight_augment: 1.0
+      Np: 20
+      Nc: 15
+    - speed: 2.0
+      actuator_latency: 0.15
+      weight_cte: 1.5
+      weight_epsi: 10.0
+      weight_steer: 10.0
+      weight_augment: 1.0
+      Np: 20
+      Nc: 15
+    - speed: 4.0
+      actuator_latency: 0.10
+      weight_cte: 0.5
+      weight_epsi: 10.0
+      weight_steer: 20.0
+      weight_augment: 1.0
+      Np: 10
+      Nc: 10
+    - speed: 6.5
+      actuator_latency: 00.10
+      weight_cte: 0.1
+      weight_epsi: 10.0
+      weight_steer: 30.0
+      weight_augment: 1.0
+      Np: 10
+      Nc: 10
+
+stanley:
+   angle_smooth_weight: 0.7
+   later_smooth_weight: 0.8
+   ksi: 0.42
+   angle_kd: 0.00
+   insert_number: 3
+   use_spline_insert: true
+   thresholds:
+     - speed: 0.6
+       kp: 0.03  #0.01
+       ki: 0.00
+       kd: 0.01
+     - speed: 10.0
+       kp: 0.03  #0.019
+       ki: 0.00
+       kd: 0.01
+     - speed: 15.0
+       kp: 0.03  #0.0175
+       ki: 0.00
+       kd: 0.01
+     - speed: 16.5
+       kp: 0.03  #0.009
+       ki: 0.00
+       kd: 0.01
+     - speed: 18.0
+       kp: 0.03  #0.009
+       ki: 0.00
+       kd: 0.01
+     - speed: 20.0
+       kp: 0.03  #0.01
+       ki: 0.00
+       kd: 0.01
+   large_err: 0.3
+   mid_err: 0.2
+   large_kp_inc: 0.0175
+   mid_kp_inc: 0.075
+   output_absolute: 0.02
+   err_sum_max: 5.0
+   alpha: 5.0
+   beta: 1.0
+   tau: 0.0
+   limit: 1000
+
+lqr:
+   lateral_err_weight: 1.0
+   heading_err_weight: 5.0
+   lateral_err_rate_weight: 1.0
+   heading_err_rate_weight: 5.0
+   iteration_err_limit: 0.005
+   max_iteration_times: 100
+   insert_number: 3
+
+nonlinear:
+   const_velocity: [0.0, 1.5, 3.5, 7.4, 11.3, 14.9, 18.8, 26.4]
+   const_map_throttle: [10.0, 20.0, 25.0, 35.0, 40.0, 55.0, 60.0]
+   acc_map_throttle: [25.0, 28.0, 34.0, 45.0, 55.0, 65.0, 70.0]
+   less_active_pid:
+       kp: 0.6
+       ki: 0.3
+       kd: 0.0
+   active_pid:
+       kp: 0.1
+       ki: 0.1
+       kd: 0.0
+   brake_pid:
+       kp: 0.03
+       ki: 0.04
+       kd: 0.0
+   dcc_to_brake_pid:
+       kp: 0.03
+       ki: 0.05
+       kd: 0.0
+   coffe_by_time: 0.002
+   dcc_const_limit: 0.075
+   dcc_for_all_limit: 0.2
+
+accurate_park:
+  guide_parking_speed_max: 0.10
+  guide_parking_speed_min: 0.04
+  cali_interval_time: 3.0
+
+################
+# 辅助模块配置项 #
+################
+steering_limit:       # 方向盘限制
+  - speed: 0.0
+    keep_lane: 1.0
+    change_lane: 1.0
+  - speed: 10.0
+    keep_lane: 1.0
+    change_lane: 1.0
+  - speed: 15.0
+    keep_lane: 0.05
+    change_lane: 0.075
+  - speed: 18.0
+    keep_lane: 0.025
+    change_lane: 0.035
+  - speed: 25.0
+    keep_lane: 0.01
+    change_lane: 0.025
+throttle_limit: 0.8   # 油门上限
+brake_limit: 1.0      # 刹车上限

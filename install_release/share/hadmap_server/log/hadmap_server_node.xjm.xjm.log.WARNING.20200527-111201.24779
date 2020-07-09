@@ -1,0 +1,7 @@
+Log file created at: 2020/05/27 11:12:01
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0527 11:12:01.205838 24779 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0527 11:12:10.628603 24779 hadmap_server.cpp:600] path planning fail!
+E0527 11:12:10.628623 24779 hadmap_server.cpp:195] do global planning fail!
+E0527 12:23:41.780416 24779 main.cpp:75] do hadmap server exit!

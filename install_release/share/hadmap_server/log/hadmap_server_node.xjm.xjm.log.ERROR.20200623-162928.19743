@@ -1,0 +1,19 @@
+Log file created at: 2020/06/23 16:29:28
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0623 16:29:28.253424 19743 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0623 17:08:28.890306 19743 hadmap_server.h:125] disconnect with localization for 5s
+E0623 17:08:28.890354 19743 hadmap_server.cpp:3350] loc cur is invalid! loc_cur_.id = 11651; loc_cur_.old_id = 11651.
+E0623 17:08:29.090142 19743 hadmap_server.cpp:3566] there isn't valid vehicle state! loc_cur_.old_id = 11651; loc_cur_.old_id = 11651.
+E0623 17:08:33.964555 19743 main.cpp:18] *** Aborted at 1592903313 (unix time) try "date -d @1592903313" if you are using GNU date ***
+E0623 17:08:33.967145 19743 main.cpp:18] PC: @     0x7fa50fc93c1d __GI___nanosleep
+E0623 17:08:33.967284 19743 main.cpp:18] *** SIGTERM (@0x3e800004cf3) received by PID 19743 (TID 0x7fa5110f67c0) from PID 19699; stack trace: ***
+E0623 17:08:33.969594 19743 main.cpp:18]     @     0x7fa50fc94390 (unknown)
+E0623 17:08:33.971714 19743 main.cpp:18]     @     0x7fa50fc93c1d __GI___nanosleep
+E0623 17:08:33.973814 19743 main.cpp:18]     @     0x7fa5100ba96b ros::ros_wallsleep()
+E0623 17:08:33.975867 19743 main.cpp:18]     @     0x7fa5100bb42e ros::Duration::sleep()
+E0623 17:08:33.977840 19743 main.cpp:18]     @     0x7fa5100ba3c0 ros::Rate::sleep()
+E0623 17:08:33.979650 19743 main.cpp:18]     @           0x4a33e1 trunk::hadmap::server::HadmapServer::doHadmapServer()
+E0623 17:08:33.979831 19743 main.cpp:18]     @           0x45272a main
+E0623 17:08:33.981771 19743 main.cpp:18]     @     0x7fa50aba1830 __libc_start_main
+E0623 17:08:33.982017 19743 main.cpp:18]     @           0x452fd9 _start

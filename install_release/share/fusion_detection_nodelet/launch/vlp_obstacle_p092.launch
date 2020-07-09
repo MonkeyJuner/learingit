@@ -1,0 +1,43 @@
+<launch>
+    <param name="use_sim_time" value="true" />
+    
+    <arg name="manager" default="obstacle_detection_manager" />
+
+    <node pkg="nodelet" type="nodelet" name="$(arg manager)" args="manager" />
+
+    <node pkg="fusion_detection_nodelet" type="extrinsic_node" name="extrinsic_node">
+        <param name="log_path" type="string" value="$(find fusion_detection_nodelet)/log" />
+        <rosparam command="load" file="$(find fusion_detection_nodelet)/extrinsic/extrinsic_p092.yaml"/>
+    </node>
+
+    <param name="log_path" type="string" value="$(find fusion_detection_nodelet)/log" />
+
+    <node pkg="nodelet" type="nodelet" name="left_seg_nodelet"
+            args="load trunktech/SegmentationNodelet $(arg manager)" >
+         <rosparam command="load" file="$(find fusion_detection_nodelet)/params/vlp_seg_left.yaml"/>
+    </node>
+    <node pkg="nodelet" type="nodelet" name="right_seg_nodelet"
+            args="load trunktech/SegmentationNodelet $(arg manager)" >
+         <rosparam command="load" file="$(find fusion_detection_nodelet)/params/vlp_seg_right.yaml"/>
+    </node>
+    <node pkg="nodelet" type="nodelet" name="top_seg_nodelet"
+            args="load trunktech/SegmentationNodelet $(arg manager)" >
+         <rosparam command="load" file="$(find fusion_detection_nodelet)/params/vlp_seg_top.yaml"/>
+    </node>
+
+    <!-- <node pkg="fusion_detection_nodelet" type="obstacle_node" name="obstacle_node">
+        <param name="log_path" type="string" value="$(find fusion_detection_nodelet)/log" />
+        <rosparam command="load" file="$(find fusion_detection_nodelet)/params/obstacle.yaml"/>
+    </node> -->
+    <node pkg="nodelet" type="nodelet" name="obstacle_nodelet"
+            args="load trunktech/ObstacleNodelet $(arg manager)" >
+         <param name="log_path" type="string" value="$(find fusion_detection_nodelet)/log" />
+         <rosparam command="load" file="$(find fusion_detection_nodelet)/params/obstacle.yaml"/>
+    </node>
+    <node pkg="nodelet" type="nodelet" name="harbor_detection_nodelet"
+                args="load trunktech/HarborNodelet $(arg manager)" >
+             <param name="log_path" type="string" value="$(find fusion_detection_nodelet)/log" />
+             <rosparam command="load" file="$(find fusion_detection_nodelet)/params/harbor_detection.yaml"/>
+    </node>
+    <node name="rviz_lidar" pkg="rviz" type="rviz" args="-d $(find fusion_detection_nodelet)/params/fusion_detection.rviz" />
+</launch>

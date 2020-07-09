@@ -1,0 +1,184 @@
+#Controller parameters
+setup:
+    freq: 50
+    if_accurate_parking_on: true
+speed_control:
+    strategy_id_in_use: 1
+    pid:
+        accfast:
+            kp: 0.015
+            ki: 0.008
+            kd: 0.0
+        accnorm:
+            kp: 0.01
+            ki: 0.008
+            kd: 0.0
+        const:
+            kp: 0.01
+            ki: 0.008
+            kd: 0.0
+        decnorm:
+            kp: 0.045
+            ki: 0.008
+            kd: 0.0
+        decfast:
+            kp: 0.065
+            ki: 0.010
+            kd: 0.0
+        stop:
+            kp: 0.035
+            ki: 0.01
+            kd: 0.0
+        output_min: -1.0
+        output_max: 1.0
+        err_sum_max: 12.0
+        brake_max: 0.5
+        throttle_max: 0.8
+        max_count_brake: 50
+        max_count_throttle: 100
+        slope_acc: 0.0
+        slope_brake: -0.0
+        err_sum_max_increase: 50
+    addpid:
+        kp: 0.3
+        ki: 0.5
+        kd: 0.2
+        kp0: 0.2
+        ki0: 0.5
+        kd0: 0.1
+        brake_max: 0.5
+        throttle_max: 0.8
+
+    nonlinear:
+        pid:
+           speedboundary: 4.0
+           dccpid:
+              kp: 0.04
+              ki: 0.01
+              kd: 0.0
+           slowspid:
+              kp: 0.001
+              ki: 0.0005
+              kd: 0.0
+           fasterspid:
+              kp: 0.001
+              ki: 0.001
+              kd: 0.0
+        const_velocity: [0.0, 2.78, 5.56, 8.33, 9.72, 11.11, 12.5, 13.89]
+        const_map_throttle:  [3.0,  5.0,  7.0,  8.0,  9.0,   10.0, 11.0, 12.0]
+        acc_map_throttle:    [10.0, 10.0, 15.0, 15.0, 20.0,  20.0, 20.0, 20.0]
+        const_gas_slope : 0.4
+        throttle_max: 25.0
+        brake_max: 0.15
+        coef_by_time_k: 0.0002
+    accurate_parking:
+        time_interval: 20 #sec
+        reverse_cycle_offset: 5 #cycle 50hz 0.002s
+        vehicle_load_offset: 60
+        force_cycle_times_max: 45
+        force_cycle_times_min: 20
+        force_cycle_init_up: 33
+        force_cycle_init_down: 20
+        force_throttle_max: 0.3
+        slope_line: 0.509   #a
+        intercept_line: 18.045   #b
+        if_press_air_control: false
+        press_air_weight: 1.0
+
+lateral_control:
+    strategy_id_in_use: 3
+    fuzzy:
+        weight_angle: 0.8
+        weight_pos: 3.5
+        qianzhan_angle: 1.6
+        qianzhan_position: 0.5
+        qianzhan_speed: 6.0
+        speed_k: 0.4
+        speed_filter: 15.0
+    pursuit:
+        preview_time: 0.5
+        wheelbase: 6.5
+        thresholds:
+            - speed_range: [-0.1, 12.0]
+              const_distance: 6.0
+              speed_to_distance_coff: 8.0
+
+            - speed_range: [12.0, 20.0]
+              const_distance: 1.5
+              speed_to_distance_coff: 2.0
+
+            - speed_range: [20.0, 40.0]
+              const_distance: 7.5
+              speed_to_distance_coff: 4.0
+
+            - speed_range: [40.0, 60.0]
+              const_distance: 9.5
+              speed_to_distance_coff: 5.0
+
+            - speed_range: [60.0, 100.0]
+              const_distance: 20.0
+              speed_to_distance_coff: 50.0
+    mpc:
+        steering_ratio: 18.0
+        max_steering_angle: 35.0
+        sample_period: 0.2
+        predict: 8
+        wheelbase: 6.5
+        weight_pos: 1.0
+        weight_angle: 5.0
+        weight_steer: 1.0
+        weight_steer_rate: 2000.0
+        weight_v: 0.0
+        weight_throttle: 0.0
+        weight_throttle_rate: 0.0
+        utm: false
+        thresholds:
+           - speed_range: [-0.1, 8.0]
+             actuator_latency: 0.3
+           - speed_range: [8.0, 13.0]
+             actuator_latency: 0.05
+           - speed_range: [13.0, 18.0]
+             actuator_latency: 0.0
+           - speed_range: [18.0, 30.0]
+             actuator_latency: 0.0
+    stanley:
+        wheelbase: 4.5
+        correction: 0.0
+        ksi: 0.48
+        thresholds:
+            - speed_range: [-0.1, 10.0]
+              correction: 0.0023
+              wheelbase_k: 50.0
+              keep_lane_steering_range: [-1.0, 1.0]
+              change_lane_steering_range: [-1.0, 1.0]
+
+            - speed_range: [10.0, 20.0]
+              correction: 0.0023
+              wheelbase_k: 40.0
+              keep_lane_steering_range: [-1.0, 1.0]
+              change_lane_steering_range: [-0.05, 0.05]
+
+            - speed_range: [20.0, 30.0]
+              correction: 0.0023
+              wheelbase_k: 20.0
+              keep_lane_steering_range: [-0.25, 0.25]
+              change_lane_steering_range: [-0.045, 0.045]
+
+            - speed_range: [30.0, 40.0]
+              correction: 0.0023
+              wheelbase_k: 10.0
+              keep_lane_steering_range: [-0.02, 0.02]
+              change_lane_steering_range: [-0.03, 0.03]
+
+            - speed_range: [40.0, 50.0]
+              correction: 0.0023
+              wheelbase_k: 8.0
+              keep_lane_steering_range: [-0.01, 0.01]
+              change_lane_steering_range: [-0.025, 0.025]
+
+            - speed_range: [50.0, 100.0]
+              correction: 0.0025
+              wheelbase_k: 6.0
+              keep_lane_steering_range: [-0.01, 0.01]
+              change_lane_steering_range: [-0.02, 0.02]
+

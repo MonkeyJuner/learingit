@@ -1,0 +1,108 @@
+# System Config
+main_loop_hz:                   25
+
+raw_map_timeout:                0.5
+raw_vehicle_state_timeout:      0.5
+raw_vehicle_info_timeout:       0.5
+raw_objs_timeout:               0.5
+raw_ogm_timeout:                0.5
+raw_traffic_sign_timeout:       5.0
+raw_current_region_timeout:     5.0
+raw_left_stop_pts_timeout:      0.5
+raw_right_stop_pts_timeout:     0.5
+raw_vehicle_cmd_timeout:        0.5
+ads_cmd_guide_stop_timeout:     0.5
+
+emerge_stop_max_exe_time:       5.0
+switch_lane_max_exe_time:       30.0
+pull_over_max_exe_time:         15.0
+calibrate_max_exe_time:         5.0
+calibrate_min_exe_time:         3.0
+set_target_max_exe_time:        3.0
+max_travel_time:                1800.0
+
+# Function Switch
+use_pnc_speed_limit:            false
+use_func_overtake:              false
+use_func_filter_ogm:            false
+use_func_term_change:           false
+use_func_trailer_safe:          false
+show_diagnose_gui:              true
+
+# Vehicle Static
+head_base2front:                6.142
+head_base2tail:                 2.142
+head_base2left:                 1.45
+head_base2right:                1.45
+head_wheelbase:                 5.0
+trailer_base2front:             0.6
+trailer_base2tail:              12.0
+trailer_base2left:              1.4
+trailer_base2right:             1.4
+trailer_wheelbase:              9.0
+trailer_base2head_base:         0.36
+
+# Vehicle Dynamic
+speed_upper_km_h:               25.0
+speed_lower_km_h:               6.0
+kappa_velocity_m_s_coef:        0.1
+normal_dcc_m_s2:                0.5
+emergency_dcc_m_s2:             2.0
+
+# Environment Constrain
+max_long_dis_to_lane:           10.0
+max_lat_dis_to_lane:            10.0
+min_lane_length:                1.0
+min_lane_residual:              1.0
+
+# Safe Constrain
+ogm_handle_front_dis_:          100.0
+ogm_handle_back_dis_:           50.0
+ogm_handle_left_dis_:           50.0
+ogm_handle_right_dis_:          50.0
+ogm_handle_resolution_:         0.2
+ogm_back_safe_dis:              5.0
+obj_back_safe_second:           3.0
+obj_back_min_safe_dis:          20.0
+crash_retain_dis:               0.0
+veh_predict_second:             5.0
+veh_predict_min_dis:            30.0
+obj_predict_second:             3.0
+obj_predict_min_dis:            5.0
+obj_predict_min_velocity_m_s:   1.0
+
+# Lateral Plan
+max_dis_to_traj:                5.0
+stop_time_for_replan:           5.0
+min_long_dis:                   25.0
+long_dis_coef:                  1.0
+min_long_dis_4pullover:         15.0
+long_dis_coef_4pullover:        0.4
+invalid_change_lane_types:      1,2,3,10
+front_solid_dis:                6.0
+back_remain_dis:                20.0
+
+# Lateral Decision
+clear_velocity_percent:         0.9
+block_velocity_percent:         0.1
+slow_min_distance:              50.0
+slow_ttc:                       10.0
+more_check_times:               10
+less_check_times:               5
+check_interval:                 0.2
+traj_score_offset:              40
+
+# Longitude Plan
+brake_distance:                 1.0
+slide_speed_km_h:               3.6
+slide_distance:                 10.0
+min_stop_sign_distance:         1.4
+min_safe_distance:              8.0
+safe_distance_coef:             0.5
+min_follow_distance:            15.0
+follow_distance_coef:           1.0
+follow_speed_offset_km_h:       7.2
+max_acc_velocity_offset_km_h:   7.2
+
+# record topics
+record_topics:                  "/pnc_msgs/vehicle_state /pnc_msgs/vehicle_info /fusion_detection/objects /fusion_detection/og /hadmap_server/local_map"

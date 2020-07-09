@@ -1,0 +1,19 @@
+<launch>
+	<arg name="pandar40p_ip" default="192.168.20.51"/>
+	<arg name="lidar_recv_port"  default="2368"/>
+	<arg name="gps_recv_port"  default="10110"/>
+	<arg name="start_angle"  default="135"/>
+	<arg name="timezone"  default="8"/>
+	<arg name="frame_id"  default="hesai40"/>
+	<arg name="lidar_topic"  default="/pandar40p/sensor/pandar40p/hesai40/PointCloud2"/>
+
+	<node pkg="pandar40p" name="pandar40p" type="pandar40p_node" output="screen" >
+		<param name="pandar40p_ip" type="string" value="$(arg pandar40p_ip)"/>
+		<param name="lidar_recv_port"  type="int" value="$(arg lidar_recv_port)"/>
+		<param name="gps_recv_port"  type="int" value="$(arg gps_recv_port)"/>
+		<param name="start_angle"  type="double" value="$(arg start_angle)"/>
+		<param name="timezone"  type="int" value="$(arg timezone)"/>
+		<param name="frame_id"  type="string" value="$(arg frame_id)"/>
+		<param name="lidar_topic"  type="string" value="$(arg lidar_topic)"/>
+	</node>
+</launch>

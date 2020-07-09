@@ -1,0 +1,29 @@
+Log file created at: 2020/07/07 15:33:31
+Running on machine: trunk-ThinkPad-T480
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20200707 15:33:31.625149 16626 main.cpp:64] current version is: 2.0.3.0a73361
+I20200707 15:33:31.692971 16626 hadmap_server.cpp:47] map path: /home/trunk/port_ws/hmi/resources/app/dist/electron/static/maps/C_test_0523_1.json
+I20200707 15:33:31.915786 16626 proto_organizer.cpp:358] hadmap statistics: roads-1,lanes-6,crosswalks-0,signals-0,junctions-0,overlaps-0
+I20200707 15:33:31.961261 16626 routing.cpp:363] there is not forbidden_lanes!
+I20200707 15:33:32.665887 16626 hadmap_server.cpp:3560] there isn't vehicle state
+E20200707 15:33:32.665918 16626 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I20200707 15:33:33.066009 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+I20200707 15:33:33.265977 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+I20200707 15:33:33.465983 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+I20200707 15:33:33.665990 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+I20200707 15:33:33.670723 16626 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I20200707 15:33:33.866024 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+I20200707 15:33:34.065984 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+I20200707 15:33:34.266146 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+I20200707 15:33:34.466023 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+I20200707 15:33:34.666806 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+I20200707 15:33:34.670830 16626 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I20200707 15:33:34.866011 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+I20200707 15:33:35.065979 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+I20200707 15:33:35.266005 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+I20200707 15:33:35.466001 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+I20200707 15:33:35.666009 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+I20200707 15:33:35.669317 16626 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I20200707 15:33:35.865975 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+I20200707 15:33:36.066047 16626 hadmap_server.cpp:3594] loc_cur is out of map!
+E20200707 15:33:36.265974 16626 main.cpp:75] do hadmap server exit!

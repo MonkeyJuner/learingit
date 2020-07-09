@@ -1,0 +1,6 @@
+Log file created at: 2019/09/11 14:16:54
+Running on machine: trunk-Nuvo-6108GC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0911 14:16:54.840523 10319 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 14:16:56.837404 10319 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 14:16:57.037523 10319 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8

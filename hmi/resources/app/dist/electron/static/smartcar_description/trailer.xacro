@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot  xmlns:xacro="http://www.ros.org/wiki/xacro" name="smartcar">
+  <link name="smartcar">
+  	<visual>
+  	  <origin xyz="0 -0.3 0" rpy="0 0 1.57" />
+	  <geometry>
+	    <mesh filename="file://$(arg meshdir)/TRUCK-head.dae" scale="1 1 1" />
+	  </geometry>
+	</visual>
+  </link>
+  <link name="trailer">
+    <visual>
+      <origin xyz="0 -0.3 0" rpy="0 0 1.57" />
+  	  <geometry>
+        <mesh filename="file://$(arg meshdir)/TRUCK-trailer.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+  </link>
+  <joint name="joint" type="revolute">
+  	<parent link="smartcar" />
+  	<child link="trailer" />
+  	<axis xyz="0 0 1" />
+	<limit effort="1000.0" lower="-1.57" upper="1.57" velocity="10" />
+  </joint>
+</robot>

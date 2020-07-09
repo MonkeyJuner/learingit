@@ -1,0 +1,6 @@
+Log file created at: 2019/09/11 15:26:05
+Running on machine: trunk-Nuvo-6108GC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0911 15:26:05.657755  9595 load_params.cpp:130] cannot open: /opt/trunk/static/params/stop_shift.csv
+E0911 15:34:00.958670  9595 lidar_alignment_node.cpp:99] Can not find the quay_shift_map_id: 210402  =210*1000+40*10+2
+E0911 15:37:12.464920  9595 lidar_alignment_node.cpp:99] Can not find the quay_shift_map_id: 210402  =210*1000+40*10+2

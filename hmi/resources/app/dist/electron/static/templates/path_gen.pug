@@ -1,0 +1,9 @@
+launch
+  node(pkg='ins550_driver' type='ins550_driver_node' name='ins550_driver_node')
+    rosparam(command='load' file=ins_param)
+  node(pkg='localization' type='localization_node' name='localization_node')
+    rosparam(command='load' file=localization_param)
+  node(name='draw_hadmap_cpt' pkg='hadmap_generation' type='draw_hadmap_cpt.py')
+  node(name='path_generation' pkg='hadmap_generation' type='path_generation_json.py')
+    param(name='save_path' type='string' value=mapfile_path)
+    param(name='lane_width' type='double' value='3.5')

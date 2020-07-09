@@ -1,0 +1,53 @@
+Log file created at: 2020/05/06 10:49:02
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0506 10:49:02.366051 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.367228 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.369467 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.370384 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.372292 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.373353 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.375623 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.376727 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.379037 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.380112 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.382400 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.383479 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.396515 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.397646 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.401381 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.402318 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.569597 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.570480 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.572358 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:02.573235 13868 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0506 10:49:03.609897 13868 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0506 11:04:54.214773 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:54.416482 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:54.614702 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:54.614872 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:54.813688 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:55.014071 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:55.214126 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:55.414477 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:55.628404 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:55.628569 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:55.813434 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:56.022290 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:56.221318 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:56.417086 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:56.616612 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:56.616784 13868 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0506 11:04:56.894040 13868 hadmap_server.cpp:600] path planning fail!
+E0506 11:04:56.894057 13868 hadmap_server.cpp:195] do global planning fail!
+E0506 11:05:03.095643 13868 hadmap_server.cpp:600] path planning fail!
+E0506 11:05:03.095657 13868 hadmap_server.cpp:195] do global planning fail!
+E0506 11:05:05.493541 13868 hadmap_server.cpp:600] path planning fail!
+E0506 11:05:05.493556 13868 hadmap_server.cpp:195] do global planning fail!
+E0506 11:05:06.511629 13868 hadmap_server.cpp:600] path planning fail!
+E0506 11:05:06.511653 13868 hadmap_server.cpp:195] do global planning fail!
+E0506 11:05:06.709483 13868 hadmap_server.cpp:600] path planning fail!
+E0506 11:05:06.709499 13868 hadmap_server.cpp:195] do global planning fail!
+E0506 11:20:05.314756 13868 hadmap_server.cpp:600] path planning fail!
+E0506 11:20:05.314785 13868 hadmap_server.cpp:195] do global planning fail!
+E0506 12:08:47.609985 13868 main.cpp:75] do hadmap server exit!

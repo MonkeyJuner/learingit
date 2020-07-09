@@ -1,0 +1,87 @@
+{
+  "harbor_detection_nodelet":[{
+    "label": "港口检测",
+    "name": "harbor_detection_nodelet",
+    "type": "nodelet"
+  }],
+  "chassis": [{
+    "label": "底盘",
+    "name": "chassis_node",
+    "type": "chassis_node"
+  }],
+  "xcontrol": [{
+    "label": "控制",
+    "name": "xcontrol_node",
+    "type": "xcontrol_node"
+  }],
+  "obstacle_nodelet": [{
+    "label": "检测",
+    "name": "obstacle_nodelet",
+    "type": "nodelet"
+  }],
+  "lane_line": [{
+    "label": "车道线检测",
+    "name": "lane_line_gantry",
+    "type": "lane_line_gantry"
+  }],
+  "hadmap_server": [{
+    "label": "地图",
+    "name": "hadmap_server_node",
+    "type": "hadmap_server_node"
+  }],
+  "lidar_alignment": [{
+    "label": "激光对准",
+    "name": "lidar_alignment_node",
+    "type": "lidar_alignment_node"
+  }],
+  "slam_localization": [{
+    "label": "slam定位",
+    "name": "slam_loc",
+    "type": "slam_loc"
+  }],
+  "lidar_loc":[{
+    "label": "lidar_loc",
+    "name": "lidar_loc_node",
+    "type": "lidar_loc_node"
+  }],
+  "fusion_localization": [{
+    "label": "定位",
+    "name": "fusion_localization_node",
+    "type": "fusion_localization_node"
+  }],
+  "xpnd": [{
+    "label": "决策规划",
+    "name": "xpnd_node",
+    "type": "xpnd_node"
+  }],
+  "center_interface": [{
+    "label": "TOS center",
+    "name": "center_interface_node",
+    "type": "center_interface_node"
+  }],
+  "tracker": [{
+    "label": "TOS tracker",
+    "name": "tracker_node",
+    "type": "tracker_node"
+  }],
+  "rviz": [{
+    "label": "rviz",
+    "name": "rviz_trunk",
+    "type": "rviz"
+  }],
+  "lidar_calibration": [{
+    "label": "感知标定",
+    "name": "calibration_node",
+    "type": "calibration_node"
+  }],
+  "simulator": [{
+    "label": "模拟器",
+    "name": "simulator_node",
+    "type": "simulator_node"
+  }],
+  "rokicar": [{
+    "label": "肉鸡车",
+    "name": "RokiSys",
+    "type": "RokiSys"
+  }]
+}

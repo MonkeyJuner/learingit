@@ -1,0 +1,32 @@
+extrinsic:
+  -
+    topic_name: "/pandar40p_0"
+    child_id: "lidar_left"
+    frame_id: "smartcar"
+    heading: -213.2
+    pitch: -1.3
+    roll: -0.3
+    delta_x: 5.0
+    delta_y: 1.21
+    delta_z: 1.53
+  -
+    topic_name: "/pandar40p_2"
+    child_id: "lidar_right"
+    frame_id: "smartcar"
+    heading: 41.6
+    pitch: 2.1
+    roll: 0.4
+    delta_x: 5.0
+    delta_y: -1.21
+    delta_z: 1.53
+  -
+    topic_name: "vlp16_1/velodyne_points"
+    child_id: "lidar_top"
+    frame_id: "smartcar"
+    heading: -0.2
+    pitch: 1.3
+    roll: 0.0
+    delta_x: 3.5
+    delta_y: 0.0
+    delta_z: 3.4
+

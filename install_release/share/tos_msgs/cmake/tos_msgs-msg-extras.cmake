@@ -1,0 +1,2 @@
+set(tos_msgs_MESSAGE_FILES "msg/Ack.msg;msg/Container.msg;msg/HeartBeat.msg;msg/StopInfo.msg;msg/TargetInfo.msg;msg/TruckAlignment.msg;msg/TruckArrived.msg;msg/TruckCommand.msg;msg/TruckLogin.msg;msg/TruckStop.msg;msg/TruckTarget.msg;msg/VehicleLoad.msg;msg/VehicleStopAccurate.msg;msg/VehicleTarget.msg;msg/YardCraneStatus.msg;msg/CraneWarnning.msg;msg/WorkDisplay.msg")
+set(tos_msgs_SERVICE_FILES "srv/ShadowReply.srv;srv/ShadowTarget.srv")

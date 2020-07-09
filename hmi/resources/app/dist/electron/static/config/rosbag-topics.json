@@ -1,0 +1,14 @@
+{
+  "ins550":["/trunk_info/gnss_ins","/trunk_info/imu"],
+  "pylon_camera_0": ["/pylon_camera_0/pylon_camera_node/image_raw/compressed"],
+  "pylon_camera_1": ["/pylon_camera_1/pylon_camera_node/image_raw/compressed"],
+  "pylon_camera_2": ["/pylon_camera_2/pylon_camera_node/image_raw/compressed"],
+  "pylon_camera_3": ["/pylon_camera_3/pylon_camera_node/image_raw/compressed"],
+  "pylon_camera_4": ["/pylon_camera_4/pylon_camera_node/image_raw/compressed"],
+  "pylon_camera_5": ["/pylon_camera_5/pylon_camera_node/image_raw/compressed"],
+  "ibeo_lux": ["/lux_scan","/lux_object"],
+  "vlp16_0": ["/vlp16_0/velodyne_packets"],
+  "vlp16_1": ["/vlp16_1/velodyne_packets"],
+  "vlp16_2": ["/vlp16_2/velodyne_packets"],
+  "sick24": ["/sick24"]
+}

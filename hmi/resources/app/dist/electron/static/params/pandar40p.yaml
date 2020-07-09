@@ -1,0 +1,7 @@
+pandar40p_ip: "192.168.20.51"
+lidar_recv_port:  2368
+gps_recv_port: 8308
+start_angle: 135
+timezone: 8
+frame_id: "hesai40"
+lidar_topic: "/pandar40p/sensor/pandar40p/hesai40/PointCloud2"

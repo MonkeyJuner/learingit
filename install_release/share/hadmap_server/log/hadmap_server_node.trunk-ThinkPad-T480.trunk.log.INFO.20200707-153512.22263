@@ -1,0 +1,10 @@
+Log file created at: 2020/07/07 15:35:12
+Running on machine: trunk-ThinkPad-T480
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20200707 15:35:12.877878 22263 main.cpp:64] current version is: 2.0.3.0a73361
+I20200707 15:35:12.997860 22263 hadmap_server.cpp:47] map path: /home/trunk/port_ws/hmi/resources/app/dist/electron/static/maps/C_test_0523_1.json
+I20200707 15:35:13.264111 22263 proto_organizer.cpp:358] hadmap statistics: roads-1,lanes-6,crosswalks-0,signals-0,junctions-0,overlaps-0
+I20200707 15:35:13.311637 22263 routing.cpp:363] there is not forbidden_lanes!
+I20200707 15:35:13.908666 22263 hadmap_server.cpp:3560] there isn't vehicle state
+E20200707 15:35:13.908689 22263 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E20200707 15:35:14.108762 22263 main.cpp:75] do hadmap server exit!

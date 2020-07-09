@@ -1,0 +1,23 @@
+{
+  "inertial_navigator": [
+    "ins550"
+  ],
+  "camera": [
+    "pylon_camera_0",
+    "pylon_camera_1",
+    "pylon_camera_2",
+    "pylon_camera_3",
+    "pylon_camera_4",
+    "pylon_camera_5"
+  ],
+  "lidar": [
+    "ibeo_lux",
+    "vlp16_0",
+    "vlp16_1",
+    "vlp16_2",
+    "vlp32_0",
+    "vlp32_2",
+    "pandar40p_0",
+    "pandar40p_2"
+  ]
+}

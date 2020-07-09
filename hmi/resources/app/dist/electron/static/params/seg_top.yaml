@@ -1,0 +1,28 @@
+topic_name: "/vlp16_1/velodyne_points"
+extrinsic_name: "lidar_top"
+type: 0
+
+segmentation:
+  max_z: 13
+  min_z: -1.0
+  z_diff_max: 0.3
+  z_max: 0.3
+  radio_max: 0.25
+  k_nearest: 3
+  og_front: 40
+  og_behind: 40
+  og_left: 40
+  og_right: 40
+  scale: 5
+  x_resolution: 0.1
+  y_resolution: 0.1
+  z_resolution: 0.2
+  plane_x_resolution: 0.4
+  plane_y_resolution: 0.4
+  plane_z_resolution: 10.0
+  nrois:
+    -
+      x1: -2.0
+      y1: -2.0
+      x2: 2.0
+      y2: 2.0

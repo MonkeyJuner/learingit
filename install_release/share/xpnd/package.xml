@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<package format="2">
+  <!--basic info -->
+  <name>xpnd</name>
+  <version>2.0.0</version>
+  <description>The decision and planning package version 2.0</description>
+  <maintainer email="liuyi@trunk.tech">liuyi</maintainer>
+  <license>TODO</license>
+  <author email="xiejianming@trunk.tech">xiejianming</author>
+  <author email="lijuncai@trunk.tech">lijuncai</author>
+  <author email="wuyanjun@trunk.tech">wuyanjun</author>
+  
+  <!-- buildtool dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- build, export, and execution dependencies -->
+  <depend>geometry_msgs</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>pnc_msgs</depend>
+  <depend>pncc_msgs</depend>
+  <depend>hadmap_msgs</depend>
+  <depend>perception_msgs</depend>
+  <depend>diagnose_msgs</depend>
+  <depend>ads_msgs</depend>
+  <depend>visual_msgs</depend>
+  <depend>localization_msgs</depend>
+  <depend>opencv</depend>
+  <depend>xn</depend>
+  <depend>xe</depend>
+  <depend>xsm</depend>
+  
+  <!-- build dependencies -->
+  <build_depend>message_generation</build_depend>
+  
+  <!-- execution dependencies -->
+  <exec_depend>message_runtime</exec_depend>
+
+  <!-- test dependencies -->
+  <test_depend>rosunit</test_depend>
+  <test_depend>rostest</test_depend>
+  
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>

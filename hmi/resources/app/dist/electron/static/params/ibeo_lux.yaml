@@ -1,0 +1,5 @@
+sensor_frame_id: 'ibeo_lux'
+is_fusion: false
+ip_address: 192.168.1.211
+device_ip: 192.168.1.211
+port: 12002

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="smartcar">
+  <link name="smartcar">
+    <visual name="base_visual">
+      <origin xyz="0 0 0.0" rpy="1.57 0 1.57" />
+      <geometry>
+        <mesh filename="file://$(arg meshdir)/truck.dae" scale="1 1 1"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

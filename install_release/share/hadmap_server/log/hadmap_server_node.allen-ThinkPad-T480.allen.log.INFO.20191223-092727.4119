@@ -1,0 +1,75 @@
+Log file created at: 2019/12/23 09:27:27
+Running on machine: allen-ThinkPad-T480
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1223 09:27:27.229360  4119 main.cpp:64] current version is: 2.0.3.0a73361
+I1223 09:27:27.296447  4119 hadmap_server.cpp:47] map path: /home/allen/workspace/port_ws/hmi/resources/app/dist/electron/static/maps/wz_v1012beta.json
+E1223 09:27:28.880285  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:28.882014  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:28.884898  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:28.886639  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:28.889935  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:28.891430  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:28.894838  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:28.896307  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:28.898994  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:28.900331  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:28.903043  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:28.904368  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:28.915684  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:28.916756  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:28.921011  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:28.922411  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:29.142009  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:29.143040  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:29.145108  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1223 09:27:29.146230  4119 sections_parser.cpp:431] Error or unsupport lane type: latitude
+I1223 09:27:29.436267  4119 proto_organizer.cpp:358] hadmap statistics: roads-379,lanes-625,crosswalks-0,signals-0,junctions-0,overlaps-0
+I1223 09:27:29.894392  4119 routing.cpp:363] there is not forbidden_lanes!
+I1223 09:27:30.349174  4119 hadmap_server.cpp:3560] there isn't vehicle state
+E1223 09:27:30.349200  4119 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I1223 09:27:30.749328  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:30.949432  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:31.149399  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:31.349354  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:31.549278  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:31.749348  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:31.949326  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:32.149364  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:32.349315  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:32.549341  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:32.749294  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:32.949322  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:33.149329  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:33.349340  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:33.549324  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:33.749334  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:33.949273  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:34.149330  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:34.349305  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:34.549319  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:34.749320  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:34.949309  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:35.149332  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:35.349330  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:35.549283  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:35.749320  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:35.949328  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:36.149495  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:27:36.349292  4119 hadmap_server.cpp:3594] loc_cur is out of map!
+I1223 09:28:31.749264  4119 hadmap_server.cpp:523] current pose: x:567688.5965; y:4314971.521; yaw: 5.586454381
+I1223 09:28:31.749333  4119 hadmap_server.cpp:525] multi dst:
+I1223 09:28:31.749346  4119 hadmap_server.cpp:528] x: 567757.045; y: 4315046.026
+I1223 09:28:31.829576  4119 routing.cpp:363] there is not forbidden_lanes!
+I1223 09:28:31.840395  4119 routing.cpp:226] start lane id: 1040_2 ; end lane id: 305_0.
+I1223 09:28:31.840512  4119 hadmap_server.cpp:633] planning path:
+I1223 09:28:31.840523  4119 hadmap_server.cpp:636] lane id: 1040_2
+I1223 09:28:31.840530  4119 hadmap_server.cpp:636] lane id: 1054_0
+I1223 09:28:31.840536  4119 hadmap_server.cpp:636] lane id: 1843_0
+I1223 09:28:31.840543  4119 hadmap_server.cpp:636] lane id: 1004_0
+I1223 09:28:31.840548  4119 hadmap_server.cpp:636] lane id: 1810_0
+I1223 09:28:31.840553  4119 hadmap_server.cpp:636] lane id: 1017_0
+I1223 09:28:31.840559  4119 hadmap_server.cpp:636] lane id: 30_0
+I1223 09:28:31.840565  4119 hadmap_server.cpp:636] lane id: 1811_0
+I1223 09:28:31.840571  4119 hadmap_server.cpp:636] lane id: 305_0
+I1223 09:28:31.842226  4119 hadmap_server.cpp:645] find sub global map success!
+E1223 10:09:56.661201  4119 main.cpp:75] do hadmap server exit!

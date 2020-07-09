@@ -1,0 +1,7 @@
+<launch>
+  <param name="/use_sim_time" value="true" />
+  <node pkg="fusion_localization" type="fusion_localization_node" name="fusion_localization_node" clear_params="true">
+    <param name="log_path" type="string" value="$(find fusion_localization)/log" />
+    <rosparam command="load" file="$(find fusion_localization)/params/fusion_localization_node.yaml" />
+  </node>
+</launch>

@@ -1,0 +1,64 @@
+
+reflector_type_path: '/home/lgj/workspace/fusion_detection_install/src/lidar_alignment/params/reflector_type_new.txt'
+stop_shift_path: '/home/lgj/workspace/fusion_detection_install/src/lidar_alignment/params/stop_shift.csv'
+shift_filter_dist: 20.0    # 最后偏差大于这个数的就不发了，防止桥停在相邻贝位时，车向它跑
+
+vlp16_top:
+  topic_name: '/vlp16_1/velodyne_points'
+  frame_id: 'smartcar'
+  extrinsic:
+    heading: -1.7
+    pitch: 1.6
+    roll: -0.4
+    delta_x: 0
+    delta_y: 0
+    delta_z: 3.45
+
+reflector_detect:
+  seed_intensity_thres: 160
+  line_start: 5                     # 上下各多放一根激光线，不然在车辆耸、急刹时会丢失检测
+  line_end: 10
+  height_min: -5
+  height_max: 5
+  reflector_intensity_thres: 64
+  reflector_max_dist: 0.04          # 0.04cm * 0.04cm
+  reflector_ring_pt_dist: 0.15
+  cluster_min: 10
+  cluster_max: 1000
+  cluster_max_dist: 0.1
+  fitting_radium: 0.2
+  fitting_min_pts_dist: 0.05        # 大于这个数，才认为这个点对稳定
+  fitting_max_cluster_dist: 0.02    # 中心平均值的时候，只考虑这个距离以内的
+  fitting_max_inlier_dist: 0.01
+  default_two_reflector_dist: 2.8
+  min_offset_for_two_reflector_dist: 0.05
+  max_offset_for_two_reflector_dist: 0.20
+  left_or_right: 2           # left -> 0 / right -> 1 / tos -> 2
+  reflector_plane_intensity_thres: 200
+  roi:
+    x_min: -2.5
+    x_max: -0.4
+    y_min: -1.0
+    y_max: 1.0
+    z_min: 3.8
+    z_max: 6.0
+
+reflector_track:
+  min_appearing_times: 5
+  max_missing_times: 4
+  show_debug: true
+
+trailer_detect:
+  bool_trailer: false
+  default_40_qian_20: 3.04   # 距离前挡板约10cm
+  default_hou_20: 9.19
+  less_ring_num: 3
+  line_min: 2
+  line_max: 11
+  seg_distance_threshold: 0.1
+  roi_x_max: -2.8
+  roi_x_min: -10
+  roi_z_max: 6
+  roi_z_min: 1.5
+  roi_y: 1.5
+

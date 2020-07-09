@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="respawn" default="false" />
+    <arg name="debug" default="false" />
+    <arg name="node_name" default="pylon_camera_0" />
+    <arg name="config_file" default="$(find pylon_camera)/config/pylon_camera_0.yaml" />
+    <arg name="which" default="left" />
+
+    <arg unless="$(arg debug)" name="launch_prefix" value="" />
+    <arg     if="$(arg debug)" name="launch_prefix" value="gdb -ex run --args" />
+
+    <!--group ns="$(arg which)" -->
+        <node name="$(arg node_name)" pkg="pylon_camera" type="pylon_camera_node" output="screen"
+              respawn="$(arg respawn)" launch-prefix="$(arg launch_prefix)">
+            <rosparam command="load" file="$(arg config_file)" />
+            <!--rosparam command="load" file="$(find pylon_camera)/config/$(arg which).yaml" /-->
+        </node>
+    <!--/group -->
+</launch>

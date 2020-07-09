@@ -1,0 +1,25 @@
+Log file created at: 2019/09/11 15:26:05
+Running on machine: trunk-Nuvo-6108GC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0911 15:26:05.590847  9575 main.cpp:64] current version is: 2.0.3.0a73361
+I0911 15:26:05.966964  9575 hadmap_server.cpp:47] map path: /opt/trunk/hmi/resources/app/dist/electron/static/maps/wz_0911_2.json
+I0911 15:26:07.479184  9575 proto_organizer.cpp:358] hadmap statistics: roads-390,lanes-667,crosswalks-0,signals-0,junctions-0,overlaps-0
+I0911 15:26:07.888684  9575 routing.cpp:363] there is not forbidden_lanes!
+I0911 15:26:08.080543  9575 hadmap_server.cpp:3560] there isn't vehicle state
+E0911 15:26:08.080562  9575 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I0911 15:34:01.080664  9575 hadmap_server.cpp:523] current pose: x:568265.7914; y:4314670.728; yaw: 2.45887746
+I0911 15:34:01.080761  9575 hadmap_server.cpp:525] multi dst:
+I0911 15:34:01.080768  9575 hadmap_server.cpp:528] x: 567478.8228; y: 4315322.949
+I0911 15:34:01.168896  9575 routing.cpp:363] there is not forbidden_lanes!
+I0911 15:34:01.187343  9575 routing.cpp:226] start lane id: 100_3 ; end lane id: 195_2.
+I0911 15:34:01.187561  9575 hadmap_server.cpp:633] planning path:
+I0911 15:34:01.187572  9575 hadmap_server.cpp:636] lane id: 100_3
+I0911 15:34:01.187580  9575 hadmap_server.cpp:636] lane id: 197_3
+I0911 15:34:01.187587  9575 hadmap_server.cpp:636] lane id: 198_3
+I0911 15:34:01.187593  9575 hadmap_server.cpp:636] lane id: 199_3
+I0911 15:34:01.187600  9575 hadmap_server.cpp:636] lane id: 196_3
+I0911 15:34:01.187606  9575 hadmap_server.cpp:636] lane id: 195_3
+I0911 15:34:01.187613  9575 hadmap_server.cpp:636] lane id: 195_2
+I0911 15:34:01.197679  9575 hadmap_server.cpp:645] find sub global map success!
+I0911 15:37:12.481745  9575 hadmap_server.cpp:3588] same destination with last time!
+E0911 15:39:32.146032  9575 main.cpp:75] do hadmap server exit!

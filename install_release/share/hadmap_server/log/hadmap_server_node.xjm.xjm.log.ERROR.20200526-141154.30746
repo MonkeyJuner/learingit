@@ -1,0 +1,6 @@
+Log file created at: 2020/05/26 14:11:54
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0526 14:11:54.325963 30746 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0526 14:13:04.407955 30746 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0526 14:14:33.331480 30746 main.cpp:75] do hadmap server exit!

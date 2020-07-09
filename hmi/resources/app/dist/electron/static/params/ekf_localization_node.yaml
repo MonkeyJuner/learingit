@@ -1,0 +1,69 @@
+# The frequency, in Hz, at which the filter will output a position estimate. Note that the filter will not begin
+# computation until it receives at least one message from one of the inputs. It will then run continuously at the
+# frequency specified here, regardless of whether it receives more measurements. Defaults to 30 if unspecified.
+frequency: 30
+
+# The period, in seconds, after which we consider a sensor to have timed out. In this event, we carry out a predict
+# cycle on the EKF without correcting it. This parameter can be thought of as the minimum frequency with which the
+# filter will generate new output. Defaults to 1 / frequency if not specified.
+sensor_timeout: 0.13
+
+predict_to_current_time: false
+
+yaw_omega: -1
+yaw_b: 90
+yaw_correction: 0.5
+
+speed_ratio: 1.19
+
+# Debug settings. Not for the faint of heart. Outputs a ludicrous amount of information to the file specified by
+# debug_out_file. I hope you like matrices! Please note that setting this to true will have strongly deleterious
+# effects on the performance of the node. Defaults to false if unspecified.
+debug: true
+
+# Defaults to "robot_localization_debug.txt" if unspecified. Please specify the full path.
+debug_out_file: /home/xuejiang/debug/file.txt
+
+map_frame: map              # Defaults to "map" if unspecified
+odom_frame: utm            # Defaults to "odom" if unspecified
+base_link_frame: smartcar  # Defaults to "base_link" if unspecified
+world_frame: utm           # Defaults to the value of odom_frame if unspecified
+
+# The last issued control command will be used in prediction for this period. Defaults to 0.2.
+control_timeout: 0.025
+
+process_noise_covariance: [0.05, 0,    0,    0,     0,    0,
+                           0,    0.05, 0,    0,     0,    0,
+                           0,    0,    0.06, 0,     0,    0,
+                           0,    0,    0,    0.025, 0,    0,
+                           0,    0,    0,    0,     0.02, 0,
+                           0,    0,    0,    0,     0,    0.01]
+
+initial_estimate_covariance: [0.5, 0,    0,    0,    0,    0,
+                              0,    0.8, 0,    0,    0,    0,
+                              0,    0,    0.3, 0,    0,    0,
+                              0,    0,    0,    0.3, 0,    0,
+                              0,    0,    0,    0,    0.1, 0,
+                              0,    0,    0,    0,    0,    0.1]
+
+vehicle_info_measurement_covariance: [0,    0,    0,    0,     0,    0,
+                                      0,    0,    0,    0,     0,    0,
+                                      0,    0,    0,    0,     0,    0,
+                                      0,    0,    0,    0.01, 0,    0,
+                                      0,    0,    0,    0,     0,    0,
+                                      0,    0,    0,    0,     0,    0]
+
+gps_measurement_covariance: [0.5, 0,      0,      0,    0,    0,
+                             0,      0.5, 0,      0,    0,    0,
+                             0,      0,      0.03, 0,    0,    0,
+                             0,      0,      0,      0,    0,    0,
+                             0,      0,      0,      0,    0,    0,
+                             0,      0,      0,      0,    0,    0]
+
+lidar_pose_measurement_covariance: [0.1,   0,      0,      0,      0,     0,
+                                    0,      0.1,   0,      0,      0,     0,
+                                    0,      0,      0.05,   0,      0,     0,
+                                    0,      0,      0,      0,      0,     0,
+                                    0,      0,      0,      0,      0,     0,
+                                    0,      0,      0,      0,      0,     0]
+

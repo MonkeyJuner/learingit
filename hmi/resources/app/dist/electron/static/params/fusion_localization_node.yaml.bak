@@ -1,0 +1,100 @@
+is_calibrate: false
+frequency: 50
+sensor_timeout: 0.13
+debug: true
+debug_out_file: /home/trunk/fusion_localization.log
+predict_to_current_time: false
+use_gps: true
+smooth_lagged_data: false
+history_length: 0.5
+map_frame: map
+odom_frame: utm
+base_link_frame: smartcar
+world_frame: utm
+reset_on_jump: true
+
+use_camera: false
+use_barrier: true
+
+camera:
+  differential: false
+  cv_map_timeout: 0.3
+  hd_map_timeout: 0.5
+
+  yard:
+    read_axle_shift: 2.0
+    fraction_shift: 0.0
+  seaside:
+    read_axle_shift: 0.0
+    fraction_shift: 0.0
+  measurement_covariance: [0.15,   0,      0,      0,      0,     0,
+                           0,      0.15,   0,      0,      0,     0,
+                           0,      0,      0.3,      0,      0,     0,
+                           0,      0,      0,      0,      0,     0,
+                           0,      0,      0,      0,      0,     0,
+                           0,      0,      0,      0,      0,     0]
+barrier:
+  measurement_covariance: [0.05,   0,      0,      0,      0,     0,
+                           0,      0.05,   0,      0,      0,     0,
+                           0,      0,      0.01,      0,      0,     0,
+                           0,      0,      0,      0,      0,     0,
+                           0,      0,      0,      0,      0,     0,
+                           0,      0,      0,      0,      0,     0]
+
+gps:
+  yaw_omega: -1
+  yaw_b: 90
+  yaw_correction: 0.5
+  measurement_covariance: [0.05, 0,      0,      0,    0,    0,
+                           0,    0.05,   0,      0,    0,    0,
+                           0,    0,      0.2,   0,    0,    0,
+                           0,    0,      0,      0.05, 0,    0,
+                           0,    0,      0,      0,    0.02, 0,
+                           0,    0,      0,      0,    0,    0]
+  antenna_to_center_x: 3.8
+  antenna_to_center_y: 0.6
+
+lidar_odom:
+  differential: false
+  measurement_covariance: [0.1,    0,      0,      0,      0,     0,
+                           0,      0.1,    0,      0,      0,     0,
+                           0,      0,      0.4,   0,      0,     0,
+                           0,      0,      0,      0.05,   0,     0,
+                           0,      0,      0,      0,      0.02,  0,
+                           0,      0,      0,      0,      0,     0]
+
+vehicle_speed:
+  measurement_covariance: [0,    0,    0,    0,     0,    0,
+                           0,    0,    0,    0,     0,    0,
+                           0,    0,    0,    0,     0,    0,
+                           0,    0,    0,    0.03,  0,    0,
+                           0,    0,    0,    0,     0,    0,
+                           0,    0,    0,    0,     0,    0]
+
+  speed_ratio: 1.00
+  wheel_distance: 2.0
+
+imu:
+  timeout: 0.025
+  measurement_covariance: [0.1,    0,      0,      0,      0,     0,
+                           0,      0.1,    0,      0,      0,     0,
+                           0,      0,      0.4,   0,      0,     0,
+                           0,      0,      0,      0.05,   0,     0,
+                           0,      0,      0,      0,      0.02,  0,
+                           0,      0,      0,      0,      0,     0.01]
+
+process_noise_covariance: [0.05, 0,    0,    0,     0,    0,
+                           0,    0.05, 0,    0,     0,    0,
+                           0,    0,    0.06, 0,     0,    0,
+                           0,    0,    0,    0.025, 0,    0,
+                           0,    0,    0,    0,     0.02, 0,
+                           0,    0,    0,    0,     0,    0.01]
+
+initial_estimate_covariance: [0.5,  0,    0,    0,    0,    0,
+                              0,    0.8,  0,    0,    0,    0,
+                              0,    0,    0.01, 0,    0,    0,
+                              0,    0,    0,    0.3,  0,    0,
+                              0,    0,    0,    0,    0.1,  0,
+                              0,    0,    0,    0,    0,    0.1]
+
+

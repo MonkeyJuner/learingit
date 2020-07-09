@@ -1,0 +1,4 @@
+string start_lane_id
+string dst_lane_id
+---
+string[] planning_path

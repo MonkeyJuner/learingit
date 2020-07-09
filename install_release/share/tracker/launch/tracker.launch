@@ -1,0 +1,7 @@
+<launch>
+    <node name="tracker_node" pkg="tracker" type="tracker_node" output="screen" launch-prefix="gdb -ex run --args">
+        <rosparam file="$(find tracker)/config/tracker.yaml" command="load"/>
+        <param name="config_path" type="string" value="$(find tracker)/config" />
+    </node>
+
+</launch>

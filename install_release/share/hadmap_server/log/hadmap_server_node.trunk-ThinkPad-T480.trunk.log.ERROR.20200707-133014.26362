@@ -1,0 +1,7 @@
+Log file created at: 2020/07/07 13:30:14
+Running on machine: trunk-ThinkPad-T480
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E20200707 13:30:14.793929 26362 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E20200707 13:54:14.047904 26362 hadmap_server.cpp:600] path planning fail!
+E20200707 13:54:14.047919 26362 hadmap_server.cpp:195] do global planning fail!
+E20200707 13:59:32.393993 26362 main.cpp:75] do hadmap server exit!

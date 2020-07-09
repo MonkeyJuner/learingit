@@ -1,0 +1,272 @@
+Log file created at: 2019/09/11 18:17:32
+Running on machine: trunk-Nuvo-6108GC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0911 18:17:32.643154 22724 load_params.cpp:121] id: 201	dist: 3.45	type: 0
+I0911 18:17:32.643355 22724 load_params.cpp:121] id: 202	dist: 3.3	type: 0
+I0911 18:17:32.643362 22724 load_params.cpp:121] id: 203	dist: 4.05	type: 0
+I0911 18:17:32.643366 22724 load_params.cpp:121] id: 204	dist: 3.75	type: 0
+I0911 18:17:32.643369 22724 load_params.cpp:121] id: 205	dist: 4.35	type: 0
+I0911 18:17:32.643373 22724 load_params.cpp:121] id: 206	dist: 3.9	type: 0
+I0911 18:17:32.643376 22724 load_params.cpp:121] id: 207	dist: 3.15	type: 0
+I0911 18:17:32.643379 22724 load_params.cpp:121] id: 208	dist: 3.6	type: 0
+I0911 18:17:32.643383 22724 load_params.cpp:121] id: 209	dist: 3.455	type: 0
+I0911 18:17:32.643385 22724 load_params.cpp:121] id: 210	dist: 4.2	type: 0
+I0911 18:17:32.643388 22724 load_params.cpp:121] id: 211	dist: 3.3	type: 0
+I0911 18:17:32.643393 22724 load_params.cpp:121] id: 212	dist: 3	type: 0
+I0911 18:17:32.643395 22724 load_params.cpp:121] id: 311	dist: 2.38	type: 0
+I0911 18:17:32.643399 22724 load_params.cpp:121] id: 312	dist: 2.2	type: 0
+I0911 18:17:32.643401 22724 load_params.cpp:121] id: 313	dist: 2.69	type: 0
+I0911 18:17:32.643405 22724 load_params.cpp:121] id: 314	dist: 2.2	type: 0
+I0911 18:17:32.643409 22724 load_params.cpp:121] id: 315	dist: 2.41	type: 0
+I0911 18:17:32.643412 22724 load_params.cpp:121] id: 316	dist: 2.2	type: 0
+I0911 18:17:32.643415 22724 load_params.cpp:121] id: 321	dist: 2.36	type: 0
+I0911 18:17:32.643419 22724 load_params.cpp:121] id: 322	dist: 2.2	type: 0
+I0911 18:17:32.643422 22724 load_params.cpp:121] id: 323	dist: 2.4	type: 0
+I0911 18:17:32.643425 22724 load_params.cpp:121] id: 324	dist: 2.17	type: 0
+I0911 18:17:32.643429 22724 load_params.cpp:121] id: 325	dist: 2.4	type: 0
+I0911 18:17:32.643431 22724 load_params.cpp:121] id: 326	dist: 2.18	type: 0
+I0911 18:17:32.643435 22724 load_params.cpp:121] id: 327	dist: 2.43	type: 0
+I0911 18:17:32.643438 22724 load_params.cpp:121] id: 331	dist: 2.42	type: 0
+I0911 18:17:32.643442 22724 load_params.cpp:121] id: 332	dist: 2.19	type: 0
+I0911 18:17:32.643445 22724 load_params.cpp:121] id: 333	dist: 2.6	type: 0
+I0911 18:17:32.643450 22724 load_params.cpp:121] id: 334	dist: 2.21	type: 0
+I0911 18:17:32.643452 22724 load_params.cpp:121] id: 335	dist: 2.42	type: 0
+I0911 18:17:32.643455 22724 load_params.cpp:121] id: 336	dist: 2.2	type: 0
+I0911 18:17:32.643458 22724 load_params.cpp:121] id: 341	dist: 2.2	type: 0
+I0911 18:17:32.643461 22724 load_params.cpp:121] id: 342	dist: 2.38	type: 0
+I0911 18:17:32.643465 22724 load_params.cpp:121] id: 343	dist: 2.19	type: 0
+I0911 18:17:32.643467 22724 load_params.cpp:121] id: 344	dist: 2.37	type: 0
+I0911 18:17:32.643471 22724 load_params.cpp:121] id: 345	dist: 3.6	type: 0
+I0911 18:17:32.643474 22724 load_params.cpp:121] id: 346	dist: 2.2	type: 0
+I0911 18:17:32.643477 22724 load_params.cpp:121] id: 351	dist: 2.37	type: 0
+I0911 18:17:32.643481 22724 load_params.cpp:121] id: 352	dist: 2.2	type: 0
+I0911 18:17:32.643483 22724 load_params.cpp:121] id: 353	dist: 2.6	type: 0
+I0911 18:17:32.643486 22724 load_params.cpp:121] id: 354	dist: 2.21	type: 0
+I0911 18:17:32.643489 22724 load_params.cpp:121] id: 355	dist: 2.39	type: 0
+I0911 18:17:32.643492 22724 load_params.cpp:121] id: 356	dist: 2.2	type: 0
+W0911 18:18:50.892686 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:52.492662 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:52.589311 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:52.893540 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:52.989995 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:53.188413 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:54.494213 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:54.595916 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:54.694324 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:55.298651 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:55.488332 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:55.589164 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:55.697988 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:55.798223 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:58.195372 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:58.989959 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:59.087806 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:59.387874 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:18:59.591596 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:00.790275 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:00.899842 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:00.994675 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:01.792580 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:02.192371 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:02.397234 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:03.386566 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:03.884737 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:09.192907 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:14.085952 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:22.092270 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:25.886288 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:27.188107 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:32.684991 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:33.783782 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:37.891221 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:37.996453 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:38.091285 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:38.188165 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:38.293509 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:38.398869 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:40.289243 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:40.388448 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:40.486373 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:40.586532 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:40.687464 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:40.885910 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:40.985811 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:41.192414 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:41.886433 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:42.487768 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:42.587853 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:42.689671 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:42.789443 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:42.985025 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:43.084790 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:43.189991 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:43.297369 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:43.391713 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:43.497210 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:43.586432 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:43.700850 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:43.791265 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:43.893304 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:43.996668 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:44.089824 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:44.288863 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:44.505115 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:44.692796 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:44.907795 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:44.989002 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:45.087764 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:45.189429 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:45.489711 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:45.789212 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:45.990442 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:46.094930 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:46.195463 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:46.293268 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:46.398248 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:46.490881 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:46.588939 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:46.690857 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:46.788820 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:46.892360 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:46.994809 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:47.092054 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:47.193519 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:47.290056 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:47.488721 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:47.590590 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:47.687695 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:47.789155 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:47.988245 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:48.088654 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:48.194208 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:48.291893 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:48.392558 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:48.491791 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:48.589186 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:48.686367 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:48.787906 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:48.889616 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:48.989883 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:49.087977 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:49.191114 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:49.290740 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:49.395372 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:49.489491 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:49.591488 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:49.693130 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:49.789652 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:49.989943 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:50.090401 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:50.194747 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:50.288389 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:50.393048 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:50.492576 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:50.691416 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:50.989197 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:51.295373 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:51.395342 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:51.492585 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:51.588415 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:51.789950 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:52.790339 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:53.090356 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:53.190811 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:53.294783 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:53.398592 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:53.496579 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:53.599591 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:53.694661 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:53.795119 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:54.992954 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:55.100961 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:55.191239 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:57.590433 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:58.789975 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:58.890518 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:58.992688 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:59.089157 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:59.188542 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:59.288415 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:59.391834 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:59.493525 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:59.589972 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:59.690659 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:59.792428 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:59.893764 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:19:59.986814 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:00.087524 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:00.193279 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:00.289788 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:00.391397 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:00.489269 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:00.591128 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:05.787750 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:05.887171 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:05.986896 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:06.288028 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:06.490499 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:06.588474 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:06.699685 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:06.796474 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:06.886638 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:06.983443 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:07.090368 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:07.188413 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:07.291225 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:07.388665 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:07.497902 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:07.600795 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:07.692658 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:07.796804 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:07.897542 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:07.989933 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:08.093168 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:08.188302 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:08.287653 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:08.390498 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:08.487753 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:08.588073 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:08.688506 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:08.796367 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:08.891477 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:08.992552 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:09.090545 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:09.189070 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:09.286291 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:09.392930 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:09.492486 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:09.587867 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:09.694967 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:09.787364 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:09.888154 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:09.984463 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:10.088121 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:10.188216 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:10.286357 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:10.386862 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:10.590517 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:10.687628 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:10.787653 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:15.895982 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:15.995122 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:18.902590 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:19.395951 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:19.494848 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:19.593911 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:19.696425 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:19.791509 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:19.896553 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:19.998073 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:20.095963 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:20.189867 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:20.290678 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:20.396097 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:20.492210 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:21.293969 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:21.391623 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:21.599216 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:21.692222 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:21.793210 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:21.891144 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:21.992707 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8
+W0911 18:20:22.393426 22724 reflector_detector.cpp:193] cannot find the reflector_id: 0 in map_id_dist, use the default dist = 2.8

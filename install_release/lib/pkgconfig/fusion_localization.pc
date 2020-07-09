@@ -1,0 +1,8 @@
+prefix=/home/wuhaisheng/Workspace/catkin_integration/install
+
+Name: fusion_localization
+Description: Description of fusion_localization
+Version: 2.0.0
+Cflags: -I/home/wuhaisheng/Workspace/catkin_integration/install/include -I/usr/include/eigen3
+Libs: -L/home/wuhaisheng/Workspace/catkin_integration/install/lib -lyaml-cpp
+Requires: cmake_modules eigen_conversions geographic_msgs geometry_msgs message_filters message_runtime nav_msgs roscpp sensor_msgs std_msgs std_srvs tf2 tf2_geometry_msgs tf2_ros xmlrpcpp

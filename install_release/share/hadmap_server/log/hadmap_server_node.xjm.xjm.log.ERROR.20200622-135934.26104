@@ -1,0 +1,68 @@
+Log file created at: 2020/06/22 13:59:34
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0622 13:59:34.579030 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.579247 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.579332 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.579429 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.579610 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.580457 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.582260 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.582329 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.582437 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.583321 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.585178 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.585301 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.585513 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.586335 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.588074 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.588138 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.588248 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.589138 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.591012 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.591131 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.591336 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.591375 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.591445 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.592113 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.593652 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.593737 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.593853 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.594542 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.595988 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.596101 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.596313 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.596345 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.596395 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.597010 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.598305 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.598373 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.598492 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.599184 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.600634 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.600694 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.600790 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.601503 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.602861 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.602939 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.603085 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.603708 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.605013 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.605116 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.605338 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:34.605403 26104 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0622 13:59:35.434389 26104 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0622 14:03:31.417742 26104 hadmap_server.cpp:600] path planning fail!
+E0622 14:03:31.417757 26104 hadmap_server.cpp:195] do global planning fail!
+E0622 14:05:30.602246 26104 main.cpp:18] *** Aborted at 1592805930 (unix time) try "date -d @1592805930" if you are using GNU date ***
+E0622 14:05:30.607738 26104 main.cpp:18] PC: @     0x7fc7a704cc1d __GI___nanosleep
+E0622 14:05:30.609596 26104 main.cpp:18] *** SIGTERM (@0x3e800006588) received by PID 26104 (TID 0x7fc7a84af7c0) from PID 25992; stack trace: ***
+E0622 14:05:30.611814 26104 main.cpp:18]     @     0x7fc7a704d390 (unknown)
+E0622 14:05:30.613950 26104 main.cpp:18]     @     0x7fc7a704cc1d __GI___nanosleep
+E0622 14:05:30.616101 26104 main.cpp:18]     @     0x7fc7a747396b ros::ros_wallsleep()
+E0622 14:05:30.618221 26104 main.cpp:18]     @     0x7fc7a747442e ros::Duration::sleep()
+E0622 14:05:30.620272 26104 main.cpp:18]     @     0x7fc7a74733c0 ros::Rate::sleep()
+E0622 14:05:30.620774 26104 main.cpp:18]     @           0x4a33e1 trunk::hadmap::server::HadmapServer::doHadmapServer()
+E0622 14:05:30.620841 26104 main.cpp:18]     @           0x45272a main
+E0622 14:05:30.622833 26104 main.cpp:18]     @     0x7fc7a1f5a830 __libc_start_main
+E0622 14:05:30.623034 26104 main.cpp:18]     @           0x452fd9 _start

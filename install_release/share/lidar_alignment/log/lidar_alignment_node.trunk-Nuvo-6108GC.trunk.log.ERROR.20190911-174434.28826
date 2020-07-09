@@ -1,0 +1,5 @@
+Log file created at: 2019/09/11 17:44:34
+Running on machine: trunk-Nuvo-6108GC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0911 17:44:34.626109 28826 lidar_alignment_node.cpp:127] Can not find the crane_id: 444
+E0911 17:44:50.937206 28826 lidar_alignment_node.cpp:127] Can not find the crane_id: 444

@@ -1,0 +1,979 @@
+Log file created at: 2019/11/22 22:51:36
+Running on machine: allen-ThinkPad-T480
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1122 22:51:36.679081 21532 main.cpp:64] current version is: 2.0.3.0a73361
+I1122 22:51:36.834676 21532 hadmap_server.cpp:47] map path: /home/allen/workspace/port_ws/hmi/resources/app/dist/electron/static/maps/wz_0910xo_2.json
+I1122 22:51:40.050176 21532 proto_organizer.cpp:358] hadmap statistics: roads-387,lanes-657,crosswalks-0,signals-0,junctions-0,overlaps-0
+I1122 22:51:40.515599 21532 routing.cpp:363] there is not forbidden_lanes!
+I1122 22:51:41.010530 21532 hadmap_server.cpp:3560] there isn't vehicle state
+E1122 22:51:41.010565 21532 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I1122 22:51:41.410676 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:41.610661 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:41.810667 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:42.010677 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:42.210650 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:42.410650 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:42.610675 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:42.810632 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:43.010658 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:43.210634 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:43.410696 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:43.610683 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:43.810689 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:44.010645 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:44.210638 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:44.410631 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:44.610757 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:44.810757 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:45.010761 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:45.210698 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:45.410734 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:45.610808 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:45.810881 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:46.010787 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:46.210861 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:46.410820 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:46.610800 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:46.810868 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:47.010660 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:47.210834 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:47.410728 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:47.610821 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:47.810865 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:48.010957 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:48.210709 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:48.410706 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:48.610687 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:48.810717 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:49.010851 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:49.210805 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:49.410778 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:49.610783 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:49.810853 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:50.010749 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:50.210866 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:50.410712 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:50.610786 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:50.810678 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:51.010728 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:51.210682 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:51.410733 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:51.610793 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:51.810669 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:52.010769 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:52.210664 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:52.410769 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 22:51:54.410641 21532 hadmap_server.cpp:523] current pose: x:567256.9276; y:4315176.097; yaw: 5.586350958
+I1122 22:51:54.410784 21532 hadmap_server.cpp:525] multi dst:
+I1122 22:51:54.410818 21532 hadmap_server.cpp:528] x: 567823; y: 4314953
+I1122 22:51:54.495239 21532 routing.cpp:363] there is not forbidden_lanes!
+I1122 22:51:54.506225 21532 routing.cpp:226] start lane id: 1523_0 ; end lane id: 1700_2.
+I1122 22:51:54.506479 21532 hadmap_server.cpp:633] planning path:
+I1122 22:51:54.506492 21532 hadmap_server.cpp:636] lane id: 1523_0
+I1122 22:51:54.506498 21532 hadmap_server.cpp:636] lane id: 1521_0
+I1122 22:51:54.506502 21532 hadmap_server.cpp:636] lane id: 1408_0
+I1122 22:51:54.506507 21532 hadmap_server.cpp:636] lane id: 1829_0
+I1122 22:51:54.506512 21532 hadmap_server.cpp:636] lane id: 1768_0
+I1122 22:51:54.506517 21532 hadmap_server.cpp:636] lane id: 1367_0
+I1122 22:51:54.506521 21532 hadmap_server.cpp:636] lane id: 1150_0
+I1122 22:51:54.506526 21532 hadmap_server.cpp:636] lane id: 1854_0
+I1122 22:51:54.506531 21532 hadmap_server.cpp:636] lane id: 1373_0
+I1122 22:51:54.506536 21532 hadmap_server.cpp:636] lane id: 1371_0
+I1122 22:51:54.506541 21532 hadmap_server.cpp:636] lane id: 1855_0
+I1122 22:51:54.506546 21532 hadmap_server.cpp:636] lane id: 1856_0
+I1122 22:51:54.506551 21532 hadmap_server.cpp:636] lane id: 1857_0
+I1122 22:51:54.506556 21532 hadmap_server.cpp:636] lane id: 1024_0
+I1122 22:51:54.506561 21532 hadmap_server.cpp:636] lane id: 1700_2
+I1122 22:51:54.507663 21532 hadmap_server.cpp:645] find sub global map success!
+I1122 22:57:46.610625 21532 hadmap_server.cpp:523] current pose: x:567828.4703; y:4314958.718; yaw: 5.586437582
+I1122 22:57:46.610699 21532 hadmap_server.cpp:525] multi dst:
+I1122 22:57:46.610716 21532 hadmap_server.cpp:528] x: 567990; y: 4314695
+I1122 22:57:46.735600 21532 routing.cpp:363] there is not forbidden_lanes!
+I1122 22:57:46.764179 21532 routing.cpp:226] start lane id: 1700_2 ; end lane id: 1821_2.
+I1122 22:57:46.764400 21532 hadmap_server.cpp:633] planning path:
+I1122 22:57:46.764425 21532 hadmap_server.cpp:636] lane id: 1700_2
+I1122 22:57:46.764438 21532 hadmap_server.cpp:636] lane id: 1063_0
+I1122 22:57:46.764452 21532 hadmap_server.cpp:636] lane id: 1316_0
+I1122 22:57:46.764467 21532 hadmap_server.cpp:636] lane id: 1319_0
+I1122 22:57:46.764480 21532 hadmap_server.cpp:636] lane id: 1321_0
+I1122 22:57:46.764494 21532 hadmap_server.cpp:636] lane id: 1056_0
+I1122 22:57:46.764508 21532 hadmap_server.cpp:636] lane id: 1821_2
+I1122 22:57:46.768410 21532 hadmap_server.cpp:645] find sub global map success!
+I1122 23:03:32.410776 21532 hadmap_server.cpp:523] current pose: x:568002.3112; y:4314708.972; yaw: 5.586286276
+I1122 23:03:32.410949 21532 hadmap_server.cpp:525] multi dst:
+I1122 23:03:32.410964 21532 hadmap_server.cpp:528] x: 567477; y: 4315120
+I1122 23:03:32.547881 21532 routing.cpp:363] there is not forbidden_lanes!
+I1122 23:03:32.578510 21532 routing.cpp:226] start lane id: 1821_2 ; end lane id: 1735_2.
+I1122 23:03:32.580687 21532 hadmap_server.cpp:633] planning path:
+I1122 23:03:32.580734 21532 hadmap_server.cpp:636] lane id: 1821_2
+I1122 23:03:32.580752 21532 hadmap_server.cpp:636] lane id: 1074_0
+I1122 23:03:32.580835 21532 hadmap_server.cpp:636] lane id: 1073_0
+I1122 23:03:32.580859 21532 hadmap_server.cpp:636] lane id: 1489_0
+I1122 23:03:32.580876 21532 hadmap_server.cpp:636] lane id: 1499_0
+I1122 23:03:32.580893 21532 hadmap_server.cpp:636] lane id: 1330_0
+I1122 23:03:32.580907 21532 hadmap_server.cpp:636] lane id: 1349_0
+I1122 23:03:32.580960 21532 hadmap_server.cpp:636] lane id: 1380_0
+I1122 23:03:32.580982 21532 hadmap_server.cpp:636] lane id: 1514_1
+I1122 23:03:32.580997 21532 hadmap_server.cpp:636] lane id: 1516_1
+I1122 23:03:32.581012 21532 hadmap_server.cpp:636] lane id: 1467_1
+I1122 23:03:32.581027 21532 hadmap_server.cpp:636] lane id: 1518_1
+I1122 23:03:32.581041 21532 hadmap_server.cpp:636] lane id: 1992_1
+I1122 23:03:32.581056 21532 hadmap_server.cpp:636] lane id: 1462_1
+I1122 23:03:32.581071 21532 hadmap_server.cpp:636] lane id: 1993_1
+I1122 23:03:32.581086 21532 hadmap_server.cpp:636] lane id: 1023_0
+I1122 23:03:32.581104 21532 hadmap_server.cpp:636] lane id: 1377_0
+I1122 23:03:32.581120 21532 hadmap_server.cpp:636] lane id: 1358_0
+I1122 23:03:32.581136 21532 hadmap_server.cpp:636] lane id: 1722_0
+I1122 23:03:32.581151 21532 hadmap_server.cpp:636] lane id: 1125_0
+I1122 23:03:32.581166 21532 hadmap_server.cpp:636] lane id: 1833_0
+I1122 23:03:32.581180 21532 hadmap_server.cpp:636] lane id: 1012_0
+I1122 23:03:32.581194 21532 hadmap_server.cpp:636] lane id: 1735_2
+I1122 23:03:32.589576 21532 hadmap_server.cpp:645] find sub global map success!
+I1122 23:03:34.810636 21532 hadmap_server.cpp:523] current pose: x:568003.058; y:4314708.347; yaw: 5.586286276
+I1122 23:03:34.810740 21532 hadmap_server.cpp:525] multi dst:
+I1122 23:03:34.810766 21532 hadmap_server.cpp:528] x: 567751; y: 4314891
+I1122 23:03:34.956652 21532 routing.cpp:363] there is not forbidden_lanes!
+I1122 23:03:34.981895 21532 routing.cpp:226] start lane id: 1821_2 ; end lane id: 1040_2.
+I1122 23:03:34.982652 21532 hadmap_server.cpp:633] planning path:
+I1122 23:03:34.982700 21532 hadmap_server.cpp:636] lane id: 1821_2
+I1122 23:03:34.982717 21532 hadmap_server.cpp:636] lane id: 1074_0
+I1122 23:03:34.982726 21532 hadmap_server.cpp:636] lane id: 1073_0
+I1122 23:03:34.982734 21532 hadmap_server.cpp:636] lane id: 1489_0
+I1122 23:03:34.982743 21532 hadmap_server.cpp:636] lane id: 1499_0
+I1122 23:03:34.982751 21532 hadmap_server.cpp:636] lane id: 1330_0
+I1122 23:03:34.982759 21532 hadmap_server.cpp:636] lane id: 1349_0
+I1122 23:03:34.982769 21532 hadmap_server.cpp:636] lane id: 1380_0
+I1122 23:03:34.982776 21532 hadmap_server.cpp:636] lane id: 1514_1
+I1122 23:03:34.982785 21532 hadmap_server.cpp:636] lane id: 1516_1
+I1122 23:03:34.982794 21532 hadmap_server.cpp:636] lane id: 1467_1
+I1122 23:03:34.982802 21532 hadmap_server.cpp:636] lane id: 1518_1
+I1122 23:03:34.982810 21532 hadmap_server.cpp:636] lane id: 1755_0
+I1122 23:03:34.982820 21532 hadmap_server.cpp:636] lane id: 1768_0
+I1122 23:03:34.982827 21532 hadmap_server.cpp:636] lane id: 1367_0
+I1122 23:03:34.982836 21532 hadmap_server.cpp:636] lane id: 1150_0
+I1122 23:03:34.982844 21532 hadmap_server.cpp:636] lane id: 1854_0
+I1122 23:03:34.982853 21532 hadmap_server.cpp:636] lane id: 1373_0
+I1122 23:03:34.982897 21532 hadmap_server.cpp:636] lane id: 1041_0
+I1122 23:03:34.982910 21532 hadmap_server.cpp:636] lane id: 1040_2
+I1122 23:03:34.986404 21532 hadmap_server.cpp:645] find sub global map success!
+I1122 23:03:36.610662 21532 hadmap_server.cpp:523] current pose: x:568005.8191; y:4314706.036; yaw: 5.586286276
+I1122 23:03:36.610818 21532 hadmap_server.cpp:525] multi dst:
+I1122 23:03:36.610846 21532 hadmap_server.cpp:528] x: 567843; y: 4314814
+I1122 23:03:36.748293 21532 routing.cpp:363] there is not forbidden_lanes!
+I1122 23:03:36.930799 21532 routing.cpp:363] there is not forbidden_lanes!
+I1122 23:03:36.963229 21532 routing.cpp:226] start lane id: 1821_2 ; end lane id: 18210_2.
+I1122 23:03:36.963893 21532 hadmap_server.cpp:633] planning path:
+I1122 23:03:36.963922 21532 hadmap_server.cpp:636] lane id: 1821_2
+I1122 23:03:36.963940 21532 hadmap_server.cpp:636] lane id: 1074_0
+I1122 23:03:36.963956 21532 hadmap_server.cpp:636] lane id: 1073_0
+I1122 23:03:36.964056 21532 hadmap_server.cpp:636] lane id: 1489_0
+I1122 23:03:36.964110 21532 hadmap_server.cpp:636] lane id: 1499_0
+I1122 23:03:36.964130 21532 hadmap_server.cpp:636] lane id: 1330_0
+I1122 23:03:36.964148 21532 hadmap_server.cpp:636] lane id: 1349_0
+I1122 23:03:36.964162 21532 hadmap_server.cpp:636] lane id: 1380_0
+I1122 23:03:36.964179 21532 hadmap_server.cpp:636] lane id: 1514_1
+I1122 23:03:36.964193 21532 hadmap_server.cpp:636] lane id: 1022_0
+I1122 23:03:36.964208 21532 hadmap_server.cpp:636] lane id: 1361_0
+I1122 23:03:36.964223 21532 hadmap_server.cpp:636] lane id: 1326_0
+I1122 23:03:36.964239 21532 hadmap_server.cpp:636] lane id: 1845_0
+I1122 23:03:36.964254 21532 hadmap_server.cpp:636] lane id: 1365_0
+I1122 23:03:36.964269 21532 hadmap_server.cpp:636] lane id: 1058_0
+I1122 23:03:36.964284 21532 hadmap_server.cpp:636] lane id: 18210_2
+I1122 23:03:36.967377 21532 hadmap_server.cpp:645] find sub global map success!
+I1122 23:04:45.216969 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567956.4025, y: 4314596.287 ; yaw: 4.008677726
+I1122 23:04:45.420405 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567956.0921, y: 4314595.922 ; yaw: 4.008608155
+I1122 23:04:45.617089 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567955.7815, y: 4314595.556 ; yaw: 4.008538548
+I1122 23:04:45.820011 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567955.4707, y: 4314595.19 ; yaw: 4.008468905
+I1122 23:04:46.017355 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567955.1598, y: 4314594.823 ; yaw: 4.008399226
+I1122 23:04:46.216315 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567954.8486, y: 4314594.457 ; yaw: 4.008329511
+I1122 23:04:46.415817 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567954.5373, y: 4314594.09 ; yaw: 4.00825976
+I1122 23:04:46.619859 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567954.2258, y: 4314593.724 ; yaw: 4.008189973
+I1122 23:04:46.815673 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567953.9141, y: 4314593.357 ; yaw: 4.008120151
+I1122 23:04:47.015944 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567953.6022, y: 4314592.99 ; yaw: 4.008050292
+I1122 23:04:47.215543 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567953.2901, y: 4314592.622 ; yaw: 4.007980398
+I1122 23:04:47.415881 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567952.9778, y: 4314592.255 ; yaw: 4.007910467
+I1122 23:04:47.617446 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567952.6654, y: 4314591.887 ; yaw: 4.007840501
+I1122 23:04:47.815866 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567952.3527, y: 4314591.52 ; yaw: 4.007770499
+I1122 23:04:48.020028 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567952.0399, y: 4314591.152 ; yaw: 4.00770046
+I1122 23:04:48.216600 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567951.7269, y: 4314590.784 ; yaw: 4.007630386
+I1122 23:04:48.417168 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567951.4137, y: 4314590.416 ; yaw: 4.007560276
+I1122 23:04:48.616916 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567951.1003, y: 4314590.047 ; yaw: 4.00749013
+I1122 23:04:48.815479 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567950.7868, y: 4314589.679 ; yaw: 4.007419948
+I1122 23:04:49.016957 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567950.473, y: 4314589.31 ; yaw: 4.00734973
+I1122 23:04:49.211488 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:49.216802 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567950.1591, y: 4314588.941 ; yaw: 4.007279476
+I1122 23:04:49.411350 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:49.417346 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567949.8449, y: 4314588.572 ; yaw: 4.007209187
+I1122 23:04:49.611349 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:49.616298 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567949.5306, y: 4314588.203 ; yaw: 4.007138861
+I1122 23:04:49.811375 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:49.818727 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567949.2161, y: 4314587.833 ; yaw: 4.007068499
+I1122 23:04:50.011353 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:50.018764 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567948.9014, y: 4314587.464 ; yaw: 4.006998102
+I1122 23:04:50.211349 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:50.217020 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567948.5866, y: 4314587.094 ; yaw: 4.006927669
+I1122 23:04:50.411339 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:50.416674 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567948.2715, y: 4314586.724 ; yaw: 4.006857199
+I1122 23:04:50.611351 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:50.616904 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567947.9562, y: 4314586.354 ; yaw: 4.006786694
+I1122 23:04:50.811372 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:50.816000 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567947.6408, y: 4314585.984 ; yaw: 4.006716153
+I1122 23:04:51.011346 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:51.015802 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567947.3252, y: 4314585.613 ; yaw: 4.006645575
+I1122 23:04:51.211369 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:51.218885 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567947.0094, y: 4314585.243 ; yaw: 4.006574962
+I1122 23:04:51.411373 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:51.415225 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567946.6934, y: 4314584.872 ; yaw: 4.006504313
+I1122 23:04:51.611361 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:51.617214 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567946.3772, y: 4314584.501 ; yaw: 4.006433628
+I1122 23:04:51.811341 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:51.816308 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567946.0608, y: 4314584.13 ; yaw: 4.006362907
+I1122 23:04:52.011345 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:52.015527 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567945.7443, y: 4314583.759 ; yaw: 4.006292151
+I1122 23:04:52.211380 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:52.216655 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567945.4275, y: 4314583.387 ; yaw: 4.006221358
+I1122 23:04:52.411401 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:52.417099 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567945.1106, y: 4314583.016 ; yaw: 4.006150529
+I1122 23:04:52.611377 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:52.615465 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567944.7935, y: 4314582.644 ; yaw: 4.006079665
+I1122 23:04:52.811363 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:52.818255 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567944.4762, y: 4314582.272 ; yaw: 4.006008764
+I1122 23:04:53.011358 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:53.017868 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567944.1587, y: 4314581.9 ; yaw: 4.005937828
+I1122 23:04:53.211392 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:53.217085 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567943.841, y: 4314581.528 ; yaw: 4.005866855
+I1122 23:04:53.411391 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:53.416427 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567943.5232, y: 4314581.155 ; yaw: 4.005795847
+I1122 23:04:53.611378 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:53.615906 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567943.2051, y: 4314580.783 ; yaw: 4.005724803
+I1122 23:04:53.811357 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:53.818962 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567942.8869, y: 4314580.41 ; yaw: 4.005653722
+I1122 23:04:54.011395 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:54.016414 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567942.5684, y: 4314580.037 ; yaw: 4.005582606
+I1122 23:04:54.211359 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:54.217949 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567942.2498, y: 4314579.664 ; yaw: 4.005511454
+I1122 23:04:54.411379 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:54.415206 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567941.931, y: 4314579.291 ; yaw: 4.005440266
+I1122 23:04:54.611351 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:54.620460 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567941.612, y: 4314578.918 ; yaw: 4.005369042
+I1122 23:04:54.811368 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:54.818727 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567941.2929, y: 4314578.544 ; yaw: 4.005297783
+I1122 23:04:55.011399 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:55.016914 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567940.9735, y: 4314578.17 ; yaw: 4.005226487
+I1122 23:04:55.211355 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:55.217130 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567940.6539, y: 4314577.796 ; yaw: 4.005155155
+I1122 23:04:55.411401 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:55.418226 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567940.3342, y: 4314577.422 ; yaw: 4.005083787
+I1122 23:04:55.611378 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:55.615427 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567940.0143, y: 4314577.048 ; yaw: 4.005012384
+I1122 23:04:55.811381 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:55.815668 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567939.6941, y: 4314576.674 ; yaw: 4.004940944
+I1122 23:04:56.011348 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:56.018374 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567939.3738, y: 4314576.299 ; yaw: 4.004869469
+I1122 23:04:56.211364 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:56.218856 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567939.0534, y: 4314575.924 ; yaw: 4.004797958
+I1122 23:04:56.411362 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:56.416911 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567938.7327, y: 4314575.55 ; yaw: 4.00472641
+I1122 23:04:56.611359 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:56.617576 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567938.4118, y: 4314575.175 ; yaw: 4.004654827
+I1122 23:04:56.811400 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:56.815879 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567938.0908, y: 4314574.799 ; yaw: 4.004583208
+I1122 23:04:57.011363 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:57.016155 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567937.7695, y: 4314574.424 ; yaw: 4.004511553
+I1122 23:04:57.211385 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:57.215994 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567937.4481, y: 4314574.048 ; yaw: 4.004439862
+I1122 23:04:57.411355 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:57.415740 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567937.1265, y: 4314573.673 ; yaw: 4.004368135
+I1122 23:04:57.611346 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:57.616385 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567936.8047, y: 4314573.297 ; yaw: 4.004296372
+I1122 23:04:57.811380 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:57.816030 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567936.4827, y: 4314572.921 ; yaw: 4.004224573
+I1122 23:04:58.011368 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:58.016126 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567936.1605, y: 4314572.545 ; yaw: 4.004152739
+I1122 23:04:58.211381 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:58.216014 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567935.8381, y: 4314572.168 ; yaw: 4.004080868
+I1122 23:04:58.411350 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:58.415688 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567935.5155, y: 4314571.792 ; yaw: 4.004008962
+I1122 23:04:58.611403 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:58.618337 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567935.1928, y: 4314571.415 ; yaw: 4.003937019
+I1122 23:04:58.811389 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:58.816828 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567934.8699, y: 4314571.038 ; yaw: 4.003865041
+I1122 23:04:59.011353 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:59.016304 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567934.5467, y: 4314570.661 ; yaw: 4.003793026
+I1122 23:04:59.211354 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:59.215277 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567934.2234, y: 4314570.284 ; yaw: 4.003720976
+I1122 23:04:59.411399 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:59.417353 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567933.8999, y: 4314569.907 ; yaw: 4.00364889
+I1122 23:04:59.611388 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:59.615661 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567933.5762, y: 4314569.529 ; yaw: 4.003576768
+I1122 23:04:59.811379 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:04:59.820222 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567933.2524, y: 4314569.151 ; yaw: 4.00350461
+I1122 23:05:00.011389 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:00.016400 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567932.9283, y: 4314568.774 ; yaw: 4.003432416
+I1122 23:05:00.211405 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:00.218513 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567932.604, y: 4314568.396 ; yaw: 4.003360186
+I1122 23:05:00.411360 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:00.415277 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567932.2796, y: 4314568.017 ; yaw: 4.00328792
+I1122 23:05:00.611394 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:00.618374 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567931.955, y: 4314567.639 ; yaw: 4.003215618
+I1122 23:05:00.811389 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:00.816777 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567931.6301, y: 4314567.26 ; yaw: 4.00314328
+I1122 23:05:01.011381 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:01.017107 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567931.3051, y: 4314566.882 ; yaw: 4.003070907
+I1122 23:05:01.211369 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:01.217247 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567930.9799, y: 4314566.503 ; yaw: 4.002998497
+I1122 23:05:01.411357 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:01.415958 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567930.6545, y: 4314566.124 ; yaw: 4.002926051
+I1122 23:05:01.611394 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:01.616894 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567930.329, y: 4314565.745 ; yaw: 4.00285357
+I1122 23:05:01.811532 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:01.819943 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567930.0032, y: 4314565.365 ; yaw: 4.002781053
+I1122 23:05:02.011359 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:02.016254 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567929.6772, y: 4314564.986 ; yaw: 4.002708499
+I1122 23:05:02.211359 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:02.216773 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567929.3511, y: 4314564.606 ; yaw: 4.00263591
+I1122 23:05:02.411376 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:02.416286 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567929.0248, y: 4314564.226 ; yaw: 4.002563285
+I1122 23:05:02.611707 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:02.619891 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567928.6982, y: 4314563.847 ; yaw: 4.002490624
+I1122 23:05:02.811398 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:02.816615 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567928.3715, y: 4314563.466 ; yaw: 4.002417927
+I1122 23:05:03.011379 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:03.019443 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567928.0446, y: 4314563.086 ; yaw: 4.002345194
+I1122 23:05:03.211412 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:03.216470 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567927.7175, y: 4314562.706 ; yaw: 4.002272425
+I1122 23:05:03.411396 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:03.416220 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567927.3903, y: 4314562.325 ; yaw: 4.00219962
+I1122 23:05:03.611378 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:03.616117 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567927.0628, y: 4314561.944 ; yaw: 4.002126779
+I1122 23:05:03.811403 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:03.817395 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567926.7351, y: 4314561.563 ; yaw: 4.002053903
+I1122 23:05:04.011385 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:04.015426 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567926.4073, y: 4314561.182 ; yaw: 4.00198099
+I1122 23:05:04.211429 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:04.217175 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567926.0793, y: 4314560.801 ; yaw: 4.001908042
+I1122 23:05:04.411408 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:04.417193 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567925.751, y: 4314560.419 ; yaw: 4.001835057
+I1122 23:05:04.611364 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:04.616935 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567925.4226, y: 4314560.038 ; yaw: 4.001762037
+I1122 23:05:04.811400 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:04.817056 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567925.094, y: 4314559.656 ; yaw: 4.001688981
+I1122 23:05:05.011401 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:05.015884 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567924.7652, y: 4314559.274 ; yaw: 4.001615888
+I1122 23:05:05.211411 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:05.216114 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567924.4362, y: 4314558.892 ; yaw: 4.00154276
+I1122 23:05:05.411411 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:05.416555 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567924.1071, y: 4314558.509 ; yaw: 4.001469596
+I1122 23:05:05.611402 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:05.617188 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567923.7777, y: 4314558.127 ; yaw: 4.001396396
+I1122 23:05:05.811400 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:05.816681 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567923.4482, y: 4314557.744 ; yaw: 4.00132316
+I1122 23:05:06.011384 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:06.016440 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567923.1184, y: 4314557.362 ; yaw: 4.001249888
+I1122 23:05:06.211356 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:06.216774 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567922.7885, y: 4314556.979 ; yaw: 4.00117658
+I1122 23:05:06.411372 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:06.415243 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567922.4584, y: 4314556.596 ; yaw: 4.001103237
+I1122 23:05:06.611402 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:06.615456 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567922.128, y: 4314556.212 ; yaw: 4.001029857
+I1122 23:05:06.811391 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:06.815502 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567921.7975, y: 4314555.829 ; yaw: 4.000956441
+I1122 23:05:07.011366 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:07.017321 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567921.4669, y: 4314555.445 ; yaw: 4.00088299
+I1122 23:05:07.211382 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:07.215972 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567921.136, y: 4314555.062 ; yaw: 4.000809502
+I1122 23:05:07.411401 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:07.415635 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567920.8049, y: 4314554.678 ; yaw: 4.000735979
+I1122 23:05:07.611380 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:07.615926 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567920.4736, y: 4314554.294 ; yaw: 4.000662419
+I1122 23:05:07.811352 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:07.815235 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567920.1422, y: 4314553.909 ; yaw: 4.000588824
+I1122 23:05:08.011395 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:08.020503 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567919.8106, y: 4314553.525 ; yaw: 4.000515193
+I1122 23:05:08.211396 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:08.214928 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567919.4787, y: 4314553.14 ; yaw: 4.000441526
+I1122 23:05:08.411397 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:08.416769 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567919.1467, y: 4314552.756 ; yaw: 4.000367823
+I1122 23:05:08.611397 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:08.616072 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567918.8145, y: 4314552.371 ; yaw: 4.000294084
+I1122 23:05:08.811395 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:08.815724 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567918.4821, y: 4314551.986 ; yaw: 4.000220309
+I1122 23:05:09.011497 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:09.016741 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567918.1495, y: 4314551.6 ; yaw: 4.000146498
+I1122 23:05:09.211414 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:09.216747 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567917.8167, y: 4314551.215 ; yaw: 4.000072651
+I1122 23:05:09.411358 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:09.416494 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567917.4837, y: 4314550.829 ; yaw: 3.999998769
+I1122 23:05:09.611420 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:09.616925 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567917.1506, y: 4314550.444 ; yaw: 3.99992485
+I1122 23:05:09.811378 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:09.818742 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567916.8172, y: 4314550.058 ; yaw: 3.999850895
+I1122 23:05:10.011410 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:10.016561 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567916.4837, y: 4314549.672 ; yaw: 3.999776905
+I1122 23:05:10.211398 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:10.220206 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567916.1499, y: 4314549.286 ; yaw: 3.999702879
+I1122 23:05:10.411422 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:10.418260 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567915.816, y: 4314548.899 ; yaw: 3.999628816
+I1122 23:05:10.611402 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:10.615857 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567915.4819, y: 4314548.513 ; yaw: 3.999554718
+I1122 23:05:10.811373 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:10.818883 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567915.1476, y: 4314548.126 ; yaw: 3.999480584
+I1122 23:05:11.011400 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:11.016541 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567914.8131, y: 4314547.739 ; yaw: 3.999406414
+I1122 23:05:11.211395 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:11.218845 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567914.4784, y: 4314547.352 ; yaw: 3.999332208
+I1122 23:05:11.411420 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:11.417289 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567914.1435, y: 4314546.965 ; yaw: 3.999257966
+I1122 23:05:11.611394 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:11.616106 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567913.8085, y: 4314546.578 ; yaw: 3.999183688
+I1122 23:05:11.811350 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:11.815537 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567913.4732, y: 4314546.19 ; yaw: 3.999109374
+I1122 23:05:12.011371 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:12.017357 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567913.1378, y: 4314545.803 ; yaw: 3.999035024
+I1122 23:05:12.211388 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:12.218286 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567912.8021, y: 4314545.415 ; yaw: 3.998960638
+I1122 23:05:12.411358 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:12.415699 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567912.4663, y: 4314545.027 ; yaw: 3.998886217
+I1122 23:05:12.611622 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:12.616273 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567912.1303, y: 4314544.639 ; yaw: 3.998811759
+I1122 23:05:12.811369 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:12.817885 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567911.794, y: 4314544.25 ; yaw: 3.998737266
+I1122 23:05:13.011397 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:13.015905 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567911.4576, y: 4314543.862 ; yaw: 3.998662736
+I1122 23:05:13.211406 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:13.218789 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567911.121, y: 4314543.473 ; yaw: 3.998588171
+I1122 23:05:13.411445 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:13.416865 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567910.7842, y: 4314543.084 ; yaw: 3.998513569
+I1122 23:05:13.611392 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:13.617542 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567910.4473, y: 4314542.695 ; yaw: 3.998438932
+I1122 23:05:13.811389 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:13.817685 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567910.1101, y: 4314542.306 ; yaw: 3.998364259
+I1122 23:05:14.011390 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:14.015709 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567909.7727, y: 4314541.917 ; yaw: 3.99828955
+I1122 23:05:14.211381 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:14.216167 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567909.4352, y: 4314541.528 ; yaw: 3.998214805
+I1122 23:05:14.411393 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:14.415393 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567909.0974, y: 4314541.138 ; yaw: 3.998140024
+I1122 23:05:14.611382 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:14.615909 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567908.7595, y: 4314540.748 ; yaw: 3.998065207
+I1122 23:05:14.811412 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:14.817198 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567908.4214, y: 4314540.358 ; yaw: 3.997990354
+I1122 23:05:15.011420 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:15.017158 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567908.083, y: 4314539.968 ; yaw: 3.997915466
+I1122 23:05:15.211400 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:15.215335 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567907.7445, y: 4314539.578 ; yaw: 3.997840541
+I1122 23:05:15.411396 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+I1122 23:05:15.416313 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567907.4058, y: 4314539.187 ; yaw: 3.99776558
+I1122 23:05:15.611500 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:15.616845 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:15.616899 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567907.0669, y: 4314538.797 ; yaw: 3.997690584
+I1122 23:05:15.811378 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:15.816403 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:15.816465 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567906.7279, y: 4314538.406 ; yaw: 3.997615551
+I1122 23:05:16.011369 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:16.016947 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:16.017009 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567906.3886, y: 4314538.015 ; yaw: 3.997540483
+I1122 23:05:16.211374 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:16.216501 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:16.216599 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567906.0491, y: 4314537.624 ; yaw: 3.997465379
+E1122 23:05:16.216809 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:16.411387 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:16.416411 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:16.416471 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567905.7094, y: 4314537.233 ; yaw: 3.997390239
+I1122 23:05:16.611392 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:16.617476 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:16.617646 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567905.3696, y: 4314536.842 ; yaw: 3.997315062
+I1122 23:05:16.811383 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:16.818485 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:16.818550 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567905.0295, y: 4314536.45 ; yaw: 3.99723985
+I1122 23:05:17.011394 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:17.016290 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:17.016347 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567904.6893, y: 4314536.058 ; yaw: 3.997164602
+I1122 23:05:17.211403 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:17.215788 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:17.215868 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567904.3489, y: 4314535.666 ; yaw: 3.997089318
+E1122 23:05:17.216048 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:17.411391 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:17.417523 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:17.417587 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567904.0083, y: 4314535.274 ; yaw: 3.997013998
+I1122 23:05:17.611392 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:17.615357 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:17.615409 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567903.6674, y: 4314534.882 ; yaw: 3.996938643
+I1122 23:05:17.811401 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:17.816480 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:17.816542 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567903.3264, y: 4314534.49 ; yaw: 3.996863251
+I1122 23:05:18.011379 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:18.018008 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:18.018071 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567902.9852, y: 4314534.097 ; yaw: 3.996787823
+I1122 23:05:18.211383 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:18.218346 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:18.218416 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567902.6439, y: 4314533.705 ; yaw: 3.99671236
+E1122 23:05:18.218585 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:18.411384 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:18.415724 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:18.415781 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567902.3023, y: 4314533.312 ; yaw: 3.99663686
+I1122 23:05:18.611377 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:18.616564 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:18.616626 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567901.9605, y: 4314532.919 ; yaw: 3.996561325
+I1122 23:05:18.811383 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:18.818056 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:18.818142 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567901.6185, y: 4314532.526 ; yaw: 3.996485753
+I1122 23:05:19.011386 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:19.017199 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:19.017266 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567901.2764, y: 4314532.132 ; yaw: 3.996410146
+I1122 23:05:19.211393 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:19.215318 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:19.215370 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567900.934, y: 4314531.739 ; yaw: 3.996334503
+E1122 23:05:19.215553 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:19.411453 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:19.418308 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:19.418380 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567900.5915, y: 4314531.345 ; yaw: 3.996258823
+I1122 23:05:19.611440 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:19.618088 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:19.618171 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567900.2487, y: 4314530.951 ; yaw: 3.996183108
+I1122 23:05:19.811410 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:19.816174 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:19.816236 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567899.9058, y: 4314530.557 ; yaw: 3.996107357
+I1122 23:05:20.011432 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:20.017001 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:20.017086 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567899.5627, y: 4314530.163 ; yaw: 3.99603157
+I1122 23:05:20.211421 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:20.217306 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:20.217378 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567899.2194, y: 4314529.769 ; yaw: 3.995955747
+E1122 23:05:20.217583 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:20.411404 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:20.418417 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:20.418486 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567898.8759, y: 4314529.375 ; yaw: 3.995879889
+I1122 23:05:20.611362 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:20.615628 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:20.615684 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567898.5322, y: 4314528.98 ; yaw: 3.995803994
+I1122 23:05:20.811357 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:20.815532 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:20.815587 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567898.1883, y: 4314528.585 ; yaw: 3.995728063
+I1122 23:05:21.011402 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:21.015951 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:21.016013 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567897.8442, y: 4314528.19 ; yaw: 3.995652097
+I1122 23:05:21.211402 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:21.218921 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:21.219003 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567897.4999, y: 4314527.795 ; yaw: 3.995576094
+E1122 23:05:21.219209 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:21.411365 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:21.415946 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:21.416021 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567897.1555, y: 4314527.4 ; yaw: 3.995500056
+I1122 23:05:21.611382 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:21.617218 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:21.617295 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567896.8108, y: 4314527.005 ; yaw: 3.995423981
+I1122 23:05:21.811417 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:21.815909 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:21.816001 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567896.4659, y: 4314526.609 ; yaw: 3.995347871
+I1122 23:05:22.011373 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:22.015530 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:22.015611 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567896.1209, y: 4314526.213 ; yaw: 3.995271725
+I1122 23:05:22.211424 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:22.216770 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:22.216833 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567895.7756, y: 4314525.817 ; yaw: 3.995195542
+E1122 23:05:22.217011 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:22.411408 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:22.417202 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:22.417368 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567895.4302, y: 4314525.421 ; yaw: 3.995119324
+I1122 23:05:22.611397 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:22.616919 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:22.616991 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567895.0846, y: 4314525.025 ; yaw: 3.99504307
+I1122 23:05:22.811378 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:22.817373 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:22.817447 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567894.7388, y: 4314524.629 ; yaw: 3.99496678
+I1122 23:05:23.011443 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:23.017305 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:23.017379 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567894.3928, y: 4314524.232 ; yaw: 3.994890454
+I1122 23:05:23.211447 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:23.218097 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:23.218176 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567894.0465, y: 4314523.835 ; yaw: 3.994814092
+E1122 23:05:23.218401 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:23.411391 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:23.415571 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:23.415632 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567893.7001, y: 4314523.439 ; yaw: 3.994737695
+I1122 23:05:23.611398 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:23.617125 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:23.617233 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567893.3536, y: 4314523.042 ; yaw: 3.994661261
+I1122 23:05:23.811399 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:23.816052 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:23.816114 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567893.0068, y: 4314522.644 ; yaw: 3.994584791
+I1122 23:05:24.011390 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:24.017668 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:24.017735 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567892.6598, y: 4314522.247 ; yaw: 3.994508286
+I1122 23:05:24.211416 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:24.216293 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:24.216359 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567892.3126, y: 4314521.85 ; yaw: 3.994431744
+E1122 23:05:24.216534 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:24.411407 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:24.416103 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:24.416164 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567891.9652, y: 4314521.452 ; yaw: 3.994355167
+I1122 23:05:24.611397 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:24.616267 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:24.616341 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567891.6177, y: 4314521.054 ; yaw: 3.994278553
+I1122 23:05:24.811389 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:24.816864 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:24.816943 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567891.2699, y: 4314520.656 ; yaw: 3.994201904
+I1122 23:05:25.011380 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:25.017302 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:25.017391 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567890.922, y: 4314520.258 ; yaw: 3.994125219
+I1122 23:05:25.211421 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:25.215600 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:25.215662 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567890.5738, y: 4314519.86 ; yaw: 3.994048498
+E1122 23:05:25.215814 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:25.411414 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:25.416311 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:25.416378 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567890.2255, y: 4314519.461 ; yaw: 3.993971741
+I1122 23:05:25.611459 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:25.615474 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:25.615528 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567889.877, y: 4314519.063 ; yaw: 3.993894948
+I1122 23:05:25.811376 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:25.816637 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:25.816737 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567889.5283, y: 4314518.664 ; yaw: 3.993818119
+I1122 23:05:26.011416 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:26.016505 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:26.016575 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567889.1793, y: 4314518.265 ; yaw: 3.993741254
+I1122 23:05:26.211648 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:26.219818 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:26.219895 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567888.8302, y: 4314517.866 ; yaw: 3.993664353
+E1122 23:05:26.220086 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:26.411506 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:26.414904 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:26.414953 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567888.4809, y: 4314517.467 ; yaw: 3.993587416
+I1122 23:05:26.611349 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:26.614678 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:26.614723 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567888.1314, y: 4314517.067 ; yaw: 3.993510444
+I1122 23:05:26.811444 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:26.816756 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:26.816823 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567887.7817, y: 4314516.668 ; yaw: 3.993433435
+I1122 23:05:27.011405 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:27.015877 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:27.015936 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567887.4319, y: 4314516.268 ; yaw: 3.993356391
+I1122 23:05:27.211378 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:27.217355 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:27.217414 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567887.0818, y: 4314515.868 ; yaw: 3.99327931
+E1122 23:05:27.217528 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:27.411382 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:27.415201 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:27.415256 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567886.7315, y: 4314515.468 ; yaw: 3.993202194
+I1122 23:05:27.611461 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:27.615931 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:27.615985 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567886.381, y: 4314515.068 ; yaw: 3.993125042
+I1122 23:05:27.811434 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:27.816396 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:27.816462 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567886.0304, y: 4314514.667 ; yaw: 3.993047853
+I1122 23:05:28.011397 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:28.014642 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:28.014690 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567885.6795, y: 4314514.267 ; yaw: 3.992970629
+I1122 23:05:28.211375 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:28.215754 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:28.215842 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567885.3285, y: 4314513.866 ; yaw: 3.992893369
+E1122 23:05:28.215983 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:28.411368 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:28.414945 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:28.415000 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567884.9772, y: 4314513.465 ; yaw: 3.992816073
+I1122 23:05:28.611353 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:28.614785 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:28.614833 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567884.6258, y: 4314513.064 ; yaw: 3.992738741
+I1122 23:05:28.811367 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:28.815557 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:28.815623 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567884.2742, y: 4314512.663 ; yaw: 3.992661373
+I1122 23:05:29.011389 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:29.019366 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:29.019455 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567883.9223, y: 4314512.262 ; yaw: 3.99258397
+I1122 23:05:29.211380 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:29.217692 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:29.217784 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567883.5703, y: 4314511.86 ; yaw: 3.99250653
+E1122 23:05:29.217950 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:29.411370 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:29.414958 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:29.415009 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567883.2181, y: 4314511.459 ; yaw: 3.992429054
+I1122 23:05:29.611407 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:29.615234 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:29.615290 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567882.8657, y: 4314511.057 ; yaw: 3.992351543
+I1122 23:05:29.811404 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:29.815750 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:29.815847 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567882.5131, y: 4314510.655 ; yaw: 3.992273995
+I1122 23:05:30.011363 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:30.014856 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:30.014911 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567882.1603, y: 4314510.253 ; yaw: 3.992196412
+I1122 23:05:30.211406 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:30.216078 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:30.216131 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567881.8073, y: 4314509.85 ; yaw: 3.992118792
+E1122 23:05:30.216230 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:30.411377 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:30.416486 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:30.416566 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567881.4541, y: 4314509.448 ; yaw: 3.992041137
+I1122 23:05:30.611402 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:30.615442 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:30.615497 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567881.1007, y: 4314509.045 ; yaw: 3.991963446
+I1122 23:05:30.811365 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:30.816987 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:30.817050 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567880.7472, y: 4314508.643 ; yaw: 3.991885718
+I1122 23:05:31.011361 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:31.015532 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:31.015590 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567880.3934, y: 4314508.24 ; yaw: 3.991807955
+I1122 23:05:31.211396 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:31.216126 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:31.216192 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567880.0394, y: 4314507.837 ; yaw: 3.991730156
+E1122 23:05:31.216377 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:31.411351 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:31.415107 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:31.415208 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567879.6853, y: 4314507.433 ; yaw: 3.991652321
+I1122 23:05:31.611351 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:31.614686 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:31.614729 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567879.3309, y: 4314507.03 ; yaw: 3.99157445
+I1122 23:05:31.811461 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:31.815807 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:31.815863 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567878.9763, y: 4314506.627 ; yaw: 3.991496544
+I1122 23:05:32.011385 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:32.016635 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:32.018733 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567878.6216, y: 4314506.223 ; yaw: 3.991418601
+I1122 23:05:32.211383 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:32.215903 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:32.216051 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567878.2667, y: 4314505.819 ; yaw: 3.991340622
+E1122 23:05:32.216167 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:32.411398 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:32.417677 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:32.417796 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567877.9115, y: 4314505.415 ; yaw: 3.991262608
+I1122 23:05:32.611387 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:32.618474 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:32.618554 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567877.5562, y: 4314505.011 ; yaw: 3.991184557
+I1122 23:05:32.811375 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:32.816066 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:32.816121 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567877.2007, y: 4314504.606 ; yaw: 3.991106471
+I1122 23:05:33.011416 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:33.019546 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:33.019639 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567876.8449, y: 4314504.202 ; yaw: 3.991028348
+I1122 23:05:33.211431 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:33.218191 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:33.218262 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567876.489, y: 4314503.797 ; yaw: 3.99095019
+E1122 23:05:33.218426 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:33.411382 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:33.414748 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:33.414793 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567876.1329, y: 4314503.392 ; yaw: 3.990871996
+I1122 23:05:33.611351 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:33.615422 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:33.615478 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567875.7766, y: 4314502.987 ; yaw: 3.990793765
+I1122 23:05:33.811388 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:33.815028 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:33.815095 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567875.4201, y: 4314502.582 ; yaw: 3.990715499
+I1122 23:05:34.011361 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:34.015841 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:34.015941 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567875.0634, y: 4314502.177 ; yaw: 3.990637197
+I1122 23:05:34.211382 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:34.219216 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:34.219302 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567874.7065, y: 4314501.772 ; yaw: 3.990558859
+E1122 23:05:34.219480 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:34.411375 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:34.417853 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:34.417950 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567874.3494, y: 4314501.366 ; yaw: 3.990480485
+I1122 23:05:34.611409 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:34.615562 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:34.615671 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567873.9921, y: 4314500.96 ; yaw: 3.990402076
+I1122 23:05:34.811446 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:34.822836 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:34.822978 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567873.6346, y: 4314500.554 ; yaw: 3.99032363
+I1122 23:05:35.011417 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:35.016391 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:35.016458 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567873.2412, y: 4314500.108 ; yaw: 3.990237298
+I1122 23:05:35.211377 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:35.217648 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:35.217718 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567872.9191, y: 4314499.742 ; yaw: 3.990166631
+E1122 23:05:35.217876 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:35.411401 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:35.415973 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:35.416033 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567872.561, y: 4314499.336 ; yaw: 3.990088077
+I1122 23:05:35.611397 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:35.616340 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:35.616442 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567872.1311, y: 4314498.848 ; yaw: 3.989993765
+I1122 23:05:35.811393 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:35.819038 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:35.819177 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567871.8443, y: 4314498.522 ; yaw: 3.989930862
+I1122 23:05:36.011536 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:36.021822 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:36.022009 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567871.4857, y: 4314498.115 ; yaw: 3.989852201
+I1122 23:05:36.211395 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:36.217007 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:36.217325 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567871.1268, y: 4314497.708 ; yaw: 3.989773503
+E1122 23:05:36.217694 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:36.411399 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:36.416014 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:36.416071 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567870.7678, y: 4314497.301 ; yaw: 3.98969477
+I1122 23:05:36.611402 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:36.615845 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:36.615919 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567870.4085, y: 4314496.894 ; yaw: 3.989616001
+I1122 23:05:36.811384 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:36.816010 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:36.816076 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567870.0491, y: 4314496.486 ; yaw: 3.989537196
+I1122 23:05:37.011416 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:37.015714 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:37.015771 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567869.6894, y: 4314496.079 ; yaw: 3.989458355
+I1122 23:05:37.211774 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:37.215895 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:37.216032 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567869.3296, y: 4314495.671 ; yaw: 3.989379478
+E1122 23:05:37.216171 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:37.411439 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:37.417932 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:37.418040 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567868.9696, y: 4314495.263 ; yaw: 3.989300565
+I1122 23:05:37.611410 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:37.619143 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:37.619208 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567868.6094, y: 4314494.855 ; yaw: 3.989221617
+I1122 23:05:37.811398 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:37.815253 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:37.815311 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567868.2489, y: 4314494.447 ; yaw: 3.989142632
+I1122 23:05:38.011364 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:38.015535 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:38.015610 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567867.8883, y: 4314494.038 ; yaw: 3.989063611
+I1122 23:05:38.211401 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:38.216256 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:38.216323 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567867.5275, y: 4314493.63 ; yaw: 3.988984555
+E1122 23:05:38.216495 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:38.411377 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:38.415668 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:38.415732 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567867.1665, y: 4314493.221 ; yaw: 3.988905462
+I1122 23:05:38.611374 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:38.616192 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:38.616263 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567866.8053, y: 4314492.812 ; yaw: 3.988826334
+I1122 23:05:38.811424 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:38.816280 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:38.816359 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567866.4439, y: 4314492.403 ; yaw: 3.988747169
+I1122 23:05:39.011365 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:39.016011 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:39.016069 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567866.0823, y: 4314491.994 ; yaw: 3.988667969
+I1122 23:05:39.211428 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:39.217190 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:39.217252 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567865.7205, y: 4314491.584 ; yaw: 3.988588733
+E1122 23:05:39.217373 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:39.411420 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:39.418215 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:39.418316 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567865.3585, y: 4314491.175 ; yaw: 3.988509461
+I1122 23:05:39.611389 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:39.614679 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:39.614730 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567864.9963, y: 4314490.765 ; yaw: 3.988430153
+I1122 23:05:39.811381 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:39.815801 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:39.815865 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567864.634, y: 4314490.355 ; yaw: 3.988350809
+I1122 23:05:40.011402 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:40.016634 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:40.016777 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567864.2714, y: 4314489.945 ; yaw: 3.988271429
+I1122 23:05:40.211416 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:40.216631 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:40.216743 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567863.9086, y: 4314489.535 ; yaw: 3.988192013
+E1122 23:05:40.216930 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:40.411393 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:40.418442 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:40.418552 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567863.5456, y: 4314489.125 ; yaw: 3.988112561
+I1122 23:05:40.611411 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:40.619367 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:40.619874 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567863.1825, y: 4314488.714 ; yaw: 3.988033073
+I1122 23:05:40.811414 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:40.816866 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:40.816944 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567862.8191, y: 4314488.303 ; yaw: 3.98795355
+I1122 23:05:41.011364 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:41.015902 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:41.016010 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567862.4555, y: 4314487.893 ; yaw: 3.98787399
+I1122 23:05:41.211361 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:41.215327 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:41.215390 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567862.0958, y: 4314487.486 ; yaw: 3.987810317
+E1122 23:05:41.215544 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:41.411406 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:41.416673 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:41.416765 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.8314, y: 4314487.188 ; yaw: 3.987810317
+I1122 23:05:41.611394 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:41.619540 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:41.619627 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.6578, y: 4314486.991 ; yaw: 3.987810317
+I1122 23:05:41.811376 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:41.815670 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:41.815722 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.524, y: 4314486.84 ; yaw: 3.987810317
+I1122 23:05:42.011386 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:42.016324 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:42.016388 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.4299, y: 4314486.734 ; yaw: 3.987810317
+I1122 23:05:42.212663 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:42.218785 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:42.218888 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3757, y: 4314486.673 ; yaw: 3.987810317
+E1122 23:05:42.219041 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:42.411386 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:42.417384 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:42.417491 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:42.611389 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:42.618479 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:42.618693 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:42.811381 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:42.815511 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:42.815578 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:43.011469 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:43.016970 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:43.017033 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:43.211371 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:43.216205 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:43.216274 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+E1122 23:05:43.216421 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:43.411407 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:43.415843 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:43.415910 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:43.611377 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:43.616951 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:43.618041 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:43.811419 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:43.816442 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:43.816519 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:44.011363 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:44.015698 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:44.015784 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:44.211352 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:44.218199 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:44.218309 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+E1122 23:05:44.220222 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:44.411396 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:44.418807 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:44.418920 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:44.611373 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:44.616345 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:44.616520 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:44.811410 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:44.820312 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:44.820428 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:45.011407 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:45.016048 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:45.016162 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:45.211397 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:45.216634 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:45.216701 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+E1122 23:05:45.216872 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:45.411415 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:45.419582 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:45.419683 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:45.611378 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:45.615780 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:45.615857 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:45.811363 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:45.815867 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:45.815933 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:46.011389 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:46.015607 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:46.015668 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:46.211405 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:46.215557 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:46.215628 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+E1122 23:05:46.215804 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:46.411413 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:46.416270 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:46.416329 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:46.611395 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:46.617508 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:46.617575 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:46.811391 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:46.818715 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:46.818852 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:47.011363 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:47.015653 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:47.015719 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+I1122 23:05:47.211443 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:47.216598 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:47.216790 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+E1122 23:05:47.217094 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:47.411398 21532 hadmap_server.cpp:3594] loc_cur is out of map!
+E1122 23:05:47.427482 21532 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I1122 23:05:47.427604 21532 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567861.3608, y: 4314486.656 ; yaw: 3.987810317
+E1122 23:05:47.611371 21532 main.cpp:75] do hadmap server exit!

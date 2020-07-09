@@ -1,0 +1,31 @@
+Log file created at: 2019/12/30 17:10:50
+Running on machine: allen-ThinkPad-T480
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E1230 17:10:50.054648 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.058262 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.062640 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.064878 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.069696 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.071120 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.074440 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.075500 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.166375 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.167363 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.171394 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.172442 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.174609 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.174990 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.176816 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.178056 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.183152 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.184199 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.197468 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.198354 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.223914 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.224051 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.234023 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.235419 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.246286 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:50.246587 11669 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1230 17:10:51.414141 11669 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E1230 17:49:00.645653 11669 main.cpp:75] do hadmap server exit!

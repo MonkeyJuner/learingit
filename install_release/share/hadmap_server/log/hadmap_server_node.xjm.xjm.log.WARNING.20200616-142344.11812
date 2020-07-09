@@ -1,0 +1,58 @@
+Log file created at: 2020/06/16 14:23:44
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0616 14:23:44.256057 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.256440 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.256611 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.256781 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.257061 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.258642 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.260766 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.260861 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.260985 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.262018 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.264199 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.264340 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.264591 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.265558 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.267592 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.267669 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.267803 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.268836 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.271065 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.271203 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.271488 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.271548 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.271653 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.272778 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.274873 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.274981 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.275122 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.276006 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.277757 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.277899 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.278177 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.278213 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.278270 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.278929 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.280418 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.280498 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.280632 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.281410 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.283268 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.283372 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.283538 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.284745 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.286676 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.286779 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.286953 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.287721 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.289305 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.289433 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.289665 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:44.289742 11812 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0616 14:23:45.182085 11812 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0616 14:26:02.745720 11812 hadmap_server.h:125] disconnect with localization for 5s
+E0616 14:26:02.745836 11812 hadmap_server.cpp:3350] loc cur is invalid! loc_cur_.id = 641; loc_cur_.old_id = 641.
+E0616 14:26:02.945835 11812 hadmap_server.cpp:3566] there isn't valid vehicle state! loc_cur_.old_id = 641; loc_cur_.old_id = 641.
+E0616 14:26:05.345685 11812 main.cpp:75] do hadmap server exit!

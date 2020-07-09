@@ -1,0 +1,149 @@
+Log file created at: 2020/01/02 09:40:20
+Running on machine: allen-ThinkPad-T480
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0102 09:40:20.254554 28969 main.cpp:64] current version is: 2.0.3.0a73361
+I0102 09:40:20.317625 28969 hadmap_server.cpp:47] map path: /home/allen/workspace/port_ws/hmi/resources/app/dist/electron/static/maps/wz_0907_2.2.json
+I0102 09:40:22.047531 28969 proto_organizer.cpp:358] hadmap statistics: roads-389,lanes-659,crosswalks-0,signals-0,junctions-0,overlaps-0
+I0102 09:40:22.453397 28969 routing.cpp:363] there is not forbidden_lanes!
+I0102 09:40:22.828366 28969 hadmap_server.cpp:3560] there isn't vehicle state
+E0102 09:40:22.828388 28969 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I0102 09:40:23.228636 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:23.428519 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:23.628559 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:23.828536 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:24.028676 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:24.228495 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:24.428498 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:24.628494 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:24.828685 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:25.028471 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:25.228497 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:25.428519 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:25.628527 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:25.828516 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:26.028487 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:26.228518 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:26.428510 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:26.628677 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:26.828560 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:27.028697 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:27.228559 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:27.428691 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:27.628551 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:27.828562 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:28.028512 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:28.228528 28969 hadmap_server.cpp:3594] loc_cur is out of map!
+I0102 09:40:28.428450 28969 hadmap_server.cpp:523] current pose: x:567460.0392; y:4315006.115; yaw: 5.586351118
+I0102 09:40:28.428544 28969 hadmap_server.cpp:525] multi dst:
+I0102 09:40:28.428555 28969 hadmap_server.cpp:528] x: 567439; y: 4315006
+I0102 09:40:28.501264 28969 routing.cpp:363] there is not forbidden_lanes!
+I0102 09:40:28.584344 28969 routing.cpp:363] there is not forbidden_lanes!
+I0102 09:40:28.595523 28969 routing.cpp:226] start lane id: 1408_0 ; end lane id: 14080_0.
+I0102 09:40:28.595747 28969 hadmap_server.cpp:633] planning path:
+I0102 09:40:28.595754 28969 hadmap_server.cpp:636] lane id: 1408_0
+I0102 09:40:28.595758 28969 hadmap_server.cpp:636] lane id: 1829_0
+I0102 09:40:28.595762 28969 hadmap_server.cpp:636] lane id: 1768_0
+I0102 09:40:28.595764 28969 hadmap_server.cpp:636] lane id: 1367_0
+I0102 09:40:28.595767 28969 hadmap_server.cpp:636] lane id: 1150_0
+I0102 09:40:28.595770 28969 hadmap_server.cpp:636] lane id: 1854_0
+I0102 09:40:28.595773 28969 hadmap_server.cpp:636] lane id: 1373_0
+I0102 09:40:28.595777 28969 hadmap_server.cpp:636] lane id: 1371_0
+I0102 09:40:28.595779 28969 hadmap_server.cpp:636] lane id: 1855_0
+I0102 09:40:28.595782 28969 hadmap_server.cpp:636] lane id: 1856_0
+I0102 09:40:28.595785 28969 hadmap_server.cpp:636] lane id: 1857_0
+I0102 09:40:28.595788 28969 hadmap_server.cpp:636] lane id: 1325_0
+I0102 09:40:28.595845 28969 hadmap_server.cpp:636] lane id: 1759_0
+I0102 09:40:28.595852 28969 hadmap_server.cpp:636] lane id: 40_0
+I0102 09:40:28.595857 28969 hadmap_server.cpp:636] lane id: 1314_0
+I0102 09:40:28.595862 28969 hadmap_server.cpp:636] lane id: 307_0
+I0102 09:40:28.595866 28969 hadmap_server.cpp:636] lane id: 1603_0
+I0102 09:40:28.595871 28969 hadmap_server.cpp:636] lane id: 51_0
+I0102 09:40:28.595875 28969 hadmap_server.cpp:636] lane id: 1217_0
+I0102 09:40:28.595880 28969 hadmap_server.cpp:636] lane id: 1318_1
+I0102 09:40:28.595885 28969 hadmap_server.cpp:636] lane id: 1805_1
+I0102 09:40:28.595890 28969 hadmap_server.cpp:636] lane id: 1097_1
+I0102 09:40:28.595893 28969 hadmap_server.cpp:636] lane id: 1001_1
+I0102 09:40:28.595898 28969 hadmap_server.cpp:636] lane id: 1866_1
+I0102 09:40:28.595916 28969 hadmap_server.cpp:636] lane id: 1323_1
+I0102 09:40:28.595921 28969 hadmap_server.cpp:636] lane id: 1039_1
+I0102 09:40:28.595926 28969 hadmap_server.cpp:636] lane id: 1322_1
+I0102 09:40:28.595930 28969 hadmap_server.cpp:636] lane id: 1867_1
+I0102 09:40:28.595934 28969 hadmap_server.cpp:636] lane id: 1035_1
+I0102 09:40:28.595939 28969 hadmap_server.cpp:636] lane id: 1215_0
+I0102 09:40:28.595944 28969 hadmap_server.cpp:636] lane id: 14080_0
+I0102 09:40:28.596768 28969 hadmap_server.cpp:645] find sub global map success!
+I0102 09:40:29.828450 28969 hadmap_server.cpp:523] current pose: x:567460.0392; y:4315006.115; yaw: 5.586351118
+I0102 09:40:29.828505 28969 hadmap_server.cpp:525] multi dst:
+I0102 09:40:29.828516 28969 hadmap_server.cpp:528] x: 567765; y: 4314857
+I0102 09:40:29.911053 28969 routing.cpp:363] there is not forbidden_lanes!
+I0102 09:40:29.922626 28969 routing.cpp:226] start lane id: 1408_0 ; end lane id: 1850_1.
+I0102 09:40:29.922960 28969 hadmap_server.cpp:633] planning path:
+I0102 09:40:29.922973 28969 hadmap_server.cpp:636] lane id: 1408_0
+I0102 09:40:29.922979 28969 hadmap_server.cpp:636] lane id: 1829_0
+I0102 09:40:29.922984 28969 hadmap_server.cpp:636] lane id: 1768_0
+I0102 09:40:29.922989 28969 hadmap_server.cpp:636] lane id: 1367_0
+I0102 09:40:29.922994 28969 hadmap_server.cpp:636] lane id: 1150_0
+I0102 09:40:29.922999 28969 hadmap_server.cpp:636] lane id: 1854_0
+I0102 09:40:29.923003 28969 hadmap_server.cpp:636] lane id: 1373_0
+I0102 09:40:29.923008 28969 hadmap_server.cpp:636] lane id: 1371_0
+I0102 09:40:29.923013 28969 hadmap_server.cpp:636] lane id: 1855_0
+I0102 09:40:29.923018 28969 hadmap_server.cpp:636] lane id: 1856_0
+I0102 09:40:29.923023 28969 hadmap_server.cpp:636] lane id: 1857_0
+I0102 09:40:29.923028 28969 hadmap_server.cpp:636] lane id: 1325_0
+I0102 09:40:29.923032 28969 hadmap_server.cpp:636] lane id: 1759_0
+I0102 09:40:29.923038 28969 hadmap_server.cpp:636] lane id: 40_0
+I0102 09:40:29.923043 28969 hadmap_server.cpp:636] lane id: 1741_0
+I0102 09:40:29.923048 28969 hadmap_server.cpp:636] lane id: 205_0
+I0102 09:40:29.923053 28969 hadmap_server.cpp:636] lane id: 299_0
+I0102 09:40:29.923058 28969 hadmap_server.cpp:636] lane id: 1016_0
+I0102 09:40:29.923063 28969 hadmap_server.cpp:636] lane id: 1316_1
+I0102 09:40:29.923066 28969 hadmap_server.cpp:636] lane id: 1319_1
+I0102 09:40:29.923071 28969 hadmap_server.cpp:636] lane id: 1321_1
+I0102 09:40:29.923076 28969 hadmap_server.cpp:636] lane id: 1852_1
+I0102 09:40:29.923081 28969 hadmap_server.cpp:636] lane id: 1851_1
+I0102 09:40:29.923086 28969 hadmap_server.cpp:636] lane id: 1850_1
+I0102 09:40:29.923816 28969 hadmap_server.cpp:645] find sub global map success!
+I0102 09:40:31.828518 28969 hadmap_server.cpp:523] current pose: x:567460.0392; y:4315006.115; yaw: 5.586351118
+I0102 09:40:31.828581 28969 hadmap_server.cpp:525] multi dst:
+I0102 09:40:31.828594 28969 hadmap_server.cpp:528] x: 567740; y: 4314887
+I0102 09:40:31.911908 28969 routing.cpp:363] there is not forbidden_lanes!
+I0102 09:40:31.922407 28969 routing.cpp:226] start lane id: 1408_0 ; end lane id: 1703_1.
+I0102 09:40:31.922508 28969 hadmap_server.cpp:633] planning path:
+I0102 09:40:31.922518 28969 hadmap_server.cpp:636] lane id: 1408_0
+I0102 09:40:31.922523 28969 hadmap_server.cpp:636] lane id: 1829_0
+I0102 09:40:31.922574 28969 hadmap_server.cpp:636] lane id: 1768_0
+I0102 09:40:31.922581 28969 hadmap_server.cpp:636] lane id: 1367_0
+I0102 09:40:31.922587 28969 hadmap_server.cpp:636] lane id: 1368_0
+I0102 09:40:31.922592 28969 hadmap_server.cpp:636] lane id: 1703_1
+I0102 09:40:31.923493 28969 hadmap_server.cpp:645] find sub global map success!
+I0102 09:43:22.428527 28969 hadmap_server.cpp:523] current pose: x:567725.2006; y:4314869.481; yaw: 5.586494232
+I0102 09:43:22.428619 28969 hadmap_server.cpp:525] multi dst:
+I0102 09:43:22.428637 28969 hadmap_server.cpp:528] x: 567704; y: 4315520
+I0102 09:43:22.502012 28969 routing.cpp:363] there is not forbidden_lanes!
+I0102 09:43:22.511438 28969 routing.cpp:226] start lane id: 1703_1 ; end lane id: 196_6.
+I0102 09:43:22.512089 28969 hadmap_server.cpp:633] planning path:
+I0102 09:43:22.512100 28969 hadmap_server.cpp:636] lane id: 1703_1
+I0102 09:43:22.512107 28969 hadmap_server.cpp:636] lane id: 1051_0
+I0102 09:43:22.512115 28969 hadmap_server.cpp:636] lane id: 1365_0
+I0102 09:43:22.512120 28969 hadmap_server.cpp:636] lane id: 1363_0
+I0102 09:43:22.512126 28969 hadmap_server.cpp:636] lane id: 1844_0
+I0102 09:43:22.512132 28969 hadmap_server.cpp:636] lane id: 1843_0
+I0102 09:43:22.512138 28969 hadmap_server.cpp:636] lane id: 1004_0
+I0102 09:43:22.512145 28969 hadmap_server.cpp:636] lane id: 1810_0
+I0102 09:43:22.512151 28969 hadmap_server.cpp:636] lane id: 1017_0
+I0102 09:43:22.512156 28969 hadmap_server.cpp:636] lane id: 30_0
+I0102 09:43:22.512162 28969 hadmap_server.cpp:636] lane id: 1811_0
+I0102 09:43:22.512168 28969 hadmap_server.cpp:636] lane id: 305_0
+I0102 09:43:22.512174 28969 hadmap_server.cpp:636] lane id: 6012_0
+I0102 09:43:22.512181 28969 hadmap_server.cpp:636] lane id: 6014_0
+I0102 09:43:22.512187 28969 hadmap_server.cpp:636] lane id: 6013_0
+I0102 09:43:22.512193 28969 hadmap_server.cpp:636] lane id: 198_2
+I0102 09:43:22.512198 28969 hadmap_server.cpp:636] lane id: 199_2
+I0102 09:43:22.512204 28969 hadmap_server.cpp:636] lane id: 199_3
+I0102 09:43:22.512212 28969 hadmap_server.cpp:636] lane id: 199_4
+I0102 09:43:22.512217 28969 hadmap_server.cpp:636] lane id: 199_5
+I0102 09:43:22.512223 28969 hadmap_server.cpp:636] lane id: 199_6
+I0102 09:43:22.512229 28969 hadmap_server.cpp:636] lane id: 197_6
+I0102 09:43:22.512234 28969 hadmap_server.cpp:636] lane id: 196_6
+I0102 09:43:22.515390 28969 hadmap_server.cpp:645] find sub global map success!
+E0102 09:54:06.828495 28969 main.cpp:75] do hadmap server exit!

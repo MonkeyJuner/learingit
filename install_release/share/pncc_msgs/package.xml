@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <!--basic info -->
+  <name>pncc_msgs</name>
+  <version>2.0.0</version>
+  <description>planning/control/chassis ros msgs package</description>
+  <maintainer email="liuyi@trunk.tech">liuyi</maintainer>
+  <license>TODO</license>
+  <author>wuyanjun</author>
+  <author>xiejianming</author>
+
+  <!-- buildtool dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- build, export, and execution dependencies -->
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+
+  <!-- build dependencies -->
+  <build_depend>message_generation</build_depend>
+
+  <!-- execution dependencies -->
+  <exec_depend>message_runtime</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>

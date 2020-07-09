@@ -1,0 +1,67 @@
+extrinsic:
+  -
+    topic_name: "vlp32_0/velodyne_points"
+    child_id: "lidar_left"
+    frame_id: "smartcar"
+    heading: 51.8
+    pitch: 0.6
+    roll: -3.1
+    delta_x: 5.0
+    delta_y: 1.2
+    delta_z: 1.52
+  -
+    topic_name: "vlp32_2/velodyne_points"
+    child_id: "lidar_right"
+    frame_id: "smartcar"
+    heading: -53.0
+    pitch: -2.4
+    roll: 1.8
+    delta_x: 5.0
+    delta_y: -1.2
+    delta_z: 1.52
+  -
+    topic_name: "vlp16_1/velodyne_points"
+    child_id: "lidar_top"
+    frame_id: "smartcar"
+    # heading: 0.2
+    # pitch: -0.8
+    # roll: 0.4
+    heading: -1.5
+    pitch: -1.9
+    roll: 0.4
+    delta_x: 3.5
+    delta_y: 0.0
+    delta_z: 3.4
+
+
+# extrinsic:
+#  -
+#    topic_name: "vlp32_0/velodyne_points"
+#    child_id: "lidar_left"
+#    frame_id: "smartcar"
+#    heading: 61.00
+#    pitch: -0.0
+#    roll: -0.40
+#    delta_x:  5.0
+#    delta_y: 1.2
+#    delta_z: 1.52
+#  -
+#    topic_name: "vlp32_2/velodyne_points"
+#    child_id: "lidar_right"
+#    frame_id: "smartcar"
+#    heading: -40.1
+#    pitch: -0.30
+#    roll: 0.50
+#    delta_x:  5.0
+#    delta_y: -1.2
+#    delta_z: 1.52
+#  -
+#    topic_name: "vlp16_1/velodyne_points"
+#    child_id: "lidar_top"
+#    frame_id: "smartcar"
+#    heading: -1.5
+#    pitch: -1.9
+#    roll: 0.4
+#    delta_x: 3.5
+#    delta_y: 0.0
+#    delta_z: 3.4

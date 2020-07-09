@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+record
+    weather #{locals.weather}
+    vehicle #{locals.vehicle}
+    city #{locals.region}
+    date #{locals.data}
+    start #{locals.start}
+    end #{locals.end}
+    duration #{locals.duration}
+    file_name #{locals.fileName}
+    mileage #{locals.mileage}
+    note #{locals.note}
+    sensor_list
+        each sensor in locals.sensors
+            sensor(name=sensor)
+                topics
+                    each topic in locals.topics[sensor]
+                        topic=topic

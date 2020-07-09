@@ -1,0 +1,88 @@
+Log file created at: 2020/05/27 14:59:15
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0527 14:59:15.735600  2843 main.cpp:64] current version is: 2.0.3.0a73361
+I0527 14:59:15.784221  2843 hadmap_server.cpp:47] map path: /home/xjm/port_ws/hmi/resources/app/dist/electron/static/maps/bl_v5.4.json
+I0527 14:59:18.628803  2843 proto_organizer.cpp:358] hadmap statistics: roads-106,lanes-208,crosswalks-0,signals-0,junctions-0,overlaps-0
+I0527 14:59:19.342424  2843 routing.cpp:363] there is not forbidden_lanes!
+I0527 14:59:25.984266  2843 hadmap_server.cpp:3560] there isn't vehicle state
+E0527 14:59:25.984294  2843 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I0527 14:59:26.602510  2843 hadmap_server.cpp:3594] loc_cur is out of map!
+I0527 14:59:27.048914  2843 hadmap_server.cpp:3594] loc_cur is out of map!
+I0527 14:59:27.519852  2843 hadmap_server.cpp:3594] loc_cur is out of map!
+I0527 14:59:27.947796  2843 hadmap_server.cpp:3594] loc_cur is out of map!
+I0527 14:59:28.383771  2843 hadmap_server.cpp:3594] loc_cur is out of map!
+I0527 14:59:28.841187  2843 hadmap_server.cpp:3594] loc_cur is out of map!
+I0527 14:59:29.292616  2843 hadmap_server.cpp:3594] loc_cur is out of map!
+I0527 14:59:31.111184  2843 hadmap_server.cpp:523] current pose: x:573159.6072; y:4032545.832; yaw: 1.81076264
+I0527 14:59:31.111229  2843 hadmap_server.cpp:525] multi dst:
+I0527 14:59:31.111235  2843 hadmap_server.cpp:528] x: 571500; y: 4020771
+I0527 14:59:31.260494  2843 routing.cpp:363] there is not forbidden_lanes!
+I0527 14:59:31.265208  2843 routing.cpp:226] start lane id: 1113_1 ; end lane id: 1126_1.
+E0527 14:59:31.265264  2843 hadmap_server.cpp:600] path planning fail!
+E0527 14:59:31.265277  2843 hadmap_server.cpp:195] do global planning fail!
+I0527 14:59:34.047380  2843 hadmap_server.cpp:523] current pose: x:571552.8206; y:4020708.144; yaw: 2.580698443
+I0527 14:59:34.047435  2843 hadmap_server.cpp:525] multi dst:
+I0527 14:59:34.047444  2843 hadmap_server.cpp:528] x: 572813; y: 4029022
+I0527 14:59:34.201771  2843 routing.cpp:363] there is not forbidden_lanes!
+I0527 14:59:34.208443  2843 routing.cpp:226] start lane id: 1126_1 ; end lane id: 1542_1.
+E0527 14:59:34.208784  2843 hadmap_server.cpp:600] path planning fail!
+E0527 14:59:34.208797  2843 hadmap_server.cpp:195] do global planning fail!
+I0527 14:59:47.482574  2843 hadmap_server.cpp:523] current pose: x:571552.8206; y:4020708.144; yaw: 2.580698443
+I0527 14:59:47.482607  2843 hadmap_server.cpp:525] multi dst:
+I0527 14:59:47.482614  2843 hadmap_server.cpp:528] x: 571571; y: 4020630
+I0527 14:59:47.628401  2843 routing.cpp:363] there is not forbidden_lanes!
+I0527 14:59:47.631901  2843 routing.cpp:226] start lane id: 1126_1 ; end lane id: 1540_1.
+E0527 14:59:47.632652  2843 hadmap_server.cpp:600] path planning fail!
+E0527 14:59:47.632668  2843 hadmap_server.cpp:195] do global planning fail!
+I0527 14:59:54.963922  2843 hadmap_server.cpp:523] current pose: x:573166.7004; y:4030252.673; yaw: 4.631068871
+I0527 14:59:54.963956  2843 hadmap_server.cpp:525] multi dst:
+I0527 14:59:54.963963  2843 hadmap_server.cpp:528] x: 572576; y: 4028517
+I0527 14:59:55.111173  2843 routing.cpp:363] there is not forbidden_lanes!
+I0527 14:59:55.114822  2843 routing.cpp:226] start lane id: 1527_1 ; end lane id: 1118_1.
+I0527 14:59:55.115249  2843 hadmap_server.cpp:633] planning path:
+I0527 14:59:55.115257  2843 hadmap_server.cpp:636] lane id: 1527_1
+I0527 14:59:55.115260  2843 hadmap_server.cpp:636] lane id: 1150_1
+I0527 14:59:55.115264  2843 hadmap_server.cpp:636] lane id: 1132_1
+I0527 14:59:55.115267  2843 hadmap_server.cpp:636] lane id: 1528_1
+I0527 14:59:55.115272  2843 hadmap_server.cpp:636] lane id: 1542_1
+I0527 14:59:55.115274  2843 hadmap_server.cpp:636] lane id: 1529_1
+I0527 14:59:55.115278  2843 hadmap_server.cpp:636] lane id: 1530_1
+I0527 14:59:55.115281  2843 hadmap_server.cpp:636] lane id: 1531_1
+I0527 14:59:55.115285  2843 hadmap_server.cpp:636] lane id: 1532_1
+I0527 14:59:55.115288  2843 hadmap_server.cpp:636] lane id: 1533_1
+I0527 14:59:55.115299  2843 hadmap_server.cpp:636] lane id: 1534_1
+I0527 14:59:55.115303  2843 hadmap_server.cpp:636] lane id: 1535_1
+I0527 14:59:55.115306  2843 hadmap_server.cpp:636] lane id: 1536_1
+I0527 14:59:55.115309  2843 hadmap_server.cpp:636] lane id: 1537_1
+I0527 14:59:55.115314  2843 hadmap_server.cpp:636] lane id: 1538_1
+I0527 14:59:55.115316  2843 hadmap_server.cpp:636] lane id: 1540_1
+I0527 14:59:55.115319  2843 hadmap_server.cpp:636] lane id: 1200_0
+I0527 14:59:55.115322  2843 hadmap_server.cpp:636] lane id: 1126_1
+I0527 14:59:55.115326  2843 hadmap_server.cpp:636] lane id: 1000_1
+I0527 14:59:55.115329  2843 hadmap_server.cpp:636] lane id: 1001_1
+I0527 14:59:55.115332  2843 hadmap_server.cpp:636] lane id: 1002_1
+I0527 14:59:55.115336  2843 hadmap_server.cpp:636] lane id: 1125_1
+I0527 14:59:55.115339  2843 hadmap_server.cpp:636] lane id: 1123_1
+I0527 14:59:55.115342  2843 hadmap_server.cpp:636] lane id: 1122_1
+I0527 14:59:55.115345  2843 hadmap_server.cpp:636] lane id: 1121_1
+I0527 14:59:55.115350  2843 hadmap_server.cpp:636] lane id: 1003_1
+I0527 14:59:55.115352  2843 hadmap_server.cpp:636] lane id: 1120_1
+I0527 14:59:55.115355  2843 hadmap_server.cpp:636] lane id: 1119_1
+I0527 14:59:55.115358  2843 hadmap_server.cpp:636] lane id: 1118_1
+I0527 14:59:55.137768  2843 hadmap_server.cpp:645] find sub global map success!
+E0527 15:02:21.558871  2843 hadmap_server.h:125] disconnect with localization for 5s
+E0527 15:02:21.558910  2843 hadmap_server.cpp:3350] loc cur is invalid! loc_cur_.id = 345; loc_cur_.old_id = 345.
+E0527 15:02:21.973703  2843 hadmap_server.cpp:3566] there isn't valid vehicle state! loc_cur_.old_id = 345; loc_cur_.old_id = 345.
+E0527 15:02:22.366976  2843 main.cpp:18] *** Aborted at 1590562942 (unix time) try "date -d @1590562942" if you are using GNU date ***
+E0527 15:02:22.368952  2843 main.cpp:18] PC: @     0x7f3fd03eaaf8 (unknown)
+E0527 15:02:22.370782  2843 main.cpp:18] *** SIGTERM (@0x3e800000af2) received by PID 2843 (TID 0x7f3fd67ed7c0) from PID 2802; stack trace: ***
+E0527 15:02:22.372496  2843 main.cpp:18]     @     0x7f3fd538b390 (unknown)
+E0527 15:02:22.374017  2843 main.cpp:18]     @     0x7f3fd03eaaf8 (unknown)
+E0527 15:02:22.375536  2843 main.cpp:18]     @     0x7f3fd173c3ec cv::Mat::operator=()
+E0527 15:02:22.377207  2843 main.cpp:18]     @     0x7f3fd167643b (unknown)
+E0527 15:02:22.378015  2843 main.cpp:18]     @           0x4c3663 trunk::hadmap::visualizer::Visualizer::showMapCv()
+E0527 15:02:22.378111  2843 main.cpp:18]     @           0x4a3d88 trunk::hadmap::server::HadmapServer::doHadmapServer()
+E0527 15:02:22.378152  2843 main.cpp:18]     @           0x45272a main
+E0527 15:02:22.379633  2843 main.cpp:18]     @     0x7f3fd0298830 __libc_start_main
+E0527 15:02:22.379681  2843 main.cpp:18]     @           0x452fd9 _start

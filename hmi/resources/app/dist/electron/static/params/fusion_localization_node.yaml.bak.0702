@@ -1,0 +1,102 @@
+is_calibrate: false
+frequency: 50
+sensor_timeout: 0.13
+debug: false
+debug_out_file: /home/xuejiang/tech/fusion_localization-ws/src/fusion_localization/fusion_localization.log
+predict_to_current_time: false
+use_gps: true
+smooth_lagged_data: true
+history_length: 0.5
+map_frame: map
+odom_frame: utm
+base_link_frame: smartcar
+world_frame: utm
+reset_on_jump: true
+
+use_camera: false
+use_barrier: true
+
+camera:
+  differential: false
+  cv_map_timeout: 0.3
+  hd_map_timeout: 0.5
+
+  yard:
+    read_axle_shift: 2.0
+    fraction_shift: 0.0
+  seaside:
+    read_axle_shift: 0.0
+    fraction_shift: 0.0
+  measurement_covariance: [0.15,   0,      0,      0,      0,     0,
+                           0,      0.15,   0,      0,      0,     0,
+                           0,      0,      0.3,      0,      0,     0,
+                           0,      0,      0,      0,      0,     0,
+                           0,      0,      0,      0,      0,     0,
+                           0,      0,      0,      0,      0,     0]
+barrier:
+  fraction_shift: 0.0
+  measurement_covariance: [0.13,   0,      0,      0,      0,     0,
+                           0,      0.13,   0,      0,      0,     0,
+                           0,      0,      0.01,      0,      0,     0,
+                           0,      0,      0,      0,      0,     0,
+                           0,      0,      0,      0,      0,     0,
+                           0,      0,      0,      0,      0,     0]
+
+gps:
+  yaw_omega: -1
+  yaw_b: 90
+  yaw_correction: 0.5
+  measurement_covariance: [0.15, 0,      0,      0,    0,    0,
+                           0,    0.15,   0,      0,    0,    0,
+                           0,    0,      0.01,   0,    0,    0,
+                           0,    0,      0,      0.0001, 0,    0,
+                           0,    0,      0,      0,    0.02, 0,
+                           0,    0,      0,      0,    0,    0]
+  antenna_to_center_x: 3.7  #90: 4.0  91:3.7 92:3.0   93:3.9
+  antenna_to_center_y: 0.6 #90: 0.8  91:0.6 92:0.58  93:0.83
+
+lidar_odom:
+  differential: false
+  measurement_covariance: [0.1,    0,      0,      0,      0,     0,
+                           0,      0.1,    0,      0,      0,     0,
+                           0,      0,      0.4,   0,      0,     0,
+                           0,      0,      0,      0.05,   0,     0,
+                           0,      0,      0,      0,      0.02,  0,
+                           0,      0,      0,      0,      0,     0]
+
+vehicle_speed:
+  measurement_covariance: [0,    0,    0,    0,     0,    0,
+                           0,    0,    0,    0,     0,    0,
+                           0,    0,    0,    0,     0,    0,
+                           0,    0,    0,    0.001,  0,    0,
+                           0,    0,    0,    0,     0.3,    0,
+                           0,    0,    0,    0,     0,    0]
+
+  speed_ratio_low: 1.0
+  speed_ratio_high: 0.98
+  wheel_distance: 2.0
+
+imu:
+  timeout: 0.025
+  measurement_covariance: [0.1,    0,      0,      0,      0,     0,
+                           0,      0.1,    0,      0,      0,     0,
+                           0,      0,      0.4,   0,      0,     0,
+                           0,      0,      0,      0.05,   0,     0,
+                           0,      0,      0,      0,      0.0002,  0,
+                           0,      0,      0,      0,      0,     0.0001]
+
+process_noise_covariance: [0.05, 0,    0,    0,     0,    0,
+                           0,    0.05, 0,    0,     0,    0,
+                           0,    0,    0.06, 0,     0,    0,
+                           0,    0,    0,    0.025, 0,    0,
+                           0,    0,    0,    0,     0.02, 0,
+                           0,    0,    0,    0,     0,    0.01]
+
+initial_estimate_covariance: [0.5,  0,    0,    0,    0,    0,
+                              0,    0.8,  0,    0,    0,    0,
+                              0,    0,    0.01, 0,    0,    0,
+                              0,    0,    0,    0.3,  0,    0,
+                              0,    0,    0,    0,    0.1,  0,
+                              0,    0,    0,    0,    0,    0.1]
+
+

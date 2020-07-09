@@ -1,0 +1,26 @@
+Log file created at: 2020/06/23 13:04:22
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0623 13:04:22.926909 32608 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0623 14:07:37.281076 32608 hadmap_server.cpp:600] path planning fail!
+E0623 14:07:37.281124 32608 hadmap_server.cpp:195] do global planning fail!
+E0623 14:26:57.645265 32608 hadmap_server.cpp:600] path planning fail!
+E0623 14:26:57.645309 32608 hadmap_server.cpp:195] do global planning fail!
+E0623 14:33:29.599655 32608 hadmap_server.cpp:600] path planning fail!
+E0623 14:33:29.599678 32608 hadmap_server.cpp:195] do global planning fail!
+E0623 14:38:40.781590 32608 hadmap_server.cpp:600] path planning fail!
+E0623 14:38:40.781606 32608 hadmap_server.cpp:195] do global planning fail!
+E0623 14:51:24.014843 32608 hadmap_server.cpp:600] path planning fail!
+E0623 14:51:24.014878 32608 hadmap_server.cpp:195] do global planning fail!
+E0623 14:51:25.037434 32608 hadmap_server.cpp:600] path planning fail!
+E0623 14:51:25.037472 32608 hadmap_server.cpp:195] do global planning fail!
+E0623 14:51:25.810030 32608 hadmap_server.cpp:600] path planning fail!
+E0623 14:51:25.810062 32608 hadmap_server.cpp:195] do global planning fail!
+E0623 14:51:27.986093 32608 hadmap_server.cpp:600] path planning fail!
+E0623 14:51:27.986121 32608 hadmap_server.cpp:195] do global planning fail!
+E0623 14:51:31.183197 32608 hadmap_server.cpp:600] path planning fail!
+E0623 14:51:31.183216 32608 hadmap_server.cpp:195] do global planning fail!
+E0623 15:16:56.126983 32608 hadmap_server.h:125] disconnect with localization for 5s
+E0623 15:16:56.128834 32608 hadmap_server.cpp:3350] loc cur is invalid! loc_cur_.id = 39759; loc_cur_.old_id = 39759.
+E0623 15:16:56.326937 32608 hadmap_server.cpp:3566] there isn't valid vehicle state! loc_cur_.old_id = 39759; loc_cur_.old_id = 39759.
+E0623 15:16:58.526999 32608 main.cpp:75] do hadmap server exit!

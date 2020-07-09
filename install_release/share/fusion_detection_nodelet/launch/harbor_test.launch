@@ -1,0 +1,14 @@
+<launch>
+    <param name="use_sim_time" value="true" />
+
+    <arg name="manager" default="obstacle_detection_manager" />
+
+    <node pkg="nodelet" type="nodelet" name="$(arg manager)" args="manager" />
+
+    <node pkg="nodelet" type="nodelet" name="harbor_detection_nodelet"
+            args="load trunktech/HarborNodelet $(arg manager)" >
+         <param name="log_path" type="string" value="$(find fusion_detection_nodelet)/log" />
+         <rosparam command="load" file="$(find fusion_detection_nodelet)/params/harbor_detection.yaml" />
+    </node>
+
+</launch>

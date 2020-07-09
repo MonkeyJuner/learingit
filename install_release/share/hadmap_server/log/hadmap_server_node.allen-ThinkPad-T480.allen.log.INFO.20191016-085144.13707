@@ -1,0 +1,28 @@
+Log file created at: 2019/10/16 08:51:44
+Running on machine: allen-ThinkPad-T480
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1016 08:51:44.272465 13707 main.cpp:64] current version is: 2.0.3.0a73361
+I1016 08:51:44.319016 13707 hadmap_server.cpp:47] map path: /home/allen/workspace/port_ws/hmi/resources/app/dist/electron/static/maps/wz_v1010beta.json
+E1016 08:51:45.491804 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.492833 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.494740 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.495522 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.497217 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.498178 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.500183 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.501121 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.503154 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.504122 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.506140 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.507086 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.515413 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.516178 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.519282 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.520071 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.668212 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.668987 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.670603 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E1016 08:51:45.671362 13707 sections_parser.cpp:431] Error or unsupport lane type: latitude
+I1016 08:51:45.850677 13707 proto_organizer.cpp:358] hadmap statistics: roads-375,lanes-621,crosswalks-0,signals-0,junctions-0,overlaps-0
+I1016 08:51:46.226364 13707 routing.cpp:363] there is not forbidden_lanes!
+E1016 08:51:46.487942 13707 main.cpp:75] do hadmap server exit!

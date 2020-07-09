@@ -1,0 +1,6 @@
+<launch>
+    <arg name = "config_file" default = "$(find ins550_driver)/parameter_config.yaml"/>
+    <node name = "ins550_driver_node" pkg = "ins550_driver" type = "ins550_driver_node" output = "screen">
+        <rosparam command = "load" file = "$(find ins550_driver)/config/parameter_config.yaml"/>
+    </node>
+</launch>

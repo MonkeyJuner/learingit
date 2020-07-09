@@ -1,0 +1,25 @@
+Log file created at: 2020/05/27 14:59:25
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0527 14:59:25.984294  2843 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0527 14:59:31.265264  2843 hadmap_server.cpp:600] path planning fail!
+E0527 14:59:31.265277  2843 hadmap_server.cpp:195] do global planning fail!
+E0527 14:59:34.208784  2843 hadmap_server.cpp:600] path planning fail!
+E0527 14:59:34.208797  2843 hadmap_server.cpp:195] do global planning fail!
+E0527 14:59:47.632652  2843 hadmap_server.cpp:600] path planning fail!
+E0527 14:59:47.632668  2843 hadmap_server.cpp:195] do global planning fail!
+E0527 15:02:21.558871  2843 hadmap_server.h:125] disconnect with localization for 5s
+E0527 15:02:21.558910  2843 hadmap_server.cpp:3350] loc cur is invalid! loc_cur_.id = 345; loc_cur_.old_id = 345.
+E0527 15:02:21.973703  2843 hadmap_server.cpp:3566] there isn't valid vehicle state! loc_cur_.old_id = 345; loc_cur_.old_id = 345.
+E0527 15:02:22.366976  2843 main.cpp:18] *** Aborted at 1590562942 (unix time) try "date -d @1590562942" if you are using GNU date ***
+E0527 15:02:22.368952  2843 main.cpp:18] PC: @     0x7f3fd03eaaf8 (unknown)
+E0527 15:02:22.370782  2843 main.cpp:18] *** SIGTERM (@0x3e800000af2) received by PID 2843 (TID 0x7f3fd67ed7c0) from PID 2802; stack trace: ***
+E0527 15:02:22.372496  2843 main.cpp:18]     @     0x7f3fd538b390 (unknown)
+E0527 15:02:22.374017  2843 main.cpp:18]     @     0x7f3fd03eaaf8 (unknown)
+E0527 15:02:22.375536  2843 main.cpp:18]     @     0x7f3fd173c3ec cv::Mat::operator=()
+E0527 15:02:22.377207  2843 main.cpp:18]     @     0x7f3fd167643b (unknown)
+E0527 15:02:22.378015  2843 main.cpp:18]     @           0x4c3663 trunk::hadmap::visualizer::Visualizer::showMapCv()
+E0527 15:02:22.378111  2843 main.cpp:18]     @           0x4a3d88 trunk::hadmap::server::HadmapServer::doHadmapServer()
+E0527 15:02:22.378152  2843 main.cpp:18]     @           0x45272a main
+E0527 15:02:22.379633  2843 main.cpp:18]     @     0x7f3fd0298830 __libc_start_main
+E0527 15:02:22.379681  2843 main.cpp:18]     @           0x452fd9 _start

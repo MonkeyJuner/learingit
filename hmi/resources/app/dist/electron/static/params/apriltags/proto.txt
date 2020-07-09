@@ -1,0 +1,68 @@
+#
+# author: Wang Xiaodong
+# date: August 29, 2018
+#
+
+use_camera: true    # currently it is ignored.
+
+# used only when use_camera is false
+input_image_dir: "/home/xd/Desktop/tianjin-20180815/trunk-apriltag/images/first/lane3"
+image_start_index: 20   # from 20
+image_end_index: 840   #lane2 max: 1000, lane 3 max: 840
+
+enable_preprocessing: true
+
+post_processing_param {
+  use_inner_corners: false
+  refine_inner_corners: true
+  tag_size: 0.8     # the side length of the square quad in meters
+
+  pose_estimation_param {
+    # available methods:
+    # OPENCV_SOLVE_PNP_ITERATIVE, OPENCV_SOLVE_PNP_ITERATIVE_RANSAC
+    # IPPE, Ceres
+    method: OPENCV_SOLVE_PNP_ITERATIVE
+    #method: IPPE
+    opencv_solve_pnp_ransac_inlier_threshold: 0.1
+  }
+
+  tag_filter_param {
+    axis: Y
+    maximum_missed_count: 3
+    with_acceleration: false
+  }
+  enable_tag_filter: true
+  #save_pose_to_filename: "/shared/data/0815-lane3-4-corners-no-acceleration-ippe-with-rotation-filter-len-5-decimate-2.txt"
+  save_pose_to_filename: "/shared/data/0815-lane3-4-corners-no-acceleration-pnp-iterative-with-rotation-filter-len-5-decimate-2.txt"
+
+  enable_rotation_filter: true
+  rotation_filter_queue_len: 5
+}
+
+visualization_param {
+  draw_quad_edges: false
+  draw_quad_corners: true
+  draw_quad_corner_id: true
+  draw_inner_corners: false
+  draw_tag_id: true
+}
+
+camera_param {
+  fx: 1113.749864
+  cx: 926.008715
+  fy: 1110.026794
+  cy: 570.426333
+  distortion: -0.137243   # k1
+  distortion: 0.075075    # k2
+  distortion: 0.002233    # p1
+  distortion: 2.4e-05     # p2
+  distortion: 0.0         # k3
+  width: 1920
+  height: 1200
+}
+
+num_threads: 4
+decimate: 1     # 1 (original image) or 2 (half size of the original image)
+sigma: 0.0
+sharpening: 0.25
+enable_quad_contours: true

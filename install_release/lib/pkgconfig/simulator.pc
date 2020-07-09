@@ -1,0 +1,8 @@
+prefix=/home/wuhaisheng/Workspace/catkin_integration/install
+
+Name: simulator
+Description: Description of simulator
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/wuhaisheng/Workspace/catkin_integration/install/lib 
+Requires: 

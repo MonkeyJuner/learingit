@@ -1,0 +1,1117 @@
+[2019-09-10 15:07:11.045] [daily_logger] [info] CONNECT TO SERVER SUCCESS
+[2019-09-10 15:07:14.275] [daily_logger] [info] Received Message. Type: 2
+[2019-09-10 15:07:14.275] [daily_logger] [info] Received Login. cheid: P091, user name: 160140, send_packet_id: 731733402
+[2019-09-10 15:07:14.275] [daily_logger] [info] Truck Avaliable, Cheid: P091
+[2019-09-10 15:07:14.275] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 15:07:21.009] [daily_logger] [info] SEND TO TOS: <message type='2632' MSID='1'><che CHID='P091' ><user AVAL='L' PGRM='CHE' LOGN='160140'/></che></message>
+[2019-09-10 15:07:21.061] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_EMPTY_TO_ORIGIN" ack="Y" MSID="1"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="104" priority="N" shift="0" moveStage="PLANNED"><container EQID="UACU8588198" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="03E42G.3" refID="Y.FICT:03E.42.G.3" AREA="03E42" AREA_TYPE="YardRow" type="from" DOOR="E"><transferZone BLOCK="O3E" /></position><position PPOS="04E50G.1" refID="Y.FICT:04E.50.G.1" AREA="04E50" AREA_TYPE="YardRow" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="9">0 State transition from [FORM_TRUCK_EMPTY_TO_ORIGIN] has failed for event &gt;StateTransitionId[login]&lt; (MSID=1)</displayMsg></che></message>
+[2019-09-10 15:07:21.062] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8588198:40:30520:PLANNED]
+[2019-09-10 15:07:21.062] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 15:07:21.062] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 15:07:21.062] [daily_logger] [info] FORM ID = FORM_TRUCK_EMPTY_TO_ORIGIN, OLD STATE IS = INIT_STATE
+[2019-09-10 15:07:21.062] [daily_logger] [info] Get TransferZone(1): O3E
+[2019-09-10 15:07:21.062] [daily_logger] [info] Update Task. Task id: 3
+[2019-09-10 15:07:26.010] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 15:07:26.255] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_EMPTY_TO_ORIGIN" ack="N" MSID="-3381961"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="104" priority="N" shift="0" moveStage="PLANNED"><container EQID="UACU8588198" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="03E42G.3" refID="Y.FICT:03E.42.G.3" AREA="03E42" AREA_TYPE="YardRow" type="from" DOOR="E"><transferZone BLOCK="O3E" /></position><position PPOS="04E50G.1" refID="Y.FICT:04E.50.G.1" AREA="04E50" AREA_TYPE="YardRow" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 15:07:26.255] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8588198:40:30520:PLANNED]
+[2019-09-10 15:07:26.255] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 15:07:26.255] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 15:07:26.255] [daily_logger] [info] FORM ID = FORM_TRUCK_EMPTY_TO_ORIGIN, OLD STATE IS = FORM_TRUCK_EMPTY_TO_ORIGIN
+[2019-09-10 15:07:26.255] [daily_logger] [info] Get TransferZone(1): O3E
+[2019-09-10 15:07:26.255] [daily_logger] [info] Update Task. Task id: 4
+[2019-09-10 15:07:26.275] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:07:31.010] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 15:07:41.275] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:07:56.276] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:08:11.276] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:08:26.276] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:08:41.276] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:08:56.276] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:09:00.663] [daily_logger] [debug] message body is: <message formId="FORM_CONFIRM_TRUCK_LANE" ack="N" MSID="10632"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O3E" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="105" priority="N" shift="0" moveStage="PLANNED"><container EQID="UACU8588198" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O3E42" refID="Y.FICT:O3E.42.A." AREA="O3E42" AREA_TYPE="YardTransTZ" type="from" DOOR="E"><transferZone BLOCK="O3E" /></position><position PPOS="04E50G.1" refID="Y.FICT:04E.50.G.1" AREA="04E50" AREA_TYPE="YardRow" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 15:09:00.663] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8588198:40:30520:PLANNED]
+[2019-09-10 15:09:00.663] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 15:09:00.663] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 15:09:00.663] [daily_logger] [info] FORM ID = FORM_CONFIRM_TRUCK_LANE, OLD STATE IS = FORM_TRUCK_EMPTY_TO_ORIGIN
+[2019-09-10 15:09:00.663] [daily_logger] [info] Get TransferZone(1): O3E
+[2019-09-10 15:09:00.663] [daily_logger] [info] Get Area Type(1): YardTransTZ
+[2019-09-10 15:09:00.663] [daily_logger] [info] Get Target: 1, Section: O3E, Bay: 42
+[2019-09-10 15:09:00.663] [daily_logger] [info] Update Task. Task id: 5
+[2019-09-10 15:09:01.012] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 15:09:11.276] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:09:26.276] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:09:41.276] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:09:56.278] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:10:11.278] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:10:26.278] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:10:41.278] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:10:56.278] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:11:07.979] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 15:11:07.979] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 15:11:07.979] [daily_logger] [info] Send To TOS. Target_type: 1, Cheid: P091, Ppos: O3E42
+[2019-09-10 15:11:07.979] [daily_logger] [info] SEND TO TOS: <message type='2635' MSID='2'><che CHID='P091' action='ProgressUpdate'><position PPOS='O3E42'/></che></message>
+[2019-09-10 15:11:08.115] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_EMPTY_AT_ORIGIN" ack="Y" MSID="2"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O3E42" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="107" priority="N" shift="0" moveStage="PLANNED"><container EQID="UACU8588198" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O3E42" refID="Y.FICT:O3E.42.A." AREA="O3E42" AREA_TYPE="YardTransTZ" type="from" DOOR="E" TKPS="2"><transferZone BLOCK="O3E" /></position><position PPOS="04E50G.1" refID="Y.FICT:04E.50.G.1" AREA="04E50" AREA_TYPE="YardRow" type="to" DOOR="Y" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 15:11:08.116] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8588198:40:30520:PLANNED]
+[2019-09-10 15:11:08.116] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 15:11:08.116] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 15:11:08.116] [daily_logger] [info] FORM ID = FORM_TRUCK_EMPTY_AT_ORIGIN, OLD STATE IS = FORM_CONFIRM_TRUCK_LANE
+[2019-09-10 15:11:08.116] [daily_logger] [info] Get TransferZone(1): O3E
+[2019-09-10 15:11:08.116] [daily_logger] [info] Get Area Type(1): YardTransTZ
+[2019-09-10 15:11:08.116] [daily_logger] [info] Get Target: 1, Section: O3E, Bay: 42
+[2019-09-10 15:11:08.116] [daily_logger] [info] Update Task. Task id: 6
+[2019-09-10 15:11:11.015] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 15:11:11.015] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 15:11:11.015] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 15:11:11.015] [daily_logger] [info] Drop Truck Arrived. Cheid: P091, task_key: 6
+[2019-09-10 15:11:11.278] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:11:26.278] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:11:41.278] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:11:56.278] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:12:11.279] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:12:26.279] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:12:41.279] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:12:56.279] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:13:11.279] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:13:16.921] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_EMPTY_AT_ORIGIN" ack="N" MSID="-3382593"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O3E42" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_UNDERWAY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="110" priority="N" shift="0" moveStage="CARRY_UNDERWAY"><container EQID="UACU8588198" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="P091" refID="E.FICT:P091..." AREA="P091" AREA_TYPE="ITV" type="from" DOOR="E" TKPS="2" /><position PPOS="04E50G.1" refID="Y.FICT:04E.50.G.1" AREA="04E50" AREA_TYPE="YardRow" type="to" DOOR="Y" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 15:13:16.921] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8588198:40:30520:CARRY_UNDERWAY]
+[2019-09-10 15:13:16.921] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 15:13:16.921] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 15:13:16.921] [daily_logger] [info] FORM ID = FORM_TRUCK_EMPTY_AT_ORIGIN, OLD STATE IS = FORM_TRUCK_EMPTY_AT_ORIGIN
+[2019-09-10 15:13:16.921] [daily_logger] [info] Get TransferZone(1): 
+[2019-09-10 15:13:16.921] [daily_logger] [info] Get Area Type(1): ITV
+[2019-09-10 15:13:16.921] [daily_logger] [error] Unknown Area Type: ITV
+[2019-09-10 15:13:16.921] [daily_logger] [info] Get Target: 1, Section: P09, Bay: 1
+[2019-09-10 15:13:16.921] [daily_logger] [info] Update Task. Task id: 7
+[2019-09-10 15:13:16.942] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_TO_DEST" ack="N" MSID="-3382594"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O3E42" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_UNDERWAY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="110" priority="N" shift="0" moveStage="CARRY_UNDERWAY"><container EQID="UACU8588198" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="P091" refID="E.FICT:P091..." AREA="P091" AREA_TYPE="ITV" type="from" DOOR="E" /><position PPOS="04E50G.1" refID="Y.FICT:04E.50.G.1" AREA="04E50" AREA_TYPE="YardRow" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 15:13:16.942] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8588198:40:30520:CARRY_UNDERWAY]
+[2019-09-10 15:13:16.942] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 15:13:16.942] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 15:13:16.942] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_TO_DEST, OLD STATE IS = FORM_TRUCK_EMPTY_AT_ORIGIN
+[2019-09-10 15:13:16.942] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 15:13:16.942] [daily_logger] [info] Update Task. Task id: 8
+[2019-09-10 15:13:21.022] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 15:13:26.279] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:13:41.280] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:13:56.280] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:14:11.280] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:17:50.761] [daily_logger] [info] CONNECT TO SERVER SUCCESS
+[2019-09-10 15:17:54.046] [daily_logger] [info] Received Message. Type: 2
+[2019-09-10 15:17:54.046] [daily_logger] [info] Received Login. cheid: P091, user name: 160140, send_packet_id: 2074040009
+[2019-09-10 15:17:54.046] [daily_logger] [info] Truck Avaliable, Cheid: P091
+[2019-09-10 15:17:54.046] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 15:18:00.738] [daily_logger] [info] SEND TO TOS: <message type='2632' MSID='1'><che CHID='P091' ><user AVAL='L' PGRM='CHE' LOGN='160140'/></che></message>
+[2019-09-10 15:18:00.791] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_TO_DEST" ack="Y" MSID="1"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O3E42" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_UNDERWAY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="114" priority="N" shift="0" moveStage="CARRY_UNDERWAY"><container EQID="UACU8588198" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="P091" refID="E.FICT:P091..." AREA="P091" AREA_TYPE="ITV" type="from" DOOR="E" /><position PPOS="04E50G.1" refID="Y.FICT:04E.50.G.1" AREA="04E50" AREA_TYPE="YardRow" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="9">0 State transition from [FORM_TRUCK_LADEN_TO_DEST] has failed for event &gt;StateTransitionId[login]&lt; (MSID=1)</displayMsg></che></message>
+[2019-09-10 15:18:00.791] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8588198:40:30520:CARRY_UNDERWAY]
+[2019-09-10 15:18:00.791] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 15:18:00.791] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 15:18:00.791] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_TO_DEST, OLD STATE IS = INIT_STATE
+[2019-09-10 15:18:00.791] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 15:18:00.791] [daily_logger] [info] Update Task. Task id: 3
+[2019-09-10 15:18:05.739] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 15:18:06.046] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:18:21.046] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:18:36.046] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:18:51.046] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:19:06.047] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:19:18.336] [daily_logger] [debug] message body is: <message formId="FORM_CONFIRM_TRUCK_LANE" ack="N" MSID="10655"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_UNDERWAY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="116" priority="N" shift="1" moveStage="CARRY_UNDERWAY"><container EQID="UACU8588198" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="P091" refID="E.FICT:P091..." AREA="P091" AREA_TYPE="ITV" type="from" DOOR="E" TKPS="2" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="Y" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 15:19:18.336] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8588198:40:30520:CARRY_UNDERWAY]
+[2019-09-10 15:19:18.336] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 15:19:18.336] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 15:19:18.337] [daily_logger] [info] FORM ID = FORM_CONFIRM_TRUCK_LANE, OLD STATE IS = FORM_TRUCK_LADEN_TO_DEST
+[2019-09-10 15:19:18.337] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 15:19:18.337] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 15:19:18.337] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 50
+[2019-09-10 15:19:18.337] [daily_logger] [info] Update Task. Task id: 4
+[2019-09-10 15:19:20.740] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 15:19:21.047] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:19:36.047] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:19:51.047] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:20:06.047] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:20:21.047] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:20:36.047] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:20:51.048] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:21:06.048] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:21:21.048] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:21:36.048] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:21:51.048] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:22:06.048] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:22:21.048] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:22:36.049] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:22:51.049] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:23:06.049] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:23:21.049] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:23:36.049] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:23:51.049] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:24:06.049] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:24:21.049] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:24:25.391] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 15:24:25.391] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 15:24:25.391] [daily_logger] [info] Send To TOS. Target_type: 1, Cheid: P091, Ppos: O4E50
+[2019-09-10 15:24:25.391] [daily_logger] [info] SEND TO TOS: <message type='2635' MSID='2'><che CHID='P091' action='ProgressUpdate'><position PPOS='O4E50'/></che></message>
+[2019-09-10 15:24:25.518] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_AT_DEST" ack="Y" MSID="2"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="121" priority="N" shift="0" moveStage="PLANNED"><container EQID="UACU8588198" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="from" DOOR="E" TKPS="2" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="Y" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 15:24:25.518] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8588198:40:30520:PLANNED]
+[2019-09-10 15:24:25.518] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 15:24:25.518] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 15:24:25.518] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_AT_DEST, OLD STATE IS = FORM_CONFIRM_TRUCK_LANE
+[2019-09-10 15:24:25.518] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 15:24:25.518] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 15:24:25.518] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 50
+[2019-09-10 15:24:25.518] [daily_logger] [info] Update Task. Task id: 5
+[2019-09-10 15:24:25.746] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 15:24:26.391] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 15:24:26.391] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 15:24:26.391] [daily_logger] [info] Drop Truck Arrived. Cheid: P091, task_key: 5
+[2019-09-10 15:24:26.518] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_AT_DEST" ack="N" MSID="-3383913"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="121" priority="N" shift="0" moveStage="PLANNED"><container EQID="UACU8588198" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="from" DOOR="E" TKPS="2" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="E" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 15:24:26.518] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8588198:40:30520:PLANNED]
+[2019-09-10 15:24:26.518] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 15:24:26.518] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 15:24:26.518] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_AT_DEST, OLD STATE IS = FORM_TRUCK_LADEN_AT_DEST
+[2019-09-10 15:24:26.518] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 15:24:26.518] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 15:24:26.518] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 50
+[2019-09-10 15:24:26.518] [daily_logger] [info] Update Task. Task id: 6
+[2019-09-10 15:24:30.746] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 15:24:30.746] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 15:24:30.746] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 15:24:30.746] [daily_logger] [info] Drop Truck Arrived. Cheid: P091, task_key: 6
+[2019-09-10 15:24:31.573] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_AT_DEST" ack="N" MSID="-3383929"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_READY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="121" priority="N" shift="0" moveStage="CARRY_READY"><container EQID="UACU8588198" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="from" DOOR="E" TKPS="2" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="E" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 15:24:31.573] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8588198:40:30520:CARRY_READY]
+[2019-09-10 15:24:31.573] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 15:24:31.573] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 15:24:31.573] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_AT_DEST, OLD STATE IS = FORM_TRUCK_LADEN_AT_DEST
+[2019-09-10 15:24:31.573] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 15:24:31.573] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 15:24:31.573] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 50
+[2019-09-10 15:24:31.573] [daily_logger] [info] Update Task. Task id: 7
+[2019-09-10 15:24:35.746] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 15:24:35.746] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 15:24:35.746] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 15:24:35.746] [daily_logger] [info] Drop Truck Arrived. Cheid: P091, task_key: 7
+[2019-09-10 15:24:36.049] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:24:51.050] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:25:06.051] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:25:21.051] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:25:36.051] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:25:51.051] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:26:06.051] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:26:21.051] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:26:34.853] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_IDLE" ack="N" MSID="-3384156"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDLE" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 15:26:34.853] [daily_logger] [info] CHID = P091, OLD STATE IS = FORM_TRUCK_LADEN_AT_DEST, RECV FORM ID = FORM_TRUCK_IDLE, DISPLAY MESSAGE IS: 0 No Error
+[2019-09-10 15:26:36.051] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:26:41.604] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_EMPTY_TO_ORIGIN" ack="N" MSID="-3384175"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="123" priority="N" shift="0" moveStage="PLANNED"><container EQID="TCLU4156659" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="03E42G.2" refID="Y.FICT:03E.42.G.2" AREA="03E42" AREA_TYPE="YardRow" type="from" DOOR="E"><transferZone BLOCK="O3E" /></position><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 15:26:41.604] [daily_logger] [info] TosCmdDownloadXml_from containers[TCLU4156659:40:30520:PLANNED]
+[2019-09-10 15:26:41.604] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 15:26:41.604] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 15:26:41.604] [daily_logger] [info] FORM ID = FORM_TRUCK_EMPTY_TO_ORIGIN, OLD STATE IS = FORM_TRUCK_IDLE
+[2019-09-10 15:26:41.604] [daily_logger] [info] Get TransferZone(1): O3E
+[2019-09-10 15:26:41.604] [daily_logger] [info] Update Task. Task id: 9
+[2019-09-10 15:26:45.747] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 15:26:51.051] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:27:06.051] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:27:21.052] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:27:36.052] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:27:51.052] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:28:06.052] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:28:21.052] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:28:36.052] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:28:51.052] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:29:06.052] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:29:21.053] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:29:36.053] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:29:51.053] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:30:06.053] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:30:09.283] [daily_logger] [debug] message body is: <message formId="FORM_CONFIRM_TRUCK_LANE" ack="N" MSID="10672"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O3E" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="126" priority="N" shift="0" moveStage="PLANNED"><container EQID="TCLU4156659" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O3E42" refID="Y.FICT:O3E.42.A." AREA="O3E42" AREA_TYPE="YardTransTZ" type="from" DOOR="E"><transferZone BLOCK="O3E" /></position><position PPOS="04E50G.2" refID="Y.FICT:04E.50.G.2" AREA="04E50" AREA_TYPE="YardRow" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 15:30:09.284] [daily_logger] [info] TosCmdDownloadXml_from containers[TCLU4156659:40:30520:PLANNED]
+[2019-09-10 15:30:09.284] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 15:30:09.284] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 15:30:09.284] [daily_logger] [info] FORM ID = FORM_CONFIRM_TRUCK_LANE, OLD STATE IS = FORM_TRUCK_EMPTY_TO_ORIGIN
+[2019-09-10 15:30:09.284] [daily_logger] [info] Get TransferZone(1): O3E
+[2019-09-10 15:30:09.284] [daily_logger] [info] Get Area Type(1): YardTransTZ
+[2019-09-10 15:30:09.284] [daily_logger] [info] Get Target: 1, Section: O3E, Bay: 42
+[2019-09-10 15:30:09.284] [daily_logger] [info] Update Task. Task id: 10
+[2019-09-10 15:30:10.751] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 15:30:21.053] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:30:36.053] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:30:51.053] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:31:06.053] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:31:18.574] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 15:31:18.574] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 15:31:18.574] [daily_logger] [info] Send To TOS. Target_type: 1, Cheid: P091, Ppos: O3E42
+[2019-09-10 15:31:18.574] [daily_logger] [info] SEND TO TOS: <message type='2635' MSID='3'><che CHID='P091' action='ProgressUpdate'><position PPOS='O3E42'/></che></message>
+[2019-09-10 15:31:21.053] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:31:36.054] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:31:51.054] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:32:06.054] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:32:21.054] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:32:36.054] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:32:51.054] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:33:06.054] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:33:21.054] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:33:36.055] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:33:51.055] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:34:06.055] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:34:21.055] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 15:34:24.181] [daily_logger] [error] Udp Read Error. EC: Operation canceled, Bytes Transferred: 0
+[2019-09-10 15:34:24.181] [daily_logger] [error] UDP Socket Close!
+[2019-09-10 16:10:06.630] [daily_logger] [info] CONNECT TO SERVER SUCCESS
+[2019-09-10 16:10:09.923] [daily_logger] [info] Received Message. Type: 2
+[2019-09-10 16:10:09.923] [daily_logger] [info] Received Login. cheid: P091, user name: 160140, send_packet_id: 324733803
+[2019-09-10 16:10:09.923] [daily_logger] [info] Truck Avaliable, Cheid: P091
+[2019-09-10 16:10:09.923] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 16:10:16.604] [daily_logger] [info] SEND TO TOS: <message type='2632' MSID='1'><che CHID='P091' ><user AVAL='L' PGRM='CHE' LOGN='160140'/></che></message>
+[2019-09-10 16:10:16.650] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_TO_DEST" ack="Y" MSID="1"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O3E42" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_UNDERWAY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="166" priority="N" shift="0" moveStage="CARRY_UNDERWAY"><container EQID="TCLU4156659" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="P091" refID="E.FICT:P091..." AREA="P091" AREA_TYPE="ITV" type="from" DOOR="E" /><position PPOS="04E50G.2" refID="Y.FICT:04E.50.G.2" AREA="04E50" AREA_TYPE="YardRow" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="9">0 State transition from [FORM_TRUCK_LADEN_TO_DEST] has failed for event &gt;StateTransitionId[login]&lt; (MSID=1)</displayMsg></che></message>
+[2019-09-10 16:10:16.651] [daily_logger] [info] TosCmdDownloadXml_from containers[TCLU4156659:40:30520:CARRY_UNDERWAY]
+[2019-09-10 16:10:16.651] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 16:10:16.651] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 16:10:16.651] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_TO_DEST, OLD STATE IS = INIT_STATE
+[2019-09-10 16:10:16.651] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 16:10:16.651] [daily_logger] [info] Update Task. Task id: 3
+[2019-09-10 16:10:21.604] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 16:10:21.923] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:10:36.923] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:10:51.923] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:11:06.923] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:11:21.923] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:11:36.923] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:11:51.924] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:12:06.924] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:12:21.924] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:12:36.924] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:12:51.924] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:13:06.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:13:21.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:13:36.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:13:51.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:14:06.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:14:21.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:14:36.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:14:51.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:15:06.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:15:15.152] [daily_logger] [error] Udp Read Error. EC: Operation canceled, Bytes Transferred: 0
+[2019-09-10 16:15:15.152] [daily_logger] [error] UDP Socket Close!
+[2019-09-10 16:15:15.152] [daily_logger] [info] SEND TO TOS: <message type='2509' MSID='2' />
+[2019-09-10 16:15:15.152] [daily_logger] [error] SEND TO SERVER FAIL, Disconnected.
+[2019-09-10 16:15:28.344] [daily_logger] [info] CONNECT TO SERVER SUCCESS
+[2019-09-10 16:15:31.594] [daily_logger] [info] Received Message. Type: 2
+[2019-09-10 16:15:31.594] [daily_logger] [info] Received Login. cheid: P091, user name: 160140, send_packet_id: 1120870256
+[2019-09-10 16:15:31.594] [daily_logger] [info] Truck Avaliable, Cheid: P091
+[2019-09-10 16:15:31.594] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 16:15:38.325] [daily_logger] [info] SEND TO TOS: <message type='2632' MSID='1'><che CHID='P091' ><user AVAL='L' PGRM='CHE' LOGN='160140'/></che></message>
+[2019-09-10 16:15:38.370] [daily_logger] [debug] message body is: <message formId="FORM_CONFIRM_TRUCK_LANE" ack="Y" MSID="1"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_UNDERWAY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="172" priority="N" shift="0" moveStage="CARRY_UNDERWAY"><container EQID="TCLU4156659" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="P091" refID="E.FICT:P091..." AREA="P091" AREA_TYPE="ITV" type="from" DOOR="E" TKPS="2" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="Y" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="9">0 State transition from [FORM_CONFIRM_TRUCK_LANE] has failed for event &gt;StateTransitionId[login]&lt; (MSID=1)</displayMsg></che></message>
+[2019-09-10 16:15:38.370] [daily_logger] [info] TosCmdDownloadXml_from containers[TCLU4156659:40:30520:CARRY_UNDERWAY]
+[2019-09-10 16:15:38.370] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 16:15:38.370] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 16:15:38.370] [daily_logger] [info] FORM ID = FORM_CONFIRM_TRUCK_LANE, OLD STATE IS = INIT_STATE
+[2019-09-10 16:15:38.370] [daily_logger] [info] Get TransferZone(1): 
+[2019-09-10 16:15:38.370] [daily_logger] [info] Get Area Type(1): ITV
+[2019-09-10 16:15:38.370] [daily_logger] [error] Unknown Area Type: ITV
+[2019-09-10 16:15:38.370] [daily_logger] [info] Get Target: 1, Section: P09, Bay: 1
+[2019-09-10 16:15:38.370] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 16:15:38.370] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 16:15:38.370] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 50
+[2019-09-10 16:15:38.370] [daily_logger] [info] Update Task. Task id: 3
+[2019-09-10 16:15:43.325] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 16:15:43.594] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:15:58.594] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:16:13.594] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:16:28.594] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:16:43.595] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:16:58.595] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:17:13.595] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:17:28.595] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:17:31.466] [daily_logger] [error] Udp Read Error. EC: Operation canceled, Bytes Transferred: 0
+[2019-09-10 16:17:31.466] [daily_logger] [error] UDP Socket Close!
+[2019-09-10 16:17:31.466] [daily_logger] [info] SEND TO TOS: <message type='2509' MSID='2' />
+[2019-09-10 16:17:31.466] [daily_logger] [error] SEND TO SERVER FAIL, Disconnected.
+[2019-09-10 16:17:40.606] [daily_logger] [info] CONNECT TO SERVER SUCCESS
+[2019-09-10 16:17:43.922] [daily_logger] [info] Received Message. Type: 2
+[2019-09-10 16:17:43.922] [daily_logger] [info] Received Login. cheid: P091, user name: 160140, send_packet_id: 1603757119
+[2019-09-10 16:17:43.922] [daily_logger] [info] Truck Avaliable, Cheid: P091
+[2019-09-10 16:17:43.922] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 16:17:50.587] [daily_logger] [info] SEND TO TOS: <message type='2632' MSID='1'><che CHID='P091' ><user AVAL='L' PGRM='CHE' LOGN='160140'/></che></message>
+[2019-09-10 16:17:50.633] [daily_logger] [debug] message body is: <message formId="FORM_CONFIRM_TRUCK_LANE" ack="Y" MSID="1"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_UNDERWAY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="174" priority="N" shift="0" moveStage="CARRY_UNDERWAY"><container EQID="TCLU4156659" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="P091" refID="E.FICT:P091..." AREA="P091" AREA_TYPE="ITV" type="from" DOOR="E" TKPS="2" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="Y" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="9">0 State transition from [FORM_CONFIRM_TRUCK_LANE] has failed for event &gt;StateTransitionId[login]&lt; (MSID=1)</displayMsg></che></message>
+[2019-09-10 16:17:50.634] [daily_logger] [info] TosCmdDownloadXml_from containers[TCLU4156659:40:30520:CARRY_UNDERWAY]
+[2019-09-10 16:17:50.634] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 16:17:50.634] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 16:17:50.634] [daily_logger] [info] FORM ID = FORM_CONFIRM_TRUCK_LANE, OLD STATE IS = INIT_STATE
+[2019-09-10 16:17:50.634] [daily_logger] [info] Get TransferZone(1): 
+[2019-09-10 16:17:50.634] [daily_logger] [info] Get Area Type(1): ITV
+[2019-09-10 16:17:50.634] [daily_logger] [error] Unknown Area Type: ITV
+[2019-09-10 16:17:50.634] [daily_logger] [info] Get Target: 1, Section: P09, Bay: 1
+[2019-09-10 16:17:50.634] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 16:17:50.634] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 16:17:50.634] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 50
+[2019-09-10 16:17:50.634] [daily_logger] [info] Update Task. Task id: 3
+[2019-09-10 16:17:55.588] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 16:17:55.922] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:18:10.922] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:18:25.923] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:18:40.923] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:18:55.923] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:19:10.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:19:25.924] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:19:40.924] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:19:51.578] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 16:19:51.578] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 16:19:51.578] [daily_logger] [info] Send To TOS. Target_type: 1, Cheid: P091, Ppos: O4E50
+[2019-09-10 16:19:51.578] [daily_logger] [info] SEND TO TOS: <message type='2635' MSID='2'><che CHID='P091' action='ProgressUpdate'><position PPOS='O4E50'/></che></message>
+[2019-09-10 16:19:51.809] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_AT_DEST" ack="Y" MSID="2"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="176" priority="N" shift="0" moveStage="PLANNED"><container EQID="TCLU4156659" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="from" DOOR="E" TKPS="2" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="Y" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 16:19:51.809] [daily_logger] [info] TosCmdDownloadXml_from containers[TCLU4156659:40:30520:PLANNED]
+[2019-09-10 16:19:51.809] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 16:19:51.809] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 16:19:51.809] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_AT_DEST, OLD STATE IS = FORM_CONFIRM_TRUCK_LANE
+[2019-09-10 16:19:51.809] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 16:19:51.809] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 16:19:51.809] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 50
+[2019-09-10 16:19:51.809] [daily_logger] [info] Update Task. Task id: 4
+[2019-09-10 16:19:52.830] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_AT_DEST" ack="N" MSID="-3391257"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="176" priority="N" shift="0" moveStage="PLANNED"><container EQID="TCLU4156659" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="from" DOOR="E" TKPS="2" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="E" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 16:19:52.830] [daily_logger] [info] TosCmdDownloadXml_from containers[TCLU4156659:40:30520:PLANNED]
+[2019-09-10 16:19:52.830] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 16:19:52.830] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 16:19:52.830] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_AT_DEST, OLD STATE IS = FORM_TRUCK_LADEN_AT_DEST
+[2019-09-10 16:19:52.830] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 16:19:52.830] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 16:19:52.830] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 50
+[2019-09-10 16:19:52.830] [daily_logger] [info] Update Task. Task id: 5
+[2019-09-10 16:19:55.494] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_AT_DEST" ack="N" MSID="-3391265"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_READY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="176" priority="N" shift="0" moveStage="CARRY_READY"><container EQID="TCLU4156659" LNTH="40" QWGT="30520" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="from" DOOR="E" TKPS="2" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="E" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 16:19:55.494] [daily_logger] [info] TosCmdDownloadXml_from containers[TCLU4156659:40:30520:CARRY_READY]
+[2019-09-10 16:19:55.494] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 16:19:55.494] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 16:19:55.494] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_AT_DEST, OLD STATE IS = FORM_TRUCK_LADEN_AT_DEST
+[2019-09-10 16:19:55.494] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 16:19:55.494] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 16:19:55.494] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 50
+[2019-09-10 16:19:55.494] [daily_logger] [info] Update Task. Task id: 6
+[2019-09-10 16:19:55.589] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 16:19:55.590] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 16:19:55.590] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 16:19:55.590] [daily_logger] [info] Drop Truck Arrived. Cheid: P091, task_key: 6
+[2019-09-10 16:19:55.924] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:20:10.924] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:20:25.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:20:40.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:20:55.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:21:10.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:21:25.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:21:29.042] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_IDLE" ack="N" MSID="-3391501"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDLE" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 16:21:29.042] [daily_logger] [info] CHID = P091, OLD STATE IS = FORM_TRUCK_LADEN_AT_DEST, RECV FORM ID = FORM_TRUCK_IDLE, DISPLAY MESSAGE IS: 0 No Error
+[2019-09-10 16:21:38.840] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_EMPTY_TO_ORIGIN" ack="N" MSID="-3391520"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="178" priority="N" shift="0" moveStage="PLANNED"><container EQID="UACU8578733" LNTH="40" QWGT="28800" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="03E42G.1" refID="Y.FICT:03E.42.G.1" AREA="03E42" AREA_TYPE="YardRow" type="from" DOOR="E"><transferZone BLOCK="O3E" /></position><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 16:21:38.840] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8578733:40:28800:PLANNED]
+[2019-09-10 16:21:38.840] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 16:21:38.840] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 16:21:38.840] [daily_logger] [info] FORM ID = FORM_TRUCK_EMPTY_TO_ORIGIN, OLD STATE IS = FORM_TRUCK_IDLE
+[2019-09-10 16:21:38.840] [daily_logger] [info] Get TransferZone(1): O3E
+[2019-09-10 16:21:38.840] [daily_logger] [info] Update Task. Task id: 8
+[2019-09-10 16:21:40.598] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 16:21:40.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:21:55.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:22:10.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:22:25.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:22:40.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:22:55.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:23:10.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:23:25.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:23:40.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:23:55.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:24:10.927] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:24:25.927] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:24:40.927] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:24:55.927] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:25:10.927] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:25:25.927] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:25:40.927] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:25:55.927] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:26:10.928] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:26:25.928] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:26:40.928] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:26:55.928] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:27:10.928] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:27:25.928] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:27:40.928] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:27:55.928] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:28:10.928] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:28:25.929] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:28:40.929] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:28:55.929] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:29:10.929] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:29:25.929] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:29:40.930] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:29:55.930] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:30:10.930] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:30:25.930] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:30:40.930] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:30:55.930] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:31:10.930] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:31:25.931] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:31:40.931] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:31:55.931] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:32:10.931] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:32:25.931] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:32:40.931] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:32:55.931] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:33:10.932] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:33:25.932] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:33:40.932] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:33:55.932] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:34:10.939] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:34:25.940] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:34:40.940] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:34:55.940] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:35:10.940] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:35:25.940] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:35:40.941] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:35:55.941] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:36:10.941] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:36:25.941] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:36:40.941] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:36:55.941] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:37:10.941] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:37:25.944] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:37:40.944] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:37:55.944] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:38:10.945] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:38:25.945] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:38:40.945] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:38:55.945] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:39:10.945] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:39:25.946] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:39:40.946] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:39:55.946] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:40:10.948] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:40:25.948] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:40:40.948] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:40:55.949] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:41:10.949] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:41:25.949] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:41:40.949] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:41:55.950] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:42:10.950] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:42:25.950] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:42:40.950] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:42:55.950] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:43:10.950] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:43:25.950] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:43:40.950] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:43:55.951] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:44:10.951] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:44:25.951] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:44:40.951] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:44:55.951] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:45:10.952] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:45:25.952] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:45:40.953] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:45:55.953] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:46:10.954] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:46:25.954] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:46:40.954] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:46:55.954] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:47:10.954] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:47:25.955] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:47:40.955] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:47:55.955] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:48:10.955] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:48:25.955] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:48:40.955] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:48:55.956] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:49:10.956] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:49:25.956] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:49:40.956] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:49:55.956] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:50:10.956] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:50:25.956] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:50:40.957] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:50:55.957] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:51:10.957] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:51:25.957] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:51:40.957] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:51:55.957] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:52:10.957] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:52:25.957] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:52:40.957] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:52:55.958] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:53:10.958] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:53:25.958] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:53:40.958] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:53:55.958] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:54:10.958] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:54:25.958] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:54:40.959] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:54:55.959] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:55:10.959] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:55:25.959] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:55:40.959] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:55:55.959] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:56:10.959] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:56:25.959] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:56:40.959] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:56:55.960] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:57:10.960] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:57:25.961] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:57:40.960] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:57:55.961] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:58:10.961] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:58:25.961] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:58:40.961] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:58:55.961] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:59:10.961] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:59:25.961] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:59:40.963] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 16:59:55.963] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:00:10.963] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:00:25.963] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:00:40.963] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:00:55.963] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:01:10.963] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:01:25.964] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:01:40.964] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:01:55.964] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:02:10.964] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:02:25.964] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:02:40.964] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:02:55.964] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:03:10.964] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:03:25.964] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:03:40.964] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:03:55.965] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:04:10.965] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:04:25.965] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:04:40.965] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:04:55.965] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:05:10.965] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:05:25.965] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:05:40.965] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:05:55.965] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:06:10.965] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:06:25.966] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:06:40.966] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:06:55.966] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:07:10.966] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:07:25.966] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:07:40.966] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:07:55.966] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:08:10.966] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:08:25.967] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:08:40.967] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:08:55.967] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:09:10.967] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:09:25.967] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:09:40.967] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:09:55.967] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:10:10.967] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:10:25.967] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:10:40.967] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:10:55.968] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:11:10.968] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:11:25.968] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:11:40.968] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:11:55.968] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:12:10.968] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:12:25.968] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:12:40.968] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:12:55.968] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:13:10.968] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:13:25.968] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:13:40.969] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:13:41.716] [daily_logger] [error] Udp Read Error. EC: Operation canceled, Bytes Transferred: 0
+[2019-09-10 17:13:41.716] [daily_logger] [error] UDP Socket Close!
+[2019-09-10 17:13:41.716] [daily_logger] [info] SEND TO TOS: <message type='2509' MSID='3' />
+[2019-09-10 17:13:41.716] [daily_logger] [error] SEND TO SERVER FAIL, Disconnected.
+[2019-09-10 17:19:24.039] [daily_logger] [info] CONNECT TO SERVER SUCCESS
+[2019-09-10 17:19:27.344] [daily_logger] [info] Received Message. Type: 2
+[2019-09-10 17:19:27.344] [daily_logger] [info] Received Login. cheid: P091, user name: 160140, send_packet_id: 674761193
+[2019-09-10 17:19:27.344] [daily_logger] [info] Truck Avaliable, Cheid: P091
+[2019-09-10 17:19:27.344] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 17:19:34.021] [daily_logger] [info] SEND TO TOS: <message type='2632' MSID='1'><che CHID='P091' ><user AVAL='L' PGRM='CHE' LOGN='160140'/></che></message>
+[2019-09-10 17:19:34.095] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_EMPTY_TO_ORIGIN" ack="Y" MSID="1"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="236" priority="N" shift="0" moveStage="PLANNED"><container EQID="UACU8578733" LNTH="40" QWGT="28800" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="03E42G.1" refID="Y.FICT:03E.42.G.1" AREA="03E42" AREA_TYPE="YardRow" type="from" DOOR="E"><transferZone BLOCK="O3E" /></position><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="9">0 State transition from [FORM_TRUCK_EMPTY_TO_ORIGIN] has failed for event &gt;StateTransitionId[login]&lt; (MSID=1)</displayMsg></che></message>
+[2019-09-10 17:19:34.095] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8578733:40:28800:PLANNED]
+[2019-09-10 17:19:34.095] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 17:19:34.095] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 17:19:34.095] [daily_logger] [info] FORM ID = FORM_TRUCK_EMPTY_TO_ORIGIN, OLD STATE IS = INIT_STATE
+[2019-09-10 17:19:34.095] [daily_logger] [info] Get TransferZone(1): O3E
+[2019-09-10 17:19:34.095] [daily_logger] [info] Update Task. Task id: 3
+[2019-09-10 17:19:35.200] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_EMPTY_TO_ORIGIN" ack="N" MSID="-3400493"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="236" priority="N" shift="0" moveStage="PLANNED"><container EQID="UACU8578733" LNTH="40" QWGT="28800" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="03E42G.1" refID="Y.FICT:03E.42.G.1" AREA="03E42" AREA_TYPE="YardRow" type="from" DOOR="E"><transferZone BLOCK="O3E" /></position><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 17:19:35.200] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8578733:40:28800:PLANNED]
+[2019-09-10 17:19:35.200] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 17:19:35.200] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 17:19:35.200] [daily_logger] [info] FORM ID = FORM_TRUCK_EMPTY_TO_ORIGIN, OLD STATE IS = FORM_TRUCK_EMPTY_TO_ORIGIN
+[2019-09-10 17:19:35.200] [daily_logger] [info] Get TransferZone(1): O3E
+[2019-09-10 17:19:35.200] [daily_logger] [info] Update Task. Task id: 4
+[2019-09-10 17:19:39.021] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 17:19:39.344] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:19:54.344] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:20:09.344] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:20:24.344] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:20:39.344] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:20:53.880] [daily_logger] [debug] message body is: <message formId="FORM_CONFIRM_TRUCK_LANE" ack="N" MSID="10879"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O3E" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="237" priority="N" shift="0" moveStage="PLANNED"><container EQID="UACU8578733" LNTH="40" QWGT="28800" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O3E42" refID="Y.FICT:O3E.42.A." AREA="O3E42" AREA_TYPE="YardTransTZ" type="from" DOOR="E"><transferZone BLOCK="O3E" /></position><position PPOS="04E50G.3" refID="Y.FICT:04E.50.G.3" AREA="04E50" AREA_TYPE="YardRow" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 17:20:53.880] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8578733:40:28800:PLANNED]
+[2019-09-10 17:20:53.880] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 17:20:53.880] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 17:20:53.880] [daily_logger] [info] FORM ID = FORM_CONFIRM_TRUCK_LANE, OLD STATE IS = FORM_TRUCK_EMPTY_TO_ORIGIN
+[2019-09-10 17:20:53.880] [daily_logger] [info] Get TransferZone(1): O3E
+[2019-09-10 17:20:53.880] [daily_logger] [info] Get Area Type(1): YardTransTZ
+[2019-09-10 17:20:53.880] [daily_logger] [info] Get Target: 1, Section: O3E, Bay: 42
+[2019-09-10 17:20:53.880] [daily_logger] [info] Update Task. Task id: 5
+[2019-09-10 17:20:54.024] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 17:20:54.345] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:21:09.345] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:21:24.348] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:21:39.348] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:21:54.348] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:22:09.348] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:22:24.349] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:22:39.349] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:22:54.349] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:23:09.349] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:23:24.349] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:23:39.349] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:23:54.349] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:24:09.349] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:24:24.349] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:24:39.349] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:24:54.350] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:26:19.489] [daily_logger] [info] CONNECT TO SERVER SUCCESS
+[2019-09-10 17:26:22.961] [daily_logger] [info] Received Message. Type: 2
+[2019-09-10 17:26:22.961] [daily_logger] [info] Received Login. cheid: P091, user name: 160140, send_packet_id: 448691602
+[2019-09-10 17:26:22.961] [daily_logger] [info] Truck Avaliable, Cheid: P091
+[2019-09-10 17:26:22.961] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 17:26:29.474] [daily_logger] [info] SEND TO TOS: <message type='2632' MSID='1'><che CHID='P091' ><user AVAL='L' PGRM='CHE' LOGN='160140'/></che></message>
+[2019-09-10 17:26:29.541] [daily_logger] [debug] message body is: <message formId="FORM_CONFIRM_TRUCK_LANE" ack="Y" MSID="1"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O3E" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="243" priority="N" shift="0" moveStage="PLANNED"><container EQID="UACU8578733" LNTH="40" QWGT="28800" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O3E42" refID="Y.FICT:O3E.42.A." AREA="O3E42" AREA_TYPE="YardTransTZ" type="from" DOOR="E"><transferZone BLOCK="O3E" /></position><position PPOS="04E50G.3" refID="Y.FICT:04E.50.G.3" AREA="04E50" AREA_TYPE="YardRow" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="9">0 State transition from [FORM_CONFIRM_TRUCK_LANE] has failed for event &gt;StateTransitionId[login]&lt; (MSID=1)</displayMsg></che></message>
+[2019-09-10 17:26:29.541] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8578733:40:28800:PLANNED]
+[2019-09-10 17:26:29.541] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 17:26:29.541] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 17:26:29.541] [daily_logger] [info] FORM ID = FORM_CONFIRM_TRUCK_LANE, OLD STATE IS = INIT_STATE
+[2019-09-10 17:26:29.541] [daily_logger] [info] Get TransferZone(1): O3E
+[2019-09-10 17:26:29.541] [daily_logger] [info] Get Area Type(1): YardTransTZ
+[2019-09-10 17:26:29.541] [daily_logger] [info] Get Target: 1, Section: O3E, Bay: 42
+[2019-09-10 17:26:29.541] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 17:26:29.541] [daily_logger] [info] Get Area Type(0): YardRow
+[2019-09-10 17:26:29.541] [daily_logger] [info] Get Target: 0, Section: 04E, Bay: 50
+[2019-09-10 17:26:29.541] [daily_logger] [info] Update Task. Task id: 3
+[2019-09-10 17:26:34.476] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 17:26:34.961] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:26:49.961] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:27:04.961] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:27:19.961] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:27:34.962] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:27:49.962] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:28:00.690] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 17:28:00.690] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 17:28:00.690] [daily_logger] [info] Send To TOS. Target_type: 1, Cheid: P091, Ppos: O3E42
+[2019-09-10 17:28:00.690] [daily_logger] [info] SEND TO TOS: <message type='2635' MSID='2'><che CHID='P091' action='ProgressUpdate'><position PPOS='O3E42'/></che></message>
+[2019-09-10 17:28:00.837] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_EMPTY_AT_ORIGIN" ack="Y" MSID="2"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O3E42" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="244" priority="N" shift="0" moveStage="PLANNED"><container EQID="UACU8578733" LNTH="40" QWGT="28800" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O3E42" refID="Y.FICT:O3E.42.A." AREA="O3E42" AREA_TYPE="YardTransTZ" type="from" DOOR="E" TKPS="2"><transferZone BLOCK="O3E" /></position><position PPOS="04E50G.3" refID="Y.FICT:04E.50.G.3" AREA="04E50" AREA_TYPE="YardRow" type="to" DOOR="Y" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 17:28:00.838] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8578733:40:28800:PLANNED]
+[2019-09-10 17:28:00.838] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 17:28:00.838] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 17:28:00.838] [daily_logger] [info] FORM ID = FORM_TRUCK_EMPTY_AT_ORIGIN, OLD STATE IS = FORM_CONFIRM_TRUCK_LANE
+[2019-09-10 17:28:00.838] [daily_logger] [info] Get TransferZone(1): O3E
+[2019-09-10 17:28:00.838] [daily_logger] [info] Get Area Type(1): YardTransTZ
+[2019-09-10 17:28:00.838] [daily_logger] [info] Get Target: 1, Section: O3E, Bay: 42
+[2019-09-10 17:28:00.838] [daily_logger] [info] Update Task. Task id: 4
+[2019-09-10 17:28:04.475] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 17:28:04.475] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 17:28:04.475] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 17:28:04.475] [daily_logger] [info] Drop Truck Arrived. Cheid: P091, task_key: 4
+[2019-09-10 17:28:04.962] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:28:19.962] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:28:34.962] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:28:49.963] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:29:04.963] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:29:19.963] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:29:34.963] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:29:49.963] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:30:04.963] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:30:19.964] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:30:29.604] [daily_logger] [error] Udp Read Error. EC: Operation canceled, Bytes Transferred: 0
+[2019-09-10 17:30:29.604] [daily_logger] [error] UDP Socket Close!
+[2019-09-10 17:30:29.604] [daily_logger] [info] SEND TO TOS: <message type='2509' MSID='3' />
+[2019-09-10 17:30:29.604] [daily_logger] [error] SEND TO SERVER FAIL, Disconnected.
+[2019-09-10 17:44:32.148] [daily_logger] [info] CONNECT TO SERVER SUCCESS
+[2019-09-10 17:44:35.457] [daily_logger] [info] Received Message. Type: 2
+[2019-09-10 17:44:35.457] [daily_logger] [info] Received Login. cheid: P091, user name: 160140, send_packet_id: 233741307
+[2019-09-10 17:44:35.457] [daily_logger] [info] Truck Avaliable, Cheid: P091
+[2019-09-10 17:44:35.457] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 17:44:42.103] [daily_logger] [info] SEND TO TOS: <message type='2632' MSID='1'><che CHID='P091' ><user AVAL='L' PGRM='CHE' LOGN='160140'/></che></message>
+[2019-09-10 17:44:42.163] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_TO_DEST" ack="Y" MSID="1"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O3E42" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_UNDERWAY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="261" priority="N" shift="0" moveStage="CARRY_UNDERWAY"><container EQID="UACU8578733" LNTH="40" QWGT="28800" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="P091" refID="E.FICT:P091..." AREA="P091" AREA_TYPE="ITV" type="from" DOOR="E" /><position PPOS="04E50G.3" refID="Y.FICT:04E.50.G.3" AREA="04E50" AREA_TYPE="YardRow" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="9">0 State transition from [FORM_TRUCK_LADEN_TO_DEST] has failed for event &gt;StateTransitionId[login]&lt; (MSID=1)</displayMsg></che></message>
+[2019-09-10 17:44:42.163] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8578733:40:28800:CARRY_UNDERWAY]
+[2019-09-10 17:44:42.163] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 17:44:42.163] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 17:44:42.163] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_TO_DEST, OLD STATE IS = INIT_STATE
+[2019-09-10 17:44:42.163] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 17:44:42.163] [daily_logger] [info] Update Task. Task id: 3
+[2019-09-10 17:44:47.103] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 17:44:47.457] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:45:02.457] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:45:17.457] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:45:32.458] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:45:47.458] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:46:02.462] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:46:17.462] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:46:32.462] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:46:47.462] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:47:02.462] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:47:17.462] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:47:32.462] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:47:47.463] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:48:02.470] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:48:17.468] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:48:32.469] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:48:47.469] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:48:50.667] [daily_logger] [debug] message body is: <message formId="FORM_CONFIRM_TRUCK_LANE" ack="N" MSID="10929"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_UNDERWAY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="265" priority="N" shift="0" moveStage="CARRY_UNDERWAY"><container EQID="UACU8578733" LNTH="40" QWGT="28800" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="P091" refID="E.FICT:P091..." AREA="P091" AREA_TYPE="ITV" type="from" DOOR="E" TKPS="2" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="Y" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 17:48:50.668] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8578733:40:28800:CARRY_UNDERWAY]
+[2019-09-10 17:48:50.668] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 17:48:50.668] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 17:48:50.668] [daily_logger] [info] FORM ID = FORM_CONFIRM_TRUCK_LANE, OLD STATE IS = FORM_TRUCK_LADEN_TO_DEST
+[2019-09-10 17:48:50.668] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 17:48:50.668] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 17:48:50.668] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 50
+[2019-09-10 17:48:50.668] [daily_logger] [info] Update Task. Task id: 4
+[2019-09-10 17:48:52.114] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 17:49:02.469] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:49:17.470] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:49:32.470] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:49:47.470] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:50:02.470] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:50:17.470] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:50:32.470] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:50:47.471] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:51:02.472] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:51:07.400] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 17:51:07.400] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 17:51:07.400] [daily_logger] [info] Send To TOS. Target_type: 1, Cheid: P091, Ppos: O4E50
+[2019-09-10 17:51:07.400] [daily_logger] [info] SEND TO TOS: <message type='2635' MSID='2'><che CHID='P091' action='ProgressUpdate'><position PPOS='O4E50'/></che></message>
+[2019-09-10 17:51:07.543] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_AT_DEST" ack="Y" MSID="2"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="267" priority="N" shift="0" moveStage="PLANNED"><container EQID="UACU8578733" LNTH="40" QWGT="28800" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="from" DOOR="E" TKPS="2" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="Y" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 17:51:07.543] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8578733:40:28800:PLANNED]
+[2019-09-10 17:51:07.543] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 17:51:07.543] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 17:51:07.543] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_AT_DEST, OLD STATE IS = FORM_CONFIRM_TRUCK_LANE
+[2019-09-10 17:51:07.543] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 17:51:07.543] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 17:51:07.543] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 50
+[2019-09-10 17:51:07.543] [daily_logger] [info] Update Task. Task id: 5
+[2019-09-10 17:51:12.115] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 17:51:12.115] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 17:51:12.115] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 17:51:12.115] [daily_logger] [info] Drop Truck Arrived. Cheid: P091, task_key: 5
+[2019-09-10 17:51:17.472] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:51:32.472] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:51:47.472] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:52:02.472] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:52:17.473] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:52:32.473] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:52:47.474] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:53:02.473] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:53:17.473] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:53:32.476] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:53:47.476] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:54:02.477] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:54:17.477] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:54:32.477] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:54:47.477] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:55:02.477] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:55:17.477] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:55:32.477] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:55:47.477] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:56:02.478] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:56:17.478] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:56:32.478] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:56:47.478] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:57:02.478] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:57:17.478] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:57:32.478] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:57:47.479] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:58:02.479] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:58:17.479] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:58:32.479] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:58:45.181] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_AT_DEST" ack="N" MSID="-3406312"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="275" priority="N" shift="0" moveStage="PLANNED"><container EQID="UACU8578733" LNTH="40" QWGT="28800" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="from" DOOR="E" TKPS="2" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="E" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 17:58:45.181] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8578733:40:28800:PLANNED]
+[2019-09-10 17:58:45.181] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 17:58:45.181] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 17:58:45.181] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_AT_DEST, OLD STATE IS = FORM_TRUCK_LADEN_AT_DEST
+[2019-09-10 17:58:45.181] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 17:58:45.181] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 17:58:45.181] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 50
+[2019-09-10 17:58:45.181] [daily_logger] [info] Update Task. Task id: 6
+[2019-09-10 17:58:47.122] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 17:58:47.122] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 17:58:47.122] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 17:58:47.122] [daily_logger] [info] Drop Truck Arrived. Cheid: P091, task_key: 6
+[2019-09-10 17:58:47.479] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:58:50.085] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_AT_DEST" ack="N" MSID="-3406316"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_READY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="275" priority="N" shift="0" moveStage="CARRY_READY"><container EQID="UACU8578733" LNTH="40" QWGT="28800" MNRS="" QCAT="E" EQTP="42G1" HGHT="2591" LOPR="HLC" TRKC="" ACRR="TRUCK" DCRR="KAY_004" RLSE="V" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="from" DOOR="E" TKPS="2" /><position PPOS="O4E50" refID="Y.FICT:O4E.50.A." AREA="O4E50" AREA_TYPE="YardTransTZ" type="to" DOOR="E" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 17:58:50.085] [daily_logger] [info] TosCmdDownloadXml_from containers[UACU8578733:40:28800:CARRY_READY]
+[2019-09-10 17:58:50.085] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 17:58:50.085] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 17:58:50.085] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_AT_DEST, OLD STATE IS = FORM_TRUCK_LADEN_AT_DEST
+[2019-09-10 17:58:50.085] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 17:58:50.085] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 17:58:50.085] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 50
+[2019-09-10 17:58:50.085] [daily_logger] [info] Update Task. Task id: 7
+[2019-09-10 17:58:52.123] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 17:58:52.123] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 17:58:52.123] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 17:58:52.123] [daily_logger] [info] Drop Truck Arrived. Cheid: P091, task_key: 7
+[2019-09-10 17:59:02.480] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:59:17.480] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:59:32.480] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 17:59:47.480] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:00:02.480] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:00:17.481] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:00:32.481] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:00:46.013] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_IDLE" ack="N" MSID="-3406652"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDLE" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 18:00:46.013] [daily_logger] [info] CHID = P091, OLD STATE IS = FORM_TRUCK_LADEN_AT_DEST, RECV FORM ID = FORM_TRUCK_IDLE, DISPLAY MESSAGE IS: 0 No Error
+[2019-09-10 18:00:47.481] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:01:02.488] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:01:17.482] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:01:32.482] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:01:47.482] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:02:02.482] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:02:17.482] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:02:32.482] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:02:47.483] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:03:02.483] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:03:17.483] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:03:32.483] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:03:47.484] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:04:02.484] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:04:17.484] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:04:32.486] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:04:47.486] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:05:02.486] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:05:17.487] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:05:32.487] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:05:47.489] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:06:02.489] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:06:17.489] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:06:32.489] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:06:47.489] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:07:02.490] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:07:17.490] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:07:32.490] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:07:47.491] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:08:02.492] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:08:10.276] [daily_logger] [error] Udp Read Error. EC: Operation canceled, Bytes Transferred: 0
+[2019-09-10 18:08:10.276] [daily_logger] [error] UDP Socket Close!
+[2019-09-10 18:08:10.276] [daily_logger] [info] SEND TO TOS: <message type='2509' MSID='3' />
+[2019-09-10 18:08:10.276] [daily_logger] [error] SEND TO SERVER FAIL, Disconnected.
+[2019-09-10 18:26:46.461] [daily_logger] [info] CONNECT TO SERVER SUCCESS
+[2019-09-10 18:26:49.749] [daily_logger] [info] Received Message. Type: 2
+[2019-09-10 18:26:49.749] [daily_logger] [info] Received Login. cheid: P091, user name: 160140, send_packet_id: 1302287870
+[2019-09-10 18:26:49.749] [daily_logger] [info] Truck Avaliable, Cheid: P091
+[2019-09-10 18:26:49.749] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 18:26:56.438] [daily_logger] [info] SEND TO TOS: <message type='2632' MSID='1'><che CHID='P091' ><user AVAL='L' PGRM='CHE' LOGN='160140'/></che></message>
+[2019-09-10 18:26:56.551] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_EMPTY_TO_ORIGIN" ack="Y" MSID="1"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="1" priority="N" shift="0" moveStage="PLANNED"><container EQID="ZGXU6125093" LNTH="40" QWGT="24600" MNRS="" QCAT="T" EQTP="45G1" HGHT="2896" LOPR="ZGX" TRKC="" ACRR="TIANJ1_00Z" DCRR="TRSHP_VL_003" RLSE="VG" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="01E22G.3" refID="Y.FICT:01E.22.G.3" AREA="01E22" AREA_TYPE="YardRow" type="from" DOOR="U"><transferZone BLOCK="O1E" /></position><position PPOS="O4E26" refID="Y.FICT:O4E.26.A." AREA="O4E26" AREA_TYPE="YardTransTZ" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="9">0 State transition from [FORM_TRUCK_EMPTY_TO_ORIGIN] has failed for event &gt;StateTransitionId[login]&lt; (MSID=1)</displayMsg></che></message>
+[2019-09-10 18:26:56.551] [daily_logger] [info] TosCmdDownloadXml_from containers[ZGXU6125093:40:24600:PLANNED]
+[2019-09-10 18:26:56.551] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 18:26:56.551] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 18:26:56.551] [daily_logger] [info] FORM ID = FORM_TRUCK_EMPTY_TO_ORIGIN, OLD STATE IS = INIT_STATE
+[2019-09-10 18:26:56.551] [daily_logger] [info] Get TransferZone(1): O1E
+[2019-09-10 18:26:56.551] [daily_logger] [info] Update Task. Task id: 3
+[2019-09-10 18:27:01.439] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 18:27:01.749] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:27:05.362] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_EMPTY_TO_ORIGIN" ack="N" MSID="-3411140"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E50" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="1" priority="N" shift="0" moveStage="PLANNED"><container EQID="ZGXU6125093" LNTH="40" QWGT="24600" MNRS="" QCAT="T" EQTP="45G1" HGHT="2896" LOPR="ZGX" TRKC="" ACRR="TIANJ1_00Z" DCRR="TRSHP_VL_003" RLSE="VG" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="01E22G.3" refID="Y.FICT:01E.22.G.3" AREA="01E22" AREA_TYPE="YardRow" type="from" DOOR="U"><transferZone BLOCK="O1E" /></position><position PPOS="O4E26" refID="Y.FICT:O4E.26.A." AREA="O4E26" AREA_TYPE="YardTransTZ" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 18:27:05.362] [daily_logger] [info] TosCmdDownloadXml_from containers[ZGXU6125093:40:24600:PLANNED]
+[2019-09-10 18:27:05.362] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 18:27:05.362] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 18:27:05.362] [daily_logger] [info] FORM ID = FORM_TRUCK_EMPTY_TO_ORIGIN, OLD STATE IS = FORM_TRUCK_EMPTY_TO_ORIGIN
+[2019-09-10 18:27:05.362] [daily_logger] [info] Get TransferZone(1): O1E
+[2019-09-10 18:27:05.362] [daily_logger] [info] Update Task. Task id: 4
+[2019-09-10 18:27:06.439] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 18:27:16.749] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:27:31.749] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:27:46.749] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:28:01.749] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:28:16.749] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:28:23.209] [daily_logger] [debug] message body is: <message formId="FORM_CONFIRM_TRUCK_LANE" ack="N" MSID="11001"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O1E" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="2" priority="N" shift="0" moveStage="PLANNED"><container EQID="ZGXU6125093" LNTH="40" QWGT="24600" MNRS="" QCAT="T" EQTP="45G1" HGHT="2896" LOPR="ZGX" TRKC="" ACRR="TIANJ1_00Z" DCRR="TRSHP_VL_003" RLSE="VG" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O1E22" refID="Y.FICT:O1E.22.A." AREA="O1E22" AREA_TYPE="YardTransTZ" type="from" DOOR="U"><transferZone BLOCK="O1E" /></position><position PPOS="04E26E.2" refID="Y.FICT:04E.26.E.2" AREA="04E26" AREA_TYPE="YardRow" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 18:28:23.209] [daily_logger] [info] TosCmdDownloadXml_from containers[ZGXU6125093:40:24600:PLANNED]
+[2019-09-10 18:28:23.209] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 18:28:23.209] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 18:28:23.209] [daily_logger] [info] FORM ID = FORM_CONFIRM_TRUCK_LANE, OLD STATE IS = FORM_TRUCK_EMPTY_TO_ORIGIN
+[2019-09-10 18:28:23.209] [daily_logger] [info] Get TransferZone(1): O1E
+[2019-09-10 18:28:23.209] [daily_logger] [info] Get Area Type(1): YardTransTZ
+[2019-09-10 18:28:23.209] [daily_logger] [info] Get Target: 1, Section: O1E, Bay: 22
+[2019-09-10 18:28:23.209] [daily_logger] [info] Update Task. Task id: 5
+[2019-09-10 18:28:26.445] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 18:28:31.750] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:28:46.750] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:29:01.750] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:29:16.750] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:29:31.750] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:29:42.987] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 18:29:42.987] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 18:29:42.987] [daily_logger] [info] Send To TOS. Target_type: 1, Cheid: P091, Ppos: O1E22
+[2019-09-10 18:29:42.988] [daily_logger] [info] SEND TO TOS: <message type='2635' MSID='2'><che CHID='P091' action='ProgressUpdate'><position PPOS='O1E22'/></che></message>
+[2019-09-10 18:29:43.129] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_EMPTY_AT_ORIGIN" ack="Y" MSID="2"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O1E22" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="4" priority="N" shift="0" moveStage="PLANNED"><container EQID="ZGXU6125093" LNTH="40" QWGT="24600" MNRS="" QCAT="T" EQTP="45G1" HGHT="2896" LOPR="ZGX" TRKC="" ACRR="TIANJ1_00Z" DCRR="TRSHP_VL_003" RLSE="VG" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O1E22" refID="Y.FICT:O1E.22.A." AREA="O1E22" AREA_TYPE="YardTransTZ" type="from" DOOR="U" TKPS="2"><transferZone BLOCK="O1E" /></position><position PPOS="04E26E.2" refID="Y.FICT:04E.26.E.2" AREA="04E26" AREA_TYPE="YardRow" type="to" DOOR="Y" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 18:29:43.129] [daily_logger] [info] TosCmdDownloadXml_from containers[ZGXU6125093:40:24600:PLANNED]
+[2019-09-10 18:29:43.129] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 18:29:43.129] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 18:29:43.129] [daily_logger] [info] FORM ID = FORM_TRUCK_EMPTY_AT_ORIGIN, OLD STATE IS = FORM_CONFIRM_TRUCK_LANE
+[2019-09-10 18:29:43.129] [daily_logger] [info] Get TransferZone(1): O1E
+[2019-09-10 18:29:43.129] [daily_logger] [info] Get Area Type(1): YardTransTZ
+[2019-09-10 18:29:43.129] [daily_logger] [info] Get Target: 1, Section: O1E, Bay: 22
+[2019-09-10 18:29:43.129] [daily_logger] [info] Update Task. Task id: 6
+[2019-09-10 18:29:46.445] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 18:29:46.445] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 18:29:46.445] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 18:29:46.445] [daily_logger] [info] Drop Truck Arrived. Cheid: P091, task_key: 6
+[2019-09-10 18:29:46.750] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:30:01.750] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:30:03.140] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_EMPTY_AT_ORIGIN" ack="N" MSID="-3411678"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="ICAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O1E22" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="4" priority="N" shift="0" moveStage="PLANNED"><container EQID="ZGXU6125093" LNTH="40" QWGT="24600" MNRS="" QCAT="T" EQTP="45G1" HGHT="2896" LOPR="ZGX" TRKC="" ACRR="TIANJ1_00Z" DCRR="TRSHP_VL_003" RLSE="VG" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O1E22" refID="Y.FICT:O1E.22.A.1" AREA="O1E22" AREA_TYPE="YardTransTZ" type="from" DOOR="U" TKPS="2"><transferZone BLOCK="O1E" /></position><position PPOS="04E26E.2" refID="Y.FICT:04E.26.E.2" AREA="04E26" AREA_TYPE="YardRow" type="to" DOOR="Y" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 18:30:03.140] [daily_logger] [info] TosCmdDownloadXml_from containers[ZGXU6125093:40:24600:PLANNED]
+[2019-09-10 18:30:03.140] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 18:30:03.140] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 18:30:03.140] [daily_logger] [info] FORM ID = FORM_TRUCK_EMPTY_AT_ORIGIN, OLD STATE IS = FORM_TRUCK_EMPTY_AT_ORIGIN
+[2019-09-10 18:30:03.140] [daily_logger] [info] Get TransferZone(1): O1E
+[2019-09-10 18:30:03.140] [daily_logger] [info] Get Area Type(1): YardTransTZ
+[2019-09-10 18:30:03.140] [daily_logger] [info] Get Target: 1, Section: O1E, Bay: 22
+[2019-09-10 18:30:03.140] [daily_logger] [info] Update Task. Task id: 7
+[2019-09-10 18:30:06.445] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 18:30:06.445] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 18:30:06.445] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 18:30:06.445] [daily_logger] [info] Drop Truck Arrived. Cheid: P091, task_key: 7
+[2019-09-10 18:30:16.750] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:30:31.750] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:30:46.751] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:31:01.751] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:31:16.751] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:31:31.751] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:31:46.751] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:32:01.751] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:32:16.751] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:32:22.833] [daily_logger] [error] Udp Read Error. EC: Operation canceled, Bytes Transferred: 0
+[2019-09-10 18:32:22.833] [daily_logger] [error] UDP Socket Close!
+[2019-09-10 18:32:22.833] [daily_logger] [info] SEND TO TOS: <message type='2509' MSID='3' />
+[2019-09-10 18:32:22.833] [daily_logger] [error] SEND TO SERVER FAIL, Disconnected.
+[2019-09-10 18:32:29.630] [daily_logger] [info] CONNECT TO SERVER SUCCESS
+[2019-09-10 18:32:33.128] [daily_logger] [info] Received Message. Type: 2
+[2019-09-10 18:32:33.128] [daily_logger] [info] Received Login. cheid: P091, user name: 160140, send_packet_id: 973019930
+[2019-09-10 18:32:33.128] [daily_logger] [info] Truck Avaliable, Cheid: P091
+[2019-09-10 18:32:33.128] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 18:32:39.610] [daily_logger] [info] SEND TO TOS: <message type='2632' MSID='1'><che CHID='P091' ><user AVAL='L' PGRM='CHE' LOGN='160140'/></che></message>
+[2019-09-10 18:32:39.671] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_TO_DEST" ack="Y" MSID="1"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O1E22" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_UNDERWAY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="7" priority="N" shift="0" moveStage="CARRY_UNDERWAY"><container EQID="ZGXU6125093" LNTH="40" QWGT="24600" MNRS="" QCAT="T" EQTP="45G1" HGHT="2896" LOPR="ZGX" TRKC="" ACRR="TIANJ1_00Z" DCRR="TRSHP_VL_003" RLSE="VG" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="P091" refID="E.FICT:P091..." AREA="P091" AREA_TYPE="ITV" type="from" DOOR="U" /><position PPOS="04E26E.2" refID="Y.FICT:04E.26.E.2" AREA="04E26" AREA_TYPE="YardRow" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="9">0 State transition from [FORM_TRUCK_LADEN_TO_DEST] has failed for event &gt;StateTransitionId[login]&lt; (MSID=1)</displayMsg></che></message>
+[2019-09-10 18:32:39.671] [daily_logger] [info] TosCmdDownloadXml_from containers[ZGXU6125093:40:24600:CARRY_UNDERWAY]
+[2019-09-10 18:32:39.671] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 18:32:39.671] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 18:32:39.671] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_TO_DEST, OLD STATE IS = INIT_STATE
+[2019-09-10 18:32:39.671] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 18:32:39.671] [daily_logger] [info] Update Task. Task id: 3
+[2019-09-10 18:32:44.611] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 18:32:45.128] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:32:56.457] [daily_logger] [error] Udp Read Error. EC: Operation canceled, Bytes Transferred: 0
+[2019-09-10 18:32:56.457] [daily_logger] [error] UDP Socket Close!
+[2019-09-10 18:32:56.457] [daily_logger] [info] SEND TO TOS: <message type='2509' MSID='2' />
+[2019-09-10 18:32:56.457] [daily_logger] [error] SEND TO SERVER FAIL, Disconnected.
+[2019-09-10 18:33:02.421] [daily_logger] [info] CONNECT TO SERVER SUCCESS
+[2019-09-10 18:33:05.918] [daily_logger] [info] Received Message. Type: 2
+[2019-09-10 18:33:05.918] [daily_logger] [info] Received Login. cheid: P091, user name: 160140, send_packet_id: 547360179
+[2019-09-10 18:33:05.918] [daily_logger] [info] Truck Avaliable, Cheid: P091
+[2019-09-10 18:33:05.918] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 18:33:12.398] [daily_logger] [info] SEND TO TOS: <message type='2632' MSID='1'><che CHID='P091' ><user AVAL='L' PGRM='CHE' LOGN='160140'/></che></message>
+[2019-09-10 18:33:12.496] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_TO_DEST" ack="Y" MSID="1"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O1E22" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_UNDERWAY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="7" priority="N" shift="0" moveStage="CARRY_UNDERWAY"><container EQID="ZGXU6125093" LNTH="40" QWGT="24600" MNRS="" QCAT="T" EQTP="45G1" HGHT="2896" LOPR="ZGX" TRKC="" ACRR="TIANJ1_00Z" DCRR="TRSHP_VL_003" RLSE="VG" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="P091" refID="E.FICT:P091..." AREA="P091" AREA_TYPE="ITV" type="from" DOOR="U" /><position PPOS="04E26E.2" refID="Y.FICT:04E.26.E.2" AREA="04E26" AREA_TYPE="YardRow" type="to" DOOR="Y"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="9">0 State transition from [FORM_TRUCK_LADEN_TO_DEST] has failed for event &gt;StateTransitionId[login]&lt; (MSID=1)</displayMsg></che></message>
+[2019-09-10 18:33:12.497] [daily_logger] [info] TosCmdDownloadXml_from containers[ZGXU6125093:40:24600:CARRY_UNDERWAY]
+[2019-09-10 18:33:12.497] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 18:33:12.497] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[0]
+[2019-09-10 18:33:12.497] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_TO_DEST, OLD STATE IS = INIT_STATE
+[2019-09-10 18:33:12.497] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 18:33:12.497] [daily_logger] [info] Update Task. Task id: 3
+[2019-09-10 18:33:17.398] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 18:33:17.919] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:33:32.919] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:33:47.920] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:34:02.920] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:34:17.920] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:34:32.920] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:34:47.920] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:35:02.920] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:35:17.920] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:35:32.920] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:35:47.920] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:36:02.921] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:36:17.921] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:36:32.921] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:36:47.921] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:37:02.921] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:37:17.921] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:37:32.921] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:37:47.922] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:38:02.922] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:38:17.922] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:38:32.922] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:38:47.922] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:39:02.922] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:39:16.608] [daily_logger] [debug] message body is: <message formId="FORM_CONFIRM_TRUCK_LANE" ack="N" MSID="11022"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDTY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_UNDERWAY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="13" priority="N" shift="0" moveStage="CARRY_UNDERWAY"><container EQID="ZGXU6125093" LNTH="40" QWGT="24600" MNRS="" QCAT="T" EQTP="45G1" HGHT="2896" LOPR="ZGX" TRKC="" ACRR="TIANJ1_00Z" DCRR="TRSHP_VL_003" RLSE="VG" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="P091" refID="E.FICT:P091..." AREA="P091" AREA_TYPE="ITV" type="from" DOOR="U" TKPS="2" /><position PPOS="O4E26" refID="Y.FICT:O4E.26.A." AREA="O4E26" AREA_TYPE="YardTransTZ" type="to" DOOR="Y" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 18:39:16.609] [daily_logger] [info] TosCmdDownloadXml_from containers[ZGXU6125093:40:24600:CARRY_UNDERWAY]
+[2019-09-10 18:39:16.609] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 18:39:16.609] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 18:39:16.609] [daily_logger] [info] FORM ID = FORM_CONFIRM_TRUCK_LANE, OLD STATE IS = FORM_TRUCK_LADEN_TO_DEST
+[2019-09-10 18:39:16.609] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 18:39:16.609] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 18:39:16.609] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 26
+[2019-09-10 18:39:16.609] [daily_logger] [info] Update Task. Task id: 4
+[2019-09-10 18:39:17.413] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 18:39:17.922] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:39:32.922] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:39:47.923] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:40:02.923] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:40:05.299] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 18:40:05.299] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 18:40:05.300] [daily_logger] [info] Send To TOS. Target_type: 1, Cheid: P091, Ppos: O4E26
+[2019-09-10 18:40:05.300] [daily_logger] [info] SEND TO TOS: <message type='2635' MSID='2'><che CHID='P091' action='ProgressUpdate'><position PPOS='O4E26'/></che></message>
+[2019-09-10 18:40:05.443] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_AT_DEST" ack="Y" MSID="2"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E26" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="14" priority="N" shift="0" moveStage="PLANNED"><container EQID="ZGXU6125093" LNTH="40" QWGT="24600" MNRS="" QCAT="T" EQTP="45G1" HGHT="2896" LOPR="ZGX" TRKC="" ACRR="TIANJ1_00Z" DCRR="TRSHP_VL_003" RLSE="VG" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O4E26" refID="Y.FICT:O4E.26.A." AREA="O4E26" AREA_TYPE="YardTransTZ" type="from" DOOR="U" TKPS="2" /><position PPOS="O4E26" refID="Y.FICT:O4E.26.A." AREA="O4E26" AREA_TYPE="YardTransTZ" type="to" DOOR="Y" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 18:40:05.443] [daily_logger] [info] TosCmdDownloadXml_from containers[ZGXU6125093:40:24600:PLANNED]
+[2019-09-10 18:40:05.443] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 18:40:05.443] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 18:40:05.443] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_AT_DEST, OLD STATE IS = FORM_CONFIRM_TRUCK_LANE
+[2019-09-10 18:40:05.443] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 18:40:05.443] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 18:40:05.443] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 26
+[2019-09-10 18:40:05.443] [daily_logger] [info] Update Task. Task id: 5
+[2019-09-10 18:40:06.464] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_AT_DEST" ack="N" MSID="-3413186"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E26" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="PLANNED" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="14" priority="N" shift="0" moveStage="PLANNED"><container EQID="ZGXU6125093" LNTH="40" QWGT="24600" MNRS="" QCAT="T" EQTP="45G1" HGHT="2896" LOPR="ZGX" TRKC="" ACRR="TIANJ1_00Z" DCRR="TRSHP_VL_003" RLSE="VG" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O4E26" refID="Y.FICT:O4E.26.A." AREA="O4E26" AREA_TYPE="YardTransTZ" type="from" DOOR="U" TKPS="2" /><position PPOS="O4E26" refID="Y.FICT:O4E.26.A." AREA="O4E26" AREA_TYPE="YardTransTZ" type="to" DOOR="U" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 18:40:06.464] [daily_logger] [info] TosCmdDownloadXml_from containers[ZGXU6125093:40:24600:PLANNED]
+[2019-09-10 18:40:06.464] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 18:40:06.464] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 18:40:06.464] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_AT_DEST, OLD STATE IS = FORM_TRUCK_LADEN_AT_DEST
+[2019-09-10 18:40:06.464] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 18:40:06.464] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 18:40:06.464] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 26
+[2019-09-10 18:40:06.464] [daily_logger] [info] Update Task. Task id: 6
+[2019-09-10 18:40:07.412] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 18:40:07.412] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 18:40:07.412] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 18:40:07.412] [daily_logger] [info] Drop Truck Arrived. Cheid: P091, task_key: 6
+[2019-09-10 18:40:10.458] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_LADEN_AT_DEST" ack="N" MSID="-3413204"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDAY" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E26" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><work count="1" moveStage="CARRY_READY" planningIntent="SINGLE"><job MVKD="YARD" pow="RETURN YARD 02" age="14" priority="N" shift="0" moveStage="CARRY_READY"><container EQID="ZGXU6125093" LNTH="40" QWGT="24600" MNRS="" QCAT="T" EQTP="45G1" HGHT="2896" LOPR="ZGX" TRKC="" ACRR="TIANJ1_00Z" DCRR="TRSHP_VL_003" RLSE="VG" RFRT="" CCON="" ISHZ="N" DWTS="1" ISGP="GP" GRAD="" RMRK="" JPOS="CTR" PUTJPOS="CTR" /><position PPOS="O4E26" refID="Y.FICT:O4E.26.A." AREA="O4E26" AREA_TYPE="YardTransTZ" type="from" DOOR="U" TKPS="2" /><position PPOS="O4E26" refID="Y.FICT:O4E.26.A." AREA="O4E26" AREA_TYPE="YardTransTZ" type="to" DOOR="U" TKPS="2"><transferZone BLOCK="O4E" /></position></job></work><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 18:40:10.458] [daily_logger] [info] TosCmdDownloadXml_from containers[ZGXU6125093:40:24600:CARRY_READY]
+[2019-09-10 18:40:10.458] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 18:40:10.458] [daily_logger] [info] TosCmdDownloadXml_from containers TKPS[2]
+[2019-09-10 18:40:10.458] [daily_logger] [info] FORM ID = FORM_TRUCK_LADEN_AT_DEST, OLD STATE IS = FORM_TRUCK_LADEN_AT_DEST
+[2019-09-10 18:40:10.458] [daily_logger] [info] Get TransferZone(0): O4E
+[2019-09-10 18:40:10.458] [daily_logger] [info] Get Area Type(0): YardTransTZ
+[2019-09-10 18:40:10.458] [daily_logger] [info] Get Target: 0, Section: O4E, Bay: 26
+[2019-09-10 18:40:10.458] [daily_logger] [info] Update Task. Task id: 7
+[2019-09-10 18:40:12.412] [daily_logger] [info] Received Message. Type: 1
+[2019-09-10 18:40:12.412] [daily_logger] [info] Received Message. Type: 4
+[2019-09-10 18:40:12.412] [daily_logger] [info] sendToTruck, cheid: P091
+[2019-09-10 18:40:12.412] [daily_logger] [info] Drop Truck Arrived. Cheid: P091, task_key: 7
+[2019-09-10 18:40:17.923] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:40:32.923] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:40:47.923] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:41:02.923] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:41:17.924] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:41:32.924] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:41:47.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:42:02.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:42:17.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:42:32.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:42:40.721] [daily_logger] [debug] message body is: <message formId="FORM_TRUCK_IDLE" ack="N" MSID="-3413557"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="IDLE" OPMD="TRUCK" CHASSIS="BOMBCART" status="Working" locale="en_US" location="O4E26" userID="160140"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 18:42:40.721] [daily_logger] [info] CHID = P091, OLD STATE IS = FORM_TRUCK_LADEN_AT_DEST, RECV FORM ID = FORM_TRUCK_IDLE, DISPLAY MESSAGE IS: 0 No Error
+[2019-09-10 18:42:47.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:43:02.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:43:04.147] [daily_logger] [debug] message body is: <message formId="FORM_LOGIN" ack="N" MSID="197300"><che CHID="P091" equipType="TRUCK" MTEU="2" DSTA="XOUT" OPMD="TRUCK" CHASSIS="BOMBCART" status="Unavail" locale="en_US" location="O4E26"><pool name="RETURN YARD 02"><list count="1" type="pow"><pow name="RETURN YARD 02" mode="TrucksOnly" /></list></pool><displayMsg msgID="0">0 No Error</displayMsg></che></message>
+[2019-09-10 18:43:04.147] [daily_logger] [info] CHID = P091, OLD STATE IS = FORM_TRUCK_IDLE, RECV FORM ID = FORM_LOGIN, DISPLAY MESSAGE IS: 0 No Error
+[2019-09-10 18:43:17.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:43:32.925] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:43:47.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:44:02.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:44:17.926] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:44:32.927] [daily_logger] [info] Received Message. Type: 5
+[2019-09-10 18:44:45.580] [daily_logger] [error] Udp Read Error. EC: Operation canceled, Bytes Transferred: 0
+[2019-09-10 18:44:45.580] [daily_logger] [error] UDP Socket Close!
+[2019-09-10 18:44:45.580] [daily_logger] [info] SEND TO TOS: <message type='2509' MSID='3' />
+[2019-09-10 18:44:45.580] [daily_logger] [error] SEND TO SERVER FAIL, Disconnected.

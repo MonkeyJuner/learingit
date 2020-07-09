@@ -1,0 +1,2 @@
+set(ads_msgs_MESSAGE_FILES "msg/ADSCmdAlert.msg;msg/ADSCmdCalibrate.msg;msg/ADSCmdEmergePullover.msg;msg/ADSCmdEmergeStop.msg;msg/ADSCmdGuideStop.msg;msg/ADSCmdLock.msg;msg/ADSCmdSetSafeParam.msg;msg/ADSCmdSetSpeedLmt.msg;msg/ADSCmdSetTarget.msg;msg/ADSCmdSetWeight.msg;msg/ADSCmdShutDown.msg;msg/ADSCmdStartUp.msg;msg/ADSCmdSwitchLeft.msg;msg/ADSCmdSwitchRight.msg;msg/ADSCmdUnLock.msg;msg/ADSCommandStatus.msg;msg/ADSDrivingStatus.msg;msg/ADSHeartBeat.msg;msg/ADSLockStatus.msg")
+set(ads_msgs_SERVICE_FILES "")

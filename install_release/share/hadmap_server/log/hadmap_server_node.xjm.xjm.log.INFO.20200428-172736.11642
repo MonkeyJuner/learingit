@@ -1,0 +1,171 @@
+Log file created at: 2020/04/28 17:27:36
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0428 17:27:36.324718 11642 main.cpp:64] current version is: 2.0.3.0a73361
+I0428 17:27:36.610864 11642 hadmap_server.cpp:47] map path: /home/xjm/port_ws/hmi/resources/app/dist/electron/static/maps/wz_v1012beta.json
+E0428 17:27:38.832777 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:38.836822 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:38.840027 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:38.841552 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:38.844770 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:38.847201 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:38.850332 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:38.851876 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:38.855018 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:38.856477 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:38.859614 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:38.861068 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:38.874788 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:38.876070 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:38.882004 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:38.883309 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:39.127135 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:39.128399 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:39.130959 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0428 17:27:39.132200 11642 sections_parser.cpp:431] Error or unsupport lane type: latitude
+I0428 17:27:39.501492 11642 proto_organizer.cpp:358] hadmap statistics: roads-379,lanes-625,crosswalks-0,signals-0,junctions-0,overlaps-0
+I0428 17:27:40.018271 11642 routing.cpp:363] there is not forbidden_lanes!
+I0428 17:27:40.598883 11642 hadmap_server.cpp:3560] there isn't vehicle state
+E0428 17:27:40.598909 11642 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I0428 17:27:40.999027 11642 hadmap_server.cpp:3594] loc_cur is out of map!
+I0428 17:27:41.199055 11642 hadmap_server.cpp:3594] loc_cur is out of map!
+I0428 17:27:41.399116 11642 hadmap_server.cpp:3594] loc_cur is out of map!
+I0428 17:27:41.599031 11642 hadmap_server.cpp:3594] loc_cur is out of map!
+I0428 17:27:41.799043 11642 hadmap_server.cpp:3594] loc_cur is out of map!
+I0428 17:27:41.999119 11642 hadmap_server.cpp:3594] loc_cur is out of map!
+I0428 17:27:42.199023 11642 hadmap_server.cpp:3594] loc_cur is out of map!
+I0428 17:27:42.399024 11642 hadmap_server.cpp:3594] loc_cur is out of map!
+I0428 17:27:42.608775 11642 hadmap_server.cpp:3594] loc_cur is out of map!
+I0428 17:27:42.799028 11642 hadmap_server.cpp:3594] loc_cur is out of map!
+I0428 17:27:42.999028 11642 hadmap_server.cpp:3594] loc_cur is out of map!
+I0428 17:27:43.199049 11642 hadmap_server.cpp:3594] loc_cur is out of map!
+I0428 17:27:43.399037 11642 hadmap_server.cpp:3594] loc_cur is out of map!
+I0428 17:27:43.599028 11642 hadmap_server.cpp:3594] loc_cur is out of map!
+I0428 17:27:43.799002 11642 hadmap_server.cpp:3594] loc_cur is out of map!
+I0428 17:27:45.598978 11642 hadmap_server.cpp:523] current pose: x:567813.2915; y:4314989.193; yaw: 5.58680228
+I0428 17:27:45.599046 11642 hadmap_server.cpp:525] multi dst:
+I0428 17:27:45.599056 11642 hadmap_server.cpp:528] x: 567838; y: 4314755
+I0428 17:27:45.703444 11642 routing.cpp:363] there is not forbidden_lanes!
+I0428 17:27:45.723651 11642 routing.cpp:226] start lane id: 205_1 ; end lane id: 1820_1.
+I0428 17:27:45.723944 11642 hadmap_server.cpp:633] planning path:
+I0428 17:27:45.723961 11642 hadmap_server.cpp:636] lane id: 205_1
+I0428 17:27:45.723971 11642 hadmap_server.cpp:636] lane id: 205_0
+I0428 17:27:45.723978 11642 hadmap_server.cpp:636] lane id: 1016_0
+I0428 17:27:45.723985 11642 hadmap_server.cpp:636] lane id: 1316_1
+I0428 17:27:45.723991 11642 hadmap_server.cpp:636] lane id: 1319_1
+I0428 17:27:45.723999 11642 hadmap_server.cpp:636] lane id: 1321_1
+I0428 17:27:45.724004 11642 hadmap_server.cpp:636] lane id: 1852_1
+I0428 17:27:45.724011 11642 hadmap_server.cpp:636] lane id: 1851_1
+I0428 17:27:45.724018 11642 hadmap_server.cpp:636] lane id: 1850_1
+I0428 17:27:45.724025 11642 hadmap_server.cpp:636] lane id: 1600_1
+I0428 17:27:45.724033 11642 hadmap_server.cpp:636] lane id: 1579_1
+I0428 17:27:45.724040 11642 hadmap_server.cpp:636] lane id: 1724_0
+I0428 17:27:45.724046 11642 hadmap_server.cpp:636] lane id: 1820_2
+I0428 17:27:45.724053 11642 hadmap_server.cpp:636] lane id: 1820_1
+I0428 17:27:45.726730 11642 hadmap_server.cpp:645] find sub global map success!
+E0428 17:28:53.403002 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:28:53.403049 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567742.8473, y: 4314850.214 ; yaw: 5.586600912
+E0428 17:28:53.602994 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:28:53.603036 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567742.8473, y: 4314850.214 ; yaw: 5.586600912
+E0428 17:28:53.603109 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0428 17:28:53.804751 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:28:53.804795 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567742.8473, y: 4314850.214 ; yaw: 5.586600912
+E0428 17:28:54.003005 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:28:54.003044 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567742.8473, y: 4314850.214 ; yaw: 5.586600912
+E0428 17:28:54.202872 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:28:54.202913 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567742.8473, y: 4314850.214 ; yaw: 5.586600912
+E0428 17:28:54.402732 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:28:54.402776 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567742.8473, y: 4314850.214 ; yaw: 5.586600912
+I0428 17:28:54.606864 11642 hadmap_server.cpp:523] current pose: x:567742.8473; y:4314850.214; yaw: 5.586600912
+I0428 17:28:54.606891 11642 hadmap_server.cpp:525] multi dst:
+I0428 17:28:54.606897 11642 hadmap_server.cpp:528] x: 567725; y: 4315064
+I0428 17:28:54.685101 11642 routing.cpp:363] there is not forbidden_lanes!
+I0428 17:28:54.695055 11642 routing.cpp:226] start lane id: 1703_2 ; end lane id: 205_1.
+I0428 17:28:54.695410 11642 hadmap_server.cpp:633] planning path:
+I0428 17:28:54.695420 11642 hadmap_server.cpp:636] lane id: 1703_2
+I0428 17:28:54.695425 11642 hadmap_server.cpp:636] lane id: 1703_1
+I0428 17:28:54.695428 11642 hadmap_server.cpp:636] lane id: 1052_0
+I0428 17:28:54.695432 11642 hadmap_server.cpp:636] lane id: 1579_0
+I0428 17:28:54.695436 11642 hadmap_server.cpp:636] lane id: 1848_0
+I0428 17:28:54.695439 11642 hadmap_server.cpp:636] lane id: 1003_0
+I0428 17:28:54.695443 11642 hadmap_server.cpp:636] lane id: 1533_0
+I0428 17:28:54.695447 11642 hadmap_server.cpp:636] lane id: 1444_1
+I0428 17:28:54.695451 11642 hadmap_server.cpp:636] lane id: 1518_1
+I0428 17:28:54.695454 11642 hadmap_server.cpp:636] lane id: 1411_1
+I0428 17:28:54.695458 11642 hadmap_server.cpp:636] lane id: 1418_1
+I0428 17:28:54.695462 11642 hadmap_server.cpp:636] lane id: 1755_0
+I0428 17:28:54.695466 11642 hadmap_server.cpp:636] lane id: 1768_0
+I0428 17:28:54.695470 11642 hadmap_server.cpp:636] lane id: 1367_0
+I0428 17:28:54.695480 11642 hadmap_server.cpp:636] lane id: 1150_0
+I0428 17:28:54.695485 11642 hadmap_server.cpp:636] lane id: 1854_0
+I0428 17:28:54.695488 11642 hadmap_server.cpp:636] lane id: 1373_0
+I0428 17:28:54.695492 11642 hadmap_server.cpp:636] lane id: 1855_0
+I0428 17:28:54.695495 11642 hadmap_server.cpp:636] lane id: 1371_0
+I0428 17:28:54.695499 11642 hadmap_server.cpp:636] lane id: 1856_0
+I0428 17:28:54.695503 11642 hadmap_server.cpp:636] lane id: 1857_0
+I0428 17:28:54.695506 11642 hadmap_server.cpp:636] lane id: 1325_0
+I0428 17:28:54.695510 11642 hadmap_server.cpp:636] lane id: 1759_0
+I0428 17:28:54.695513 11642 hadmap_server.cpp:636] lane id: 40_0
+I0428 17:28:54.695518 11642 hadmap_server.cpp:636] lane id: 1741_0
+I0428 17:28:54.695520 11642 hadmap_server.cpp:636] lane id: 205_0
+I0428 17:28:54.695524 11642 hadmap_server.cpp:636] lane id: 205_1
+I0428 17:28:54.697507 11642 hadmap_server.cpp:645] find sub global map success!
+E0428 17:29:03.602969 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:03.603013 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:03.603098 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0428 17:29:03.803581 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:03.803625 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:04.010722 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:04.010802 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:04.204095 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:04.204193 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:04.402873 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:04.402915 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:04.612005 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:04.612046 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:04.612128 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0428 17:29:04.802124 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:04.802160 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:05.002822 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:05.002866 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:05.203384 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:05.203428 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:05.403967 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:05.404008 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:05.604035 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:05.604076 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:05.604156 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0428 17:29:05.802117 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:05.802165 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:06.002895 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:06.002936 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:06.210492 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:06.210568 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:06.409473 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:06.409528 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:06.612119 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:06.612169 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+E0428 17:29:06.612267 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0428 17:29:06.804569 11642 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+I0428 17:29:06.804605 11642 hadmap_server.cpp:258] vehicle is out of current sub global map.current state x: 567666.844, y: 4314918.304 ; yaw: 5.586494237
+I0428 17:29:06.999068 11642 hadmap_server.cpp:523] current pose: x:567666.844; y:4314918.304; yaw: 5.586494237
+I0428 17:29:06.999155 11642 hadmap_server.cpp:525] multi dst:
+I0428 17:29:06.999164 11642 hadmap_server.cpp:528] x: 567795; y: 4315017
+I0428 17:29:07.072381 11642 routing.cpp:363] there is not forbidden_lanes!
+I0428 17:29:07.083073 11642 routing.cpp:226] start lane id: 1703_1 ; end lane id: 305_1.
+I0428 17:29:07.083186 11642 hadmap_server.cpp:633] planning path:
+I0428 17:29:07.083194 11642 hadmap_server.cpp:636] lane id: 1703_1
+I0428 17:29:07.083197 11642 hadmap_server.cpp:636] lane id: 1051_0
+I0428 17:29:07.083201 11642 hadmap_server.cpp:636] lane id: 1365_0
+I0428 17:29:07.083205 11642 hadmap_server.cpp:636] lane id: 1363_0
+I0428 17:29:07.083209 11642 hadmap_server.cpp:636] lane id: 1844_0
+I0428 17:29:07.083214 11642 hadmap_server.cpp:636] lane id: 1843_0
+I0428 17:29:07.083216 11642 hadmap_server.cpp:636] lane id: 1004_0
+I0428 17:29:07.083220 11642 hadmap_server.cpp:636] lane id: 1810_0
+I0428 17:29:07.083225 11642 hadmap_server.cpp:636] lane id: 1017_0
+I0428 17:29:07.083228 11642 hadmap_server.cpp:636] lane id: 30_0
+I0428 17:29:07.083231 11642 hadmap_server.cpp:636] lane id: 1811_0
+I0428 17:29:07.083235 11642 hadmap_server.cpp:636] lane id: 305_0
+I0428 17:29:07.083240 11642 hadmap_server.cpp:636] lane id: 305_1
+I0428 17:29:07.084507 11642 hadmap_server.cpp:645] find sub global map success!
+E0428 17:45:38.998955 11642 main.cpp:75] do hadmap server exit!

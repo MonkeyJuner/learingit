@@ -1,0 +1,5 @@
+Log file created at: 2019/09/12 02:39:16
+Running on machine: allen-ThinkPad-T480
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0912 02:39:16.548491  6410 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0912 02:39:47.548542  6410 main.cpp:75] do hadmap server exit!

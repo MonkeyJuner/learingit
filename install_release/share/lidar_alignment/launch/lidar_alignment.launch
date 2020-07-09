@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="lidar_alignment" type="lidar_alignment_node" name="lidar_alignment_node" output="screen">
+        <param name="log_path" type="string" value="$(find lidar_alignment)/log" />
+        <rosparam command="load" file="$(find lidar_alignment)/params/lidar_alignment_node.yaml" />
+    </node>
+</launch>

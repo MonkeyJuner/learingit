@@ -1,0 +1,26 @@
+k: 1
+k_sub: 40
+len_ahead: 130
+len_rear: 20
+len_ahead_for_loc: 30
+len_rear_for_loc: 30
+max_yaw_diff: 45.0
+m_per_pt: 0.5
+stop_line_shift_forward: 30.0
+frequency: 20
+is_simulation: true
+min_length_for_lane_change: 30.0
+punish_for_lane_change: 10.0
+punish_for_seaside_lane: 10.0
+
+#forbidden_lanes: ["123_0", "123_1"]
+
+### for glog
+also_log_to_std_err: false
+verbose_log_level: 0
+
+### for perception
+map_erode_size: 5
+
+### show hadmap_server window
+debug: true

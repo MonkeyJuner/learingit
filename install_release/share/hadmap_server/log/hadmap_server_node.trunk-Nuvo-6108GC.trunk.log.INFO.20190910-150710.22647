@@ -1,0 +1,31 @@
+Log file created at: 2019/09/10 15:07:10
+Running on machine: trunk-Nuvo-6108GC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0910 15:07:10.858223 22647 main.cpp:64] current version is: 2.0.3.0a73361
+I0910 15:07:11.125676 22647 hadmap_server.cpp:47] map path: /opt/trunk/hmi/resources/app/dist/electron/static/maps/wz_0909_2.json
+I0910 15:07:12.618898 22647 proto_organizer.cpp:358] hadmap statistics: roads-387,lanes-655,crosswalks-0,signals-0,junctions-0,overlaps-0
+I0910 15:07:13.000082 22647 routing.cpp:363] there is not forbidden_lanes!
+I0910 15:07:13.180917 22647 hadmap_server.cpp:3560] there isn't vehicle state
+E0910 15:07:13.180935 22647 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I0910 15:07:26.381059 22647 hadmap_server.cpp:523] current pose: x:568053.3735; y:4314717.742; yaw: 4.009156793
+I0910 15:07:26.381192 22647 hadmap_server.cpp:525] multi dst:
+I0910 15:07:26.381204 22647 hadmap_server.cpp:528] x: 568055.8331; y: 4314663.99
+I0910 15:07:26.455322 22647 routing.cpp:363] there is not forbidden_lanes!
+I0910 15:07:26.468816 22647 routing.cpp:226] start lane id: 1406_1 ; end lane id: 1113_2.
+I0910 15:07:26.468875 22647 hadmap_server.cpp:633] planning path:
+I0910 15:07:26.468883 22647 hadmap_server.cpp:636] lane id: 1406_1
+I0910 15:07:26.468886 22647 hadmap_server.cpp:636] lane id: 1329_1
+I0910 15:07:26.468891 22647 hadmap_server.cpp:636] lane id: 1404_1
+I0910 15:07:26.468896 22647 hadmap_server.cpp:636] lane id: 1728_0
+I0910 15:07:26.468900 22647 hadmap_server.cpp:636] lane id: 1113_2
+I0910 15:07:26.469723 22647 hadmap_server.cpp:645] find sub global map success!
+I0910 15:08:10.781044 22647 hadmap_server.cpp:3588] same destination with last time!
+I0910 15:09:09.381006 22647 hadmap_server.cpp:523] current pose: x:568056.4427; y:4314663.651; yaw: 5.593270289
+I0910 15:09:09.381058 22647 hadmap_server.cpp:525] multi dst:
+I0910 15:09:09.381067 22647 hadmap_server.cpp:528] x: 568150.0082; y: 4314585.154
+I0910 15:09:09.465549 22647 routing.cpp:363] there is not forbidden_lanes!
+I0910 15:09:09.476960 22647 routing.cpp:226] start lane id: 1113_2 ; end lane id: 1113_2.
+I0910 15:09:09.476994 22647 hadmap_server.cpp:633] planning path:
+I0910 15:09:09.477001 22647 hadmap_server.cpp:636] lane id: 1113_2
+I0910 15:09:09.477691 22647 hadmap_server.cpp:645] find sub global map success!
+E0910 15:14:26.380978 22647 main.cpp:75] do hadmap server exit!

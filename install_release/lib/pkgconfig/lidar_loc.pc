@@ -1,0 +1,8 @@
+prefix=/home/wuhaisheng/Workspace/catkin_integration/install
+
+Name: lidar_loc
+Description: Description of lidar_loc
+Version: 0.0.0
+Cflags: -I/home/wuhaisheng/Workspace/catkin_integration/install/include
+Libs: -L/home/wuhaisheng/Workspace/catkin_integration/install/lib 
+Requires: 

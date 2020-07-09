@@ -1,0 +1,128 @@
+# param file for lego_loam
+
+lidarTopic: /vlp16_1/velodyne_points
+imuTopic: /trunk_info/imu  #/imu/data 
+outputPoseStampedTopic: /lidar_localization/lidar_update_pose
+useVehicleStateInsteadOfGnssIns: true  #true:use /pnc_msgs/vehicle_state  false: /trunk_info/gnss_ins
+
+lidarType: vlp_16
+
+# VLP-16
+N_SCAN: 16
+Horizon_SCAN: 1800
+ang_res_x: 0.2
+ang_res_y: 2.0
+ang_bottom: 15.1 #15.0+0.1
+groundScanInd: 7 #7(original)
+rangeMin: 5.0 #5.0m
+
+#lidar pose 
+lidarPoseX: 3.6   #3.6(p090)  3.6(p093)  3.6(p091)  3.6(p092)
+lidarPoseY: 0.05   #0.025(p090)  0.05(p093)  0.1(p091)  0.05(p092)    
+lidarPoseZ: 0.0    #0.0(p090)  0.0(p093)  0.0(p091)  0.0(p092)   
+lidarPoseRoll: 0.006 #-0.01(p090)  0.006(p093)   0.006(p091)    0.0(p092)
+lidarPosePitch: -0.013 # 0.0(p090)  -0.013(p093)     0.036(p091)   0.0(p092)
+lidarPoseYaw: -0.011  #-0.027(p090) -0.01(p093)  -0.0131(p091)   -0.012(p092)   
+
+#factors
+accOfGravity: 9.801
+wheelSpeedFactor: 1.0
+vehicleSpeedFactor: 1.0
+
+loopClosureEnableFlag: true
+mappingProcessInterval: 0.3 #s 0.3  default 
+
+scanPeriod: 0.1
+systemDelay: 0
+imuQueLength: 200
+
+gpsPoseShiftX: -567403.0
+gpsPoseShiftY: -4315210.0
+outputPoseShiftX: 567403.0
+outputPoseShiftY: 4315210.0
+
+groundDeterminAngle: 2 #2 default
+
+minDistanceBetweenKeyFrame: 0.3  #m 0.3 default
+
+sensorMountAngle: 0.0
+segmentTheta: 1.0472 #1.0472 default
+segmentValidPointNum: 1 #3  #5
+segmentValidLineNum: 1 #2 #3
+segmentAlphaX: 0.003490659 #ang_res_x / 180.0 * M_PI
+segmentAlphaY: 0.03490659 #ang_res_y / 180.0 * M_PI
+
+edgeFeatureNum: 2 #2 default 
+surfFeatureNum: 4 #4 default 
+sectionsTotal: 6 #6 default 
+edgeThreshold: 1.0 # 0.1 default
+surfThreshold: 0.1 # 0.1 default
+nearestFeatureSearchSqDist: 25  #5  25 default 
+
+surroundingKeyframeSearchRadius: 50.0 #50 default
+surroundingKeyframeSearchNum: 50 #50 default
+
+historyKeyframeSearchRadius: 25.0
+historyKeyframeSearchNum: 25
+historyKeyframeFitnessScore: 0.5
+
+cornerFromMapSearchNum: 5 #5
+surfFromMapSearchNum: 5 #5
+
+globalMapVisualizationSearchRadius: 100.0
+keyFrameSize: 50 #50
+keyFrameForMatching: 15 #15
+distForSlamInitYard: 20 #20m
+distForSlamInitShore: 10000000 
+
+#voxel filter
+cornerFilterLeafSize: 0.2 #0.2
+surfFilterLeafSize: 0.4 #0.4
+outlierFilterLeafSize: 0.4 #0.4
+
+lidarOdomConstraintNoise: 0.000001
+gpsConstraintNoise: 0.00000001 #1e-8
+gpsConstraintCounterStep: 1
+groundConstraintNoise: 0.1 #0.1
+
+#map matching
+mapMatchingEnableFlag: true # for both mapMatchingConstraint and mapMatchingLoopClosure
+mapMatchingMethod: icp # ndt, icp, mrpt_icp
+mapMatchingLoopClosureFrequency: 0.5 #0.5 (hz)
+pointsMapHeightMax: -1.7 #-1.7
+pointsMapHeightMin: -3.5 #-3.5
+globalMapRoiRadius: 40   #40
+ndtResolution: 1.0 #1.0
+maxIterations: 10 #10
+stepSize: 1.0  #1.0
+removeSearchRadius: 1.0  #1.0
+
+#ekf filter
+outputEkfFilteredResult: true
+
+#load pointcloud 
+updateMapOnline: false
+loadGlobalMap: true
+# loadGlobalMapPath: /home/guo/trunk_ws/wuzhou_mapping_90.pcd   #.ply file
+loadGlobalMapPath: /home/trunk/guo_ws/wuzhou_mapping_90.pcd   #.ply file
+
+#save pointcloud 
+saveGlobalMap: false
+saveGlobalMapPath: /home/guo/trunk_ws/wuzhou_90_E_02.pcd #.ply file
+pointcloudSaveXMin: 10
+pointcloudSaveXMax: 30
+saveCornerPointCloud: false
+saveSurfPointCloud: false 
+saveOutlierPointCloud: false
+savePoleLikePointCloud: true
+
+
+#------------------if doing mapping, set--------------------#
+#saveGlobalMap: true
+#loadGlobalMap: false
+# edgeThreshold: 0.1
+#keyFrameSize: 3000 
+#distForSlamInitYard: 4000 
+#minDistanceBetweenKeyFrame: 0.1
+#mappingProcessInterval: 0.1
+#cornerFilterLeafSize: 0.1

@@ -1,0 +1,2 @@
+set(hadmap_msgs_MESSAGE_FILES "msg/Destination.msg;msg/HeartBeat.msg;msg/Lane.msg;msg/LocalMapSection.msg;msg/LocalMapLane.msg;msg/LocalMapPoint.msg;msg/MapLane.msg;msg/MapObject.msg;msg/MapPolyCoeff.msg;msg/MapReferLine.msg;msg/MapSection.msg;msg/MapSplineCoeff.msg;msg/Map.msg;msg/MiniPoint.msg;msg/Point.msg;msg/Region.msg;msg/Section.msg;msg/TrafficSign.msg")
+set(hadmap_msgs_SERVICE_FILES "srv/LocalMap.srv;srv/MiniPath.srv;srv/Routing.srv;srv/LaneIds.srv")

@@ -1,0 +1,9 @@
+<library path="lib/librviz_trunk_debug">
+  <class name="rviz_trunk_debug/TrunkDebug"
+         type="rviz_trunk_debug::TrunkDebug"
+         base_class_type="rviz::Panel">
+    <description>
+      A panel widget displays camera distance shift value.
+    </description>
+  </class>
+</library>

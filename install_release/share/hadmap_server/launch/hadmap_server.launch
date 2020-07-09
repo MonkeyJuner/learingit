@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="hadmap_server" name="hadmap_server_node" type="hadmap_server_node">
+    <param name="log_path" type="string" value="$(find hadmap_server)/log" />
+    <param name="map_path" type="string" value="$(find hadmap_server)/data/wz_final_template.json" />
+    <rosparam command="load" file="$(find hadmap_server)/params/hadmap_server.yaml"></rosparam>
+  </node>
+</launch>

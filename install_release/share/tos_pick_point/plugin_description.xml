@@ -1,0 +1,16 @@
+<library path="lib/libtos_pick_point">
+    <class name="tos_pick_point/BayPoint"
+           type="tos_pick_point::BayPointTool"
+           base_class_type="rviz::Tool">
+        <description>
+            Tool for pick bay point in rviz.
+        </description>
+    </class>
+    <class name="tos_pick_point/BerthPoint"
+           type="tos_pick_point::BerthPointTool"
+           base_class_type="rviz::Tool">
+        <description>
+            Tool for pick berth point in rviz.
+        </description>
+    </class>
+</library>

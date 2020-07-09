@@ -1,0 +1,65 @@
+Log file created at: 2020/05/11 11:29:16
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0511 11:29:16.545194  6445 main.cpp:64] current version is: 2.0.3.0a73361
+I0511 11:29:16.609491  6445 hadmap_server.cpp:47] map path: /home/xjm/port_ws/hmi/resources/app/dist/electron/static/maps/wz_v1012beta.json
+E0511 11:29:17.866312  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:17.867388  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:17.869318  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:17.870133  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:17.871901  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:17.872910  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:17.875036  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:17.876049  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:17.878201  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:17.879164  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:17.881268  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:17.882266  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:17.890741  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:17.891567  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:17.894810  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:17.895617  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:18.052081  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:18.052918  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:18.054579  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0511 11:29:18.055392  6445 sections_parser.cpp:431] Error or unsupport lane type: latitude
+I0511 11:29:18.276561  6445 proto_organizer.cpp:358] hadmap statistics: roads-379,lanes-625,crosswalks-0,signals-0,junctions-0,overlaps-0
+I0511 11:29:18.651310  6445 routing.cpp:363] there is not forbidden_lanes!
+I0511 11:29:19.033746  6445 hadmap_server.cpp:3560] there isn't vehicle state
+E0511 11:29:19.033766  6445 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I0511 11:29:19.433894  6445 hadmap_server.cpp:3594] loc_cur is out of map!
+I0511 11:29:19.633898  6445 hadmap_server.cpp:3594] loc_cur is out of map!
+I0511 11:29:19.833900  6445 hadmap_server.cpp:3594] loc_cur is out of map!
+I0511 11:29:20.033901  6445 hadmap_server.cpp:3594] loc_cur is out of map!
+I0511 11:29:20.233858  6445 hadmap_server.cpp:3594] loc_cur is out of map!
+I0511 11:29:20.433894  6445 hadmap_server.cpp:3594] loc_cur is out of map!
+I0511 11:29:20.633896  6445 hadmap_server.cpp:3594] loc_cur is out of map!
+I0511 11:29:20.833902  6445 hadmap_server.cpp:3594] loc_cur is out of map!
+I0511 11:29:21.040603  6445 hadmap_server.cpp:3594] loc_cur is out of map!
+I0511 11:29:21.233897  6445 hadmap_server.cpp:3594] loc_cur is out of map!
+I0511 11:29:21.433895  6445 hadmap_server.cpp:3594] loc_cur is out of map!
+I0511 11:29:23.233872  6445 hadmap_server.cpp:523] current pose: x:567970.5289; y:4314857.744; yaw: 5.586664282
+I0511 11:29:23.233922  6445 hadmap_server.cpp:525] multi dst:
+I0511 11:29:23.233927  6445 hadmap_server.cpp:528] x: 567907; y: 4314695
+I0511 11:29:23.302827  6445 routing.cpp:363] there is not forbidden_lanes!
+I0511 11:29:23.312846  6445 routing.cpp:226] start lane id: 203_1 ; end lane id: 1820_1.
+I0511 11:29:23.313030  6445 hadmap_server.cpp:633] planning path:
+I0511 11:29:23.313038  6445 hadmap_server.cpp:636] lane id: 203_1
+I0511 11:29:23.313042  6445 hadmap_server.cpp:636] lane id: 203_0
+I0511 11:29:23.313045  6445 hadmap_server.cpp:636] lane id: 1791_0
+I0511 11:29:23.313057  6445 hadmap_server.cpp:636] lane id: 1406_1
+I0511 11:29:23.313060  6445 hadmap_server.cpp:636] lane id: 1329_1
+I0511 11:29:23.313064  6445 hadmap_server.cpp:636] lane id: 1404_1
+I0511 11:29:23.313067  6445 hadmap_server.cpp:636] lane id: 1841_1
+I0511 11:29:23.313071  6445 hadmap_server.cpp:636] lane id: 1073_1
+I0511 11:29:23.313074  6445 hadmap_server.cpp:636] lane id: 1489_1
+I0511 11:29:23.313078  6445 hadmap_server.cpp:636] lane id: 1499_1
+I0511 11:29:23.313081  6445 hadmap_server.cpp:636] lane id: 1330_1
+I0511 11:29:23.313084  6445 hadmap_server.cpp:636] lane id: 1349_1
+I0511 11:29:23.313088  6445 hadmap_server.cpp:636] lane id: 1459_0
+I0511 11:29:23.313091  6445 hadmap_server.cpp:636] lane id: 1514_1
+I0511 11:29:23.313096  6445 hadmap_server.cpp:636] lane id: 1560_0
+I0511 11:29:23.313098  6445 hadmap_server.cpp:636] lane id: 1820_2
+I0511 11:29:23.313102  6445 hadmap_server.cpp:636] lane id: 1820_1
+I0511 11:29:23.314738  6445 hadmap_server.cpp:645] find sub global map success!
+E0511 12:34:54.033834  6445 main.cpp:75] do hadmap server exit!

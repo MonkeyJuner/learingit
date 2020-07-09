@@ -1,0 +1,8 @@
+prefix=/home/wuhaisheng/Workspace/catkin_integration/install
+
+Name: camera_control_msgs
+Description: Description of camera_control_msgs
+Version: 0.0.15
+Cflags: -I/home/wuhaisheng/Workspace/catkin_integration/install/include
+Libs: -L/home/wuhaisheng/Workspace/catkin_integration/install/lib 
+Requires: actionlib_msgs message_runtime sensor_msgs

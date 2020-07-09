@@ -1,0 +1,19 @@
+
+<launch>
+  <node pkg="nodelet" type="nodelet" name="perception_nodelet_manager" args="manager"></node>
+  <node pkg="xpnd" name="xpnd_node" type="xpnd_node">
+    <rosparam command="load" file="/home/allen/workspace/port_ws/hmi/resources/app/dist/electron/static/params/xpnd_node.yaml"></rosparam>
+  </node>
+  <node pkg="hadmap_server" name="hadmap_server_node" type="hadmap_server_node">
+    <param name="map_path" type="string" value="/home/allen/workspace/port_ws/hmi/resources/app/dist/electron/static/maps/wz_0907_2.2.json"/>
+    <param name="log_path" type="string" value="$(find hadmap_server)/log"/>
+    <rosparam command="load" file="/home/allen/workspace/port_ws/hmi/resources/app/dist/electron/static/params/hadmap_server_node.yaml"></rosparam>
+  </node>
+  <node name="simulator_node" pkg="simulator" type="simulator_node"></node>
+  <node pkg="moniter" name="moniter_node" type="moniter_node">
+    <param name="nums" type="int" value="0"/>
+    <param name="duration" type="int" value="2"/>
+    <rosparam param="topicList">
+    </rosparam>
+  </node>
+</launch>

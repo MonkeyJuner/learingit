@@ -1,0 +1,28 @@
+Log file created at: 2019/09/10 16:10:06
+Running on machine: trunk-Nuvo-6108GC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0910 16:10:06.337967 32587 main.cpp:64] current version is: 2.0.3.0a73361
+I0910 16:10:06.681344 32587 hadmap_server.cpp:47] map path: /opt/trunk/hmi/resources/app/dist/electron/static/maps/wz_0909_2.json
+I0910 16:10:08.331039 32587 proto_organizer.cpp:358] hadmap statistics: roads-387,lanes-655,crosswalks-0,signals-0,junctions-0,overlaps-0
+I0910 16:10:08.710682 32587 routing.cpp:363] there is not forbidden_lanes!
+I0910 16:10:08.893178 32587 hadmap_server.cpp:3560] there isn't vehicle state
+E0910 16:10:08.893198 32587 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I0910 16:10:21.893265 32587 hadmap_server.cpp:523] current pose: x:568200.6109; y:4314542.942; yaw: 5.582254091
+I0910 16:10:21.893316 32587 hadmap_server.cpp:525] multi dst:
+I0910 16:10:21.893323 32587 hadmap_server.cpp:528] x: 568021.3553; y: 4314622.03
+I0910 16:10:21.972440 32587 routing.cpp:363] there is not forbidden_lanes!
+I0910 16:10:21.994218 32587 routing.cpp:226] start lane id: 1113_2 ; end lane id: 1114_1.
+I0910 16:10:21.994452 32587 hadmap_server.cpp:633] planning path:
+I0910 16:10:21.994460 32587 hadmap_server.cpp:636] lane id: 1113_2
+I0910 16:10:21.994467 32587 hadmap_server.cpp:636] lane id: 1094_0
+I0910 16:10:21.994470 32587 hadmap_server.cpp:636] lane id: 1122_0
+I0910 16:10:21.994475 32587 hadmap_server.cpp:636] lane id: 1120_0
+I0910 16:10:21.994479 32587 hadmap_server.cpp:636] lane id: 1021_0
+I0910 16:10:21.994484 32587 hadmap_server.cpp:636] lane id: 1510_1
+I0910 16:10:21.994488 32587 hadmap_server.cpp:636] lane id: 1789_0
+I0910 16:10:21.994493 32587 hadmap_server.cpp:636] lane id: 1352_0
+I0910 16:10:21.994498 32587 hadmap_server.cpp:636] lane id: 1351_0
+I0910 16:10:21.994501 32587 hadmap_server.cpp:636] lane id: 1114_1
+I0910 16:10:21.997254 32587 hadmap_server.cpp:645] find sub global map success!
+I0910 16:11:13.493393 32587 hadmap_server.cpp:3588] same destination with last time!
+E0910 16:15:15.896687 32587 main.cpp:75] do hadmap server exit!

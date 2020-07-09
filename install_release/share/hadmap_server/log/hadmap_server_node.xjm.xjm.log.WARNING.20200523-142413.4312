@@ -1,0 +1,5 @@
+Log file created at: 2020/05/23 14:24:13
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0523 14:24:13.024274  4312 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0523 14:35:10.694326  4312 main.cpp:18] *** Aborted at 1590215710 (unix time) try "date -d @1590215710" if you are using GNU date ***

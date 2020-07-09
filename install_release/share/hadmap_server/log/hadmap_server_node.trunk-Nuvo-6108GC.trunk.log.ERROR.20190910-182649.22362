@@ -1,0 +1,5 @@
+Log file created at: 2019/09/10 18:26:49
+Running on machine: trunk-Nuvo-6108GC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0910 18:26:49.068383 22362 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0910 18:32:23.588661 22362 main.cpp:75] do hadmap server exit!

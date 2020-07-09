@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="chassis" name="chassis_node" type="chassis_node">
+        <rosparam command="load" file="$(find chassis)/param/chassis.yaml" />
+	</node>
+</launch>

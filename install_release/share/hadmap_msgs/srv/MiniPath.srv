@@ -1,0 +1,7 @@
+# current localization
+geometry_msgs/Point position
+
+---
+
+# joint path
+MiniPoint[] joint_path

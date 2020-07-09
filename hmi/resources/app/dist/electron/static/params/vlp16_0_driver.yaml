@@ -1,0 +1,9 @@
+frame_id: 'vlp16_0'
+device_ip: '192.168.1.160'
+port: 2360
+has_gps_sync: true
+model: 'VLP16'
+read_fast: false
+read_once: false
+repeat_delay: 0.0
+rpm: 600.0

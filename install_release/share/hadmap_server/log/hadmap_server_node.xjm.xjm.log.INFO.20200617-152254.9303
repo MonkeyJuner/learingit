@@ -1,0 +1,156 @@
+Log file created at: 2020/06/17 15:22:54
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0617 15:22:54.401903  9303 main.cpp:64] current version is: 2.0.3.0a73361
+I0617 15:22:54.458148  9303 hadmap_server.cpp:47] map path: /home/xjm/port_ws/hmi/resources/app/dist/electron/static/maps/wz_basemap_test.json
+E0617 15:22:56.039193  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.039410  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.039501  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.039602  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.039824  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.040733  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.042695  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.042773  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.042937  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.044003  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.046038  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.046164  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.046428  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.047453  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.049568  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.049664  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.049785  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.050820  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.052995  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.053120  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.053340  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.053383  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.053457  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.054213  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.055912  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.056038  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.056224  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.057436  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.059047  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.059170  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.059394  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.059428  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.059481  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.060163  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.061504  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.061578  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.061702  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.062503  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.064168  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.064240  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.064343  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.065016  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.066577  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.066676  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.066838  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.067508  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.068893  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.069005  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.069200  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+E0617 15:22:56.069267  9303 sections_parser.cpp:431] Error or unsupport lane type: latitude
+I0617 15:22:56.168148  9303 proto_organizer.cpp:358] hadmap statistics: roads-410,lanes-674,crosswalks-0,signals-0,junctions-0,overlaps-0
+I0617 15:22:56.589637  9303 routing.cpp:363] there is not forbidden_lanes!
+I0617 15:22:56.929090  9303 hadmap_server.cpp:3560] there isn't vehicle state
+E0617 15:22:56.929108  9303 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I0617 15:22:57.329259  9303 hadmap_server.cpp:3594] loc_cur is out of map!
+I0617 15:22:57.529255  9303 hadmap_server.cpp:3594] loc_cur is out of map!
+I0617 15:22:57.729357  9303 hadmap_server.cpp:3594] loc_cur is out of map!
+I0617 15:22:57.929275  9303 hadmap_server.cpp:3594] loc_cur is out of map!
+I0617 15:22:58.129254  9303 hadmap_server.cpp:3594] loc_cur is out of map!
+I0617 15:22:58.329263  9303 hadmap_server.cpp:3594] loc_cur is out of map!
+I0617 15:22:58.529208  9303 hadmap_server.cpp:3594] loc_cur is out of map!
+I0617 15:22:58.729228  9303 hadmap_server.cpp:3594] loc_cur is out of map!
+I0617 15:22:58.929260  9303 hadmap_server.cpp:3594] loc_cur is out of map!
+I0617 15:22:59.129225  9303 hadmap_server.cpp:3594] loc_cur is out of map!
+I0617 15:22:59.329244  9303 hadmap_server.cpp:3594] loc_cur is out of map!
+I0617 15:22:59.529219  9303 hadmap_server.cpp:3594] loc_cur is out of map!
+I0617 15:22:59.729264  9303 hadmap_server.cpp:3594] loc_cur is out of map!
+I0617 15:22:59.943044  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:00.936595  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:01.329190  9303 hadmap_server.cpp:523] current pose: x:568363.7723; y:4314582.884; yaw: 2.444880119
+I0617 15:23:01.329248  9303 hadmap_server.cpp:525] multi dst:
+I0617 15:23:01.329257  9303 hadmap_server.cpp:528] x: 567648; y: 4315186
+I0617 15:23:01.417260  9303 routing.cpp:363] there is not forbidden_lanes!
+I0617 15:23:01.429111  9303 routing.cpp:226] start lane id: 100_2 ; end lane id: 100_3.
+I0617 15:23:01.429159  9303 hadmap_server.cpp:633] planning path:
+I0617 15:23:01.429165  9303 hadmap_server.cpp:636] lane id: 100_2
+I0617 15:23:01.429169  9303 hadmap_server.cpp:636] lane id: 100_3
+I0617 15:23:01.435132  9303 hadmap_server.cpp:645] find sub global map success!
+I0617 15:23:01.955230  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:02.974262  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:03.953256  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:04.956327  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:05.957595  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:06.958335  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:07.977440  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:08.957895  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:09.957269  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:10.972627  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:11.954689  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:12.956666  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:13.961941  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:14.957566  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:15.959563  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:16.329192  9303 hadmap_server.cpp:523] current pose: x:568343.3659; y:4314605.787; yaw: 2.439765272
+I0617 15:23:16.329237  9303 hadmap_server.cpp:525] multi dst:
+I0617 15:23:16.329246  9303 hadmap_server.cpp:528] x: 567490; y: 4315343
+I0617 15:23:16.414299  9303 routing.cpp:363] there is not forbidden_lanes!
+I0617 15:23:16.425479  9303 routing.cpp:226] start lane id: 100_3 ; end lane id: 100_6.
+I0617 15:23:16.425536  9303 hadmap_server.cpp:633] planning path:
+I0617 15:23:16.425542  9303 hadmap_server.cpp:636] lane id: 100_3
+I0617 15:23:16.425547  9303 hadmap_server.cpp:636] lane id: 100_4
+I0617 15:23:16.425550  9303 hadmap_server.cpp:636] lane id: 100_5
+I0617 15:23:16.425554  9303 hadmap_server.cpp:636] lane id: 100_6
+I0617 15:23:16.428902  9303 hadmap_server.cpp:645] find sub global map success!
+I0617 15:23:16.983896  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:17.958768  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:18.960681  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:19.960638  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:20.975596  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:21.960698  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:22.961881  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:23.964308  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:24.966495  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:25.987282  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:26.129177  9303 hadmap_server.cpp:523] current pose: x:568313.2384; y:4314633.698; yaw: 2.353214594
+I0617 15:23:26.129209  9303 hadmap_server.cpp:525] multi dst:
+I0617 15:23:26.129213  9303 hadmap_server.cpp:528] x: 567454; y: 4315339
+I0617 15:23:26.214182  9303 routing.cpp:363] there is not forbidden_lanes!
+I0617 15:23:26.227427  9303 routing.cpp:226] start lane id: 100_3 ; end lane id: 100_1.
+I0617 15:23:26.227470  9303 hadmap_server.cpp:633] planning path:
+I0617 15:23:26.227478  9303 hadmap_server.cpp:636] lane id: 100_3
+I0617 15:23:26.227481  9303 hadmap_server.cpp:636] lane id: 100_2
+I0617 15:23:26.227485  9303 hadmap_server.cpp:636] lane id: 100_1
+I0617 15:23:26.230676  9303 hadmap_server.cpp:645] find sub global map success!
+I0617 15:23:26.961259  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:27.962507  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:28.965203  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:29.964679  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:30.965832  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:31.966359  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:32.971436  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:33.967442  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:34.967578  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:35.960728  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:36.961261  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:37.961441  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:38.986814  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:39.976315  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:40.965167  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:41.967665  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:42.961268  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:43.972481  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:44.964046  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:45.967380  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:46.985532  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:47.961360  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:48.964423  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:49.969986  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:50.962617  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+I0617 15:23:51.967785  9303 hadmap_server.cpp:2025] fail to cal width btw barrier, lane_id: 100_0; barrier pts size: 1
+E0617 15:23:52.929265  9303 main.cpp:75] do hadmap server exit!

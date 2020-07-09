@@ -1,0 +1,8 @@
+Log file created at: 2019/11/20 19:19:29
+Running on machine: allen-ThinkPad-T480
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1120 19:19:29.621049  2825 main.cpp:64] current version is: 2.0.3.0a73361
+I1120 19:19:29.682829  2825 hadmap_server.cpp:47] map path: /home/allen/workspace/port_ws/hmi/resources/app/dist/electron/static/maps/wz_0910xo_2.json
+I1120 19:19:32.159454  2825 proto_organizer.cpp:358] hadmap statistics: roads-387,lanes-657,crosswalks-0,signals-0,junctions-0,overlaps-0
+I1120 19:19:32.660035  2825 routing.cpp:363] there is not forbidden_lanes!
+E1120 19:19:33.073273  2825 main.cpp:75] do hadmap server exit!

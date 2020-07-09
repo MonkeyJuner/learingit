@@ -1,0 +1,17 @@
+Log file created at: 2019/09/12 02:41:06
+Running on machine: allen-ThinkPad-T480
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0912 02:41:06.792433  9826 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+E0912 02:42:03.599001  9826 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0912 02:42:03.800879  9826 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0912 02:42:03.801178  9826 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0912 02:42:04.000761  9826 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0912 02:42:04.202198  9826 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0912 02:42:04.402791  9826 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0912 02:42:04.600790  9826 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0912 02:42:04.802342  9826 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0912 02:42:04.802616  9826 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0912 02:42:05.007802  9826 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0912 02:42:05.199018  9826 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0912 02:42:05.400075  9826 hadmap_server.cpp:1506] find nearest pt in sub global map fail!
+E0912 02:44:15.792526  9826 main.cpp:75] do hadmap server exit!

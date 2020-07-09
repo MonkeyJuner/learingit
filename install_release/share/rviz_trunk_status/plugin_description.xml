@@ -1,0 +1,9 @@
+<library path="lib/librviz_trunk_status">
+  <class name="rviz_trunk_status/TrunkStatus"
+         type="rviz_trunk_status::TrunkStatus"
+         base_class_type="rviz::Panel">
+    <description>
+      A panel widget displays camera distance shift value.
+    </description>
+  </class>
+</library>

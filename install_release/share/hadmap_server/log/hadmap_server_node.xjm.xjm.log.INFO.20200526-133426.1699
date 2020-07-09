@@ -1,0 +1,53 @@
+Log file created at: 2020/05/26 13:34:26
+Running on machine: xjm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0526 13:34:26.912001  1699 main.cpp:64] current version is: 2.0.3.0a73361
+I0526 13:34:27.005321  1699 hadmap_server.cpp:47] map path: /home/xjm/port_ws/hmi/resources/app/dist/electron/static/maps/bl_v5.4.json
+I0526 13:34:30.201756  1699 proto_organizer.cpp:358] hadmap statistics: roads-106,lanes-208,crosswalks-0,signals-0,junctions-0,overlaps-0
+I0526 13:34:30.927953  1699 routing.cpp:363] there is not forbidden_lanes!
+I0526 13:34:37.665434  1699 hadmap_server.cpp:3560] there isn't vehicle state
+E0526 13:34:37.665465  1699 hadmap_server.cpp:278] doHadmapServer: there isn't valid vehicle state! loc_cur_.old_id = -1; loc_cur_.old_id = -1.
+I0526 13:34:38.242341  1699 hadmap_server.cpp:3594] loc_cur is out of map!
+I0526 13:34:38.721952  1699 hadmap_server.cpp:3594] loc_cur is out of map!
+I0526 13:34:39.199651  1699 hadmap_server.cpp:3594] loc_cur is out of map!
+I0526 13:34:39.666997  1699 hadmap_server.cpp:3594] loc_cur is out of map!
+I0526 13:34:40.133462  1699 hadmap_server.cpp:3594] loc_cur is out of map!
+I0526 13:34:40.603881  1699 hadmap_server.cpp:3594] loc_cur is out of map!
+I0526 13:34:41.077026  1699 hadmap_server.cpp:3594] loc_cur is out of map!
+I0526 13:34:41.562789  1699 hadmap_server.cpp:3594] loc_cur is out of map!
+I0526 13:34:42.045598  1699 hadmap_server.cpp:3594] loc_cur is out of map!
+I0526 13:34:42.542661  1699 hadmap_server.cpp:3594] loc_cur is out of map!
+I0526 13:34:44.085129  1699 hadmap_server.cpp:523] current pose: x:571769.9694; y:4020571.976; yaw: 2.58151293
+I0526 13:34:44.085176  1699 hadmap_server.cpp:525] multi dst:
+I0526 13:34:44.085181  1699 hadmap_server.cpp:528] x: 573239; y: 4031349
+I0526 13:34:44.258448  1699 routing.cpp:363] there is not forbidden_lanes!
+I0526 13:34:44.262913  1699 routing.cpp:226] start lane id: 1126_1 ; end lane id: 1525_1.
+E0526 13:34:44.263275  1699 hadmap_server.cpp:600] path planning fail!
+E0526 13:34:44.263295  1699 hadmap_server.cpp:195] do global planning fail!
+I0526 13:34:56.286247  1699 hadmap_server.cpp:523] current pose: x:571769.9694; y:4020571.976; yaw: 2.58151293
+I0526 13:34:56.286288  1699 hadmap_server.cpp:525] multi dst:
+I0526 13:34:56.286294  1699 hadmap_server.cpp:528] x: 572919; y: 4029058
+I0526 13:34:56.437966  1699 routing.cpp:363] there is not forbidden_lanes!
+I0526 13:34:56.441550  1699 routing.cpp:226] start lane id: 1126_1 ; end lane id: 1542_1.
+E0526 13:34:56.441895  1699 hadmap_server.cpp:600] path planning fail!
+E0526 13:34:56.441910  1699 hadmap_server.cpp:195] do global planning fail!
+I0526 13:34:58.758986  1699 hadmap_server.cpp:523] current pose: x:571769.9694; y:4020571.976; yaw: 2.58151293
+I0526 13:34:58.759011  1699 hadmap_server.cpp:525] multi dst:
+I0526 13:34:58.759016  1699 hadmap_server.cpp:528] x: 572813; y: 4028599
+I0526 13:34:58.907804  1699 routing.cpp:363] there is not forbidden_lanes!
+I0526 13:34:58.911798  1699 routing.cpp:226] start lane id: 1126_1 ; end lane id: 1118_1.
+I0526 13:34:58.911938  1699 hadmap_server.cpp:633] planning path:
+I0526 13:34:58.911945  1699 hadmap_server.cpp:636] lane id: 1126_1
+I0526 13:34:58.911949  1699 hadmap_server.cpp:636] lane id: 1000_1
+I0526 13:34:58.911952  1699 hadmap_server.cpp:636] lane id: 1001_1
+I0526 13:34:58.911957  1699 hadmap_server.cpp:636] lane id: 1002_1
+I0526 13:34:58.911959  1699 hadmap_server.cpp:636] lane id: 1125_1
+I0526 13:34:58.911963  1699 hadmap_server.cpp:636] lane id: 1123_1
+I0526 13:34:58.911967  1699 hadmap_server.cpp:636] lane id: 1122_1
+I0526 13:34:58.911969  1699 hadmap_server.cpp:636] lane id: 1121_1
+I0526 13:34:58.911973  1699 hadmap_server.cpp:636] lane id: 1003_1
+I0526 13:34:58.911976  1699 hadmap_server.cpp:636] lane id: 1120_1
+I0526 13:34:58.911980  1699 hadmap_server.cpp:636] lane id: 1119_1
+I0526 13:34:58.911983  1699 hadmap_server.cpp:636] lane id: 1118_1
+I0526 13:34:58.921836  1699 hadmap_server.cpp:645] find sub global map success!
+E0526 13:37:13.558380  1699 main.cpp:75] do hadmap server exit!
